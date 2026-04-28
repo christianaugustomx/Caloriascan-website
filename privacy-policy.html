@@ -1,24 +1,74 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <!-- Google tag (gtag.js) with Consent Mode v2 (GDPR default-deny) -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {
+      ad_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied',
+      analytics_storage: 'denied',
+      wait_for_update: 500
+    });
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18120210375"></script>
+  <script>
+    gtag('js', new Date());
+    gtag('config', 'AW-18120210375');
+  </script>
+  <script defer src="/assets/cookie-banner.js"></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Política de Privacidad — CalorIA Scan</title>
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-family: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       background: #f7f4ef;
       color: #1a1a2e;
       line-height: 1.65;
       font-size: 15px;
+      -webkit-font-smoothing: antialiased;
     }
     header {
+      position: relative;
       background: linear-gradient(135deg, #0f2040 0%, #142b50 100%);
       color: #fff;
-      padding: 40px 24px 32px;
+      padding: 48px 24px 36px;
       text-align: center;
     }
+    .lang-switch {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      display: inline-flex;
+      gap: 2px;
+      background: rgba(255,255,255,0.08);
+      border-radius: 999px;
+      padding: 3px;
+      font-size: 11px;
+      letter-spacing: 0.6px;
+      font-weight: 600;
+    }
+    .lang-switch a {
+      color: rgba(255,255,255,0.55);
+      text-decoration: none;
+      padding: 5px 11px;
+      border-radius: 999px;
+      transition: color .15s ease, background .15s ease;
+    }
+    .lang-switch a:hover { color: rgba(255,255,255,0.9); }
+    .lang-switch a.active {
+      background: rgba(255,255,255,0.16);
+      color: #fff;
+    }
+    @media (max-width: 480px) { .lang-switch { top: 12px; right: 12px; } }
     header h1 { font-size: 26px; font-weight: 700; margin-bottom: 6px; }
     header p  { font-size: 13px; color: rgba(255,255,255,0.6); margin-top: 4px; }
     header .badge {
@@ -90,9 +140,13 @@
 <body>
 
 <header>
-  <h1>🔒 Política de Privacidad</h1>
-  <p>CalorIA Scan · Rumbo Tech Labs</p>
-  <span class="badge">Última actualización: 15 de marzo de 2026</span>
+  <nav class="lang-switch" aria-label="Idioma">
+    <a href="/privacy-policy.html" class="active" aria-current="page">ES</a>
+    <a href="/en/privacy-policy.html">EN</a>
+  </nav>
+  <h1>Política de Privacidad</h1>
+  <p>CalorIA Scan — Rumbo Tech Labs</p>
+  <span class="badge">Vigente desde el 28 de abril de 2026</span>
 </header>
 
 <main>
@@ -193,8 +247,16 @@
       Consulte: <a href="https://apple.com/legal/privacy" target="_blank">apple.com/legal/privacy</a></p>
     </div>
     <div class="item">
-      <p>🚫 No vendemos, rentamos ni compartimos sus datos personales con terceros con fines de publicidad
-      o mercadotecnia.</p>
+      <strong>Google Ads (solo sitio web)</strong>
+      <p>El sitio web (no la App) usa Google Ads (gtag.js, ID <code>AW-18120210375</code>) para medir
+      conversiones de campañas publicitarias y mostrar anuncios personalizados en plataformas de Google.
+      Estas cookies <strong>solo se activan si usted otorga consentimiento</strong> mediante el banner
+      de cookies. Detalles en la sección 12. Consulte:
+      <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></p>
+    </div>
+    <div class="item">
+      <p><strong>No venta de datos.</strong> No vendemos, rentamos ni compartimos sus datos personales con terceros
+      con fines de publicidad o mercadotecnia más allá de la medición de conversiones de Google Ads descrita arriba.</p>
     </div>
   </section>
 
@@ -300,7 +362,60 @@
   </section>
 
   <section>
-    <h2>12. Cambios a esta política</h2>
+    <h2>12. Cookies y rastreo en el sitio web</h2>
+    <div class="item">
+      <p>Esta sección aplica únicamente a este sitio web (<strong>caloriascan.com</strong>),
+      no a la aplicación móvil. La App no usa cookies de rastreo publicitario.</p>
+    </div>
+    <div class="item">
+      <strong>Qué cookies usamos</strong>
+      <p>Únicamente cookies de <strong>Google Ads</strong> (gtag.js, ID <code>AW-18120210375</code>),
+      con el propósito de medir conversiones de campañas publicitarias y, cuando aplique,
+      mostrar anuncios personalizados en plataformas de Google (Search, YouTube, Display).</p>
+    </div>
+    <div class="item">
+      <strong>Default-deny (Consent Mode v2)</strong>
+      <p>De forma predeterminada, <strong>ninguna cookie publicitaria se activa</strong> hasta que
+      usted otorga su consentimiento explícito mediante el banner de cookies que aparece en su
+      primera visita. Esto cumple con el estándar Google Consent Mode v2 y con el requisito de
+      consentimiento previo del GDPR (Reglamento General de Protección de Datos de la Unión Europea).</p>
+    </div>
+    <div class="item">
+      <strong>Sus opciones en el banner</strong>
+      <ul>
+        <li><strong>Aceptar todo:</strong> las cookies de Google Ads se activan.</li>
+        <li><strong>Solo necesarias:</strong> ninguna cookie de rastreo se activa (este sitio no
+        requiere cookies técnicas).</li>
+        <li><strong>Rechazar todo:</strong> ninguna cookie de rastreo se activa.</li>
+      </ul>
+    </div>
+    <div class="item">
+      <strong>Cómo cambiar su elección</strong>
+      <p>Puede cambiar su elección en cualquier momento haciendo clic en
+      <a href="#" onclick="if(window.caloriascanResetCookieConsent){caloriascanResetCookieConsent();}return false;"><strong>Cambiar preferencias de cookies</strong></a>,
+      o eliminando los datos del sitio (localStorage) desde la configuración de su navegador.
+      Tras hacerlo, el banner volverá a aparecer.</p>
+    </div>
+    <div class="item">
+      <strong>Datos compartidos con Google</strong>
+      <p>Si otorga consentimiento, Google puede recibir su dirección IP, identificadores de
+      cookies y datos de navegación en este sitio. Google actúa como responsable independiente
+      del tratamiento de estos datos. Consulte:
+      <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a> y
+      <a href="https://policies.google.com/technologies/ads" target="_blank">policies.google.com/technologies/ads</a></p>
+    </div>
+    <div class="item">
+      <strong>Base legal</strong>
+      <ul>
+        <li><strong>México (LFPDPPP):</strong> consentimiento informado a través del banner.</li>
+        <li><strong>Unión Europea / EEA (GDPR Art. 6.1.a):</strong> consentimiento explícito previo
+        al tratamiento (default-deny).</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>13. Cambios a esta política</h2>
     <div class="item">
       <p>Podemos actualizar esta Política de Privacidad de vez en cuando. Le notificaremos dentro de la App
       sobre cambios significativos. La fecha de última actualización aparece al inicio de este documento.
@@ -309,19 +424,23 @@
   </section>
 
   <div class="contact-card">
-    <h2>📧 Contacto</h2>
-    <p>¿Tienes preguntas sobre esta política o quieres ejercer tus derechos ARCO? Escríbenos:</p>
+    <h2>Contacto</h2>
+    <p>¿Tiene preguntas sobre esta política o desea ejercer sus derechos ARCO? Escríbanos:</p>
     <p><a href="mailto:rumbotechlabs@gmail.com">rumbotechlabs@gmail.com</a></p>
     <br>
     <p style="font-size:12px; color:#999;">
-      Al usar CalorIA Scan, confirmas que has leído y aceptas esta Política de Privacidad.
+      Al usar CalorIA Scan, usted confirma que ha leído y acepta esta Política de Privacidad.
     </p>
   </div>
 
 </main>
 
 <footer>
-  <p>© 2026 Rumbo Tech Labs · <a href="/terms.html">Términos de Servicio</a> · <a href="/">caloriascan.com</a></p>
+  <p>© 2026 Rumbo Tech Labs ·
+    <a href="/terms.html">Términos de Servicio</a> ·
+    <a href="#" onclick="if(window.caloriascanResetCookieConsent){caloriascanResetCookieConsent();}return false;">Preferencias de cookies</a> ·
+    <a href="/">caloriascan.com</a>
+  </p>
 </footer>
 
 </body>
