@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
 <!-- Google tag (gtag.js) with Consent Mode v2 (GDPR default-deny) -->
 <script>
@@ -21,7 +21,7 @@
 <script defer src="/assets/cookie-banner.js"></script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Eliminar Cuenta — CalorIA Scan</title>
+<title>Delete Account — CalorIA Scan</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
@@ -323,13 +323,13 @@ footer a:hover { color: var(--cobalt); }
 <div class="tile-strip"></div>
 
 <nav>
-  <a href="/" class="nav-logo">
+  <a href="/en/" class="nav-logo">
     <div class="nav-logo-icon"><img src="/assets/Icon/app_icon.png" alt="CalorIA Scan"></div>
     <span style="white-space:nowrap;">Calor<span class="accent-ia">IA</span> Scan</span>
   </a>
-  <div class="lang-switch" role="navigation" aria-label="Idioma">
-    <a href="/delete-account.html" class="active" aria-current="page">ES</a>
-    <a href="/en/delete-account.html">EN</a>
+  <div class="lang-switch" role="navigation" aria-label="Language">
+    <a href="/delete-account.html">ES</a>
+    <a href="/en/delete-account.html" class="active" aria-current="page">EN</a>
   </div>
 </nav>
 
@@ -343,51 +343,51 @@ footer a:hover { color: var(--cobalt); }
       <path d="M9 6V4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"></path>
     </svg>
   </div>
-  <h1>Eliminar tu cuenta</h1>
-  <p class="subtitle">Entendemos que puede que ya no necesites CalorIA Scan. Antes de continuar, lee con atención lo que ocurrirá con tus datos.</p>
+  <h1>Delete your account</h1>
+  <p class="subtitle">We understand you may no longer need CalorIA Scan. Before continuing, please read carefully what will happen to your data.</p>
 
   <!-- What gets deleted -->
   <div class="card">
-    <h2>Qué se elimina</h2>
+    <h2>What gets deleted</h2>
     <ul>
-      <li>Tu perfil y datos personales (nombre, correo, configuración)</li>
-      <li>Todo tu historial de comidas y escaneos</li>
-      <li>Tus macros, metas y estadísticas semanales</li>
-      <li>Tu lista de favoritos y comidas frecuentes</li>
-      <li>Cualquier suscripción Pro activa asociada a la cuenta</li>
+      <li>Your profile and personal data (name, email, settings)</li>
+      <li>Your entire history of meals and scans</li>
+      <li>Your macros, goals, and weekly statistics</li>
+      <li>Your favorites list and frequent foods</li>
+      <li>Any active Pro subscription tied to the account</li>
     </ul>
   </div>
 
   <!-- How to delete -->
   <div class="card">
-    <h2>Cómo eliminar desde la aplicación</h2>
+    <h2>How to delete from inside the app</h2>
     <div class="steps">
       <div class="step-item">
         <div class="step-num">1</div>
         <div class="step-text">
-          <strong>Abre CalorIA Scan</strong>
-          <span>Ve a la pantalla principal de la aplicación en tu dispositivo.</span>
+          <strong>Open CalorIA Scan</strong>
+          <span>Go to the main screen of the app on your device.</span>
         </div>
       </div>
       <div class="step-item">
         <div class="step-num">2</div>
         <div class="step-text">
-          <strong>Ve a Mi Perfil</strong>
-          <span>Toca el icono de perfil en la barra inferior.</span>
+          <strong>Go to My Profile</strong>
+          <span>Tap the profile icon in the bottom bar.</span>
         </div>
       </div>
       <div class="step-item">
         <div class="step-num">3</div>
         <div class="step-text">
-          <strong>Configuración → Cuenta</strong>
-          <span>Toca el icono de ajustes en la esquina superior derecha.</span>
+          <strong>Settings → Account</strong>
+          <span>Tap the settings icon in the top-right corner.</span>
         </div>
       </div>
       <div class="step-item">
         <div class="step-num">4</div>
         <div class="step-text">
-          <strong>Selecciona "Eliminar cuenta"</strong>
-          <span>Confirma tu decisión. El proceso es inmediato e irreversible.</span>
+          <strong>Select "Delete account"</strong>
+          <span>Confirm your decision. The process is immediate and irreversible.</span>
         </div>
       </div>
     </div>
@@ -400,43 +400,43 @@ footer a:hover { color: var(--cobalt); }
       <line x1="12" y1="9" x2="12" y2="13"></line>
       <line x1="12" y1="17" x2="12.01" y2="17"></line>
     </svg>
-    <span>Esta acción es <strong>permanente e irreversible</strong>. Una vez eliminada tu cuenta, no podremos recuperar ninguno de tus datos. Si tienes una suscripción Pro activa, te recomendamos cancelarla primero desde la App Store o Google Play.</span>
+    <span>This action is <strong>permanent and irreversible</strong>. Once your account is deleted, we will not be able to recover any of your data. If you have an active Pro subscription, we recommend cancelling it first from the App Store or Google Play.</span>
   </div>
 
   <!-- Request form -->
   <div class="card" id="formCard">
-    <h2>Solicitar eliminación por correo</h2>
-    <p style="font-size:13px;color:var(--text-mid);margin-bottom:20px;">Si no puedes acceder a la aplicación, completa este formulario y procesaremos tu solicitud en un plazo de <strong>3 a 5 días hábiles</strong>.</p>
+    <h2>Request deletion by email</h2>
+    <p style="font-size:13px;color:var(--text-mid);margin-bottom:20px;">If you cannot access the app, complete this form and we will process your request within <strong>3 to 5 business days</strong>.</p>
 
     <form id="deleteForm" onsubmit="handleSubmit(event)">
       <div class="form-group">
-        <label for="email">Correo electrónico de tu cuenta *</label>
-        <input type="email" id="email" placeholder="correo@ejemplo.com" required>
+        <label for="email">Account email *</label>
+        <input type="email" id="email" placeholder="email@example.com" required>
       </div>
 
       <div class="form-group">
-        <label for="reason">Razón de eliminación</label>
+        <label for="reason">Reason for deletion</label>
         <select id="reason">
-          <option value="">Selecciona una razón (opcional)</option>
-          <option value="privacy">Privacidad y datos personales</option>
-          <option value="not-using">Ya no uso la aplicación</option>
-          <option value="switching">Cambié a otra aplicación</option>
-          <option value="technical">Problemas técnicos</option>
-          <option value="other">Otra razón</option>
+          <option value="">Select a reason (optional)</option>
+          <option value="privacy">Privacy and personal data</option>
+          <option value="not-using">No longer using the app</option>
+          <option value="switching">Switched to another app</option>
+          <option value="technical">Technical issues</option>
+          <option value="other">Other reason</option>
         </select>
       </div>
 
       <div class="form-group">
-        <label for="comments">Comentarios adicionales</label>
-        <textarea id="comments" placeholder="Cuéntanos cómo podemos mejorar..."></textarea>
+        <label for="comments">Additional comments</label>
+        <textarea id="comments" placeholder="Tell us how we can improve..."></textarea>
       </div>
 
       <div class="checkbox-group">
         <input type="checkbox" id="confirm" required>
-        <label for="confirm">Entiendo que esta acción es permanente e irreversible y que todos mis datos serán eliminados definitivamente.</label>
+        <label for="confirm">I understand that this action is permanent and irreversible, and that all my data will be deleted definitively.</label>
       </div>
 
-      <button type="submit" class="btn-delete">Solicitar eliminación de cuenta</button>
+      <button type="submit" class="btn-delete">Request account deletion</button>
     </form>
   </div>
 
@@ -447,19 +447,19 @@ footer a:hover { color: var(--cobalt); }
         <polyline points="20 6 9 17 4 12"></polyline>
       </svg>
     </div>
-    <h2>Solicitud recibida</h2>
-    <p>Hemos recibido tu solicitud. Procesaremos la eliminación de tu cuenta en un plazo de 3 a 5 días hábiles y te confirmaremos por correo electrónico.</p>
+    <h2>Request received</h2>
+    <p>We have received your request. We will process the deletion of your account within 3 to 5 business days and confirm by email.</p>
   </div>
 
-  <a href="/" class="back-link">← Volver a CalorIA Scan</a>
+  <a href="/en/" class="back-link">← Back to CalorIA Scan</a>
 
 </div>
 
 <footer>
-  © 2026 CalorIA Scan · Hecho con orgullo en México &nbsp;·&nbsp;
-  <a href="/privacy-policy.html">Privacidad</a> &nbsp;·&nbsp;
-  <a href="/terms.html">Términos</a> &nbsp;·&nbsp;
-  <a href="#" onclick="if(window.caloriascanResetCookieConsent){caloriascanResetCookieConsent();}return false;">Preferencias de cookies</a>
+  © 2026 CalorIA Scan · Made with pride in Mexico &nbsp;·&nbsp;
+  <a href="/en/privacy-policy.html">Privacy</a> &nbsp;·&nbsp;
+  <a href="/en/terms.html">Terms</a> &nbsp;·&nbsp;
+  <a href="#" onclick="if(window.caloriascanResetCookieConsent){caloriascanResetCookieConsent();}return false;">Cookie preferences</a>
 </footer>
 
 <script>
@@ -469,11 +469,11 @@ function handleSubmit(e) {
   const reason = document.getElementById('reason').value;
   const comments = document.getElementById('comments').value;
 
-  const subject = encodeURIComponent('Solicitud de eliminación de cuenta — CalorIA Scan');
+  const subject = encodeURIComponent('Account deletion request — CalorIA Scan');
   const body = encodeURIComponent(
-    'Correo: ' + email + '\n' +
-    'Razón: ' + (reason || 'No especificada') + '\n' +
-    'Comentarios: ' + (comments || 'Ninguno')
+    'Email: ' + email + '\n' +
+    'Reason: ' + (reason || 'Not specified') + '\n' +
+    'Comments: ' + (comments || 'None')
   );
   window.location.href = 'mailto:rumbotechlabs@gmail.com?subject=' + subject + '&body=' + body;
 
