@@ -1,0 +1,551 @@
+[
+  {
+    "slug": "birria-tacos",
+    "pattern": "tacos de birria",
+    "anti": null,
+    "query_en": "calories in birria tacos",
+    "query_es": "calorias tacos de birria",
+    "en_title": "Birria tacos",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "tacos-al-pastor",
+    "pattern": "tacos al pastor",
+    "anti": null,
+    "query_en": "calories in tacos al pastor",
+    "query_es": "calorias de tacos al pastor",
+    "en_title": "Tacos al pastor",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "carnitas",
+    "pattern": "carnitas",
+    "anti": null,
+    "query_en": "calories in carnitas",
+    "query_es": "calorias de carnitas",
+    "en_title": "Carnitas",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "barbacoa",
+    "pattern": "barbacoa",
+    "anti": null,
+    "query_en": "calories in barbacoa",
+    "query_es": "calorias de barbacoa",
+    "en_title": "Barbacoa",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "mexican-street-corn",
+    "pattern": "elote",
+    "anti": null,
+    "query_en": "calories in mexican street corn",
+    "query_es": "calorias de elote",
+    "en_title": "Mexican street corn",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "chilaquiles",
+    "pattern": "chilaquiles",
+    "anti": null,
+    "query_en": "calories in chilaquiles",
+    "query_es": "calorias de chilaquiles",
+    "en_title": "Chilaquiles",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "enchiladas",
+    "pattern": "enchiladas",
+    "anti": null,
+    "query_en": "calories in enchiladas",
+    "query_es": "calorias de enchiladas",
+    "en_title": "Enchiladas",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "tamale",
+    "pattern": "tamales",
+    "anti": null,
+    "query_en": "calories in a tamale",
+    "query_es": "calorias de un tamal",
+    "en_title": "Tamale",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "carne-asada",
+    "pattern": "carne asada",
+    "anti": null,
+    "query_en": "calories in carne asada",
+    "query_es": "calorias de carne asada",
+    "en_title": "Carne asada",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "refried-beans",
+    "pattern": "frijoles refritos",
+    "anti": null,
+    "query_en": "calories in refried beans",
+    "query_es": "calorias de frijoles refritos",
+    "en_title": "Refried beans",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "mexican-rice",
+    "pattern": "arroz a la mexicana",
+    "anti": null,
+    "query_en": "calories in mexican rice",
+    "query_es": "calorias de arroz mexicano",
+    "en_title": "Mexican rice",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "churros",
+    "pattern": "churros",
+    "anti": null,
+    "query_en": "calories in churros",
+    "query_es": "calorias de churros",
+    "en_title": "Churros",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "flan",
+    "pattern": "flan",
+    "anti": null,
+    "query_en": "calories in flan",
+    "query_es": "calorias de flan",
+    "en_title": "Flan",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "tres-leches-cake",
+    "pattern": "tres leches",
+    "anti": null,
+    "query_en": "calories in tres leches cake",
+    "query_es": "calorias de pastel tres leches",
+    "en_title": "Tres leches cake",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "chiles-rellenos",
+    "pattern": "chiles rellenos",
+    "anti": null,
+    "query_en": "calories in chiles rellenos",
+    "query_es": "calorias de chiles rellenos",
+    "en_title": "Chiles rellenos",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "pozole",
+    "pattern": "pozole",
+    "anti": null,
+    "query_en": "calories in pozole",
+    "query_es": "calorias de pozole",
+    "en_title": "Pozole",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "mole-poblano",
+    "pattern": "mole poblano",
+    "anti": null,
+    "query_en": "calories in mole",
+    "query_es": "calorias de mole",
+    "en_title": "Mole",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "menudo",
+    "pattern": "menudo",
+    "anti": null,
+    "query_en": "calories in menudo",
+    "query_es": "calorias de menudo",
+    "en_title": "Menudo",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "huevos-rancheros",
+    "pattern": "huevos rancheros",
+    "anti": null,
+    "query_en": "calories in huevos rancheros",
+    "query_es": "calorias de huevos rancheros",
+    "en_title": "Huevos rancheros",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "sopes",
+    "pattern": "sopes",
+    "anti": null,
+    "query_en": "calories in sopes",
+    "query_es": "calorias de sopes",
+    "en_title": "Sopes",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "tostada",
+    "pattern": "tostada",
+    "anti": null,
+    "query_en": "calories in a tostada",
+    "query_es": "calorias de tostada",
+    "en_title": "Tostada",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "chicken-tinga",
+    "pattern": "tinga de pollo",
+    "anti": null,
+    "query_en": "calories in chicken tinga",
+    "query_es": "calorias de tinga",
+    "en_title": "Chicken tinga",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "gorditas",
+    "pattern": "gorditas",
+    "anti": null,
+    "query_en": "calories in gorditas",
+    "query_es": "calorias de gorditas",
+    "en_title": "Gorditas",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "esquites",
+    "pattern": "esquites",
+    "anti": null,
+    "query_en": "calories in esquites",
+    "query_es": "calorias de esquites",
+    "en_title": "Esquites",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "concha-pan-dulce",
+    "pattern": "concha",
+    "anti": null,
+    "query_en": "calories in a concha",
+    "query_es": "calorias de concha pan dulce",
+    "en_title": "Concha",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "cotija-cheese",
+    "pattern": "queso cotija",
+    "anti": null,
+    "query_en": "calories in cotija cheese",
+    "query_es": "calorias de queso cotija",
+    "en_title": "Cotija cheese",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "michelada",
+    "pattern": "michelada",
+    "anti": null,
+    "query_en": "calories in a michelada",
+    "query_es": "calorias de michelada",
+    "en_title": "Michelada",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "chicken-fajitas",
+    "pattern": "fajitas",
+    "anti": null,
+    "query_en": "calories in chicken fajitas",
+    "query_es": "calorias de fajitas",
+    "en_title": "Chicken fajitas",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "empanada",
+    "pattern": "empanada de carne",
+    "anti": null,
+    "query_en": "calories in an empanada",
+    "query_es": "calorias de empanada",
+    "en_title": "Empanada",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "corn-tortilla",
+    "pattern": "tortilla de maiz",
+    "anti": null,
+    "query_en": "calories in a corn tortilla",
+    "query_es": "calorias de tortilla de maiz",
+    "en_title": "Corn tortilla",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "flour-tortilla",
+    "pattern": "tortilla de harina",
+    "anti": null,
+    "query_en": "calories in a flour tortilla",
+    "query_es": "calorias de tortilla de harina",
+    "en_title": "Flour tortilla",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "chicken-quesadilla",
+    "pattern": "quesadilla",
+    "anti": null,
+    "query_en": "calories in a chicken quesadilla",
+    "query_es": "calorias de quesadilla",
+    "en_title": "Chicken quesadilla",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "chicken-burrito",
+    "pattern": "burrito",
+    "anti": null,
+    "query_en": "calories in a chicken burrito",
+    "query_es": "calorias de burrito",
+    "en_title": "Chicken burrito",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "street-taco",
+    "pattern": "tacos dorados",
+    "anti": null,
+    "query_en": "calories in a street taco",
+    "query_es": "calorias de un taco",
+    "en_title": "Street taco",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "guacamole",
+    "pattern": "guacamole",
+    "anti": null,
+    "query_en": "calories in guacamole",
+    "query_es": "calorias de guacamole",
+    "en_title": "Guacamole",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "taquitos",
+    "pattern": "flautas",
+    "anti": null,
+    "query_en": "calories in taquitos",
+    "query_es": "calorias de flautas",
+    "en_title": "Taquitos",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "mexican-torta",
+    "pattern": "torta de",
+    "anti": "choco",
+    "query_en": "calories in a mexican torta",
+    "query_es": "calorias de torta",
+    "en_title": "Mexican torta",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "mac-and-cheese",
+    "pattern": "mac and cheese",
+    "anti": null,
+    "query_en": "calories in mac and cheese",
+    "query_es": "calorias de macarrones con queso",
+    "en_title": "Mac and cheese",
+    "cluster": "US generic"
+  },
+  {
+    "slug": "fried-rice",
+    "pattern": "arroz frito",
+    "anti": null,
+    "query_en": "calories in fried rice",
+    "query_es": "calorias de arroz frito",
+    "en_title": "Fried rice",
+    "cluster": "US generic"
+  },
+  {
+    "slug": "caesar-salad",
+    "pattern": "ensalada cesar",
+    "anti": null,
+    "query_en": "calories in a caesar salad",
+    "query_es": "calorias de ensalada cesar",
+    "en_title": "Caesar salad",
+    "cluster": "US generic"
+  },
+  {
+    "slug": "ramen",
+    "pattern": "ramen",
+    "anti": null,
+    "query_en": "calories in ramen",
+    "query_es": "calorias de ramen",
+    "en_title": "Ramen",
+    "cluster": "US generic"
+  },
+  {
+    "slug": "buffalo-wings",
+    "pattern": "alitas",
+    "anti": null,
+    "query_en": "calories in buffalo wings",
+    "query_es": "calorias de alitas buffalo",
+    "en_title": "Buffalo wings",
+    "cluster": "US generic"
+  },
+  {
+    "slug": "nachos",
+    "pattern": "nachos",
+    "anti": null,
+    "query_en": "calories in nachos",
+    "query_es": "calorias de nachos",
+    "en_title": "Nachos",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "horchata",
+    "pattern": "horchata",
+    "anti": null,
+    "query_en": "calories in horchata",
+    "query_es": "calorias de horchata",
+    "en_title": "Horchata",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "migas",
+    "pattern": "migas",
+    "anti": null,
+    "query_en": "calories in migas",
+    "query_es": "calorias de migas",
+    "en_title": "Migas",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "queso-fresco",
+    "pattern": "queso fresco",
+    "anti": null,
+    "query_en": "calories in queso fresco",
+    "query_es": "calorias de queso fresco",
+    "en_title": "Queso fresco",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "cochinita-pibil",
+    "pattern": "cochinita pibil",
+    "anti": null,
+    "query_en": "calories in cochinita pibil",
+    "query_es": "calorias de cochinita pibil",
+    "en_title": "Cochinita pibil",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "cheeseburger",
+    "pattern": "hamburguesa con queso",
+    "anti": null,
+    "query_en": "calories in a cheeseburger",
+    "query_es": "calorias de hamburguesa",
+    "en_title": "Cheeseburger",
+    "cluster": "US generic"
+  },
+  {
+    "slug": "slice-of-pizza",
+    "pattern": "pizza de queso",
+    "anti": null,
+    "query_en": "calories in a slice of pizza",
+    "query_es": "calorias de una rebanada de pizza",
+    "en_title": "Slice of pizza",
+    "cluster": "US generic"
+  },
+  {
+    "slug": "french-fries",
+    "pattern": "papas a la francesa",
+    "anti": null,
+    "query_en": "calories in french fries",
+    "query_es": "calorias de papas fritas",
+    "en_title": "French fries",
+    "cluster": "US generic"
+  },
+  {
+    "slug": "pancakes",
+    "pattern": "hot cakes",
+    "anti": null,
+    "query_en": "calories in pancakes",
+    "query_es": "calorias de hot cakes",
+    "en_title": "Pancakes",
+    "cluster": "US generic"
+  },
+  {
+    "slug": "chicken-nuggets",
+    "pattern": "nuggets de pollo",
+    "anti": null,
+    "query_en": "calories in chicken nuggets",
+    "query_es": "calorias de nuggets",
+    "en_title": "Chicken nuggets",
+    "cluster": "US generic"
+  },
+  {
+    "slug": "hot-dog",
+    "pattern": "hot dog",
+    "anti": null,
+    "query_en": "calories in a hot dog",
+    "query_es": "calorias de un hot dog",
+    "en_title": "Hot dog",
+    "cluster": "US generic"
+  },
+  {
+    "slug": "spaghetti",
+    "pattern": "espagueti",
+    "anti": null,
+    "query_en": "calories in spaghetti",
+    "query_es": "calorias de espagueti",
+    "en_title": "Spaghetti",
+    "cluster": "US generic"
+  },
+  {
+    "slug": "bagel",
+    "pattern": "bagel",
+    "anti": null,
+    "query_en": "calories in a bagel",
+    "query_es": "calorias de un bagel",
+    "en_title": "Bagel",
+    "cluster": "US generic"
+  },
+  {
+    "slug": "oatmeal",
+    "pattern": "avena",
+    "anti": null,
+    "query_en": "calories in oatmeal",
+    "query_es": "calorias de avena",
+    "en_title": "Oatmeal",
+    "cluster": "US generic"
+  },
+  {
+    "slug": "scrambled-eggs",
+    "pattern": "huevo revuelto",
+    "anti": null,
+    "query_en": "calories in scrambled eggs",
+    "query_es": "calorias de huevos revueltos",
+    "en_title": "Scrambled eggs",
+    "cluster": "US generic"
+  },
+  {
+    "slug": "bacon",
+    "pattern": "tocino",
+    "anti": null,
+    "query_en": "calories in bacon",
+    "query_es": "calorias de tocino",
+    "en_title": "Bacon",
+    "cluster": "US generic"
+  },
+  {
+    "slug": "banana",
+    "pattern": "platano",
+    "anti": null,
+    "query_en": "calories in a banana",
+    "query_es": "calorias de un platano",
+    "en_title": "Banana",
+    "cluster": "US generic"
+  },
+  {
+    "slug": "pico-de-gallo",
+    "pattern": "pico de gallo",
+    "anti": null,
+    "query_en": "calories in pico de gallo",
+    "query_es": "calorias de pico de gallo",
+    "en_title": "Pico de gallo",
+    "cluster": "MX wedge"
+  },
+  {
+    "slug": "grilled-cheese",
+    "pattern": "sandwich de queso",
+    "anti": null,
+    "query_en": "calories in a grilled cheese",
+    "query_es": "calorias de sandwich de queso",
+    "en_title": "Grilled cheese",
+    "cluster": "US generic"
+  }
+]
