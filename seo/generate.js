@@ -48,7 +48,7 @@ function related(p, all, L){
   const sib = all.filter(x=>x.slug!==p.slug && x.cluster===p.cluster).slice(0,6);
   const pool = sib.length>=4 ? sib : all.filter(x=>x.slug!==p.slug).slice(0,6);
   return pool.map(x=>{
-    const url = L==='en' ? `/en/calories/${x.slug}.html` : `/calorias/${x.slug}.html`;
+    const url = L==='en' ? `/en/calories/${x.slug}` : `/calorias/${x.slug}`;
     const label = L==='en' ? `${esc(x.emoji)} ${esc(titleCase(x.en_title))}` : `${esc(x.emoji)} ${esc(x.name)}`;
     return `<li><a href="${url}">${label}</a></li>`;
   }).join('');
@@ -74,9 +74,9 @@ function faq(p, L){
 function page(p, all, L){
   const isEN = L==='en';
   const dish = isEN ? titleCase(p.en_title) : p.name;
-  const url = `${DOMAIN}${isEN?'/en/calories/':'/calorias/'}${p.slug}.html`;
-  const altEN = `${DOMAIN}/en/calories/${p.slug}.html`;
-  const altES = `${DOMAIN}/calorias/${p.slug}.html`;
+  const url = `${DOMAIN}${isEN?'/en/calories/':'/calorias/'}${p.slug}`;
+  const altEN = `${DOMAIN}/en/calories/${p.slug}`;
+  const altES = `${DOMAIN}/calorias/${p.slug}`;
   const title = isEN ? `${dish} Calories: Nutrition Facts & Macros | CalorIA Scan`
                      : `Calorías de ${dish}: Información Nutricional y Macros | CalorIA Scan`;
   const desc = isEN
@@ -98,6 +98,17 @@ function page(p, all, L){
       {"@type":"ListItem","position":2,"name":breadcrumb[2],"item":DOMAIN+breadcrumb[3]},
       {"@type":"ListItem","position":3,"name":dish,"item":url}
     ]},
+    {"@context":"https://schema.org","@type":"NutritionInformation",
+      "name": isEN ? `${dish} nutrition facts` : `Información nutricional de ${dish}`,
+      "description": desc,
+      "servingSize": p.serving_size,
+      "calories": `${p.cal} kcal`,
+      "proteinContent": `${p.prot} g`,
+      "carbohydrateContent": `${p.carb} g`,
+      "fatContent": `${p.fat} g`,
+      ...(p.fib>0 ? {"fiberContent": `${p.fib} g`} : {}),
+      ...(p.sod>0 ? {"sodiumContent": `${p.sod} mg`} : {})
+    },
     {"@context":"https://schema.org","@type":"FAQPage","mainEntity":faqs.map(([q,a])=>({"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}}))}
   ];
   const t = isEN ? {
@@ -200,7 +211,7 @@ function hub(all, L){
   const title = isEN ? 'Calories in Mexican & Latino Food — Full List | CalorIA Scan' : 'Calorías de Comida Mexicana y Latina — Lista Completa | CalorIA Scan';
   const desc = isEN ? 'Calories and macros for 60+ Mexican, Latino and everyday foods — tacos, burritos, burgers, pizza and more. Built for accurate Latino-food tracking.' : 'Calorías y macros de 60+ platillos mexicanos, latinos y del día a día — tacos, burritos, hamburguesas, pizza y más.';
   const items = all.slice().sort((a,b)=> (isEN?titleCase(a.en_title):a.name).localeCompare(isEN?titleCase(b.en_title):b.name))
-    .map(x=>`<li><a href="${isEN?'/en/calories/':'/calorias/'}${x.slug}.html">${esc(x.emoji)} ${esc(isEN?titleCase(x.en_title):x.name)} <span>${x.cal} kcal</span></a></li>`).join('');
+    .map(x=>`<li><a href="${isEN?'/en/calories/':'/calorias/'}${x.slug}">${esc(x.emoji)} ${esc(isEN?titleCase(x.en_title):x.name)} <span>${x.cal} kcal</span></a></li>`).join('');
   return `<!DOCTYPE html>
 <html lang="${L}">
 <head>
@@ -223,6 +234,14 @@ function hub(all, L){
 }
 
 // ---- write files ----
+// SAFETY: refuse to rm the repo root. rmSync('.',{recursive:true}) wipes everything,
+// including .git. Only wipe OUT if it's a dedicated build dir.
+const absOut = path.resolve(OUT);
+const absHere = path.resolve(__dirname, '..');
+if (absOut === absHere || absOut === '/' || OUT === '.' || OUT === './') {
+  console.error('Refusing to rm output dir', JSON.stringify(OUT), '— pass a dedicated build dir like ./build');
+  process.exit(1);
+}
 fs.rmSync(OUT,{recursive:true,force:true});
 const dEN = path.join(OUT,'en','calories'); const dES = path.join(OUT,'calorias');
 fs.mkdirSync(dEN,{recursive:true}); fs.mkdirSync(dES,{recursive:true});
@@ -243,7 +262,7 @@ sm += entry(`${DOMAIN}/en/`, `${DOMAIN}/en/`, `${DOMAIN}/`) + '\n';
 sm += entry(`${DOMAIN}/en/calories/`, `${DOMAIN}/en/calories/`, `${DOMAIN}/calorias/`) + '\n';
 sm += entry(`${DOMAIN}/calorias/`, `${DOMAIN}/en/calories/`, `${DOMAIN}/calorias/`) + '\n';
 for(const s of urls){
-  const en=`${DOMAIN}/en/calories/${s}.html`, es=`${DOMAIN}/calorias/${s}.html`;
+  const en=`${DOMAIN}/en/calories/${s}`, es=`${DOMAIN}/calorias/${s}`;
   sm += entry(en,en,es)+'\n'; sm += entry(es,en,es)+'\n';
 }
 sm += `</urlset>\n`;
