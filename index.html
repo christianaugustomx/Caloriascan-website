@@ -98,7 +98,7 @@
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600&display=swap" rel="stylesheet">
 <style>
 /* ═══════════════════════════════════════════════════════
    CALORIA SCAN — TALAVERA & GLASSMORPHISM REDESIGN
@@ -107,52 +107,53 @@
 
 /* ═══════ CSS VARIABLES ═══════ */
 :root {
-  /* Core Palette */
-  --cobalt: #0047AB;
-  --cobalt-light: #2D6FD6;
-  --cobalt-bright: #4B8CF5;
-  --cobalt-glow: rgba(0,71,171,0.12);
-  --cobalt-glow-s: rgba(0,71,171,0.25);
+  /* Core Palette — matched to the CalorIA Scan app (2026 redesign) */
+  --cobalt: #1F52DE;
+  --cobalt-light: #3B6EF0;
+  --cobalt-bright: #5B8CFF;
+  --cobalt-dark: #123FB8;
+  --cobalt-glow: rgba(31,82,222,0.10);
+  --cobalt-glow-s: rgba(31,82,222,0.20);
 
-  --burnt: #CC5500;
-  --burnt-light: #E07830;
-  --burnt-glow: rgba(204,85,0,0.10);
+  --burnt: #D9541E;
+  --burnt-light: #E97A3A;
+  --burnt-glow: rgba(217,84,30,0.10);
 
-  --cactus: #2D8C6B;
-  --cactus-light: #3DAF84;
-  --cactus-glow: rgba(45,140,107,0.10);
+  --cactus: #1E9E6A;
+  --cactus-light: #2FBA82;
+  --cactus-glow: rgba(30,158,106,0.10);
 
-  --cream: #FDFBF7;
-  --cream-warm: #F5EDE0;
-  --cream-deep: #EBDFC8;
+  --cream: #F4F0E7;
+  --cream-warm: #ECE6D9;
+  --cream-deep: #DED6C4;
 
-  /* Text */
-  --text-dark: #2A1F14;
-  --text-mid: #6B5B4A;
-  --text-light: #9A8D7E;
-  --text-on-cobalt: #FDFBF7;
+  /* Text — navy like the app */
+  --text-dark: #16264F;
+  --text-mid: #5A6577;
+  --text-light: #97A0B0;
+  --text-on-cobalt: #FFFFFF;
 
   /* Macros */
-  --carbs: #D4A420;
-  --protein: #2D8C6B;
-  --fat: #CC5500;
+  --carbs: #E0A21A;
+  --protein: #1E9E6A;
+  --fat: #D9541E;
 
-  /* Glassmorphism */
-  --glass-bg: rgba(255,255,255,0.60);
-  --glass-border: rgba(255,255,255,0.65);
-  --glass-blur: 10px;
-  --glass-strong: rgba(255,255,255,0.78);
-  --glass-shadow: 0 4px 20px rgba(0,71,171,0.07);
+  /* Cards (formerly glassmorphism — now clean white like the app) */
+  --glass-bg: #FFFFFF;
+  --glass-border: rgba(22,38,79,0.07);
+  --glass-blur: 0px;
+  --glass-strong: #FFFFFF;
+  --glass-shadow: 0 10px 30px rgba(22,38,79,0.08);
 
   /* Ceramic */
   --ceramic-highlight: rgba(255,255,255,0.7);
-  --ceramic-shadow: rgba(0,71,171,0.15);
+  --ceramic-shadow: rgba(31,82,222,0.15);
 
-  /* Radii */
-  --radius-sm: 8px;
-  --radius-md: 12px;
-  --radius-lg: 18px;
-  --radius-xl: 24px;
+  /* Radii — rounder, app-like */
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
   --radius-full: 9999px;
 }
 
@@ -162,91 +163,72 @@
 html { scroll-behavior: smooth; }
 
 body {
-  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
   color: var(--text-dark);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
   background-color: var(--cream);
-  /* Talavera tile grid background */
-  background-image:
-    linear-gradient(rgba(0,71,171,0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0,71,171,0.03) 1px, transparent 1px);
-  background-size: 40px 40px;
 }
 
-/* ═══════ TALAVERA TILE STRIP ═══════ */
-.tile-strip {
-  height: 6px;
-  background: repeating-linear-gradient(90deg,
-    var(--cobalt) 0 8px, var(--cream) 8px 10px,
-    var(--burnt) 10px 18px, var(--cream) 18px 20px,
-    var(--cactus) 20px 28px, var(--cream) 28px 32px
-  );
-  opacity: 0.65;
-}
+/* ═══════ TILE STRIP (retired in 2026 redesign — kept as no-op) ═══════ */
+.tile-strip { display: none; }
 
 /* ═══════ TYPOGRAPHY ═══════ */
-h1, h2, h3 { font-family: 'DM Sans', sans-serif; font-weight: 700; letter-spacing: -0.5px; }
+h1, h2, h3 { font-family: 'Nunito', sans-serif; font-weight: 700; letter-spacing: -0.5px; }
 h1 { font-weight: 800; }
 .accent-cobalt { color: var(--cobalt); }
 .accent-burnt  { color: var(--burnt); }
 .accent-cactus { color: var(--cactus); }
 .accent-ia     { color: var(--burnt); font-weight: inherit; }
 
-/* ═══════ GLASSMORPHISM ═══════ */
+/* ═══════ CARDS (clean white, app-style) ═══════ */
 .glass {
   background: var(--glass-bg);
-  backdrop-filter: blur(var(--glass-blur));
-  -webkit-backdrop-filter: blur(var(--glass-blur));
-  border: 0.5px solid var(--glass-border);
+  border: 1px solid var(--glass-border);
   border-radius: var(--radius-lg);
   box-shadow: var(--glass-shadow);
 }
 
 .glass-strong {
   background: var(--glass-strong);
-  backdrop-filter: blur(24px);
-  -webkit-backdrop-filter: blur(24px);
-  border: 0.5px solid rgba(255,255,255,0.7);
+  border: 1px solid var(--glass-border);
   border-radius: var(--radius-lg);
   box-shadow: var(--glass-shadow);
 }
 
-/* ═══════ 3D CERAMIC BUTTONS ═══════ */
+/* ═══════ 3D BUTTONS (raised royal blue, app-style) ═══════ */
 .ceramic-btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 10px;
   padding: 16px 32px; border: none; cursor: pointer;
-  border-radius: 14px; font-family: 'DM Sans'; font-size: 16px; font-weight: 600;
+  border-radius: 16px; font-family: 'Nunito'; font-size: 16px; font-weight: 700;
   color: var(--text-on-cobalt); position: relative; overflow: hidden;
-  transition: transform 0.2s cubic-bezier(0.22,1,0.36,1), box-shadow 0.2s ease;
+  transition: transform 0.18s cubic-bezier(0.22,1,0.36,1), box-shadow 0.18s ease;
   text-decoration: none;
 }
 .ceramic-btn.primary {
   background: linear-gradient(180deg, var(--cobalt-light) 0%, var(--cobalt) 100%);
-  box-shadow: 0 1px 0 rgba(255,255,255,0.25) inset, 0 -2px 4px rgba(0,0,0,0.15) inset,
-    0 4px 16px rgba(0,71,171,0.3);
+  box-shadow: 0 4px 0 var(--cobalt-dark), 0 10px 22px rgba(31,82,222,0.32);
 }
 .ceramic-btn.secondary {
   background: linear-gradient(180deg, var(--burnt-light) 0%, var(--burnt) 100%);
-  box-shadow: 0 1px 0 rgba(255,255,255,0.25) inset, 0 -2px 4px rgba(0,0,0,0.15) inset,
-    0 4px 16px rgba(204,85,0,0.3);
+  box-shadow: 0 4px 0 #B0400F, 0 10px 22px rgba(217,84,30,0.30);
 }
 .ceramic-btn.ghost {
-  background: linear-gradient(180deg, #fff 0%, var(--cream-warm) 100%);
+  background: #FFFFFF;
   color: var(--text-dark); border: 1.5px solid var(--cream-deep);
-  box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset, 0 -1px 2px rgba(0,0,0,0.05) inset,
-    0 2px 8px rgba(42,31,20,0.06);
+  box-shadow: 0 2px 0 var(--cream-deep), 0 6px 16px rgba(22,38,79,0.06);
 }
 .ceramic-btn::before {
   content: ''; position: absolute; top: 0; left: 0; right: 0; height: 50%;
-  background: linear-gradient(180deg, rgba(255,255,255,0.2) 0%, transparent 100%);
-  border-radius: 14px 14px 0 0; pointer-events: none;
+  background: linear-gradient(180deg, rgba(255,255,255,0.22) 0%, transparent 100%);
+  border-radius: 16px 16px 0 0; pointer-events: none;
 }
-.ceramic-btn:hover { transform: translateY(-3px); }
-.ceramic-btn.primary:hover { box-shadow: 0 1px 0 rgba(255,255,255,0.25) inset, 0 -2px 4px rgba(0,0,0,0.15) inset, 0 10px 30px rgba(0,71,171,0.35); }
-.ceramic-btn.secondary:hover { box-shadow: 0 1px 0 rgba(255,255,255,0.25) inset, 0 -2px 4px rgba(0,0,0,0.15) inset, 0 10px 30px rgba(204,85,0,0.35); }
-.ceramic-btn:active { transform: scale(0.97) translateY(0); }
+.ceramic-btn:hover { transform: translateY(-2px); }
+.ceramic-btn.primary:hover { box-shadow: 0 6px 0 var(--cobalt-dark), 0 16px 30px rgba(31,82,222,0.38); }
+.ceramic-btn.secondary:hover { box-shadow: 0 6px 0 #B0400F, 0 16px 30px rgba(217,84,30,0.36); }
+.ceramic-btn.ghost:hover { box-shadow: 0 4px 0 var(--cream-deep), 0 12px 24px rgba(22,38,79,0.08); }
+.ceramic-btn:active { transform: translateY(2px); box-shadow: 0 1px 0 var(--cobalt-dark), 0 4px 10px rgba(31,82,222,0.25); }
 
 /* ═══════ FLOATING NAVBAR ═══════ */
 .floating-nav {
@@ -274,7 +256,7 @@ h1 { font-weight: 800; }
 }
 .nav-logo {
   display: flex; align-items: center; gap: 10px;
-  font-family: 'DM Sans', sans-serif; font-size: 20px; font-weight: 800; color: var(--cobalt);
+  font-family: 'Nunito', sans-serif; font-size: 20px; font-weight: 800; color: var(--text-dark);
   text-decoration: none; letter-spacing: -0.5px;
 }
 .nav-logo-icon {
@@ -355,7 +337,7 @@ h1 { font-weight: 800; }
   position: relative; z-index: 2; max-width: 700px; margin: 0 auto;
 }
 .hero-sub {
-  font-family: 'DM Sans', sans-serif; font-style: italic; font-weight: 500;
+  font-family: 'Nunito', sans-serif; font-weight: 600;
   font-size: clamp(16px, 2.5vw, 20px); color: var(--text-mid);
   margin-top: 18px; position: relative; z-index: 2;
 }
@@ -426,10 +408,10 @@ section[id] { scroll-margin-top: 88px; }
   background: var(--cream-warm); border-radius: 12px; flex-shrink: 0;
 }
 .food-info { flex: 1; }
-.food-name { font-family: 'DM Sans', sans-serif; font-size: 14px; font-weight: 600; color: var(--text-dark); }
+.food-name { font-family: 'Nunito', sans-serif; font-size: 14px; font-weight: 600; color: var(--text-dark); }
 .food-meta { font-size: 11px; color: var(--text-light); margin-top: 1px; }
-.food-cal { font-family: 'DM Sans', sans-serif; font-size: 16px; font-weight: 700; color: var(--cobalt); text-align: right; line-height: 1.2; }
-.food-cal span { font-family: 'DM Sans'; font-size: 10px; color: var(--text-light); font-weight: 400; }
+.food-cal { font-family: 'Nunito', sans-serif; font-size: 16px; font-weight: 700; color: var(--cobalt); text-align: right; line-height: 1.2; }
+.food-cal span { font-family: 'Nunito'; font-size: 10px; color: var(--text-light); font-weight: 400; }
 
 /* ═══════ MACRO PILLS ═══════ */
 .macro-row { display: flex; gap: 6px; }
@@ -509,7 +491,7 @@ section[id] { scroll-margin-top: 88px; }
 .step-number {
   width: 44px; height: 44px; border-radius: 50%; margin: 0 auto 18px;
   display: flex; align-items: center; justify-content: center;
-  font-family: 'DM Sans', sans-serif; font-weight: 800; font-size: 20px;
+  font-family: 'Nunito', sans-serif; font-weight: 800; font-size: 20px;
   color: var(--text-on-cobalt);
   background: linear-gradient(180deg, var(--cobalt-light) 0%, var(--cobalt) 100%);
   box-shadow: 0 1px 0 rgba(255,255,255,0.25) inset, 0 -2px 4px rgba(0,0,0,0.1) inset,
@@ -540,7 +522,7 @@ section[id] { scroll-margin-top: 88px; }
 }
 .testimonial-card::before {
   content: '\201C'; position: absolute; top: 16px; left: 20px;
-  font-family: 'DM Sans', sans-serif; font-weight: 800; font-size: 56px;
+  font-family: 'Nunito', sans-serif; font-weight: 800; font-size: 56px;
   color: var(--cobalt); opacity: 0.15; line-height: 1;
 }
 .testimonial-text { font-size: 14px; color: var(--text-mid); line-height: 1.7; margin-bottom: 16px; font-style: italic; }
@@ -559,24 +541,14 @@ section[id] { scroll-margin-top: 88px; }
 }
 .cta-box {
   padding: 56px 40px; position: relative; overflow: hidden;
-  background: linear-gradient(135deg, var(--cobalt) 0%, #1B3A8C 100%);
+  background: linear-gradient(160deg, var(--cobalt-light) 0%, var(--cobalt) 55%, var(--cobalt-dark) 100%);
   border-radius: var(--radius-xl);
-  box-shadow: 0 20px 60px rgba(0,71,171,0.25);
+  box-shadow: 0 20px 60px rgba(31,82,222,0.28);
 }
 .cta-box::before {
-  content: ''; position: absolute; inset: 0;
-  background-image:
-    linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
-  background-size: 40px 40px;
-}
-.cta-box::after {
-  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 6px;
-  background: repeating-linear-gradient(90deg,
-    rgba(255,255,255,0.4) 0 8px, transparent 8px 10px,
-    var(--burnt) 10px 18px, transparent 18px 20px,
-    var(--cactus) 20px 28px, transparent 28px 32px
-  );
+  content: ''; position: absolute; top: -60px; right: -40px;
+  width: 260px; height: 260px; border-radius: 50%;
+  background: radial-gradient(circle, rgba(255,255,255,0.12) 0%, transparent 70%);
 }
 .cta-box h2 { font-size: clamp(28px, 4vw, 38px); color: var(--text-on-cobalt); position: relative; z-index: 1; }
 .cta-box p { color: rgba(253,251,247,0.7); font-size: 16px; margin-top: 12px; margin-bottom: 28px; position: relative; z-index: 1; }
@@ -590,8 +562,8 @@ footer {
 }
 .footer-inner { max-width: 1100px; margin: 0 auto; }
 .footer-logo {
-  font-family: 'DM Sans', sans-serif; font-size: 22px; font-weight: 800;
-  color: var(--cobalt); margin-bottom: 16px; letter-spacing: -0.5px;
+  font-family: 'Nunito', sans-serif; font-size: 22px; font-weight: 800;
+  color: var(--text-dark); margin-bottom: 16px; letter-spacing: -0.5px;
 }
 .footer-links { display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; margin-bottom: 24px; }
 .footer-links a { font-size: 13px; color: var(--text-mid); text-decoration: none; transition: color 0.2s; }
@@ -659,7 +631,7 @@ footer {
   min-width: 150px;
 }
 .stat-number {
-  font-family: 'DM Sans', sans-serif; font-weight: 800;
+  font-family: 'Nunito', sans-serif; font-weight: 800;
   font-size: 32px; color: var(--cobalt); line-height: 1; letter-spacing: -1px;
 }
 .stat-label { font-size: 12px; color: var(--text-light); margin-top: 4px; }
@@ -673,7 +645,7 @@ footer {
 }
 .mobile-nav.open { display: flex; }
 .mobile-nav a {
-  font-family: 'DM Sans', sans-serif; font-weight: 800; font-size: 26px;
+  font-family: 'Nunito', sans-serif; font-weight: 800; font-size: 26px;
   color: var(--cobalt); text-decoration: none; letter-spacing: -0.5px;
 }
 .mobile-nav-close {
@@ -712,11 +684,11 @@ footer {
   letter-spacing: 0.5px; white-space: nowrap;
   box-shadow: 0 2px 8px rgba(0,71,171,0.3);
 }
-.pricing-tier { font-family: 'DM Sans', sans-serif; font-weight: 700; font-size: 22px; color: var(--text-dark); margin-bottom: 8px; }
-.pricing-price { font-family: 'DM Sans', sans-serif; font-weight: 800; font-size: 48px; color: var(--cobalt); line-height: 1; letter-spacing: -2px; }
+.pricing-tier { font-family: 'Nunito', sans-serif; font-weight: 700; font-size: 22px; color: var(--text-dark); margin-bottom: 8px; }
+.pricing-price { font-family: 'Nunito', sans-serif; font-weight: 800; font-size: 48px; color: var(--cobalt); line-height: 1; letter-spacing: -2px; }
 .pricing-price .currency { font-size: 20px; vertical-align: super; }
 .pricing-period { font-size: 13px; color: var(--text-light); margin-top: 4px; }
-.pricing-tagline { font-size: 12px; color: var(--burnt); font-style: italic; margin-top: 2px; font-family: 'DM Sans', sans-serif; font-weight: 500; }
+.pricing-tagline { font-size: 12px; color: var(--burnt); font-style: italic; margin-top: 2px; font-family: 'Nunito', sans-serif; font-weight: 500; }
 .pricing-features { list-style: none; padding: 0; margin: 24px 0; text-align: left; }
 .pricing-features li {
   display: flex; align-items: center; gap: 8px;
@@ -814,258 +786,148 @@ footer {
 
   <div class="phones-showcase">
 
-    <!-- ══ PHONE 1: Home Screen ══ -->
+    
+
     <div class="phone-container animate-in">
-      <div class="phone-mock" style="display:flex;flex-direction:column;">
-        <!-- Dark navy header -->
-        <div style="background:linear-gradient(180deg,#0B1E4A 0%,#0D2459 100%);padding:0 0 18px;flex-shrink:0;">
-          <div class="tile-strip" style="opacity:0.9;"></div>
-          <div style="padding:12px 16px 0;display:flex;align-items:center;justify-content:space-between;">
-            <div style="display:flex;align-items:center;gap:8px;">
-              <div style="width:28px;height:28px;border-radius:8px;overflow:hidden;flex-shrink:0;"><img src="assets/icon-landing.png" style="width:100%;height:100%;object-fit:cover;" alt=""></div>
-              <span style="font-size:14px;font-weight:800;color:#fff;letter-spacing:-0.3px;">Calor<span style="color:#F5A623;">IA</span> Scan</span>
-            </div>
-            <div style="color:rgba(255,255,255,0.5);font-size:16px;">⚙</div>
+      <div class="phone-mock" style="display:flex;flex-direction:column;background:#F4F0E7;">
+        <div style="padding:14px 16px 0;display:flex;align-items:center;justify-content:space-between;flex-shrink:0;">
+          <div style="display:flex;align-items:center;gap:8px;">
+            <div style="width:30px;height:30px;border-radius:9px;overflow:hidden;flex-shrink:0;background:#0B1E4A;"><img src="assets/icon-landing.png" style="width:100%;height:100%;object-fit:cover;" alt=""></div>
+            <span style="font-size:15px;font-weight:800;color:#16264F;letter-spacing:-0.3px;">Calor<span style="color:#D9541E;">IA</span> Scan</span>
           </div>
-          <div style="padding:14px 16px 0;">
-            <div style="font-size:18px;font-weight:800;color:#fff;letter-spacing:-0.5px;">Buenos días, Chris</div>
-            <div style="font-size:11px;color:rgba(255,255,255,0.5);margin-top:2px;">¿Qué vas a comer hoy?</div>
+          <div style="display:flex;gap:6px;">
+            <div style="width:26px;height:26px;border-radius:8px;background:#fff;display:flex;align-items:center;justify-content:center;font-size:12px;box-shadow:0 1px 4px rgba(22,38,79,0.08);">&#127769;</div>
+            <div style="width:26px;height:26px;border-radius:8px;background:#fff;display:flex;align-items:center;justify-content:center;font-size:12px;box-shadow:0 1px 4px rgba(22,38,79,0.08);">&#9881;</div>
           </div>
         </div>
-        <!-- Light content -->
-        <div style="background:#F2F2F7;padding:12px;flex:1;overflow:hidden;">
-          <!-- HOY card -->
-          <div style="background:#fff;border-radius:14px;padding:14px;margin-bottom:10px;box-shadow:0 1px 6px rgba(0,0,0,0.06);">
-            <div style="font-size:8px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:#999;margin-bottom:6px;">HOY</div>
-            <div style="display:flex;align-items:center;justify-content:space-between;">
-              <div>
-                <div style="font-size:30px;font-weight:800;color:#0047AB;line-height:1;letter-spacing:-1px;">1,055</div>
-                <div style="font-size:10px;color:#999;margin-top:2px;">de 2,000 kcal</div>
-              </div>
-              <div style="position:relative;width:58px;height:58px;">
-                <svg width="58" height="58" viewBox="0 0 58 58">
-                  <circle cx="29" cy="29" r="24" fill="none" stroke="#EEE" stroke-width="5"/>
-                  <circle cx="29" cy="29" r="24" fill="none" stroke="#D4A420" stroke-width="5" stroke-dasharray="60 91" transform="rotate(-90 29 29)" stroke-linecap="round"/>
-                  <circle cx="29" cy="29" r="24" fill="none" stroke="#2D8C6B" stroke-width="5" stroke-dasharray="42 109" stroke-dashoffset="-60" transform="rotate(-90 29 29)" stroke-linecap="round"/>
-                  <circle cx="29" cy="29" r="24" fill="none" stroke="#CC5500" stroke-width="5" stroke-dasharray="30 121" stroke-dashoffset="-102" transform="rotate(-90 29 29)" stroke-linecap="round"/>
-                </svg>
-              </div>
-            </div>
-            <div style="display:flex;gap:5px;margin-top:10px;">
-              <div style="flex:1;background:#FFFBEE;border-radius:8px;padding:5px 7px;display:flex;align-items:center;gap:3px;">
-                <div style="width:5px;height:5px;border-radius:50%;background:#D4A420;flex-shrink:0;"></div>
-                <div style="font-size:8px;color:#999;">Carbos</div>
-                <div style="font-size:10px;font-weight:700;color:#333;margin-left:auto;">77g</div>
-              </div>
-              <div style="flex:1;background:#EDFAF4;border-radius:8px;padding:5px 7px;display:flex;align-items:center;gap:3px;">
-                <div style="width:5px;height:5px;border-radius:50%;background:#2D8C6B;flex-shrink:0;"></div>
-                <div style="font-size:8px;color:#999;">Prot</div>
-                <div style="font-size:10px;font-weight:700;color:#333;margin-left:auto;">68g</div>
-              </div>
-              <div style="flex:1;background:#FFF3EC;border-radius:8px;padding:5px 7px;display:flex;align-items:center;gap:3px;">
-                <div style="width:5px;height:5px;border-radius:50%;background:#CC5500;flex-shrink:0;"></div>
-                <div style="font-size:8px;color:#999;">Grasa</div>
-                <div style="font-size:10px;font-weight:700;color:#333;margin-left:auto;">54g</div>
+        <div style="padding:9px 16px 0;font-size:12px;color:#5A6577;flex-shrink:0;">Buenas noches, Christian</div>
+        <div style="padding:6px 14px 0;flex:1;overflow:hidden;">
+          <div style="display:flex;justify-content:center;margin:4px 0 12px;">
+            <div style="position:relative;width:148px;height:148px;">
+              <svg width="148" height="148" viewBox="0 0 148 148">
+                <circle cx="74" cy="74" r="61" fill="none" stroke="#E6E1D5" stroke-width="12"/>
+                <circle cx="74" cy="74" r="61" fill="none" stroke="#E0A21A" stroke-width="12" stroke-linecap="round" stroke-dasharray="120 263" transform="rotate(-90 74 74)"/>
+                <circle cx="74" cy="74" r="61" fill="none" stroke="#1E9E6A" stroke-width="12" stroke-linecap="round" stroke-dasharray="70 313" stroke-dashoffset="-124" transform="rotate(-90 74 74)"/>
+                <circle cx="74" cy="74" r="61" fill="none" stroke="#D9541E" stroke-width="12" stroke-linecap="round" stroke-dasharray="52 331" stroke-dashoffset="-198" transform="rotate(-90 74 74)"/>
+              </svg>
+              <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;width:100%;">
+                <div style="font-size:9px;font-weight:800;letter-spacing:1px;color:#97A0B0;">HOY</div>
+                <div style="font-size:33px;font-weight:900;color:#16264F;line-height:1;letter-spacing:-1px;">1,180</div>
+                <div style="font-size:9px;color:#97A0B0;margin-top:2px;">de 2,376 kcal</div>
+                <div style="display:inline-block;margin-top:5px;background:#1F52DE;color:#fff;font-size:9px;font-weight:700;padding:3px 10px;border-radius:20px;">1,196 restantes</div>
               </div>
             </div>
           </div>
-          <!-- Score card -->
-          <div style="background:#fff;border-radius:14px;padding:12px;margin-bottom:10px;box-shadow:0 1px 6px rgba(0,0,0,0.06);">
-            <div style="font-size:8px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:#999;margin-bottom:8px;">PUNTAJE CALORIA™ HOY</div>
-            <div style="display:flex;align-items:center;gap:10px;">
-              <div style="position:relative;width:50px;height:50px;">
-                <svg width="50" height="50" viewBox="0 0 50 50">
-                  <circle cx="25" cy="25" r="20" fill="none" stroke="#EEE" stroke-width="4"/>
-                  <circle cx="25" cy="25" r="20" fill="none" stroke="#D4A420" stroke-width="4" stroke-dasharray="75 51" transform="rotate(-90 25 25)" stroke-linecap="round"/>
-                </svg>
-                <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;">
-                  <div style="font-size:14px;font-weight:800;color:#D4A420;line-height:1;">56</div>
-                  <div style="font-size:6px;color:#999;">VAS BIEN</div>
-                </div>
-              </div>
-              <div style="flex:1;">
-                <div style="display:inline-flex;align-items:center;gap:3px;background:#FFF3EC;border-radius:20px;padding:3px 8px;margin-bottom:6px;">
-                  <span style="font-size:10px;">🔥</span>
-                  <span style="font-size:9px;font-weight:700;color:#CC5500;">1 día</span>
-                  <span style="font-size:7px;color:#999;margin-left:2px;">RACHA</span>
-                </div>
-                <div style="display:flex;gap:2px;">
-                  <div style="flex:1;text-align:center;"><div style="width:16px;height:16px;border-radius:50%;background:#EEE;margin:0 auto;display:flex;align-items:center;justify-content:center;"><span style="font-size:6px;color:#ccc;">—</span></div><div style="font-size:6px;color:#ccc;margin-top:2px;">L</div></div>
-                  <div style="flex:1;text-align:center;"><div style="width:16px;height:16px;border-radius:50%;background:#EEE;margin:0 auto;display:flex;align-items:center;justify-content:center;"><span style="font-size:6px;color:#ccc;">—</span></div><div style="font-size:6px;color:#ccc;margin-top:2px;">M</div></div>
-                  <div style="flex:1;text-align:center;"><div style="width:16px;height:16px;border-radius:50%;background:#EEE;margin:0 auto;display:flex;align-items:center;justify-content:center;"><span style="font-size:6px;color:#ccc;">—</span></div><div style="font-size:6px;color:#ccc;margin-top:2px;">X</div></div>
-                  <div style="flex:1;text-align:center;"><div style="width:16px;height:16px;border-radius:50%;background:#EEE;margin:0 auto;"></div><div style="font-size:6px;color:#ccc;margin-top:2px;">J</div></div>
-                  <div style="flex:1;text-align:center;"><div style="width:16px;height:16px;border-radius:50%;background:#EEE;margin:0 auto;"></div><div style="font-size:6px;color:#ccc;margin-top:2px;">V</div></div>
-                  <div style="flex:1;text-align:center;"><div style="width:16px;height:16px;border-radius:50%;background:#EEE;margin:0 auto;"></div><div style="font-size:6px;color:#ccc;margin-top:2px;">S</div></div>
-                  <div style="flex:1;text-align:center;"><div style="width:16px;height:16px;border-radius:50%;background:#D4A420;margin:0 auto;display:flex;align-items:center;justify-content:center;"><span style="font-size:5px;font-weight:700;color:#fff;">56</span></div><div style="font-size:6px;color:#0047AB;font-weight:700;margin-top:2px;">D</div></div>
-                </div>
-              </div>
+          <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:7px;margin-bottom:10px;">
+            <div style="background:#fff;border-radius:12px;padding:9px 9px;box-shadow:0 2px 8px rgba(22,38,79,0.06);">
+              <div style="font-size:15px;font-weight:800;color:#E0A21A;line-height:1;">145g</div>
+              <div style="font-size:9px;color:#5A6577;margin:3px 0 5px;">Carbos</div>
+              <div style="height:4px;background:#F0ECE1;border-radius:2px;"><div style="height:4px;width:72%;background:#E0A21A;border-radius:2px;"></div></div>
+            </div>
+            <div style="background:#fff;border-radius:12px;padding:9px 9px;box-shadow:0 2px 8px rgba(22,38,79,0.06);">
+              <div style="font-size:15px;font-weight:800;color:#1E9E6A;line-height:1;">64g</div>
+              <div style="font-size:9px;color:#5A6577;margin:3px 0 5px;">Proteína</div>
+              <div style="height:4px;background:#F0ECE1;border-radius:2px;"><div style="height:4px;width:44%;background:#1E9E6A;border-radius:2px;"></div></div>
+            </div>
+            <div style="background:#fff;border-radius:12px;padding:9px 9px;box-shadow:0 2px 8px rgba(22,38,79,0.06);">
+              <div style="font-size:15px;font-weight:800;color:#D9541E;line-height:1;">39g</div>
+              <div style="font-size:9px;color:#5A6577;margin:3px 0 5px;">Grasa</div>
+              <div style="height:4px;background:#F0ECE1;border-radius:2px;"><div style="height:4px;width:50%;background:#D9541E;border-radius:2px;"></div></div>
             </div>
           </div>
-          <!-- Escanear button -->
-          <div style="background:#0047AB;border-radius:14px;padding:12px 14px;display:flex;align-items:center;gap:10px;">
-            <span style="font-size:18px;">📷</span>
+          <div style="background:#fff;border-radius:14px;padding:10px 12px;box-shadow:0 2px 8px rgba(22,38,79,0.06);display:flex;align-items:center;gap:10px;margin-bottom:10px;">
+            <div style="width:42px;height:42px;border-radius:50%;border:3px solid #1F52DE;display:flex;align-items:center;justify-content:center;flex-shrink:0;"><span style="font-size:15px;font-weight:800;color:#16264F;">30</span></div>
             <div>
-              <div style="font-size:12px;font-weight:700;color:#fff;">Escanear comida</div>
-              <div style="font-size:9px;color:rgba(255,255,255,0.6);">Tacos, tortas, chilaquiles... lo que sea 🌮</div>
+              <div style="font-size:8px;font-weight:800;letter-spacing:0.6px;color:#97A0B0;">PUNTAJE CALORIA HOY</div>
+              <div style="font-size:12px;font-weight:800;color:#1F52DE;margin:1px 0;">En progreso</div>
+              <div style="font-size:8px;color:#5A6577;line-height:1.3;">Tu consumo está por debajo de tu meta. Registra todas tus comidas.</div>
             </div>
           </div>
+          <div style="background:linear-gradient(180deg,#3B6EF0,#1F52DE);border-radius:14px;padding:12px;text-align:center;box-shadow:0 4px 0 #123FB8;display:flex;align-items:center;justify-content:center;gap:8px;">
+            <span style="font-size:15px;">&#128247;</span><span style="font-size:13px;font-weight:800;color:#fff;">Escanear comida</span>
+          </div>
+        </div>
+        <div style="position:relative;background:#fff;border-top:1px solid #EFEBE0;padding:9px 14px 11px;display:flex;align-items:flex-end;flex-shrink:0;">
+          <div style="text-align:center;color:#1F52DE;flex:1;"><div style="font-size:15px;line-height:1;">&#127968;</div><div style="font-size:8px;font-weight:700;margin-top:2px;">Inicio</div></div><div style="text-align:center;color:#97A0B0;flex:1;"><div style="font-size:15px;line-height:1;">&#128202;</div><div style="font-size:8px;font-weight:500;margin-top:2px;">Historial</div></div><div style="width:44px;flex-shrink:0;"></div><div style="text-align:center;color:#97A0B0;flex:1;"><div style="font-size:15px;line-height:1;">&#128293;</div><div style="font-size:8px;font-weight:500;margin-top:2px;">Racha</div></div><div style="text-align:center;color:#97A0B0;flex:1;"><div style="font-size:15px;line-height:1;">&#128100;</div><div style="font-size:8px;font-weight:500;margin-top:2px;">Perfil</div></div>
+          <div style="position:absolute;top:-16px;left:50%;transform:translateX(-50%);width:44px;height:44px;border-radius:50%;background:linear-gradient(180deg,#3B6EF0,#1F52DE);display:flex;align-items:center;justify-content:center;box-shadow:0 5px 14px rgba(31,82,222,0.42);border:3px solid #F4F0E7;"><span style="font-size:17px;">&#128247;</span></div>
         </div>
       </div>
       <div style="text-align:center;font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--cobalt);margin-top:12px;">Inicio</div>
     </div>
 
-    <!-- ══ PHONE 2: Dashboard / Recent meals ══ -->
     <div class="phone-container animate-in" style="transition-delay:0.15s;">
-      <div class="phone-mock" style="display:flex;flex-direction:column;">
-        <!-- Dark header -->
-        <div style="background:linear-gradient(180deg,#0B1E4A 0%,#0D2459 100%);padding:0 0 14px;flex-shrink:0;">
-          <div class="tile-strip" style="opacity:0.9;"></div>
-          <div style="padding:12px 16px 0;display:flex;align-items:center;justify-content:space-between;">
-            <div style="display:flex;align-items:center;gap:8px;">
-              <div style="width:28px;height:28px;border-radius:8px;overflow:hidden;flex-shrink:0;"><img src="assets/icon-landing.png" style="width:100%;height:100%;object-fit:cover;" alt=""></div>
-              <span style="font-size:14px;font-weight:800;color:#fff;letter-spacing:-0.3px;">Calor<span style="color:#F5A623;">IA</span> Scan</span>
-            </div>
-            <div style="color:rgba(255,255,255,0.5);font-size:16px;">⚙</div>
+      <div class="phone-mock" style="display:flex;flex-direction:column;background:#F4F0E7;">
+        <div style="padding:16px 16px 0;display:flex;align-items:center;justify-content:space-between;flex-shrink:0;">
+          <span style="font-size:20px;font-weight:900;color:#16264F;letter-spacing:-0.5px;">Historial</span>
+          <div style="width:28px;height:28px;border-radius:9px;background:#fff;display:flex;align-items:center;justify-content:center;font-size:13px;box-shadow:0 1px 4px rgba(22,38,79,0.08);">&#128197;</div>
+        </div>
+        <div style="padding:10px 12px 0;flex:1;overflow:hidden;">
+          <div style="display:flex;gap:3px;margin-bottom:10px;"><div style="flex:1;text-align:center;"><div style="font-size:8px;color:#97A0B0;margin-bottom:3px;">L</div><div style="background:#fff;border-radius:9px;padding:6px 0;box-shadow:0 1px 4px rgba(22,38,79,0.06);"><div style="font-size:12px;font-weight:800;color:#16264F;line-height:1;">29</div><div style="width:4px;height:4px;border-radius:50%;background:#D9D3C6;margin:3px auto 0;"></div></div></div><div style="flex:1;text-align:center;"><div style="font-size:8px;color:#97A0B0;margin-bottom:3px;">M</div><div style="background:#fff;border-radius:9px;padding:6px 0;box-shadow:0 1px 4px rgba(22,38,79,0.06);"><div style="font-size:12px;font-weight:800;color:#16264F;line-height:1;">30</div><div style="width:4px;height:4px;border-radius:50%;background:#D9D3C6;margin:3px auto 0;"></div></div></div><div style="flex:1;text-align:center;"><div style="font-size:8px;color:#97A0B0;margin-bottom:3px;">X</div><div style="background:#fff;border-radius:9px;padding:6px 0;box-shadow:0 1px 4px rgba(22,38,79,0.06);"><div style="font-size:12px;font-weight:800;color:#16264F;line-height:1;">1</div><div style="width:4px;height:4px;border-radius:50%;background:#1E9E6A;margin:3px auto 0;"></div></div></div><div style="flex:1;text-align:center;"><div style="font-size:8px;color:#97A0B0;margin-bottom:3px;">J</div><div style="background:#fff;border-radius:9px;padding:6px 0;box-shadow:0 1px 4px rgba(22,38,79,0.06);"><div style="font-size:12px;font-weight:800;color:#16264F;line-height:1;">2</div><div style="width:4px;height:4px;border-radius:50%;background:#1E9E6A;margin:3px auto 0;"></div></div></div><div style="flex:1;text-align:center;"><div style="font-size:8px;color:#97A0B0;margin-bottom:3px;">V</div><div style="background:#fff;border-radius:9px;padding:6px 0;box-shadow:0 1px 4px rgba(22,38,79,0.06);"><div style="font-size:12px;font-weight:800;color:#16264F;line-height:1;">3</div><div style="width:4px;height:4px;border-radius:50%;background:#1E9E6A;margin:3px auto 0;"></div></div></div><div style="flex:1;text-align:center;"><div style="font-size:8px;color:#97A0B0;margin-bottom:3px;">S</div><div style="background:#16264F;border-radius:9px;padding:6px 0;box-shadow:0 1px 4px rgba(22,38,79,0.06);"><div style="font-size:12px;font-weight:800;color:#fff;line-height:1;">4</div><div style="width:4px;height:4px;border-radius:50%;background:#fff;margin:3px auto 0;"></div></div></div><div style="flex:1;text-align:center;"><div style="font-size:8px;color:#97A0B0;margin-bottom:3px;">D</div><div style="background:#fff;border-radius:9px;padding:6px 0;box-shadow:0 1px 4px rgba(22,38,79,0.06);"><div style="font-size:12px;font-weight:800;color:#16264F;line-height:1;">5</div><div style="width:4px;height:4px;border-radius:50%;background:#D9D3C6;margin:3px auto 0;"></div></div></div></div>
+          <div style="background:#fff;border-radius:14px;padding:12px;box-shadow:0 2px 8px rgba(22,38,79,0.06);margin-bottom:10px;">
+            <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:8px;"><span style="font-size:12px;font-weight:800;color:#16264F;">Esta semana</span><span style="font-size:9px;color:#97A0B0;">Promedio 1206 kcal</span></div>
+            <div style="display:flex;gap:4px;align-items:flex-end;"><div style="flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;height:66px;"><div style="width:70%;height:10px;background:#DDE3F2;border-radius:5px;"></div></div><div style="flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;height:66px;"><div style="width:70%;height:8px;background:#DDE3F2;border-radius:5px;"></div></div><div style="flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;height:66px;"><div style="width:70%;height:30px;background:#1F52DE;border-radius:5px;"></div></div><div style="flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;height:66px;"><div style="width:70%;height:64px;background:#1F52DE;border-radius:5px;"></div></div><div style="flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;height:66px;"><div style="width:70%;height:44px;background:#1F52DE;border-radius:5px;"></div></div><div style="flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;height:66px;"><div style="width:70%;height:52px;background:#1F52DE;border-radius:5px;"></div></div><div style="flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;height:66px;"><div style="width:70%;height:10px;background:#DDE3F2;border-radius:5px;"></div></div></div>
+            <div style="display:flex;gap:4px;margin-top:5px;"><div style="flex:1;text-align:center;font-size:8px;color:#97A0B0;">L</div><div style="flex:1;text-align:center;font-size:8px;color:#97A0B0;">M</div><div style="flex:1;text-align:center;font-size:8px;color:#97A0B0;">X</div><div style="flex:1;text-align:center;font-size:8px;color:#97A0B0;">J</div><div style="flex:1;text-align:center;font-size:8px;color:#97A0B0;">V</div><div style="flex:1;text-align:center;font-size:8px;color:#97A0B0;">S</div><div style="flex:1;text-align:center;font-size:8px;color:#97A0B0;">D</div></div>
+          </div>
+          <div style="display:flex;gap:7px;margin-bottom:12px;">
+            <div style="flex:1;background:#fff;border-radius:12px;padding:11px 4px;text-align:center;box-shadow:0 2px 8px rgba(22,38,79,0.06);"><div style="font-size:16px;line-height:1;">&#11088;</div><div style="font-size:9px;font-weight:700;color:#16264F;margin-top:4px;">Favoritos</div></div>
+            <div style="flex:1;background:#fff;border-radius:12px;padding:11px 4px;text-align:center;box-shadow:0 2px 8px rgba(22,38,79,0.06);"><div style="font-size:16px;line-height:1;">&#128257;</div><div style="font-size:9px;font-weight:700;color:#16264F;margin-top:4px;">Frecuentes</div></div>
+            <div style="flex:1;background:#fff;border-radius:12px;padding:11px 4px;text-align:center;box-shadow:0 2px 8px rgba(22,38,79,0.06);"><div style="font-size:16px;line-height:1;">&#128196;</div><div style="font-size:9px;font-weight:700;color:#16264F;margin-top:4px;">Exportar PDF</div></div>
+          </div>
+          <div style="font-size:13px;font-weight:800;color:#16264F;margin-bottom:2px;">Hoy</div>
+          <div style="font-size:8px;font-weight:700;letter-spacing:1px;color:#97A0B0;margin-bottom:7px;">COMIDA</div>
+          <div style="background:#fff;border-radius:12px;padding:9px 10px;box-shadow:0 2px 8px rgba(22,38,79,0.06);display:flex;align-items:center;gap:9px;margin-bottom:7px;">
+            <div style="width:34px;height:34px;border-radius:9px;background:#F3E0CE;display:flex;align-items:center;justify-content:center;font-size:17px;flex-shrink:0;">&#127849;</div>
+            <div style="flex:1;min-width:0;"><div style="font-size:11px;font-weight:700;color:#16264F;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">Rollos de canela mini</div><div style="font-size:9px;color:#97A0B0;">Comida · 15:43</div></div>
+            <div style="font-size:12px;font-weight:800;color:#16264F;flex-shrink:0;">240 kcal</div>
+          </div>
+          <div style="background:#fff;border-radius:12px;padding:9px 10px;box-shadow:0 2px 8px rgba(22,38,79,0.06);display:flex;align-items:center;gap:9px;margin-bottom:7px;">
+            <div style="width:34px;height:34px;border-radius:9px;background:#FBE3D3;display:flex;align-items:center;justify-content:center;font-size:17px;flex-shrink:0;">&#127831;</div>
+            <div style="flex:1;min-width:0;"><div style="font-size:11px;font-weight:700;color:#16264F;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">Pollo agridulce</div><div style="font-size:9px;color:#97A0B0;">Comida · 15:19</div></div>
+            <div style="font-size:12px;font-weight:800;color:#16264F;flex-shrink:0;">420 kcal</div>
           </div>
         </div>
-        <!-- Light content -->
-        <div style="background:#F2F2F7;padding:12px;flex:1;overflow:hidden;">
-          <!-- Escanear button -->
-          <div style="background:#0047AB;border-radius:14px;padding:12px 14px;display:flex;align-items:center;gap:10px;margin-bottom:10px;">
-            <span style="font-size:18px;">📷</span>
-            <div>
-              <div style="font-size:12px;font-weight:700;color:#fff;">Escanear comida</div>
-              <div style="font-size:9px;color:rgba(255,255,255,0.6);">Tacos, tortas, chilaquiles... lo que sea 🌮</div>
-            </div>
-          </div>
-          <!-- 2x2 grid -->
-          <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:10px;">
-            <div style="background:#fff;border-radius:12px;padding:12px;box-shadow:0 1px 4px rgba(0,0,0,0.05);display:flex;align-items:center;gap:6px;">
-              <span style="font-size:16px;">🕐</span>
-              <span style="font-size:11px;font-weight:600;color:#333;">Historial</span>
-            </div>
-            <div style="background:#fff;border-radius:12px;padding:12px;box-shadow:0 1px 4px rgba(0,0,0,0.05);display:flex;align-items:center;gap:6px;">
-              <span style="font-size:16px;">🔥</span>
-              <div><div style="font-size:10px;font-weight:600;color:#333;">Calorías</div><div style="font-size:10px;color:#999;">de hoy</div></div>
-            </div>
-            <div style="background:#fff;border-radius:12px;padding:12px;box-shadow:0 1px 4px rgba(0,0,0,0.05);display:flex;align-items:center;gap:6px;">
-              <span style="font-size:16px;">👤</span>
-              <span style="font-size:11px;font-weight:600;color:#333;">Mi perfil</span>
-            </div>
-            <div style="background:#fff;border-radius:12px;padding:12px;box-shadow:0 1px 4px rgba(0,0,0,0.05);border:1.5px solid rgba(204,85,0,0.2);display:flex;align-items:center;gap:6px;">
-              <span style="font-size:16px;">⭐</span>
-              <span style="font-size:11px;font-weight:600;color:#CC5500;">Planes</span>
-            </div>
-          </div>
-          <!-- Insight -->
-          <div style="background:#fff;border-radius:12px;padding:10px 12px;margin-bottom:10px;display:flex;gap:8px;align-items:flex-start;box-shadow:0 1px 4px rgba(0,0,0,0.05);">
-            <span style="font-size:16px;">💡</span>
-            <div>
-              <div style="font-size:11px;font-weight:700;color:#0047AB;">Te falta proteína</div>
-              <div style="font-size:9px;color:#666;margin-top:2px;line-height:1.4;">Te faltan ~48g. Agrega huevo, pollo o frijoles para mejorar tu puntaje.</div>
-            </div>
-          </div>
-          <!-- Comidas recientes -->
-          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
-            <div style="font-size:12px;font-weight:700;color:#333;">Comidas recientes</div>
-            <div style="font-size:10px;color:#0047AB;font-weight:600;">Ver todo →</div>
-          </div>
-          <div style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 1px 4px rgba(0,0,0,0.05);">
-            <div style="display:flex;align-items:center;gap:10px;padding:10px 12px;border-bottom:1px solid #F5F5F5;">
-              <div style="width:36px;height:36px;border-radius:8px;background:#FFE4C4;display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0;">🌮</div>
-              <div style="flex:1;"><div style="font-size:11px;font-weight:600;color:#333;">Tacos al pastor</div><div style="font-size:9px;color:#999;">Comida</div></div>
-              <div style="text-align:right;"><div style="font-size:11px;font-weight:700;color:#0047AB;">350 kcal</div><div style="font-size:9px;font-weight:600;color:#2D8C6B;background:#EDFAF4;padding:1px 6px;border-radius:10px;">+92 pts</div></div>
-            </div>
-            <div style="display:flex;align-items:center;gap:10px;padding:10px 12px;border-bottom:1px solid #F5F5F5;">
-              <div style="width:36px;height:36px;border-radius:8px;background:#E8F5EF;display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0;">🍏</div>
-              <div style="flex:1;"><div style="font-size:11px;font-weight:600;color:#333;">Manzana verde</div><div style="font-size:9px;color:#999;">Comida</div></div>
-              <div style="text-align:right;"><div style="font-size:11px;font-weight:700;color:#0047AB;">95 kcal</div><div style="font-size:9px;font-weight:600;color:#D4A420;background:#FFFBEE;padding:1px 6px;border-radius:10px;">+19 pts</div></div>
-            </div>
-            <div style="display:flex;align-items:center;gap:10px;padding:10px 12px;">
-              <div style="width:36px;height:36px;border-radius:8px;background:#F0F0F0;display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0;">🥤</div>
-              <div style="flex:1;"><div style="font-size:11px;font-weight:600;color:#333;">Coca-Cola Clásica</div><div style="font-size:9px;color:#999;">Comida</div></div>
-              <div style="text-align:right;"><div style="font-size:11px;font-weight:700;color:#0047AB;">149 kcal</div><div style="font-size:9px;font-weight:600;color:#D4A420;background:#FFFBEE;padding:1px 6px;border-radius:10px;">+30 pts</div></div>
-            </div>
-          </div>
+        <div style="position:relative;background:#fff;border-top:1px solid #EFEBE0;padding:9px 14px 11px;display:flex;align-items:flex-end;flex-shrink:0;">
+          <div style="text-align:center;color:#97A0B0;flex:1;"><div style="font-size:15px;line-height:1;">&#127968;</div><div style="font-size:8px;font-weight:500;margin-top:2px;">Inicio</div></div><div style="text-align:center;color:#1F52DE;flex:1;"><div style="font-size:15px;line-height:1;">&#128202;</div><div style="font-size:8px;font-weight:700;margin-top:2px;">Historial</div></div><div style="width:44px;flex-shrink:0;"></div><div style="text-align:center;color:#97A0B0;flex:1;"><div style="font-size:15px;line-height:1;">&#128293;</div><div style="font-size:8px;font-weight:500;margin-top:2px;">Racha</div></div><div style="text-align:center;color:#97A0B0;flex:1;"><div style="font-size:15px;line-height:1;">&#128100;</div><div style="font-size:8px;font-weight:500;margin-top:2px;">Perfil</div></div>
+          <div style="position:absolute;top:-16px;left:50%;transform:translateX(-50%);width:44px;height:44px;border-radius:50%;background:linear-gradient(180deg,#3B6EF0,#1F52DE);display:flex;align-items:center;justify-content:center;box-shadow:0 5px 14px rgba(31,82,222,0.42);border:3px solid #F4F0E7;"><span style="font-size:17px;">&#128247;</span></div>
         </div>
       </div>
-      <div style="text-align:center;font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--cobalt);margin-top:12px;">Dashboard</div>
+      <div style="text-align:center;font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--cobalt);margin-top:12px;">Historial</div>
     </div>
 
-    <!-- ══ PHONE 3: Upgrade / Plans ══ -->
     <div class="phone-container animate-in" style="transition-delay:0.3s;">
-      <div class="phone-mock" style="display:flex;flex-direction:column;">
-        <!-- Header -->
-        <div style="background:#fff;padding:14px 16px 12px;border-bottom:1px solid #F0F0F0;flex-shrink:0;display:flex;align-items:center;justify-content:space-between;">
-          <span style="font-size:16px;color:#999;">←</span>
-          <span style="font-size:13px;font-weight:700;color:#333;">Actualiza a Pro</span>
-          <span style="font-size:11px;color:#0047AB;font-weight:600;">Restaurar</span>
+      <div class="phone-mock" style="display:flex;flex-direction:column;background:#F4F0E7;">
+        <div style="flex:1;overflow:hidden;padding:20px 14px 0;display:flex;flex-direction:column;align-items:center;">
+          <div style="position:relative;width:104px;height:104px;margin-bottom:12px;">
+            <div style="position:absolute;inset:0;border-radius:50%;background:linear-gradient(180deg,#F5C542 0%,#E0A21A 70%,#C88A10 100%);box-shadow:0 8px 0 #B37D0E, 0 18px 30px rgba(224,162,26,0.4);display:flex;flex-direction:column;align-items:center;justify-content:center;">
+              <div style="font-size:30px;line-height:1;">&#128293;</div>
+              <div style="font-size:26px;font-weight:900;color:#fff;line-height:1;margin-top:-2px;">4</div>
+            </div>
+          </div>
+          <div style="font-size:20px;font-weight:900;color:#16264F;letter-spacing:-0.5px;">4 días seguidos</div>
+          <div style="font-size:11px;color:#5A6577;margin:4px 0 14px;">¡Racha activa! Sigue así 💪</div>
+          <div style="width:100%;background:#fff;border-radius:14px;padding:12px 8px;box-shadow:0 2px 8px rgba(22,38,79,0.06);display:flex;justify-content:space-between;margin-bottom:10px;"><div style="text-align:center;"><div style="display:inline-flex;"><div style="width:30px;height:30px;border-radius:50%;background:#EDE8DC;display:flex;align-items:center;justify-content:center;"><div style="width:9px;height:9px;border-radius:50%;background:#CFC8B8;"></div></div></div><div style="font-size:8px;font-weight:600;color:#97A0B0;margin-top:4px;">L</div></div><div style="text-align:center;"><div style="display:inline-flex;"><div style="width:30px;height:30px;border-radius:50%;background:#EDE8DC;display:flex;align-items:center;justify-content:center;"><div style="width:9px;height:9px;border-radius:50%;background:#CFC8B8;"></div></div></div><div style="font-size:8px;font-weight:600;color:#97A0B0;margin-top:4px;">M</div></div><div style="text-align:center;"><div style="display:inline-flex;"><div style="width:30px;height:30px;border-radius:50%;background:#EDE8DC;display:flex;align-items:center;justify-content:center;"><div style="width:9px;height:9px;border-radius:50%;background:#CFC8B8;"></div></div></div><div style="font-size:8px;font-weight:600;color:#97A0B0;margin-top:4px;">X</div></div><div style="text-align:center;"><div style="display:inline-flex;"><div style="width:30px;height:30px;border-radius:50%;background:#EDE8DC;display:flex;align-items:center;justify-content:center;"><div style="width:9px;height:9px;border-radius:50%;background:#CFC8B8;"></div></div></div><div style="font-size:8px;font-weight:600;color:#97A0B0;margin-top:4px;">J</div></div><div style="text-align:center;"><div style="display:inline-flex;"><div style="width:30px;height:30px;border-radius:50%;background:linear-gradient(180deg,#F5C542,#E0A21A);display:flex;align-items:center;justify-content:center;font-size:14px;box-shadow:0 2px 5px rgba(224,162,26,0.4);">&#128293;</div></div><div style="font-size:8px;font-weight:600;color:#97A0B0;margin-top:4px;">V</div></div><div style="text-align:center;"><div style="box-shadow:0 0 0 2px #16264F;border-radius:50%;display:inline-flex;"><div style="width:30px;height:30px;border-radius:50%;background:linear-gradient(180deg,#F5C542,#E0A21A);display:flex;align-items:center;justify-content:center;font-size:14px;box-shadow:0 2px 5px rgba(224,162,26,0.4);">&#128293;</div></div><div style="font-size:8px;font-weight:800;color:#16264F;margin-top:4px;">Hoy</div></div><div style="text-align:center;"><div style="display:inline-flex;"><div style="width:30px;height:30px;border-radius:50%;background:#EDE8DC;display:flex;align-items:center;justify-content:center;"><div style="width:9px;height:9px;border-radius:50%;background:#CFC8B8;"></div></div></div><div style="font-size:8px;font-weight:600;color:#97A0B0;margin-top:4px;">D</div></div></div>
+          <div style="width:100%;display:flex;gap:8px;margin-bottom:10px;">
+            <div style="flex:1;background:#fff;border-radius:14px;padding:14px 8px;text-align:center;box-shadow:0 2px 8px rgba(22,38,79,0.06);"><div style="font-size:24px;font-weight:900;color:#E0A21A;line-height:1;">12</div><div style="font-size:9px;color:#5A6577;margin-top:4px;">Récord personal</div></div>
+            <div style="flex:1;background:#fff;border-radius:14px;padding:14px 8px;text-align:center;box-shadow:0 2px 8px rgba(22,38,79,0.06);"><div style="font-size:24px;font-weight:900;color:#E0A21A;line-height:1;">57</div><div style="font-size:9px;color:#5A6577;margin-top:4px;">Días totales</div></div>
+          </div>
+          <div style="width:100%;background:#fff;border-radius:14px;padding:12px 14px;box-shadow:0 2px 8px rgba(22,38,79,0.06);display:flex;align-items:center;gap:10px;margin-bottom:10px;">
+            <div style="width:30px;height:30px;border-radius:9px;background:#FBEFC9;display:flex;align-items:center;justify-content:center;font-size:15px;">&#127942;</div>
+            <span style="flex:1;font-size:12px;font-weight:800;color:#16264F;">Logros</span>
+            <span style="color:#97A0B0;font-size:14px;">&#8250;</span>
+          </div>
+          <div style="width:100%;background:#fff;border:1.5px solid #F0ECE1;border-radius:14px;padding:12px;text-align:center;box-shadow:0 2px 6px rgba(22,38,79,0.05);">
+            <span style="font-size:12px;font-weight:800;color:#16264F;">Registrar comida de hoy</span>
+          </div>
         </div>
-        <!-- Light content -->
-        <div style="background:#F2F2F7;padding:14px;flex:1;overflow:hidden;">
-          <!-- Logo & headline -->
-          <div style="text-align:center;margin-bottom:14px;">
-            <div style="width:56px;height:56px;border-radius:16px;overflow:hidden;margin:0 auto 10px;box-shadow:0 4px 12px rgba(0,71,171,0.15);"><img src="assets/icon-landing.png" style="width:100%;height:100%;object-fit:cover;" alt=""></div>
-            <div style="font-size:16px;font-weight:800;color:#333;letter-spacing:-0.5px;">Calor<span style="color:#CC5500;">IA</span> Scan <span style="color:#0047AB;">Pro</span></div>
-            <div style="font-size:10px;color:#666;margin-top:3px;">Más análisis. Más inteligencia.<br>Mejores decisiones.</div>
-          </div>
-          <!-- Free plan usage -->
-          <div style="background:#fff;border-radius:12px;padding:12px;margin-bottom:10px;box-shadow:0 1px 4px rgba(0,0,0,0.05);">
-            <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px;">
-              <div style="display:flex;align-items:center;gap:6px;"><span style="font-size:14px;">🌱</span><span style="font-size:11px;font-weight:600;color:#333;">Plan Gratuito</span></div>
-              <div style="background:#E8F0FE;border-radius:20px;padding:2px 8px;font-size:10px;font-weight:600;color:#0047AB;">0 / 25</div>
-            </div>
-            <div style="height:4px;background:#EEE;border-radius:2px;"><div style="height:4px;background:#0047AB;border-radius:2px;width:0%;"></div></div>
-            <div style="font-size:9px;color:#999;margin-top:5px;">Te quedan 25 de 25 escaneos gratuitos.</div>
-          </div>
-          <!-- Comparison table -->
-          <div style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 1px 4px rgba(0,0,0,0.05);">
-            <div style="display:grid;grid-template-columns:1fr auto auto;padding:8px 12px;border-bottom:1px solid #F5F5F5;">
-              <div></div>
-              <div style="text-align:center;width:44px;font-size:9px;color:#999;display:flex;align-items:center;justify-content:center;gap:3px;">🌱 Gratis</div>
-              <div style="text-align:center;width:44px;background:#0047AB;border-radius:20px;font-size:9px;font-weight:700;color:#fff;padding:4px 6px;display:flex;align-items:center;justify-content:center;gap:2px;">⭐ Pro</div>
-            </div>
-            <div style="display:grid;grid-template-columns:1fr auto auto;padding:7px 12px;border-bottom:1px solid #F5F5F5;align-items:center;">
-              <div style="font-size:9px;color:#666;">Escaneos por foto/mes</div>
-              <div style="text-align:center;width:44px;font-size:10px;font-weight:600;color:#333;">25</div>
-              <div style="text-align:center;width:44px;font-size:10px;font-weight:700;color:#0047AB;">250</div>
-            </div>
-            <div style="display:grid;grid-template-columns:1fr auto auto;padding:7px 12px;border-bottom:1px solid #F5F5F5;align-items:center;">
-              <div style="font-size:9px;color:#666;">Entradas manuales (IA)/mes</div>
-              <div style="text-align:center;width:44px;font-size:10px;font-weight:600;color:#333;">25</div>
-              <div style="text-align:center;width:44px;font-size:10px;font-weight:700;color:#0047AB;">250</div>
-            </div>
-            <div style="display:grid;grid-template-columns:1fr auto auto;padding:7px 12px;border-bottom:1px solid #F5F5F5;align-items:center;">
-              <div style="font-size:9px;color:#666;">Identificación de alimentos</div>
-              <div style="text-align:center;width:44px;font-size:12px;color:#2D8C6B;">✓</div>
-              <div style="text-align:center;width:44px;font-size:12px;color:#0047AB;">✓</div>
-            </div>
-            <div style="display:grid;grid-template-columns:1fr auto auto;padding:7px 12px;border-bottom:1px solid #F5F5F5;align-items:center;">
-              <div style="font-size:9px;color:#666;">Calorías y macros</div>
-              <div style="text-align:center;width:44px;font-size:12px;color:#2D8C6B;">✓</div>
-              <div style="text-align:center;width:44px;font-size:12px;color:#0047AB;">✓</div>
-            </div>
-            <div style="display:grid;grid-template-columns:1fr auto auto;padding:7px 12px;border-bottom:1px solid #F5F5F5;align-items:center;">
-              <div style="font-size:9px;color:#666;">Mis favoritos</div>
-              <div style="text-align:center;width:44px;font-size:12px;color:#CCC;">—</div>
-              <div style="text-align:center;width:44px;font-size:12px;color:#0047AB;">✓</div>
-            </div>
-            <div style="display:grid;grid-template-columns:1fr auto auto;padding:7px 12px;align-items:center;">
-              <div style="font-size:9px;color:#666;">Estadísticas semanales</div>
-              <div style="text-align:center;width:44px;font-size:12px;color:#CCC;">—</div>
-              <div style="text-align:center;width:44px;font-size:12px;color:#0047AB;">✓</div>
-            </div>
-          </div>
-          <!-- Price CTA -->
-          <div style="margin-top:12px;background:#0047AB;border-radius:14px;padding:12px;text-align:center;">
-            <div style="font-size:10px;color:rgba(255,255,255,0.7);">Solo</div>
-            <div style="font-size:22px;font-weight:800;color:#fff;letter-spacing:-1px;">$79 <span style="font-size:12px;font-weight:500;color:rgba(255,255,255,0.7);">MXN/mes</span></div>
-            <div style="font-size:9px;color:rgba(255,255,255,0.6);font-style:italic;">menos que un combo de tacos</div>
-          </div>
+        <div style="position:relative;background:#fff;border-top:1px solid #EFEBE0;padding:9px 14px 11px;display:flex;align-items:flex-end;flex-shrink:0;">
+          <div style="text-align:center;color:#97A0B0;flex:1;"><div style="font-size:15px;line-height:1;">&#127968;</div><div style="font-size:8px;font-weight:500;margin-top:2px;">Inicio</div></div><div style="text-align:center;color:#97A0B0;flex:1;"><div style="font-size:15px;line-height:1;">&#128202;</div><div style="font-size:8px;font-weight:500;margin-top:2px;">Historial</div></div><div style="width:44px;flex-shrink:0;"></div><div style="text-align:center;color:#1F52DE;flex:1;"><div style="font-size:15px;line-height:1;">&#128293;</div><div style="font-size:8px;font-weight:700;margin-top:2px;">Racha</div></div><div style="text-align:center;color:#97A0B0;flex:1;"><div style="font-size:15px;line-height:1;">&#128100;</div><div style="font-size:8px;font-weight:500;margin-top:2px;">Perfil</div></div>
+          <div style="position:absolute;top:-16px;left:50%;transform:translateX(-50%);width:44px;height:44px;border-radius:50%;background:linear-gradient(180deg,#3B6EF0,#1F52DE);display:flex;align-items:center;justify-content:center;box-shadow:0 5px 14px rgba(31,82,222,0.42);border:3px solid #F4F0E7;"><span style="font-size:17px;">&#128247;</span></div>
         </div>
       </div>
-      <div style="text-align:center;font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--cobalt);margin-top:12px;">Planes Pro</div>
+      <div style="text-align:center;font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--cobalt);margin-top:12px;">Racha</div>
     </div>
+
+  
 
   </div>
 </section>
@@ -1320,7 +1182,7 @@ footer {
   </div>
 
   <!-- Trial banner -->
-  <div class="animate-in" style="max-width:720px;margin:0 auto 24px;padding:14px 18px;background:linear-gradient(135deg,rgba(0,71,171,0.06),rgba(45,140,107,0.08));border:1px solid rgba(0,71,171,0.15);border-radius:14px;text-align:center;font-size:14px;font-weight:600;color:#0047AB;">
+  <div class="animate-in" style="max-width:720px;margin:0 auto 24px;padding:14px 18px;background:linear-gradient(135deg,rgba(31,82,222,0.07),rgba(30,158,106,0.08));border:1px solid rgba(31,82,222,0.16);border-radius:14px;text-align:center;font-size:14px;font-weight:600;color:#1F52DE;">
     &#127873; Prueba Pro gratis por 7 días — cancela cuando quieras
   </div>
 
