@@ -308,5 +308,591 @@
         }
       ]
     }
+  },
+  {
+    "slug": "aguacate-engorda-mito",
+    "date": "2026-07-05",
+    "category_es": "Mitos",
+    "category_en": "Myths",
+    "emoji": "🥑",
+    "cluster": "mitos",
+    "es": {
+      "title": "\"El aguacate engorda\": el mito que confunde grasa con enemigo",
+      "dek": "Sí, el aguacate es calórico. No, eso no lo convierte en el culpable de tu dieta. La ciencia lo pone del lado del corazón.",
+      "excerpt": "El aguacate tiene calorías y grasa —del tipo bueno. Esto es lo que Harvard encontró sobre aguacate, grasa monoinsaturada y salud del corazón.",
+      "tldr": [
+        "Un aguacate mediano tiene ~240 calorías y 22 g de grasa, en su mayoría monoinsaturada (la \"buena\").",
+        "Quienes comían 2+ porciones a la semana tuvieron 16% menos riesgo cardiovascular, según Harvard.",
+        "El problema no es la grasa del aguacate, es la porción: la clave es la cantidad, no evitarlo."
+      ],
+      "body": [
+        {
+          "h": "De dónde viene la mala fama",
+          "p": [
+            "El aguacate arrastra la etiqueta de \"engorda\" por una razón simple: tiene grasa, y durante años nos enseñaron que \"grasa = malo\". Pero no todas las grasas son iguales, y meter al aguacate en el mismo saco que la manteca es un error.",
+            "Un aguacate mediano tiene alrededor de <strong>240 calorías y 22 g de grasa</strong>. De esa grasa, unos <strong>15 g son monoinsaturada</strong> —principalmente ácido oleico, el mismo tipo que domina en el aceite de oliva."
+          ]
+        },
+        {
+          "h": "Lo que dice la ciencia del corazón",
+          "p": [
+            "Lejos de dañar, la evidencia apunta a lo contrario. Según la Escuela de Salud Pública de Harvard, quienes comían <strong>dos o más porciones de aguacate a la semana</strong> tuvieron <strong>16% menos riesgo de enfermedad cardiovascular y 21% menos riesgo de enfermedad coronaria</strong>.",
+            "Además, algunos estudios muestran una <strong>reducción del colesterol LDL</strong> (el \"malo\") cuando se reemplazan otras grasas de la dieta por aguacate. Encaja bien en patrones saludables como la dieta mediterránea y la DASH."
+          ]
+        },
+        {
+          "h": "Entonces, ¿por qué sí importa la porción?",
+          "p": [
+            "Que sea saludable no lo hace \"gratis\" en calorías. Si tu objetivo es bajar de peso, un aguacate entero sobre los tacos, más el guacamole, más el pan tostado, suma rápido. La grasa buena sigue aportando 9 calorías por gramo.",
+            "La solución no es eliminarlo —eso sería perder sus beneficios— sino <strong>medir la porción</strong>. Media pieza (~120 calorías) es una ración generosa y saciante para la mayoría de las comidas."
+          ]
+        },
+        {
+          "h": "La conclusión práctica",
+          "p": [
+            "El aguacate no es el villano de tu dieta; es de los buenos. Cámbialo por grasas de peor calidad, no lo sumes sin control. Si cuidas tus calorías, escanea tu plato con CalorIA Scan para ver cuánto aguacate llevas realmente y ajustar la porción sin renunciar al sabor."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "Harvard T.H. Chan — The Nutrition Source: Avocados",
+          "url": "https://nutritionsource.hsph.harvard.edu/food-features/avocados/"
+        }
+      ]
+    },
+    "en": {
+      "title": "\"Avocado is fattening\": the myth that confuses fat with the enemy",
+      "dek": "Yes, avocado is calorie-dense. No, that doesn't make it the villain of your diet. The science puts it on your heart's side.",
+      "excerpt": "Avocado has calories and fat — the good kind. Here's what Harvard found on avocado, monounsaturated fat and heart health.",
+      "tldr": [
+        "A medium avocado has ~240 calories and 22 g of fat, mostly monounsaturated (the \"good\" kind).",
+        "People eating 2+ servings a week had 16% lower cardiovascular risk, per Harvard.",
+        "The issue isn't avocado's fat, it's portion size: the key is how much, not avoiding it."
+      ],
+      "body": [
+        {
+          "h": "Where the bad reputation comes from",
+          "p": [
+            "Avocado carries the \"fattening\" label for a simple reason: it has fat, and for years we were taught \"fat = bad.\" But not all fats are the same, and lumping avocado in with lard is a mistake.",
+            "A medium avocado has about <strong>240 calories and 22 g of fat</strong>. Of that fat, roughly <strong>15 g are monounsaturated</strong> — mainly oleic acid, the same type that dominates olive oil."
+          ]
+        },
+        {
+          "h": "What heart science says",
+          "p": [
+            "Far from harming, the evidence points the other way. According to Harvard's School of Public Health, people who ate <strong>two or more servings of avocado a week</strong> had <strong>16% lower risk of cardiovascular disease and 21% lower risk of heart disease</strong>.",
+            "On top of that, some studies show a <strong>reduction in LDL cholesterol</strong> (the \"bad\" one) when avocado replaces other fats in the diet. It fits well within healthy patterns like the Mediterranean and DASH diets."
+          ]
+        },
+        {
+          "h": "So why does portion still matter?",
+          "p": [
+            "Being healthy doesn't make it \"free\" in calories. If your goal is weight loss, a whole avocado on your tacos, plus the guacamole, plus the toast, adds up fast. Good fat still delivers 9 calories per gram.",
+            "The fix isn't to cut it out — that would waste its benefits — but to <strong>measure the portion</strong>. Half a fruit (~120 calories) is a generous, satisfying serving for most meals."
+          ]
+        },
+        {
+          "h": "The practical takeaway",
+          "p": [
+            "Avocado isn't the villain of your diet; it's one of the good guys. Swap it in for lower-quality fats — don't just pile it on. If you watch your calories, scan your plate with CalorIA Scan to see how much avocado you're really eating and adjust the portion without giving up the flavor."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "Harvard T.H. Chan — The Nutrition Source: Avocados",
+          "url": "https://nutritionsource.hsph.harvard.edu/food-features/avocados/"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "sal-presion-arterial-oms",
+    "date": "2026-07-05",
+    "category_es": "Salud",
+    "category_en": "Health",
+    "emoji": "🧂",
+    "cluster": "salud",
+    "es": {
+      "title": "El error de la sal que casi todos cometen (y tu presión lo resiente)",
+      "dek": "El mundo come más del doble de la sal recomendada. La OMS explica por qué tu corazón lo nota.",
+      "excerpt": "La OMS recomienda menos de 5 g de sal al día, casi una cucharadita. Te decimos dónde se esconde el sodio y cómo bajarlo, con las cifras oficiales.",
+      "tldr": [
+        "La OMS recomienda menos de 5 g de sal al día (menos de 2000 mg de sodio): casi una cucharadita.",
+        "El promedio mundial en 2021 fue de ~4278 mg de sodio: más del doble de lo recomendado.",
+        "El exceso de sodio sube la presión arterial y se liga a unos 1.7 millones de muertes al año."
+      ],
+      "body": [
+        {
+          "h": "El condimento invisible",
+          "p": [
+            "Cuando piensas en \"comer menos sal\", te imaginas el salero. Pero la mayor parte del sodio que consumes <strong>no la agregas tú en la mesa</strong>: ya viene escondida en el pan, los embutidos, los quesos, las sopas instantáneas, las botanas y las salsas.",
+            "Por eso mucha gente que \"casi no le echa sal\" igual pasa el límite sin darse cuenta. El problema casi nunca es la pizca final; es todo lo que ya venía adentro."
+          ]
+        },
+        {
+          "h": "Cuánto es demasiado",
+          "p": [
+            "La Organización Mundial de la Salud recomienda consumir <strong>menos de 2000 mg de sodio al día, equivalente a menos de 5 g de sal</strong> —descrito por la propia OMS como \"un poco menos de una cucharadita\".",
+            "El promedio real del mundo en 2021 fue de <strong>unos 4278 mg de sodio diarios</strong>: más del doble. La OMS es clara sobre la consecuencia: \"el principal efecto de las dietas altas en sodio es el aumento de la presión arterial\", que eleva el riesgo de enfermedad cardiovascular. Se estima que el exceso de sodio se asocia a cerca de <strong>1.7 millones de muertes al año</strong>."
+          ]
+        },
+        {
+          "h": "Dónde se esconde de verdad",
+          "p": [
+            "Revisa la línea de <strong>\"Sodio\"</strong> en la tabla nutrimental, no solo la sal que ves. Los sospechosos habituales: pan de caja, jamón y salchichas, quesos madurados, sopas y consomés en polvo, salsas de soya y aderezos, y las botanas saladas.",
+            "Un truco: compara productos similares y elige el de menor sodio por porción. Diferencias de \"marca a marca\" pueden ser enormes para el mismo alimento."
+          ]
+        },
+        {
+          "h": "Qué hacer sin comer aburrido",
+          "p": [
+            "No se trata de comer sin sabor. Cocina más en casa (así controlas cuánto entra), prueba la comida <strong>antes</strong> de salar por costumbre, y dale sabor con limón, ajo, cebolla, hierbas y chile en vez de más sal. Si tienes presión alta, sigue el consejo de tu médico. Y cuando dudes de cuánto sodio trae un platillo, escanéalo con CalorIA Scan para verlo antes de servirte."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "OMS — Reducción del consumo de sal (ficha descriptiva)",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/salt-reduction"
+        }
+      ]
+    },
+    "en": {
+      "title": "The salt mistake almost everyone makes (and your blood pressure feels it)",
+      "dek": "The world eats more than double the recommended salt. The WHO explains why your heart notices.",
+      "excerpt": "The WHO recommends less than 5 g of salt a day — about a teaspoon. Here's where sodium hides and how to cut it, with the official numbers.",
+      "tldr": [
+        "The WHO recommends less than 5 g of salt a day (under 2,000 mg of sodium): about a teaspoon.",
+        "The 2021 global average was ~4,278 mg of sodium: more than double the target.",
+        "Excess sodium raises blood pressure and is linked to about 1.7 million deaths a year."
+      ],
+      "body": [
+        {
+          "h": "The invisible seasoning",
+          "p": [
+            "When you think \"eat less salt,\" you picture the salt shaker. But most of the sodium you eat <strong>isn't the pinch you add at the table</strong> — it's already hidden in bread, cured meats, cheese, instant soups, chips and sauces.",
+            "That's why plenty of people who \"barely salt anything\" still blow past the limit without noticing. The problem is rarely the final pinch; it's everything that was already inside."
+          ]
+        },
+        {
+          "h": "How much is too much",
+          "p": [
+            "The World Health Organization recommends eating <strong>less than 2,000 mg of sodium a day, equal to under 5 g of salt</strong> — described by the WHO itself as \"just under a teaspoon.\"",
+            "The world's actual average in 2021 was <strong>about 4,278 mg of sodium a day</strong>: more than double. The WHO is blunt about the consequence: \"the primary health effect associated with diets high in sodium is raised blood pressure,\" which increases cardiovascular risk. Excess sodium is estimated to be linked to roughly <strong>1.7 million deaths a year</strong>."
+          ]
+        },
+        {
+          "h": "Where it really hides",
+          "p": [
+            "Check the <strong>\"Sodium\"</strong> line on the nutrition table, not just the salt you can see. The usual suspects: sliced bread, ham and sausages, aged cheeses, powdered soups and bouillon, soy sauce and dressings, and salty snacks.",
+            "A trick: compare similar products and pick the one with less sodium per serving. Brand-to-brand differences can be huge for the very same food."
+          ]
+        },
+        {
+          "h": "What to do without eating bland",
+          "p": [
+            "This isn't about flavorless food. Cook more at home (so you control what goes in), taste your food <strong>before</strong> salting out of habit, and build flavor with lime, garlic, onion, herbs and chili instead of more salt. If you have high blood pressure, follow your doctor's advice. And whenever you're unsure how much sodium a dish holds, scan it with CalorIA Scan to see it before you serve."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "WHO — Salt reduction (fact sheet)",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/salt-reduction"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "pan-integral-mito",
+    "date": "2026-07-03",
+    "category_es": "Etiquetas",
+    "category_en": "Labels",
+    "emoji": "🍞",
+    "cluster": "azucar",
+    "es": {
+      "title": "Tu pan \"integral\" quizá no es integral: el truco del color café",
+      "dek": "Muchos panes \"multigrano\" o \"integrales\" son harina blanca teñida. Así los detectas en 5 segundos.",
+      "excerpt": "El color café y la palabra \"multigrano\" no garantizan grano entero. Te enseñamos a leer la etiqueta con el criterio de Harvard.",
+      "tldr": [
+        "Refinar el trigo elimina más de la mitad de sus vitaminas B, el 90% de la vitamina E y casi toda la fibra (Harvard).",
+        "El color café o la palabra \"multigrano\" NO garantizan grano entero; el color puede venir de melaza o caramelo.",
+        "Truco: que \"100% grano entero / harina integral\" sea el primer o segundo ingrediente."
+      ],
+      "body": [
+        {
+          "h": "Café no siempre significa integral",
+          "p": [
+            "Vas al súper, ves un pan café con granitos y dice \"multigrano\". Suena sano, ¿no? El problema es que <strong>el color no prueba nada</strong>: un pan puede verse oscuro simplemente porque le agregaron melaza o color caramelo a una masa de harina blanca refinada.",
+            "\"Multigrano\" tampoco es garantía: solo significa que tiene varios granos, no que esos granos sean <em>enteros</em>."
+          ]
+        },
+        {
+          "h": "Qué pierdes cuando el grano se refina",
+          "p": [
+            "Aquí está lo que de verdad importa. Según la Escuela de Salud Pública de Harvard, al refinar el trigo el proceso <strong>elimina más de la mitad de las vitaminas B, el 90% de la vitamina E y prácticamente toda la fibra</strong>.",
+            "El grano entero, en cambio, conserva ese \"paquete completo\" de nutrientes y fibra. Por eso el pan realmente integral llena más y es mejor para tu digestión y tu azúcar en sangre."
+          ]
+        },
+        {
+          "h": "Cómo leer el paquete en 5 segundos",
+          "p": [
+            "Ignora el frente y ve a la lista de ingredientes. Harvard lo resume así: para saber si un producto es de <strong>100% grano entero, asegúrate de que aparezca primero o segundo en la lista de ingredientes</strong> (\"harina de trigo integral\", \"grano entero\").",
+            "Otro criterio útil de Harvard: revisa la relación <strong>carbohidratos : fibra</strong>. Los productos más sanos tienden a tener menos de 10 g de carbohidratos por cada gramo de fibra. Y ojo: los sellos comerciales tipo \"whole grain\" no garantizan por sí solos que el producto sea saludable."
+          ]
+        },
+        {
+          "h": "Qué elegir",
+          "p": [
+            "Busca pan que diga <strong>\"100% integral\"</strong> con el grano entero de primer ingrediente, o mejor aún, granos sin procesar: avena, arroz integral, quinoa. Si cuidas tus macros, escanea el pan con CalorIA Scan y compara la fibra entre marcas antes de decidir."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "Harvard T.H. Chan — The Nutrition Source: Whole Grains",
+          "url": "https://nutritionsource.hsph.harvard.edu/what-is-a-healthy-diet/whole-grains/"
+        }
+      ]
+    },
+    "en": {
+      "title": "Your \"whole wheat\" bread might not be whole wheat: the brown-color trick",
+      "dek": "Many \"multigrain\" or \"whole\" breads are dyed white flour. Here's how to spot them in 5 seconds.",
+      "excerpt": "Brown color and the word \"multigrain\" don't guarantee whole grain. Here's how to read the label using Harvard's criteria.",
+      "tldr": [
+        "Refining wheat strips out more than half its B vitamins, 90% of its vitamin E, and nearly all the fiber (Harvard).",
+        "Brown color or the word \"multigrain\" does NOT guarantee whole grain; the color can come from molasses or caramel.",
+        "Trick: make sure \"100% whole grain / whole-wheat flour\" is the first or second ingredient."
+      ],
+      "body": [
+        {
+          "h": "Brown doesn't always mean whole",
+          "p": [
+            "You're at the store, you see a brown, seedy loaf that says \"multigrain.\" Sounds healthy, right? The catch is that <strong>color proves nothing</strong>: bread can look dark simply because molasses or caramel color was added to a dough made of refined white flour.",
+            "\"Multigrain\" is no guarantee either: it only means several grains are present, not that those grains are <em>whole</em>."
+          ]
+        },
+        {
+          "h": "What you lose when grain is refined",
+          "p": [
+            "Here's what actually matters. According to Harvard's School of Public Health, refining wheat <strong>strips away more than half of its B vitamins, 90% of the vitamin E, and virtually all the fiber</strong>.",
+            "Whole grain, by contrast, keeps that \"complete package\" of nutrients and fiber. That's why truly whole-grain bread is more filling and better for your digestion and blood sugar."
+          ]
+        },
+        {
+          "h": "How to read the package in 5 seconds",
+          "p": [
+            "Ignore the front and go to the ingredient list. Harvard sums it up: to know a product is <strong>100% whole grain, make sure it's listed first or second in the ingredients</strong> (\"whole-wheat flour,\" \"whole grain\").",
+            "Another useful Harvard rule: check the <strong>carbohydrate-to-fiber</strong> ratio. Healthier products tend to have fewer than 10 g of carbs per gram of fiber. And note: commercial \"whole grain\" stamps don't, on their own, guarantee the product is healthy."
+          ]
+        },
+        {
+          "h": "What to choose",
+          "p": [
+            "Look for bread that says <strong>\"100% whole grain\"</strong> with whole grain as the first ingredient — or better yet, unprocessed grains: oats, brown rice, quinoa. If you track your macros, scan the bread with CalorIA Scan and compare fiber across brands before you decide."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "Harvard T.H. Chan — The Nutrition Source: Whole Grains",
+          "url": "https://nutritionsource.hsph.harvard.edu/what-is-a-healthy-diet/whole-grains/"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "jugo-natural-vs-fruta",
+    "date": "2026-07-02",
+    "category_es": "Mitos",
+    "category_en": "Myths",
+    "emoji": "🧃",
+    "cluster": "azucar",
+    "es": {
+      "title": "El jugo \"natural\" que crees sano puede tener tanta azúcar como un refresco",
+      "dek": "Exprimir la fruta le quita lo mejor y concentra el azúcar. No es lo mismo que morderla.",
+      "excerpt": "Según Harvard, el jugo tiene casi tanta azúcar y calorías como un refresco. Te explicamos por qué la fruta entera gana, con la fuente.",
+      "tldr": [
+        "Harvard: el jugo tiene tanta azúcar y calorías como un refresco, aunque sea azúcar natural de la fruta.",
+        "El jugo no llena como la fruta entera, así que no compensas comiendo menos después.",
+        "Recomendación: máximo un vaso pequeño al día; mejor la fruta entera, con su fibra."
+      ],
+      "body": [
+        {
+          "h": "\"Natural\" no significa inofensivo",
+          "p": [
+            "Un vaso de jugo de naranja \"natural\" suena a lo más sano del desayuno. Pero para llenar ese vaso necesitas exprimir <strong>3 o 4 naranjas</strong>. Te tomas el azúcar de todas ellas de un trago, sin la fruta que las acompañaba.",
+            "Por eso Harvard advierte que el jugo <strong>\"contiene tanta azúcar y calorías como los refrescos\"</strong> (aunque provenga del azúcar natural de la fruta). \"Natural\" describe de dónde viene el azúcar, no cuánta hay."
+          ]
+        },
+        {
+          "h": "Lo que se pierde: la fibra y la saciedad",
+          "p": [
+            "La diferencia clave entre morder una fruta y beberla es la <strong>fibra</strong> y cómo te llena. Harvard explica que el jugo <strong>no produce la misma sensación de saciedad</strong> que un alimento sólido: no te sientes tan lleno con las calorías líquidas, así que no las compensas comiendo menos el resto del día.",
+            "La fruta entera, con su fibra, te llena, hace que el azúcar entre más lento a la sangre y te obliga a masticar. Ese \"paquete completo\" es justo lo que el exprimidor tira."
+          ]
+        },
+        {
+          "h": "Cuánto es razonable",
+          "p": [
+            "No hay que satanizar el jugo, pero sí ponerlo en su lugar. La guía que cita Harvard sugiere limitar el jugo a <strong>un vaso pequeño al día</strong>, mientras que la fruta entera se puede disfrutar con libertad. La OMS, por su parte, cuenta el azúcar del jugo como parte del \"azúcar libre\" que conviene mantener por debajo del 10% de tus calorías."
+          ]
+        },
+        {
+          "h": "Qué hacer",
+          "p": [
+            "Cuando puedas, <strong>cómete la fruta en vez de beberla</strong>. Si te encanta el jugo, que sea un vaso chico y ocasional, no el litro diario. Para la sed, agua o agua fresca muy ligera. Y si llevas la cuenta de tu azúcar, escanea con CalorIA Scan para ver cuánta llevas realmente."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "Harvard T.H. Chan — The Nutrition Source: Sugary Drinks (incluye jugos)",
+          "url": "https://nutritionsource.hsph.harvard.edu/healthy-drinks/sugary-drinks/"
+        },
+        {
+          "name": "OMS — Alimentación sana (azúcar libre < 10%)",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+        }
+      ]
+    },
+    "en": {
+      "title": "The \"natural\" juice you think is healthy can hold as much sugar as a soda",
+      "dek": "Juicing fruit strips out the best part and concentrates the sugar. It's not the same as biting into it.",
+      "excerpt": "According to Harvard, juice holds nearly as much sugar and calories as soda. Here's why whole fruit wins — with the source.",
+      "tldr": [
+        "Harvard: juice holds as much sugar and calories as soda, even though it's natural fruit sugar.",
+        "Juice doesn't fill you up like whole fruit, so you don't make up for it by eating less later.",
+        "Guidance: at most one small glass a day; whole fruit is the better choice, fiber included."
+      ],
+      "body": [
+        {
+          "h": "\"Natural\" doesn't mean harmless",
+          "p": [
+            "A glass of \"natural\" orange juice sounds like the healthiest part of breakfast. But to fill that glass you need to squeeze <strong>3 or 4 oranges</strong>. You drink the sugar of all of them in one gulp, without the fruit that came with it.",
+            "That's why Harvard warns that juice <strong>\"contains just as much sugar and calories as soft drinks\"</strong> (even if it comes from natural fruit sugar). \"Natural\" describes where the sugar comes from, not how much there is."
+          ]
+        },
+        {
+          "h": "What's lost: fiber and fullness",
+          "p": [
+            "The key difference between biting a fruit and drinking it is <strong>fiber</strong> and how it fills you. Harvard explains that juice <strong>doesn't trigger the same satiety</strong> as solid food: you don't feel as full from liquid calories, so you don't offset them by eating less the rest of the day.",
+            "Whole fruit, with its fiber, fills you up, slows sugar's entry into the blood, and makes you chew. That \"complete package\" is exactly what the juicer throws away."
+          ]
+        },
+        {
+          "h": "How much is reasonable",
+          "p": [
+            "No need to demonize juice, but put it in its place. The guidance Harvard cites suggests limiting juice to <strong>one small glass a day</strong>, while whole fruit can be enjoyed freely. The WHO, for its part, counts juice sugar as part of the \"free sugars\" you should keep under 10% of your calories."
+          ]
+        },
+        {
+          "h": "What to do",
+          "p": [
+            "When you can, <strong>eat the fruit instead of drinking it</strong>. If you love juice, make it a small, occasional glass — not the daily liter. For thirst, water or a very light fruit water. And if you track your sugar, scan with CalorIA Scan to see how much you're really having."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "Harvard T.H. Chan — The Nutrition Source: Sugary Drinks (includes juice)",
+          "url": "https://nutritionsource.hsph.harvard.edu/healthy-drinks/sugary-drinks/"
+        },
+        {
+          "name": "WHO — Healthy diet (free sugars < 10%)",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "mitos-comida-virales",
+    "date": "2026-07-07",
+    "category_es": "Mitos",
+    "category_en": "Myths",
+    "emoji": "🤯",
+    "cluster": "mitos",
+    "es": {
+      "title": "7 mitos de la comida que todos repiten (y la ciencia ya desmintió)",
+      "dek": "Los reenvías por WhatsApp sin dudar. Aquí están, uno por uno, con la fuente que los tumba.",
+      "excerpt": "Huevo, aguacate, jugos, pan integral, refresco zero... 7 mitos populares sobre la comida, aclarados con fuentes reales (OMS y Harvard).",
+      "tldr": [
+        "Muchas \"verdades\" de la comida son mitos que la ciencia ya aclaró.",
+        "Cada mito de esta lista lleva su fuente (OMS o Harvard) y un enlace para profundizar.",
+        "Regla general: desconfía del titular fácil y revisa la porción y la etiqueta."
+      ],
+      "body": [
+        {
+          "h": "1. \"El huevo te tapa las arterias\"",
+          "p": [
+            "Falso para la mayoría. Harvard señala que el colesterol de la dieta y el de la sangre están \"solo débilmente relacionados\", y que hasta un huevo al día no se asocia con más riesgo cardíaco en personas sanas. <a href='/blog/huevo-colesterol-mito'>Leer el artículo completo →</a>"
+          ]
+        },
+        {
+          "h": "2. \"El aguacate engorda\"",
+          "p": [
+            "Es de las grasas buenas. Según Harvard, quienes comían dos o más porciones a la semana tuvieron 16% menos riesgo cardiovascular. Lo que importa es la porción, no evitarlo. <a href='/blog/aguacate-engorda-mito'>Leer el artículo completo →</a>"
+          ]
+        },
+        {
+          "h": "3. \"El refresco zero ayuda a bajar de peso\"",
+          "p": [
+            "En 2023 la OMS pidió no usar edulcorantes sin azúcar para controlar el peso: \"no ayuda a controlar el peso a largo plazo\". <a href='/blog/refresco-zero-edulcorantes-oms'>Leer el artículo completo →</a>"
+          ]
+        },
+        {
+          "h": "4. \"Si dice light, es bajo en azúcar\"",
+          "p": [
+            "\"Light\" habla de la grasa, no del azúcar; muchas veces le suben el azúcar para compensar el sabor. La OMS recomienda que el azúcar libre sea menos del 10% de tus calorías. <a href='/blog/productos-light-azucar-oculta'>Leer el artículo completo →</a>"
+          ]
+        },
+        {
+          "h": "5. \"El pan multigrano siempre es integral\"",
+          "p": [
+            "El color café y la palabra \"multigrano\" no garantizan grano entero. Harvard aconseja que \"100% grano entero\" sea el primer o segundo ingrediente. <a href='/blog/pan-integral-mito'>Leer el artículo completo →</a>"
+          ]
+        },
+        {
+          "h": "6. \"El jugo natural es igual que comer fruta\"",
+          "p": [
+            "No lo es: Harvard advierte que el jugo tiene tanta azúcar como un refresco y no llena igual que la fruta entera, que sí conserva su fibra. <a href='/blog/jugo-natural-vs-fruta'>Leer el artículo completo →</a>"
+          ]
+        },
+        {
+          "h": "7. \"Una pizca de sal no importa\"",
+          "p": [
+            "El problema no es la pizca, es todo el sodio oculto. La OMS recomienda menos de 5 g de sal al día; el exceso sube la presión y se liga a 1.7 millones de muertes al año. <a href='/blog/sal-presion-arterial-oms'>Leer el artículo completo →</a>"
+          ]
+        },
+        {
+          "h": "La moraleja",
+          "p": [
+            "Casi todos estos mitos tienen algo en común: suenan lógicos y son fáciles de reenviar, pero se caen cuando revisas la evidencia. Antes de creer (o compartir) el próximo, busca la fuente y mira la porción real. Y si quieres saber qué hay de verdad en tu plato, escanéalo con CalorIA Scan."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "Harvard T.H. Chan — The Nutrition Source: Eggs",
+          "url": "https://nutritionsource.hsph.harvard.edu/food-features/eggs/"
+        },
+        {
+          "name": "Harvard T.H. Chan — The Nutrition Source: Avocados",
+          "url": "https://nutritionsource.hsph.harvard.edu/food-features/avocados/"
+        },
+        {
+          "name": "Harvard T.H. Chan — The Nutrition Source: Whole Grains",
+          "url": "https://nutritionsource.hsph.harvard.edu/what-is-a-healthy-diet/whole-grains/"
+        },
+        {
+          "name": "Harvard T.H. Chan — The Nutrition Source: Sugary Drinks",
+          "url": "https://nutritionsource.hsph.harvard.edu/healthy-drinks/sugary-drinks/"
+        },
+        {
+          "name": "OMS — Advertencia sobre edulcorantes sin azúcar (2023)",
+          "url": "https://www.who.int/news/item/15-05-2023-who-advises-not-to-use-non-sugar-sweeteners-for-weight-control-in-newly-released-guideline"
+        },
+        {
+          "name": "OMS — Alimentación sana (azúcar libre)",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+        },
+        {
+          "name": "OMS — Reducción del consumo de sal",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/salt-reduction"
+        }
+      ]
+    },
+    "en": {
+      "title": "7 food myths everyone repeats (that science already debunked)",
+      "dek": "You forward them on WhatsApp without a second thought. Here they are, one by one, with the source that knocks them down.",
+      "excerpt": "Eggs, avocado, juice, whole wheat, zero soda... 7 popular food myths, cleared up with real sources (WHO and Harvard).",
+      "tldr": [
+        "Many food \"truths\" are myths that science has already cleared up.",
+        "Every myth on this list comes with its source (WHO or Harvard) and a link to go deeper.",
+        "General rule: distrust the easy headline and check the portion and the label."
+      ],
+      "body": [
+        {
+          "h": "1. \"Eggs clog your arteries\"",
+          "p": [
+            "False for most people. Harvard notes that dietary cholesterol and blood cholesterol are \"only weakly related,\" and that up to one egg a day is not linked to higher heart risk in healthy people. <a href='/en/blog/huevo-colesterol-mito'>Read the full article →</a>"
+          ]
+        },
+        {
+          "h": "2. \"Avocado is fattening\"",
+          "p": [
+            "It's one of the good fats. Per Harvard, people who ate two or more servings a week had 16% lower cardiovascular risk. What matters is the portion, not avoiding it. <a href='/en/blog/aguacate-engorda-mito'>Read the full article →</a>"
+          ]
+        },
+        {
+          "h": "3. \"Zero soda helps you lose weight\"",
+          "p": [
+            "In 2023 the WHO advised against using non-sugar sweeteners for weight control: it \"does not help with weight control in the long term.\" <a href='/en/blog/refresco-zero-edulcorantes-oms'>Read the full article →</a>"
+          ]
+        },
+        {
+          "h": "4. \"If it says light, it's low in sugar\"",
+          "p": [
+            "\"Light\" is about fat, not sugar; often sugar is added back to make up for flavor. The WHO recommends keeping free sugars under 10% of your calories. <a href='/en/blog/productos-light-azucar-oculta'>Read the full article →</a>"
+          ]
+        },
+        {
+          "h": "5. \"Multigrain bread is always whole grain\"",
+          "p": [
+            "Brown color and the word \"multigrain\" don't guarantee whole grain. Harvard advises making sure \"100% whole grain\" is the first or second ingredient. <a href='/en/blog/pan-integral-mito'>Read the full article →</a>"
+          ]
+        },
+        {
+          "h": "6. \"Natural juice is the same as eating fruit\"",
+          "p": [
+            "It isn't: Harvard warns that juice holds as much sugar as soda and doesn't fill you up like whole fruit, which keeps its fiber. <a href='/en/blog/jugo-natural-vs-fruta'>Read the full article →</a>"
+          ]
+        },
+        {
+          "h": "7. \"A pinch of salt doesn't matter\"",
+          "p": [
+            "The problem isn't the pinch, it's all the hidden sodium. The WHO recommends under 5 g of salt a day; excess raises blood pressure and is linked to 1.7 million deaths a year. <a href='/en/blog/sal-presion-arterial-oms'>Read the full article →</a>"
+          ]
+        },
+        {
+          "h": "The takeaway",
+          "p": [
+            "Almost all of these myths share one thing: they sound logical and are easy to forward, but they fall apart when you check the evidence. Before believing (or sharing) the next one, find the source and look at the real portion. And if you want to know what's actually on your plate, scan it with CalorIA Scan."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "Harvard T.H. Chan — The Nutrition Source: Eggs",
+          "url": "https://nutritionsource.hsph.harvard.edu/food-features/eggs/"
+        },
+        {
+          "name": "Harvard T.H. Chan — The Nutrition Source: Avocados",
+          "url": "https://nutritionsource.hsph.harvard.edu/food-features/avocados/"
+        },
+        {
+          "name": "Harvard T.H. Chan — The Nutrition Source: Whole Grains",
+          "url": "https://nutritionsource.hsph.harvard.edu/what-is-a-healthy-diet/whole-grains/"
+        },
+        {
+          "name": "Harvard T.H. Chan — The Nutrition Source: Sugary Drinks",
+          "url": "https://nutritionsource.hsph.harvard.edu/healthy-drinks/sugary-drinks/"
+        },
+        {
+          "name": "WHO — Advice on non-sugar sweeteners (2023)",
+          "url": "https://www.who.int/news/item/15-05-2023-who-advises-not-to-use-non-sugar-sweeteners-for-weight-control-in-newly-released-guideline"
+        },
+        {
+          "name": "WHO — Healthy diet (free sugars)",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+        },
+        {
+          "name": "WHO — Salt reduction",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/salt-reduction"
+        }
+      ]
+    }
   }
 ]
