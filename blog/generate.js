@@ -45,6 +45,7 @@ function post(p, all, L){
   const isEN = L==='en';
   const c = p[L];
   const url = `${DOMAIN}${isEN?'/en/blog/':'/blog/'}${p.slug}`;
+  const ogImg = `${DOMAIN}/blog/og/${p.slug}-${L}.png`;
   const altEN = `${DOMAIN}/en/blog/${p.slug}`;
   const altES = `${DOMAIN}/blog/${p.slug}`;
   const title = `${c.title} | CalorIA Scan`;
@@ -74,7 +75,7 @@ function post(p, all, L){
     {"@context":"https://schema.org","@type":"BlogPosting",
       "headline": c.title,
       "description": c.excerpt,
-      "image": OG_IMAGE,
+      "image": ogImg,
       "datePublished": p.date,
       "dateModified": p.date,
       "inLanguage": L,
@@ -106,14 +107,16 @@ function post(p, all, L){
 <meta property="og:description" content="${escAttr(c.excerpt)}">
 <meta property="og:url" content="${url}">
 <meta property="og:site_name" content="CalorIA Scan">
-<meta property="og:image" content="${OG_IMAGE}">
+<meta property="og:image" content="${ogImg}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta property="og:locale" content="${isEN?'en_US':'es_MX'}">
 <meta property="article:published_time" content="${p.date}">
 <meta property="article:section" content="${escAttr(cat)}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${escAttr(c.title)}">
 <meta name="twitter:description" content="${escAttr(c.excerpt)}">
-<meta name="twitter:image" content="${OG_IMAGE}">
+<meta name="twitter:image" content="${ogImg}">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <script type="application/ld+json">${JSON.stringify(ld)}</script>
@@ -185,6 +188,7 @@ ${shareBar(url, c.title, L)}
 function hub(all, L){
   const isEN = L==='en';
   const url = `${DOMAIN}${isEN?'/en/blog/':'/blog/'}`;
+  const hubImg = `${DOMAIN}/blog/og/_hub-${L}.png`;
   const title = isEN ? 'Nutrition Myths & Food Science — CalorIA Scan Blog' : 'Mitos de Nutrición y Ciencia de la Comida — Blog CalorIA Scan';
   const desc = isEN ? 'Viral food claims, checked against real science. Hidden sugar in "light" products, the egg-cholesterol myth, sweeteners and more — every claim sourced.' : 'Los mitos de la comida que se vuelven virales, revisados con ciencia real. Azúcar oculta en productos "light", el mito del huevo y el colesterol, edulcorantes y más — con fuentes.';
   const items = all.slice().sort((a,b)=> b.date.localeCompare(a.date)).map(x=>{
@@ -215,7 +219,11 @@ function hub(all, L){
 <meta property="og:title" content="${escAttr(title)}">
 <meta property="og:description" content="${escAttr(desc)}">
 <meta property="og:url" content="${url}">
-<meta property="og:image" content="${OG_IMAGE}">
+<meta property="og:image" content="${hubImg}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="${hubImg}">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <script type="application/ld+json">${JSON.stringify(ld)}</script>
 <style>
