@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://caloriascan.com/sitemap.xml
+Sitemap: https://caloriascan.com/sitemap-blog.xml

@@ -1,0 +1,312 @@
+[
+  {
+    "slug": "productos-light-azucar-oculta",
+    "date": "2026-07-07",
+    "category_es": "Etiquetas",
+    "category_en": "Labels",
+    "emoji": "🍓",
+    "cluster": "azucar",
+    "es": {
+      "title": "Tu yogurt \"light\" puede tener más azúcar que una dona",
+      "dek": "\"Bajo en grasa\" casi nunca significa \"bajo en azúcar\". Muchas veces significa exactamente lo contrario.",
+      "excerpt": "Cuando a un alimento le quitan la grasa, suelen agregarle azúcar para que sepa bien. Te explicamos cómo detectarlo en la etiqueta, con la guía de la OMS.",
+      "tldr": [
+        "Quitar la grasa a un producto suele arruinar su sabor, así que la industria compensa añadiendo azúcar.",
+        "Un yogurt \"light\" de sabor puede llevar 20 g o más de azúcar por envase: casi el límite diario que recomienda la OMS.",
+        "La OMS aconseja que el azúcar libre sea menos del 10% de tus calorías, e idealmente menos del 5%."
+      ],
+      "body": [
+        {
+          "h": "El truco que casi nadie nota",
+          "p": [
+            "La palabra <strong>\"light\"</strong> en un empaque te hace sentir que estás eligiendo bien. Pero \"light\" o \"bajo en grasa\" es una afirmación sobre <em>la grasa</em>, no sobre el azúcar. Y ahí está el problema.",
+            "La grasa aporta gran parte del sabor y la textura de un alimento. Cuando se la quitan, el producto queda soso. ¿La solución más barata de la industria? Añadir azúcar (o jarabes) para que vuelva a saber rico. Por eso muchos productos \"light\" terminan con <strong>más azúcar</strong> que su versión normal."
+          ]
+        },
+        {
+          "h": "El ejemplo del yogurt",
+          "p": [
+            "Un yogurt natural sin endulzar tiene apenas el azúcar propia de la leche (lactosa). Pero un yogurt \"light\" de fresa o vainilla puede llevar <strong>entre 15 y 24 gramos de azúcar</strong> por envase individual.",
+            "Para dimensionarlo: la Organización Mundial de la Salud recomienda que el <strong>azúcar libre</strong> no pase del 10% de tu energía diaria —unos <strong>50 g (12 cucharaditas)</strong> en una dieta de 2000 calorías— e idealmente que baje a menos del 5% (unos 25 g). Un solo yogurt de sabor ya puede comerse la mitad de ese margen, antes del resto del día."
+          ]
+        },
+        {
+          "h": "Cómo leer la etiqueta en 10 segundos",
+          "p": [
+            "Ignora el frente del empaque y ve directo a la tabla nutrimental. Busca la línea de <strong>\"Azúcares\"</strong> (o \"Azúcares añadidos\") y míralo <strong>por porción</strong> y por 100 g.",
+            "Regla rápida: <strong>4 gramos de azúcar = 1 cucharadita</strong>. Así que un producto con 20 g de azúcar tiene 5 cucharaditas dentro. Revisa también la lista de ingredientes: si azúcar, jarabe de maíz, dextrosa, maltosa o concentrado de fruta aparecen entre los primeros, es un producto azucarado aunque diga \"light\"."
+          ]
+        },
+        {
+          "h": "Qué hacer en su lugar",
+          "p": [
+            "No se trata de temerle a los productos, sino de leerlos. Elige yogurt <strong>natural sin azúcar</strong> y endúlzalo tú con fruta fresca: controlas la cantidad y sumas fibra. Y cuando dudes de cuánta azúcar o cuántas calorías trae algo que estás por comer, escanéalo con CalorIA Scan y compáralo antes de decidir."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "OMS — Alimentación sana (recomendación de azúcares libres <10% / <5%)",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+        },
+        {
+          "name": "OMS — Directriz sobre la ingesta de azúcares (2015)",
+          "url": "https://www.who.int/publications/i/item/9789241549028"
+        }
+      ]
+    },
+    "en": {
+      "title": "Your \"light\" yogurt can pack more sugar than a donut",
+      "dek": "\"Low fat\" almost never means \"low sugar.\" Very often it means the exact opposite.",
+      "excerpt": "When fat is stripped out of a food, sugar is usually added back so it still tastes good. Here's how to spot it on the label, backed by WHO guidance.",
+      "tldr": [
+        "Removing fat tends to ruin flavor, so the industry compensates by adding sugar.",
+        "A flavored \"light\" yogurt can carry 20 g of sugar or more per cup — close to a full day's recommended limit.",
+        "WHO advises keeping free sugars under 10% of your calories, and ideally under 5%."
+      ],
+      "body": [
+        {
+          "h": "The trick almost nobody notices",
+          "p": [
+            "The word <strong>\"light\"</strong> on a package makes you feel like you're choosing well. But \"light\" or \"low fat\" is a claim about <em>fat</em> — not about sugar. And that's where it gets you.",
+            "Fat carries much of a food's flavor and texture. Strip it out and the product tastes flat. The industry's cheapest fix? Add sugar (or syrups) so it tastes good again. That's why many \"light\" products end up with <strong>more sugar</strong> than the regular version."
+          ]
+        },
+        {
+          "h": "The yogurt example",
+          "p": [
+            "Plain unsweetened yogurt has only the sugar naturally found in milk (lactose). But a \"light\" strawberry or vanilla yogurt can carry <strong>15 to 24 grams of sugar</strong> per single cup.",
+            "For scale: the World Health Organization recommends keeping <strong>free sugars</strong> under 10% of your daily energy — about <strong>50 g (12 teaspoons)</strong> on a 2,000-calorie diet — and ideally under 5% (about 25 g). A single flavored yogurt can eat half of that budget before the rest of your day even starts."
+          ]
+        },
+        {
+          "h": "How to read the label in 10 seconds",
+          "p": [
+            "Ignore the front of the package and go straight to the nutrition table. Find the <strong>\"Sugars\"</strong> (or \"Added sugars\") line and check it <strong>per serving</strong> and per 100 g.",
+            "Quick rule: <strong>4 grams of sugar = 1 teaspoon</strong>. So a product with 20 g of sugar has 5 teaspoons inside. Also scan the ingredient list: if sugar, corn syrup, dextrose, maltose or fruit concentrate show up near the top, it's a sugary product no matter what \"light\" says."
+          ]
+        },
+        {
+          "h": "What to do instead",
+          "p": [
+            "This isn't about fearing packaged food — it's about reading it. Choose <strong>plain, unsweetened yogurt</strong> and sweeten it yourself with fresh fruit: you control the amount and add fiber. And whenever you're unsure how much sugar or how many calories something holds, scan it with CalorIA Scan and compare before you decide."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "WHO — Healthy diet (free sugars recommendation <10% / <5%)",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+        },
+        {
+          "name": "WHO — Guideline: Sugars intake for adults and children (2015)",
+          "url": "https://www.who.int/publications/i/item/9789241549028"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "huevo-colesterol-mito",
+    "date": "2026-07-06",
+    "category_es": "Mitos",
+    "category_en": "Myths",
+    "emoji": "🥚",
+    "cluster": "mitos",
+    "es": {
+      "title": "¿El huevo te tapa las arterias? Lo que la ciencia realmente encontró",
+      "dek": "Durante décadas nos dijeron que el huevo dispara el colesterol. Los estudios grandes cuentan otra historia.",
+      "excerpt": "El colesterol que comes y el colesterol de tu sangre están solo débilmente relacionados. Esto es lo que dicen Harvard y las guías alimentarias sobre el huevo.",
+      "tldr": [
+        "El colesterol de los alimentos y el de tu sangre están \"solo débilmente relacionados\", según Harvard.",
+        "Hasta un huevo al día no se asocia con más riesgo cardíaco en personas sanas (estudios en ~120,000 personas).",
+        "Las guías alimentarias de EE. UU. dejaron de poner un límite numérico al colesterol de la dieta desde 2015."
+      ],
+      "body": [
+        {
+          "h": "De dónde salió el miedo",
+          "p": [
+            "La idea es lógica en apariencia: el huevo tiene mucho colesterol, el colesterol alto en sangre tapa arterias, entonces el huevo debe ser malo. Durante años esa cadena parecía obvia y hasta se recomendaba no pasar de unos pocos huevos por semana.",
+            "El problema es que el cuerpo no funciona tan lineal. Tu hígado <strong>produce la mayor parte del colesterol</strong> de tu sangre. Cuando comes más colesterol, tu cuerpo tiende a producir menos para compensar."
+          ]
+        },
+        {
+          "h": "Lo que dicen los estudios grandes",
+          "p": [
+            "La Escuela de Salud Pública de Harvard resume la evidencia así: el colesterol de la dieta y el de la sangre están <strong>\"solo débilmente relacionados\"</strong>, y <strong>\"hasta un huevo al día no se asocia con mayor riesgo de enfermedad cardíaca\"</strong> en personas sanas —una conclusión basada en estudios con casi <strong>120,000 participantes</strong>.",
+            "El factor que pesa más sobre tu colesterol en sangre no es el colesterol del plato, sino <strong>la mezcla de grasas</strong> de tu dieta: sobre todo las grasas saturadas y las grasas trans. En otras palabras, el problema rara vez es el huevo solo; es el tocino, la salchicha y el pan frito que lo acompañan."
+          ]
+        },
+        {
+          "h": "La letra chica: no todos son iguales",
+          "p": [
+            "El huevo no es \"vía libre\" para todos. Harvard señala que en <strong>personas con diabetes</strong>, comer uno o más huevos al día sí se asoció con mayor riesgo cardíaco, y sugiere moderación. Y comer <strong>mucho más</strong> de un huevo diario podría aumentar el riesgo de insuficiencia cardíaca con el tiempo.",
+            "Por eso las guías alimentarias de EE. UU. quitaron el viejo límite de 300 mg de colesterol al día desde su edición 2015–2020: la evidencia ya no lo justificaba. \"Sin límite numérico\" no significa \"come sin control\", significa que el colesterol dejó de ser el villano principal."
+          ]
+        },
+        {
+          "h": "La conclusión práctica",
+          "p": [
+            "Para la mayoría de las personas sanas, un huevo al día es parte de una dieta equilibrada, con proteína de calidad y buenos nutrientes. Si tienes diabetes, colesterol alto o enfermedad cardíaca, habla con tu médico sobre tu caso. Y si llevas la cuenta de tus macros, registra el huevo tal como lo cocinas: revuelto con aceite no es lo mismo que cocido."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "Harvard T.H. Chan — The Nutrition Source: Eggs",
+          "url": "https://nutritionsource.hsph.harvard.edu/food-features/eggs/"
+        },
+        {
+          "name": "Dietary Guidelines for Americans (guías alimentarias de EE. UU.)",
+          "url": "https://www.dietaryguidelines.gov/"
+        }
+      ]
+    },
+    "en": {
+      "title": "Do eggs clog your arteries? What the science actually found",
+      "dek": "For decades we were told eggs spike your cholesterol. The large studies tell a different story.",
+      "excerpt": "The cholesterol you eat and the cholesterol in your blood are only weakly related. Here's what Harvard and the dietary guidelines say about eggs.",
+      "tldr": [
+        "Dietary cholesterol and blood cholesterol are \"only weakly related,\" per Harvard.",
+        "Up to one egg a day is not linked to higher heart risk in healthy people (studies of ~120,000 people).",
+        "US dietary guidelines dropped the numeric limit on dietary cholesterol back in 2015."
+      ],
+      "body": [
+        {
+          "h": "Where the fear came from",
+          "p": [
+            "The logic looks airtight: eggs are high in cholesterol, high blood cholesterol clogs arteries, so eggs must be bad. For years that chain seemed obvious — people were even told to cap their eggs at a few per week.",
+            "The catch is that the body isn't that linear. Your liver <strong>makes most of the cholesterol</strong> in your blood. When you eat more cholesterol, your body tends to make less to compensate."
+          ]
+        },
+        {
+          "h": "What the large studies say",
+          "p": [
+            "Harvard's School of Public Health sums up the evidence like this: dietary cholesterol and blood cholesterol are <strong>\"only weakly related,\"</strong> and <strong>\"up to one egg per day is not associated with increased heart disease risk\"</strong> in healthy individuals — a conclusion drawn from studies of nearly <strong>120,000 participants</strong>.",
+            "The bigger driver of your blood cholesterol isn't the cholesterol on your plate, it's <strong>the mix of fats</strong> in your diet: mainly saturated and trans fats. In other words, the problem is rarely the egg itself — it's the bacon, sausage and fried bread next to it."
+          ]
+        },
+        {
+          "h": "The fine print: not everyone is the same",
+          "p": [
+            "Eggs aren't a free pass for everyone. Harvard notes that in <strong>people with diabetes</strong>, eating one or more eggs a day was linked to higher heart risk, and advises moderation. And eating <strong>well over</strong> one egg a day could raise the risk of heart failure over time.",
+            "That's why US dietary guidelines removed the old 300 mg/day cholesterol cap starting with the 2015–2020 edition: the evidence no longer supported it. \"No numeric limit\" doesn't mean \"eat unlimited\" — it means cholesterol stopped being the main villain."
+          ]
+        },
+        {
+          "h": "The practical takeaway",
+          "p": [
+            "For most healthy people, an egg a day fits a balanced diet, with quality protein and good nutrients. If you have diabetes, high cholesterol or heart disease, talk to your doctor about your case. And if you track your macros, log the egg the way you actually cook it: scrambled in oil isn't the same as boiled."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "Harvard T.H. Chan — The Nutrition Source: Eggs",
+          "url": "https://nutritionsource.hsph.harvard.edu/food-features/eggs/"
+        },
+        {
+          "name": "Dietary Guidelines for Americans",
+          "url": "https://www.dietaryguidelines.gov/"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "refresco-zero-edulcorantes-oms",
+    "date": "2026-07-04",
+    "category_es": "Edulcorantes",
+    "category_en": "Sweeteners",
+    "emoji": "🥤",
+    "cluster": "azucar",
+    "es": {
+      "title": "Refresco \"zero\": por qué la OMS te pide que no lo uses para bajar de peso",
+      "dek": "Cero azúcar no es lo mismo que cero consecuencias. En 2023 la OMS lanzó una advertencia que sorprendió a muchos.",
+      "excerpt": "La OMS recomienda no usar edulcorantes sin azúcar para controlar el peso. Te explicamos qué encontró y qué significa para tu refresco \"zero\".",
+      "tldr": [
+        "En 2023 la OMS aconsejó no usar edulcorantes sin azúcar (aspartame, sucralosa, estevia) para controlar el peso.",
+        "\"Reemplazar el azúcar por edulcorantes no ayuda a controlar el peso a largo plazo\", según la OMS.",
+        "La recomendación no aplica a personas con diabetes preexistente; ellas deben seguir el consejo de su médico."
+      ],
+      "body": [
+        {
+          "h": "El anuncio que sorprendió a todos",
+          "p": [
+            "El refresco \"zero\" parecía la jugada perfecta: el sabor dulce sin las calorías del azúcar. Por eso muchos lo usan para \"portarse bien\". Pero en <strong>mayo de 2023</strong>, la Organización Mundial de la Salud publicó una directriz que cambió la conversación.",
+            "Su recomendación fue directa: <strong>no usar edulcorantes sin azúcar (NSS) para controlar el peso</strong>. Esto incluye a los más comunes —aspartame, sacarina, sucralosa y estevia."
+          ]
+        },
+        {
+          "h": "Qué encontró la OMS",
+          "p": [
+            "La conclusión clave, en palabras de la OMS: <strong>\"Reemplazar los azúcares libres por edulcorantes sin azúcar no ayuda a controlar el peso a largo plazo\"</strong>. Es decir, cambiar el refresco normal por el \"zero\" no produjo, en la evidencia revisada, la pérdida de grasa que muchos esperan.",
+            "La revisión también señaló que el uso prolongado de estos edulcorantes <strong>podría asociarse a mayor riesgo</strong> de diabetes tipo 2, enfermedad cardiovascular y mortalidad en adultos. El director de Nutrición de la OMS, Francesco Branca, resumió el consejo: en lugar de perseguir el sabor dulce con sustitutos, conviene <strong>reducir el dulzor general de la dieta</strong> desde temprano."
+          ]
+        },
+        {
+          "h": "Lo que la advertencia NO dice",
+          "p": [
+            "Importante leer la letra chica. La recomendación es <strong>condicional</strong> (la evidencia todavía tiene incertidumbre) y <strong>no aplica a personas que ya viven con diabetes</strong>, para quienes un edulcorante puede ser una herramienta útil bajo guía médica.",
+            "Tampoco significa que \"el refresco normal es mejor\": el azúcar líquida sigue siendo de lo peor para el control de peso y la salud metabólica. El mensaje de la OMS es más bien que <strong>ningún refresco —ni normal ni zero— es la vía para adelgazar</strong>."
+          ]
+        },
+        {
+          "h": "La conclusión práctica",
+          "p": [
+            "La mejor bebida sigue siendo la de siempre: agua, agua con gas o agua con fruta o hierbas. Si usas el \"zero\" como puente para salir del refresco azucarado, adelante —pero como escalón, no como destino. Y si estás cuidando tu peso, recuerda que ninguna bebida \"mágica\" reemplaza el llevar la cuenta de lo que comes."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "OMS — Advertencia sobre edulcorantes sin azúcar (mayo 2023)",
+          "url": "https://www.who.int/news/item/15-05-2023-who-advises-not-to-use-non-sugar-sweeteners-for-weight-control-in-newly-released-guideline"
+        }
+      ]
+    },
+    "en": {
+      "title": "\"Zero\" soda: why the WHO tells you not to use it to lose weight",
+      "dek": "Zero sugar isn't the same as zero consequences. In 2023 the WHO issued a warning that surprised a lot of people.",
+      "excerpt": "The WHO recommends against using non-sugar sweeteners for weight control. Here's what it found and what it means for your \"zero\" soda.",
+      "tldr": [
+        "In 2023 the WHO advised against using non-sugar sweeteners (aspartame, sucralose, stevia) for weight control.",
+        "\"Replacing sugars with sweeteners does not help with weight control in the long term,\" per the WHO.",
+        "The advice does not apply to people with pre-existing diabetes; they should follow their doctor's guidance."
+      ],
+      "body": [
+        {
+          "h": "The announcement that surprised everyone",
+          "p": [
+            "\"Zero\" soda looked like the perfect move: the sweet taste without sugar's calories. That's why so many people use it to \"be good.\" But in <strong>May 2023</strong>, the World Health Organization released a guideline that shifted the conversation.",
+            "Its recommendation was blunt: <strong>do not use non-sugar sweeteners (NSS) for weight control</strong>. That includes the most common ones — aspartame, saccharin, sucralose and stevia."
+          ]
+        },
+        {
+          "h": "What the WHO found",
+          "p": [
+            "The key finding, in the WHO's own words: <strong>\"Replacing free sugars with NSS does not help with weight control in the long term.\"</strong> In other words, swapping regular soda for the \"zero\" version did not, in the evidence reviewed, deliver the fat loss many people expect.",
+            "The review also noted that long-term use of these sweeteners <strong>may be linked to higher risk</strong> of type 2 diabetes, cardiovascular disease and mortality in adults. The WHO's nutrition director, Francesco Branca, summed up the advice: instead of chasing sweetness with substitutes, it's better to <strong>reduce the overall sweetness of the diet</strong> early on."
+          ]
+        },
+        {
+          "h": "What the warning does NOT say",
+          "p": [
+            "The fine print matters. The recommendation is <strong>conditional</strong> (the evidence still carries uncertainty) and <strong>does not apply to people already living with diabetes</strong>, for whom a sweetener can be a useful tool under medical guidance.",
+            "It also doesn't mean \"regular soda is better\": liquid sugar remains among the worst things for weight control and metabolic health. The WHO's message is really that <strong>no soda — regular or zero — is the path to weight loss</strong>."
+          ]
+        },
+        {
+          "h": "The practical takeaway",
+          "p": [
+            "The best drink is still the old one: water, sparkling water, or water infused with fruit or herbs. If you use \"zero\" as a bridge to get off sugary soda, go ahead — but as a step, not a destination. And if you're managing your weight, remember that no \"magic\" drink replaces keeping track of what you eat."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "WHO — Advice on non-sugar sweeteners (May 2023)",
+          "url": "https://www.who.int/news/item/15-05-2023-who-advises-not-to-use-non-sugar-sweeteners-for-weight-control-in-newly-released-guideline"
+        }
+      ]
+    }
+  }
+]

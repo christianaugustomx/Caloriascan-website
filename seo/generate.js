@@ -267,6 +267,6 @@ for(const s of urls){
 }
 sm += `</urlset>\n`;
 fs.writeFileSync(path.join(OUT,'sitemap.xml'), sm);
-fs.writeFileSync(path.join(OUT,'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${DOMAIN}/sitemap.xml\n`);
+fs.writeFileSync(path.join(OUT,'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${DOMAIN}/sitemap.xml\nSitemap: ${DOMAIN}/sitemap-blog.xml\n`);
 
 console.log('Generated', pages.length, 'concepts ->', pages.length*2, 'pages + 2 hubs + sitemap + robots into', OUT);
