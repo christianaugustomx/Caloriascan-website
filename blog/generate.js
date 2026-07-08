@@ -45,7 +45,9 @@ function post(p, all, L){
   const isEN = L==='en';
   const c = p[L];
   const url = `${DOMAIN}${isEN?'/en/blog/':'/blog/'}${p.slug}`;
-  const ogImg = `${DOMAIN}/blog/og/${p.slug}-${L}.png`;
+  const ogImg = `${DOMAIN}/blog/og/${p.slug}-${L}.jpg`;
+  const hasHero = fs.existsSync(path.join(__dirname, 'img', `${p.slug}.jpg`));
+  const heroUrl = `/blog/img/${p.slug}.jpg`;
   const altEN = `${DOMAIN}/en/blog/${p.slug}`;
   const altES = `${DOMAIN}/blog/${p.slug}`;
   const title = `${c.title} | CalorIA Scan`;
@@ -130,6 +132,7 @@ nav.bc{font-size:13px;color:var(--mut);margin:6px 0 18px}nav.bc a{color:var(--mu
 .chip{display:inline-block;background:#eaf4ec;color:var(--g);font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;padding:4px 11px;border-radius:20px}
 h1{font-size:33px;line-height:1.18;margin:.35em 0 .15em;letter-spacing:-.01em}
 .dek{font-size:19px;color:var(--mut);margin:.4em 0 1em}
+.hero{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:16px;display:block;margin:8px 0 22px;background:#eef1f5}
 .meta{font-size:13px;color:var(--mut);margin:0 0 16px}
 .share{display:flex;align-items:center;gap:8px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:12px 0;margin:0 0 26px}
 .share-label{font-size:13px;color:var(--mut);margin-right:2px}
@@ -160,6 +163,7 @@ footer{font-size:13px;color:var(--mut);margin-top:16px}footer a{color:var(--mut)
 <h1>${esc(c.title)}</h1>
 <p class="dek">${esc(c.dek)}</p>
 <p class="meta">${t.by} CalorIA Scan · ${dateStr} · ${readMin} ${t.min}</p>
+${hasHero ? `<img class="hero" src="${heroUrl}" alt="${escAttr(c.title)}" width="1200" height="675" loading="eager">` : ''}
 ${shareBar(url, c.title, L)}
 ${tldrHTML}
 ${bodyHTML}
@@ -188,7 +192,7 @@ ${shareBar(url, c.title, L)}
 function hub(all, L){
   const isEN = L==='en';
   const url = `${DOMAIN}${isEN?'/en/blog/':'/blog/'}`;
-  const hubImg = `${DOMAIN}/blog/og/_hub-${L}.png`;
+  const hubImg = `${DOMAIN}/blog/og/_hub-${L}.jpg`;
   const title = isEN ? 'Nutrition Myths & Food Science — CalorIA Scan Blog' : 'Mitos de Nutrición y Ciencia de la Comida — Blog CalorIA Scan';
   const desc = isEN ? 'Viral food claims, checked against real science. Hidden sugar in "light" products, the egg-cholesterol myth, sweeteners and more — every claim sourced.' : 'Los mitos de la comida que se vuelven virales, revisados con ciencia real. Azúcar oculta en productos "light", el mito del huevo y el colesterol, edulcorantes y más — con fuentes.';
   const items = all.slice().sort((a,b)=> b.date.localeCompare(a.date)).map(x=>{
