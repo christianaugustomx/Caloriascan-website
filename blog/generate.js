@@ -189,24 +189,65 @@ ${shareBar(url, c.title, L)}
 </html>`;
 }
 
+const CAT_ORDER_ES = ['Mitos','Etiquetas','Aditivos','Salud','Edulcorantes'];
+const CAT_ORDER_EN = ['Myths','Labels','Additives','Health','Sweeteners'];
+const CAT_ICON = {Mitos:'🤯',Etiquetas:'🏷️',Aditivos:'🧪',Salud:'❤️',Edulcorantes:'🍬',
+                   Myths:'🤯',Labels:'🏷️',Additives:'🧪',Health:'❤️',Sweeteners:'🍬'};
+
+function groupByCategory(all, L){
+  const order = L==='en' ? CAT_ORDER_EN : CAT_ORDER_ES;
+  const sorted = all.slice().sort((a,b)=> b.date.localeCompare(a.date));
+  const groups = new Map();
+  for (const p of sorted){
+    const cat = L==='en' ? p.category_en : p.category_es;
+    if (!groups.has(cat)) groups.set(cat, []);
+    groups.get(cat).push(p);
+  }
+  const keys = [...groups.keys()].sort((a,b)=>{
+    const ia = order.indexOf(a), ib = order.indexOf(b);
+    return (ia<0?999:ia) - (ib<0?999:ib);
+  });
+  return keys.map(k=>({ cat:k, icon: CAT_ICON[k]||'📄', posts: groups.get(k) }));
+}
+
 function hub(all, L){
   const isEN = L==='en';
   const url = `${DOMAIN}${isEN?'/en/blog/':'/blog/'}`;
   const hubImg = `${DOMAIN}/blog/og/_hub-${L}.jpg`;
   const title = isEN ? 'Nutrition Myths & Food Science — CalorIA Scan Blog' : 'Mitos de Nutrición y Ciencia de la Comida — Blog CalorIA Scan';
   const desc = isEN ? 'Viral food claims, checked against real science. Hidden sugar in "light" products, the egg-cholesterol myth, sweeteners and more — every claim sourced.' : 'Los mitos de la comida que se vuelven virales, revisados con ciencia real. Azúcar oculta en productos "light", el mito del huevo y el colesterol, edulcorantes y más — con fuentes.';
-  const items = all.slice().sort((a,b)=> b.date.localeCompare(a.date)).map(x=>{
+  const t = isEN ? {
+    home:'Home', bannerTag:'Scan your plate, know your calories instantly.', bannerBtn:'Get the app free',
+    navApp:'App tips', navNews:"What's new", navRecipes:'Recipes',
+    secApp:'About the app', secScience:'Food science', secRecipes:'Recipes',
+    soon:'Coming soon', appDesc:"Guides to get the most out of your scans.", newsDesc:'New features and app updates.',
+    recipesDesc:'Mexican and Latino recipes with calories and macros already worked out.', switch:'Español'
+  } : {
+    home:'Inicio', bannerTag:'Escanea tu plato y conoce tus calorías al instante.', bannerBtn:'Descarga gratis',
+    navApp:'Tips de la app', navNews:'Novedades', navRecipes:'Recetas',
+    secApp:'Sobre la app', secScience:'Ciencia de la comida', secRecipes:'Recetas',
+    soon:'Próximamente', appDesc:'Guías para sacarle el máximo provecho a tus escaneos.', newsDesc:'Nuevas funciones y actualizaciones de la app.',
+    recipesDesc:'Recetas mexicanas y latinas con calorías y macros ya calculados.', switch:'English'
+  };
+  const groups = groupByCategory(all, L);
+  const chips = [
+    ...groups.map(g=>`<a class="chip" href="#${enc(g.cat)}">${esc(g.icon)} ${esc(g.cat)}</a>`),
+    `<a class="chip soon" href="#app">📱 ${esc(t.navApp)}</a>`,
+    `<a class="chip soon" href="#app">📣 ${esc(t.navNews)}</a>`,
+    `<a class="chip soon" href="#recipes">🍳 ${esc(t.navRecipes)}</a>`
+  ].join('');
+  const card = (x)=>{
     const c = x[L];
-    const cat = isEN ? x.category_en : x.category_es;
     const dateStr = new Date(x.date+'T12:00:00Z').toLocaleDateString(isEN?'en-US':'es-MX',{year:'numeric',month:'short',day:'numeric'});
     return `<li><a href="${isEN?'/en/blog/':'/blog/'}${x.slug}">
 <span class="e">${esc(x.emoji)}</span>
-<span class="cat">${esc(cat)}</span>
 <span class="tt">${esc(c.title)}</span>
 <span class="dk">${esc(c.dek)}</span>
 <span class="dt">${dateStr}</span>
 </a></li>`;
-  }).join('');
+  };
+  const scienceHTML = groups.map(g=>`<h3 class="cat-h" id="${enc(g.cat)}">${esc(g.icon)} ${esc(g.cat)}</h3><ul>${g.posts.map(card).join('')}</ul>`).join('');
+  const soonCard = (icon, name, descr) => `<div class="soon-card"><span class="e">${icon}</span><p class="st">${esc(name)}</p><p class="sd">${esc(t.soon)} — ${esc(descr)}</p></div>`;
   const ld = {"@context":"https://schema.org","@type":"Blog","name":"CalorIA Scan Blog","url":url,"inLanguage":L,
     "blogPost": all.map(x=>({"@type":"BlogPosting","headline":x[L].title,"url":`${DOMAIN}${isEN?'/en/blog/':'/blog/'}${x.slug}`,"datePublished":x.date}))};
   return `<!DOCTYPE html>
@@ -231,29 +272,54 @@ function hub(all, L){
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <script type="application/ld+json">${JSON.stringify(ld)}</script>
 <style>
-:root{--g:#2e7d32;--ink:#1c2430;--mut:#5b6675;--line:#e6e9ef}
+:root{--g:#2e7d32;--ink:#1c2430;--mut:#5b6675;--line:#e6e9ef;--soft:#f0f7f1}
 *{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);line-height:1.6}
 .wrap{max-width:780px;margin:0 auto;padding:24px 18px 64px}
 a.lang{float:right;font-size:13px;border:1px solid var(--line);padding:3px 10px;border-radius:20px;text-decoration:none;color:var(--mut)}
 nav.bc{font-size:13px;color:var(--mut);margin:6px 0 12px}nav.bc a{color:var(--mut);text-decoration:none}
-h1{font-size:32px;letter-spacing:-.01em;margin:.2em 0 .1em}.sub{color:var(--mut);font-size:18px;margin:0 0 26px}
+h1{font-size:32px;letter-spacing:-.01em;margin:.2em 0 .1em}.sub{color:var(--mut);font-size:18px;margin:0 0 22px}
+.banner{background:var(--soft);border:1px solid #cfe6d3;border-radius:16px;padding:18px 22px;margin:0 0 22px;display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.banner strong{display:block;font-size:16px}.banner span{display:block;color:var(--mut);font-size:14px;margin-top:2px}
+.banner .btn{flex-shrink:0;background:var(--g);color:#fff;text-decoration:none;padding:11px 20px;border-radius:10px;font-weight:700;font-size:14px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 30px}
+.chip{font-size:12px;font-weight:600;text-decoration:none;color:var(--ink);border:1px solid var(--line);border-radius:20px;padding:6px 13px}
+.chip.soon{color:var(--mut)}
+h2.sec{font-size:14px;text-transform:uppercase;letter-spacing:.05em;color:var(--mut);margin:34px 0 12px;padding-top:22px;border-top:1px solid var(--line)}
+h2.sec:first-of-type{border-top:none;padding-top:0}
+h3.cat-h{font-size:20px;letter-spacing:-.01em;margin:22px 0 12px}
 ul{list-style:none;padding:0;margin:0;display:grid;gap:14px}
 li a{display:block;border:1px solid var(--line);border-radius:14px;padding:18px 20px;text-decoration:none;color:var(--ink);transition:border-color .15s,box-shadow .15s}
 li a:hover{border-color:var(--g);box-shadow:0 4px 16px rgba(46,125,50,.08)}
-.e{font-size:26px}.cat{display:inline-block;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--g);margin-left:8px}
+.e{font-size:26px}
 .tt{display:block;font-size:20px;font-weight:700;line-height:1.3;margin:8px 0 4px;letter-spacing:-.01em}
 .dk{display:block;color:var(--mut);font-size:15px}.dt{display:block;color:var(--mut);font-size:12px;margin-top:8px}
+.soon-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.soon-card{border:1px dashed #c7ccd4;border-radius:14px;padding:16px 18px}
+.soon-card .st{font-weight:700;font-size:15px;margin:8px 0 2px}.soon-card .sd{color:var(--mut);font-size:13px;margin:0}
 footer{font-size:13px;color:var(--mut);margin-top:30px;border-top:1px solid var(--line);padding-top:16px}footer a{color:var(--mut)}
-@media(max-width:560px){h1{font-size:27px}}
+@media(max-width:560px){h1{font-size:27px}.soon-row{grid-template-columns:1fr}}
 </style>
 </head>
 <body><div class="wrap">
-<a class="lang" href="${isEN?'/blog/':'/en/blog/'}">${isEN?'Español':'English'}</a>
-<nav class="bc"><a href="${isEN?'/en/':'/'}">${isEN?'Home':'Inicio'}</a> › Blog</nav>
+<a class="lang" href="${isEN?'/blog/':'/en/blog/'}">${t.switch}</a>
+<nav class="bc"><a href="${isEN?'/en/':'/'}">${t.home}</a> › Blog</nav>
 <h1>${isEN?'Food myths, checked against real science':'Mitos de la comida, revisados con ciencia real'}</h1>
 <p class="sub">${isEN?'The viral claims everyone repeats — sourced, fact-checked, and explained in plain language.':'Las afirmaciones virales que todos repiten — con fuentes, verificadas y explicadas en simple.'}</p>
-<ul>${items}</ul>
-<footer>© ${new Date().getFullYear()} CalorIA Scan · <a href="${isEN?'/en/':'/'}">${isEN?'Home':'Inicio'}</a> · <a href="${isEN?'/en/calories/':'/calorias/'}">${isEN?'Food calories':'Calorías de alimentos'}</a></footer>
+<div class="banner">
+<div><strong>CalorIA Scan</strong><span>${esc(t.bannerTag)}</span></div>
+<a class="btn" href="${APP_URL}" rel="nofollow">${esc(t.bannerBtn)}</a>
+</div>
+<div class="chips">${chips}</div>
+<h2 class="sec" id="app">${esc(t.secApp)}</h2>
+<div class="soon-row">
+${soonCard('📱', t.navApp, t.appDesc)}
+${soonCard('📣', t.navNews, t.newsDesc)}
+</div>
+<h2 class="sec">${esc(t.secScience)}</h2>
+${scienceHTML}
+<h2 class="sec" id="recipes">${esc(t.secRecipes)}</h2>
+${soonCard('🍳', t.secRecipes, t.recipesDesc)}
+<footer>© ${new Date().getFullYear()} CalorIA Scan · <a href="${isEN?'/en/':'/'}">${t.home}</a> · <a href="${isEN?'/en/calories/':'/calorias/'}">${isEN?'Food calories':'Calorías de alimentos'}</a></footer>
 </div></body></html>`;
 }
 

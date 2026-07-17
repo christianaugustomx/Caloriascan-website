@@ -1,5 +1,109 @@
 [
   {
+    "slug": "e141-clorofila-cobre-colorante",
+    "date": "2026-07-17",
+    "category_es": "Aditivos",
+    "category_en": "Additives",
+    "emoji": "🧪",
+    "cluster": "aditivos",
+    "es": {
+      "title": "El verde brillante de tu goma de mascar no es \"natural\": es clorofila con cobre",
+      "dek": "Se llama E141 y aparece en dulces, verduras enlatadas y helados. Esto es lo que sabemos —y lo que todavía no— sobre su seguridad.",
+      "excerpt": "El E141 es clorofila a la que le cambiaron el magnesio por cobre para que el verde no se decolore. Te explicamos dónde se esconde y qué dice la evidencia sobre su seguridad.",
+      "tldr": [
+        "El E141 es clorofila natural modificada: se le reemplaza el magnesio por cobre para que el color verde no se decolore con el calor o el tiempo.",
+        "Aparece en goma de mascar, dulces, verduras enlatadas, helados, salsas y bebidas — donde se necesita un verde intenso y estable.",
+        "La EFSA lo considera de bajo riesgo, pero en 2015 retiró el límite diario numérico (IDA) específico por falta de estudios suficientes sobre su absorción a largo plazo."
+      ],
+      "body": [
+        {
+          "h": "Qué es realmente el E141",
+          "p": [
+            "La clorofila es el pigmento verde natural de las plantas, pero se degrada fácil con el calor, la luz o el tiempo —por eso las verduras cocidas pierden su verde intenso. Para evitarlo, la industria toma esa clorofila y le cambia el átomo de magnesio del centro por uno de cobre. El resultado es un colorante más estable, que aguanta procesos industriales sin perder el color: el E141.",
+            "No es un químico creado desde cero en laboratorio; es un derivado modificado de un pigmento vegetal. Por eso muchas etiquetas lo listan como \"colorante vegetal\" o \"clorofilina cúprica\" sin que suene a aditivo sintético."
+          ]
+        },
+        {
+          "h": "Dónde se esconde",
+          "p": [
+            "Aparece en productos donde el verde necesita verse vibrante y parejo: goma de mascar y dulces, verduras enlatadas (como chícharos), helados y yogures sabor menta o pistache, salsas tipo pesto envasadas, y algunas bebidas. Búscalo en la lista de ingredientes como <strong>\"E141\"</strong>, <strong>\"INS 141\"</strong>, \"clorofilina cúprica\" o \"copper complexes of chlorophyllin\"."
+          ]
+        },
+        {
+          "h": "Qué dice la evidencia sobre su seguridad",
+          "p": [
+            "El Comité Conjunto FAO/OMS de Expertos en Aditivos Alimentarios (JECFA) fijó hace años una <strong>ingesta diaria admisible (IDA) de 0 a 15 mg por kg de peso corporal</strong> para los complejos de cobre y clorofila. Pero en 2015, tras una revisión, la EFSA concluyó que los estudios disponibles sobre su absorción y toxicidad a largo plazo eran insuficientes y retiró ese límite numérico específico —no porque encontrara daño, sino porque faltan más datos para confirmar un límite preciso.",
+            "Mientras tanto, sigue autorizado en la Unión Europea bajo el criterio de \"cantidad suficiente\" (solo lo necesario para lograr el efecto de color), y se mantiene en la categoría de aditivos de bajo riesgo. La única población con una precaución específica son las personas con enfermedades del metabolismo del cobre, como la enfermedad de Wilson, a quienes conviene vigilar cualquier fuente extra de cobre en su dieta."
+          ]
+        },
+        {
+          "h": "Qué hacer con esta información",
+          "p": [
+            "El E141 no es de los aditivos que deberían quitarte el sueño: viene de un pigmento natural y se usa en cantidades mínimas. Pero si prefieres evitar aditivos con evidencia incompleta, revisa la lista de ingredientes antes de comprar dulces, verduras enlatadas o salsas de color verde intenso, y prioriza versiones sin colorantes añadidos. Y si tienes dudas sobre qué trae realmente algo que vas a comer, escanéalo con CalorIA Scan antes de decidir."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "FAO/JECFA — Especificación técnica: Chlorophyllins, Copper Complexes Sodium and Potassium Salts (INS 141ii)",
+          "url": "https://www.fao.org/fileadmin/user_upload/jecfa_additives/docs/Monograph1/Additive-127.pdf"
+        },
+        {
+          "name": "EFSA — Scientific Opinion: re-evaluation of copper complexes of chlorophylls (E141i) and chlorophyllins (E141ii) as food additives (2015)",
+          "url": "https://doi.org/10.2903/j.efsa.2015.4151"
+        }
+      ]
+    },
+    "en": {
+      "title": "That bright green in your chewing gum isn't \"natural\" — it's chlorophyll with copper",
+      "dek": "It's called E141, and it shows up in candy, canned vegetables and ice cream. Here's what we know — and don't — about its safety.",
+      "excerpt": "E141 is chlorophyll with its magnesium swapped for copper so the green doesn't fade. Here's where it hides and what the evidence says about its safety.",
+      "tldr": [
+        "E141 is modified natural chlorophyll: its magnesium is swapped for copper so the green color doesn't fade under heat or over time.",
+        "It shows up in chewing gum, candy, canned vegetables, ice cream, sauces and drinks — wherever a stable, vivid green is needed.",
+        "EFSA considers it low-risk, but in 2015 it withdrew the specific numerical daily intake limit (ADI) due to insufficient long-term absorption data."
+      ],
+      "body": [
+        {
+          "h": "What E141 actually is",
+          "p": [
+            "Chlorophyll is the natural green pigment in plants, but it breaks down easily with heat, light or time — that's why cooked vegetables lose their bright green. To prevent that, the industry takes chlorophyll and swaps the magnesium atom at its center for copper. The result is a more stable colorant that survives industrial processing without fading: E141.",
+            "It isn't a chemical built from scratch in a lab — it's a modified derivative of a plant pigment. That's why many labels list it as \"vegetable colorant\" or \"copper chlorophyllin\" without it sounding like a synthetic additive."
+          ]
+        },
+        {
+          "h": "Where it hides",
+          "p": [
+            "It shows up in products where green needs to look vivid and even: chewing gum and candy, canned vegetables (like peas), mint or pistachio ice cream and yogurt, packaged pesto-style sauces, and some drinks. Look for it on the ingredient list as <strong>\"E141\"</strong>, <strong>\"INS 141\"</strong>, \"copper chlorophyllin\" or \"copper complexes of chlorophyllin.\""
+          ]
+        },
+        {
+          "h": "What the evidence says about its safety",
+          "p": [
+            "The Joint FAO/WHO Expert Committee on Food Additives (JECFA) set an <strong>acceptable daily intake (ADI) of 0 to 15 mg per kg of body weight</strong> for copper-chlorophyll complexes years ago. But in 2015, after a review, EFSA concluded the available studies on its long-term absorption and toxicity were insufficient and withdrew that specific numerical limit — not because it found harm, but because more data is needed to confirm a precise limit.",
+            "In the meantime, it remains authorized in the EU under a \"quantum satis\" rule (only as much as needed for the color effect) and stays classified as low-risk. The one group with a specific caution are people with copper-metabolism disorders, like Wilson's disease, who should watch any extra copper source in their diet."
+          ]
+        },
+        {
+          "h": "What to do with this information",
+          "p": [
+            "E141 isn't the kind of additive that should keep you up at night — it comes from a natural pigment and is used in tiny amounts. But if you'd rather avoid additives with incomplete evidence, check the ingredient list before buying vividly green candy, canned vegetables or sauces, and favor versions without added coloring. And whenever you're unsure what's really in something before you eat it, scan it with CalorIA Scan and compare before you decide."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "FAO/JECFA — Technical specification: Chlorophyllins, Copper Complexes Sodium and Potassium Salts (INS 141ii)",
+          "url": "https://www.fao.org/fileadmin/user_upload/jecfa_additives/docs/Monograph1/Additive-127.pdf"
+        },
+        {
+          "name": "EFSA — Scientific Opinion: re-evaluation of copper complexes of chlorophylls (E141i) and chlorophyllins (E141ii) as food additives (2015)",
+          "url": "https://doi.org/10.2903/j.efsa.2015.4151"
+        }
+      ]
+    }
+  },
+  {
     "slug": "barras-granola-azucar-oculta",
     "date": "2026-07-17",
     "category_es": "Etiquetas",
