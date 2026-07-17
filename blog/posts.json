@@ -106,8 +106,8 @@
   {
     "slug": "barras-granola-azucar-oculta",
     "date": "2026-07-17",
-    "category_es": "Etiquetas",
-    "category_en": "Labels",
+    "category_es": "Mitos",
+    "category_en": "Myths",
     "emoji": "🌾",
     "cluster": "azucar",
     "es": {
@@ -212,8 +212,8 @@
   {
     "slug": "productos-light-azucar-oculta",
     "date": "2026-07-07",
-    "category_es": "Etiquetas",
-    "category_en": "Labels",
+    "category_es": "Mitos",
+    "category_en": "Myths",
     "emoji": "🍓",
     "cluster": "azucar",
     "es": {
@@ -718,8 +718,8 @@
   {
     "slug": "pan-integral-mito",
     "date": "2026-07-03",
-    "category_es": "Etiquetas",
-    "category_en": "Labels",
+    "category_es": "Mitos",
+    "category_en": "Myths",
     "emoji": "🍞",
     "cluster": "azucar",
     "es": {
