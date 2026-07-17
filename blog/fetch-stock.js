@@ -12,6 +12,7 @@ fs.mkdirSync(IMG, { recursive: true });
 
 // per-slug search queries (first acceptable hit wins), tried in order
 const QUERIES = {
+  'barras-granola-azucar-oculta': ['granola bar oats', 'oat bars snack', 'granola bars'],
   'productos-light-azucar-oculta': ['strawberry yogurt', 'yogurt breakfast bowl', 'yogurt'],
   'huevo-colesterol-mito': ['fried eggs breakfast', 'eggs food', 'boiled eggs'],
   'aguacate-engorda-mito': ['avocado toast', 'halved avocado', 'avocado fruit'],

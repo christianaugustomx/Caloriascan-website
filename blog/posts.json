@@ -1,5 +1,111 @@
 [
   {
+    "slug": "barras-granola-azucar-oculta",
+    "date": "2026-07-17",
+    "category_es": "Etiquetas",
+    "category_en": "Labels",
+    "emoji": "🌾",
+    "cluster": "azucar",
+    "es": {
+      "title": "Tu barrita de granola \"fit\" puede tener tanta azúcar como una galleta",
+      "dek": "La caja dice \"avena\" y \"fibra\". La tabla nutrimental cuenta otra historia.",
+      "excerpt": "Las barritas de granola se venden como snack saludable, pero varias traen tanta azúcar añadida como una galleta. Te explicamos cómo detectarlo en la etiqueta, con Harvard y la OMS.",
+      "tldr": [
+        "Las barritas de granola se anuncian con \"avena\", \"fibra\" o \"cereales integrales\", pero eso no dice nada sobre cuánta azúcar llevan.",
+        "Una sola barrita puede traer 6 g de azúcar añadida — y muchos paquetes vienen de a dos, así que terminas comiendo el doble sin darte cuenta.",
+        "La OMS recomienda que el azúcar libre sea menos del 10% de tus calorías diarias, e idealmente menos del 5%."
+      ],
+      "body": [
+        {
+          "h": "El empaque saludable que engaña",
+          "p": [
+            "La imagen del empaque —avena dorada, nueces, un campo de trigo— comunica \"salud\" antes de que leas una sola palabra. Pero \"hecho con avena\" o \"cereales integrales\" es una afirmación sobre el ingrediente principal, no sobre cuánta azúcar se usó para pegar esos ingredientes entre sí.",
+            "Para que la avena, las semillas y los cereales se compacten en una barra crujiente, la receta necesita algo pegajoso: jarabe de maíz, miel, azúcar invertida o glucosa. Ese \"pegamento\" es, casi siempre, azúcar pura."
+          ]
+        },
+        {
+          "h": "El ejemplo de la barrita de granola",
+          "p": [
+            "Según la Harvard T.H. Chan School of Public Health, una barrita de granola crujiente típica puede traer <strong>6 gramos de azúcar añadida</strong> por porción — y muchos paquetes individuales en realidad contienen dos barras, así que si te comes el paquete completo terminas con <strong>12 gramos</strong>, sin haberlo planeado.",
+            "Súmalo a lo demás que comes en el día: la OMS recomienda que el azúcar libre no pase del 10% de tu energía diaria —unos 50 g (12 cucharaditas) en una dieta de 2000 calorías— e idealmente menos del 5% (unos 25 g). Dos barritas ya representan casi la mitad de ese margen ideal, antes de cualquier otra cosa que comas."
+          ]
+        },
+        {
+          "h": "Cómo leer la etiqueta en 10 segundos",
+          "p": [
+            "Revisa cuántas porciones trae el paquete —muchas veces \"1 barrita\" no es \"1 porción\"— y mira la línea de <strong>\"Azúcares añadidos\"</strong> por porción real, no por 100 g.",
+            "Regla rápida: <strong>4 gramos de azúcar = 1 cucharadita</strong>. Y en la lista de ingredientes, cuenta cuántas veces aparecen distintos nombres de azúcar (jarabe de maíz, miel, azúcar invertida, dextrosa, concentrado de fruta): si son varios, se están repartiendo entre distintos renglones para no aparecer primero."
+          ]
+        },
+        {
+          "h": "Qué hacer en su lugar",
+          "p": [
+            "No hay que eliminar las barritas, sino elegir mejor: busca las que tengan <strong>más fibra que azúcar</strong> por porción, o prepara tu propia mezcla de avena, nueces y fruta deshidratada en casa, donde tú decides cuánta azúcar entra. Y si no estás segura de cuánta azúcar o cuántas calorías trae algo antes de comerlo, escanéalo con CalorIA Scan y compáralo antes de decidir."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "Harvard T.H. Chan — The Nutrition Source: Added Sugar in the Diet",
+          "url": "https://nutritionsource.hsph.harvard.edu/carbohydrates/added-sugar-in-the-diet/"
+        },
+        {
+          "name": "OMS — Alimentación sana (recomendación de azúcares libres <10% / <5%)",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+        }
+      ]
+    },
+    "en": {
+      "title": "That \"fit\" granola bar can carry as much sugar as a cookie",
+      "dek": "The box says \"oats\" and \"fiber.\" The nutrition label tells a different story.",
+      "excerpt": "Granola bars are sold as a healthy snack, but several carry as much added sugar as a cookie. Here's how to spot it on the label, backed by Harvard and WHO guidance.",
+      "tldr": [
+        "Granola bars are marketed with \"oats,\" \"fiber,\" or \"whole grains\" — none of which says anything about how much sugar holds them together.",
+        "A single bar can carry 6 g of added sugar — and many packs actually contain two bars, so you can end up eating double without noticing.",
+        "WHO recommends keeping free sugars under 10% of your daily calories, and ideally under 5%."
+      ],
+      "body": [
+        {
+          "h": "The healthy-looking package that misleads",
+          "p": [
+            "The package art — golden oats, nuts, a wheat field — signals \"healthy\" before you read a single word. But \"made with oats\" or \"whole grains\" is a claim about the main ingredient, not about how much sugar was used to hold those ingredients together.",
+            "To press oats, seeds and grains into a crunchy bar, the recipe needs something sticky: corn syrup, honey, invert sugar or glucose. That \"glue\" is, almost always, straight sugar."
+          ]
+        },
+        {
+          "h": "The granola bar example",
+          "p": [
+            "According to the Harvard T.H. Chan School of Public Health, a typical crunchy granola bar can carry <strong>6 grams of added sugar</strong> per serving — and many individual packs actually contain two bars, so eating the whole pack doubles that to <strong>12 grams</strong>, without you planning it.",
+            "Add that to everything else you eat that day: WHO recommends free sugars stay under 10% of your daily energy — about 50 g (12 teaspoons) on a 2,000-calorie diet — and ideally under 5% (about 25 g). Two bars alone already eat up nearly half of that ideal budget, before anything else you eat."
+          ]
+        },
+        {
+          "h": "How to read the label in 10 seconds",
+          "p": [
+            "Check how many servings the pack actually holds — often \"1 bar\" isn't \"1 serving\" — and look at the <strong>\"Added sugars\"</strong> line per real serving, not per 100 g.",
+            "Quick rule: <strong>4 grams of sugar = 1 teaspoon</strong>. And in the ingredient list, count how many different sugar names show up (corn syrup, honey, invert sugar, dextrose, fruit concentrate): if there are several, they're being split across different lines so none of them appears first."
+          ]
+        },
+        {
+          "h": "What to do instead",
+          "p": [
+            "You don't need to cut out bars — just choose better ones: look for bars with <strong>more fiber than sugar</strong> per serving, or make your own mix of oats, nuts and dried fruit at home, where you decide how much sugar goes in. And whenever you're unsure how much sugar or how many calories something holds before you eat it, scan it with CalorIA Scan and compare before you decide."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "Harvard T.H. Chan — The Nutrition Source: Added Sugar in the Diet",
+          "url": "https://nutritionsource.hsph.harvard.edu/carbohydrates/added-sugar-in-the-diet/"
+        },
+        {
+          "name": "WHO — Healthy diet (free sugars recommendation <10% / <5%)",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+        }
+      ]
+    }
+  },
+  {
     "slug": "productos-light-azucar-oculta",
     "date": "2026-07-07",
     "category_es": "Etiquetas",
