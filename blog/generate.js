@@ -193,6 +193,7 @@ const SUBSECTION_ES = {Mitos:'Mitos', Etiquetas:'Cómo leer etiquetas', Aditivos
 const SUBSECTION_EN = {Myths:'Myths', Labels:'How to read labels', Additives:'How to read labels', Health:'Health', Sweeteners:'Health'};
 const SUBSECTION_ORDER = ['Mitos','Cómo leer etiquetas','Salud','Myths','How to read labels','Health'];
 const SUBSECTION_ICON = {Mitos:'🤯','Cómo leer etiquetas':'🏷️',Salud:'❤️',Myths:'🤯','How to read labels':'🏷️',Health:'❤️'};
+const SUBSECTION_KEY = {Mitos:'mitos','Cómo leer etiquetas':'etiquetas',Salud:'salud',Myths:'myths','How to read labels':'labels',Health:'health'};
 
 function groupBySubsection(all, L){
   const map = L==='en' ? SUBSECTION_EN : SUBSECTION_ES;
@@ -205,7 +206,7 @@ function groupBySubsection(all, L){
     groups.get(sub).push(p);
   }
   const keys = [...groups.keys()].sort((a,b)=> SUBSECTION_ORDER.indexOf(a) - SUBSECTION_ORDER.indexOf(b));
-  return keys.map(k=>({ sub:k, icon: SUBSECTION_ICON[k]||'📄', posts: groups.get(k) }));
+  return keys.map(k=>({ sub:k, key: SUBSECTION_KEY[k]||enc(k), icon: SUBSECTION_ICON[k]||'📄', posts: groups.get(k) }));
 }
 
 function hub(all, L){
@@ -217,11 +218,15 @@ function hub(all, L){
   const t = isEN ? {
     home:'Home', switch:'Español',
     secApp:'About the app', secScience:'Food science', appTips:'App tips', news:"What's new", recipes:'Recipes',
-    soon:'Coming soon.'
+    soon:'Coming soon.',
+    navAppDesc:'Tips to get the most out of the app, and the latest updates.',
+    navScienceDesc:'Myths, labels, health and recipes — all explained with real sources.'
   } : {
     home:'Inicio', switch:'English',
     secApp:'Sobre la app', secScience:'Ciencia de la comida', appTips:'Tips de la app', news:'Novedades', recipes:'Recetas',
-    soon:'Próximamente.'
+    soon:'Próximamente.',
+    navAppDesc:'Tips para sacarle provecho a la app, y las últimas novedades.',
+    navScienceDesc:'Mitos, etiquetas, salud y recetas — todo explicado con fuentes reales.'
   };
   const card = (x)=>{
     const c = x[L];
@@ -234,10 +239,25 @@ function hub(all, L){
 </a></li>`;
   };
   const subsections = groupBySubsection(all, L);
-  const scienceHTML = subsections.map(g=>`<h3 class="sub-h">${esc(g.icon)} ${esc(g.sub)}</h3><ul>${g.posts.map(card).join('')}</ul>`).join('')
-    + `<h3 class="sub-h">🍳 ${esc(t.recipes)}</h3><p class="soon">${esc(t.soon)}</p>`;
-  const appHTML = `<h3 class="sub-h">📱 ${esc(t.appTips)}</h3><p class="soon">${esc(t.soon)}</p>
-<h3 class="sub-h">📣 ${esc(t.news)}</h3><p class="soon">${esc(t.soon)}</p>`;
+  const scienceHTML = subsections.map(g=>`<h3 class="sub-h" id="${g.key}">${esc(g.icon)} ${esc(g.sub)}</h3><ul>${g.posts.map(card).join('')}</ul>`).join('')
+    + `<h3 class="sub-h" id="recipes">🍳 ${esc(t.recipes)}</h3><p class="soon">${esc(t.soon)}</p>`;
+  const appHTML = `<h3 class="sub-h" id="app-tips">📱 ${esc(t.appTips)}</h3><p class="soon">${esc(t.soon)}</p>
+<h3 class="sub-h" id="whats-new">📣 ${esc(t.news)}</h3><p class="soon">${esc(t.soon)}</p>`;
+  const navSubLinks = (items) => items.map(([icon,label,key])=>`<a href="#${key}">${icon} ${esc(label)}</a>`).join('');
+  const navHTML = `<div class="nav-grid">
+<div class="nav-card">
+<div class="nav-icon">📱</div>
+<h3>${esc(t.secApp)}</h3>
+<p>${esc(t.navAppDesc)}</p>
+<div class="nav-sub">${navSubLinks([['📱',t.appTips,'app-tips'],['📣',t.news,'whats-new']])}</div>
+</div>
+<div class="nav-card">
+<div class="nav-icon">🔬</div>
+<h3>${esc(t.secScience)}</h3>
+<p>${esc(t.navScienceDesc)}</p>
+<div class="nav-sub">${navSubLinks([...subsections.map(g=>[g.icon,g.sub,g.key]), ['🍳',t.recipes,'recipes']])}</div>
+</div>
+</div>`;
   const ld = {"@context":"https://schema.org","@type":"Blog","name":"CalorIA Scan Blog","url":url,"inLanguage":L,
     "blogPost": all.map(x=>({"@type":"BlogPosting","headline":x[L].title,"url":`${DOMAIN}${isEN?'/en/blog/':'/blog/'}${x.slug}`,"datePublished":x.date}))};
   return `<!DOCTYPE html>
@@ -260,16 +280,36 @@ function hub(all, L){
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="${hubImg}">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
 <script type="application/ld+json">${JSON.stringify(ld)}</script>
 <style>
-:root{--g:#2e7d32;--ink:#1c2430;--mut:#5b6675;--line:#e6e9ef}
+:root{--g:#2e7d32;--ink:#1c2430;--mut:#5b6675;--line:#e6e9ef;
+--cobalt:#1F52DE;--burnt:#D9541E;--cactus:#1E9E6A;
+--cream:#F4F0E7;--cream-warm:#ECE6D9;--cream-deep:#DED6C4;
+--text-dark:#16264F;--text-mid:#5A6577;
+--glass-bg:#FFFFFF;--glass-border:rgba(22,38,79,0.07);--glass-shadow:0 10px 30px rgba(22,38,79,0.08);--radius-xl:28px}
 *{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);line-height:1.6}
 .wrap{max-width:780px;margin:0 auto;padding:24px 18px 64px}
 a.lang{float:right;font-size:13px;border:1px solid var(--line);padding:3px 10px;border-radius:20px;text-decoration:none;color:var(--mut)}
 nav.bc{font-size:13px;color:var(--mut);margin:6px 0 12px}nav.bc a{color:var(--mut);text-decoration:none}
-h2.sec{font-size:22px;letter-spacing:-.01em;margin:38px 0 4px;padding-top:26px;border-top:1px solid var(--line)}
+.nav-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;margin:8px 0 40px}
+.nav-card{padding:28px;position:relative;overflow:hidden;background:var(--glass-bg);border:0.5px solid var(--glass-border);border-radius:var(--radius-xl);box-shadow:var(--glass-shadow);transition:transform .3s cubic-bezier(.22,1,.36,1),box-shadow .3s ease}
+.nav-card::after{content:'';position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--cobalt),var(--burnt),var(--cactus));opacity:0;transition:opacity .3s ease}
+.nav-card:hover{transform:translateY(-4px);box-shadow:0 16px 48px rgba(0,71,171,.12)}
+.nav-card:hover::after{opacity:1}
+.nav-icon{width:52px;height:52px;border-radius:16px;display:flex;align-items:center;justify-content:center;font-size:26px;margin-bottom:16px;background:linear-gradient(135deg,var(--cream) 0%,var(--cream-warm) 100%);border:1.5px solid var(--cream-deep);box-shadow:0 2px 8px rgba(42,31,20,.06)}
+.nav-card h3{font-family:'Nunito',sans-serif;font-weight:800;letter-spacing:-.02em;font-size:20px;margin:0 0 8px;color:var(--text-dark)}
+.nav-card p{font-family:'Nunito',sans-serif;font-size:14px;color:var(--text-mid);line-height:1.6;margin:0}
+.nav-sub{display:flex;flex-wrap:wrap;gap:8px;max-height:0;opacity:0;overflow:hidden;transition:max-height .35s ease,opacity .3s ease,margin-top .35s ease;margin-top:0}
+.nav-card:hover .nav-sub{max-height:220px;opacity:1;margin-top:18px}
+.nav-sub a{font-family:'Nunito',sans-serif;font-size:13px;font-weight:700;color:var(--text-dark);text-decoration:none;padding:8px 13px;border-radius:10px;background:var(--cream);border:1px solid var(--cream-deep);transition:border-color .15s,color .15s}
+.nav-sub a:hover{border-color:var(--cobalt);color:var(--cobalt)}
+@media (hover:none){.nav-sub{max-height:220px;opacity:1;margin-top:18px}}
+h2.sec{font-size:22px;letter-spacing:-.01em;margin:38px 0 4px;padding-top:26px;border-top:1px solid var(--line);scroll-margin-top:16px}
 h2.sec:first-of-type{border-top:none;padding-top:0;margin-top:0}
-h3.sub-h{font-size:15px;font-weight:700;color:var(--mut);text-transform:uppercase;letter-spacing:.04em;margin:22px 0 12px}
+h3.sub-h{font-size:15px;font-weight:700;color:var(--mut);text-transform:uppercase;letter-spacing:.04em;margin:22px 0 12px;scroll-margin-top:16px}
 ul{list-style:none;padding:0;margin:0;display:grid;gap:14px}
 li a{display:block;border:1px solid var(--line);border-radius:14px;padding:18px 20px;text-decoration:none;color:var(--ink);transition:border-color .15s,box-shadow .15s}
 li a:hover{border-color:var(--g);box-shadow:0 4px 16px rgba(46,125,50,.08)}
@@ -283,6 +323,7 @@ footer{font-size:13px;color:var(--mut);margin-top:30px;border-top:1px solid var(
 <body><div class="wrap">
 <a class="lang" href="${isEN?'/blog/':'/en/blog/'}">${t.switch}</a>
 <nav class="bc"><a href="${isEN?'/en/':'/'}">${t.home}</a> › Blog</nav>
+${navHTML}
 <h2 class="sec">${esc(t.secApp)}</h2>
 ${appHTML}
 <h2 class="sec">${esc(t.secScience)}</h2>
