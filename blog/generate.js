@@ -59,13 +59,17 @@ function post(p, all, L){
     sources:'Sources', related:'Keep reading', ctaTitle:'Stop guessing your calories',
     ctaText:'CalorIA Scan reads your plate from a photo and gives you calories and macros tuned for real Mexican and Latino food — where generic apps get it wrong.',
     ctaBtn:'Get CalorIA Scan free', switch:'Español',
-    disc:'This article is informational and not medical advice. Consult a doctor or registered dietitian before changing your diet, especially with a pre-existing condition.'
+    disc:'This article is informational and not medical advice. Consult a doctor or registered dietitian before changing your diet, especially with a pre-existing condition.',
+    comments:'Comments', commentPlaceholder:'Write your comment...', namePlaceholder:'Your name',
+    commentBtn:'Post', commentSoon:'💬 Comments will be available soon.'
   } : {
     home:'Inicio', blog:'Blog', by:'Por', min:'min de lectura', tldr:'En resumen',
     sources:'Fuentes', related:'Sigue leyendo', ctaTitle:'Deja de adivinar tus calorías',
     ctaText:'CalorIA Scan lee tu plato desde una foto y te da calorías y macros pensados para la comida mexicana y latina real — donde las apps genéricas se equivocan.',
     ctaBtn:'Descarga CalorIA Scan gratis', switch:'English',
-    disc:'Este artículo es informativo y no constituye consejo médico. Consulta a un médico o nutriólogo antes de cambiar tu dieta, especialmente si tienes alguna condición de salud.'
+    disc:'Este artículo es informativo y no constituye consejo médico. Consulta a un médico o nutriólogo antes de cambiar tu dieta, especialmente si tienes alguna condición de salud.',
+    comments:'Comentarios', commentPlaceholder:'Escribe tu comentario...', namePlaceholder:'Tu nombre',
+    commentBtn:'Publicar', commentSoon:'💬 Los comentarios estarán disponibles muy pronto.'
   };
 
   const ld = [
@@ -150,6 +154,14 @@ ul.rel{list-style:none;padding:0;margin:14px 0 0;display:grid;grid-template-colu
 ul.rel a{display:block;border:1px solid var(--line);border-radius:12px;padding:14px;text-decoration:none;color:var(--ink);transition:border-color .15s}
 ul.rel a:hover{border-color:var(--g)}
 .rc-emoji{font-size:24px;display:block}.rc-cat{display:block;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--g);margin:6px 0 3px}.rc-title{display:block;font-size:15px;font-weight:600;line-height:1.35}
+.comments{margin:38px 0}
+.comment-form{background:var(--soft);border:1px solid var(--line);border-radius:14px;padding:18px}
+.comment-form textarea{width:100%;border:1px solid var(--line);border-radius:10px;padding:12px;font-family:inherit;font-size:15px;resize:vertical;background:#fff;color:var(--ink)}
+.comment-form textarea:disabled,.comment-form input:disabled{background:#eef1f5;color:var(--mut);cursor:not-allowed}
+.comment-row{display:flex;gap:10px;margin-top:10px;flex-wrap:wrap}
+.comment-row input{flex:1;min-width:160px;border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-family:inherit;font-size:14px;background:#fff}
+.comment-row button{background:var(--g);color:#fff;border:none;border-radius:10px;padding:10px 20px;font-weight:700;font-size:14px;opacity:.6;cursor:not-allowed}
+.comment-soon{font-size:13px;color:var(--mut);margin:10px 0 0}
 .disc{font-size:12px;color:var(--mut);border-top:1px solid var(--line);margin-top:38px;padding-top:14px}
 footer{font-size:13px;color:var(--mut);margin-top:16px}footer a{color:var(--mut)}
 @media(max-width:560px){h1{font-size:27px}.dek{font-size:17px}ul.rel{grid-template-columns:1fr}}
@@ -181,6 +193,18 @@ ${shareBar(url, c.title, L)}
 
 <h2>${esc(t.related)}</h2>
 <ul class="rel">${related(p,all,L)}</ul>
+
+<div class="comments">
+<h2>${esc(t.comments)}</h2>
+<form class="comment-form">
+<textarea rows="4" placeholder="${escAttr(t.commentPlaceholder)}" disabled></textarea>
+<div class="comment-row">
+<input type="text" placeholder="${escAttr(t.namePlaceholder)}" disabled>
+<button type="button" disabled>${esc(t.commentBtn)}</button>
+</div>
+</form>
+<p class="comment-soon">${esc(t.commentSoon)}</p>
+</div>
 
 <p class="disc">${esc(t.disc)}</p>
 <footer>© ${new Date().getFullYear()} CalorIA Scan · <a href="${isEN?'/en/':'/'}">${t.home}</a> · <a href="/privacy-policy">${isEN?'Privacy':'Privacidad'}</a> · <a href="/terms">${isEN?'Terms':'Términos'}</a></footer>
