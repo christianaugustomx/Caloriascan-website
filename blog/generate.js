@@ -261,11 +261,15 @@ function hub(all, L){
   const card = (x)=>{
     const c = x[L];
     const dateStr = new Date(x.date+'T12:00:00Z').toLocaleDateString(isEN?'en-US':'es-MX',{year:'numeric',month:'short',day:'numeric'});
+    const hasImg = fs.existsSync(path.join(__dirname, 'img', `${x.slug}.jpg`));
+    const img = hasImg ? `<img class="ci" src="/blog/img/${x.slug}.jpg" alt="${escAttr(c.title)}" width="600" height="400" loading="lazy">` : '';
     return `<li><a href="${isEN?'/en/blog/':'/blog/'}${x.slug}">
-<span class="e">${esc(x.emoji)}</span>
+${img}
+<span class="cbody">
 <span class="tt">${esc(c.title)}</span>
 <span class="dk">${esc(c.dek)}</span>
 <span class="dt">${dateStr}</span>
+</span>
 </a></li>`;
   };
   const subsections = groupBySubsection(all, L);
@@ -314,10 +318,11 @@ h2.sec{font-size:22px;letter-spacing:-.01em;margin:38px 0 4px;padding-top:26px;b
 h2.sec:first-of-type{border-top:none;padding-top:0;margin-top:0}
 h3.sub-h{font-size:15px;font-weight:700;color:var(--mut);text-transform:uppercase;letter-spacing:.04em;margin:22px 0 12px;scroll-margin-top:90px}
 ul{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
-li a{display:block;height:100%;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;text-decoration:none;color:var(--ink);transition:border-color .15s,box-shadow .15s}
+li a{display:flex;flex-direction:column;height:100%;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;text-decoration:none;color:var(--ink);transition:border-color .15s,box-shadow .15s}
 li a:hover{border-color:var(--g);box-shadow:0 4px 16px rgba(22,38,79,.1)}
-.e{font-size:26px}
-.tt{display:block;font-size:20px;font-weight:700;line-height:1.3;margin:8px 0 4px;letter-spacing:-.01em}
+.ci{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;background:var(--line)}
+.cbody{display:flex;flex-direction:column;padding:16px 18px 18px}
+.tt{display:block;font-size:20px;font-weight:700;line-height:1.3;margin:0 0 4px;letter-spacing:-.01em}
 .dk{display:block;color:var(--mut);font-size:15px}.dt{display:block;color:var(--mut);font-size:12px;margin-top:8px}
 .soon{font-size:14px;color:var(--mut);margin:0}
 footer{font-size:13px;color:var(--mut);margin-top:30px;border-top:1px solid var(--line);padding-top:16px}footer a{color:var(--mut)}

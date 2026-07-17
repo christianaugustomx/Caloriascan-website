@@ -37,10 +37,11 @@ h2.sec{font-size:22px;letter-spacing:-.01em;margin:38px 0 4px;padding-top:26px;b
 h2.sec:first-of-type{border-top:none;padding-top:0;margin-top:0}
 h3.sub-h{font-size:15px;font-weight:700;color:var(--mut);text-transform:uppercase;letter-spacing:.04em;margin:22px 0 12px;scroll-margin-top:90px}
 ul{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
-li a{display:block;height:100%;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;text-decoration:none;color:var(--ink);transition:border-color .15s,box-shadow .15s}
+li a{display:flex;flex-direction:column;height:100%;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;text-decoration:none;color:var(--ink);transition:border-color .15s,box-shadow .15s}
 li a:hover{border-color:var(--g);box-shadow:0 4px 16px rgba(22,38,79,.1)}
-.e{font-size:26px}
-.tt{display:block;font-size:20px;font-weight:700;line-height:1.3;margin:8px 0 4px;letter-spacing:-.01em}
+.ci{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;background:var(--line)}
+.cbody{display:flex;flex-direction:column;padding:16px 18px 18px}
+.tt{display:block;font-size:20px;font-weight:700;line-height:1.3;margin:0 0 4px;letter-spacing:-.01em}
 .dk{display:block;color:var(--mut);font-size:15px}.dt{display:block;color:var(--mut);font-size:12px;margin-top:8px}
 .soon{font-size:14px;color:var(--mut);margin:0}
 footer{font-size:13px;color:var(--mut);margin-top:30px;border-top:1px solid var(--line);padding-top:16px}footer a{color:var(--mut)}
@@ -64,55 +65,75 @@ footer{font-size:13px;color:var(--mut);margin-top:30px;border-top:1px solid var(
 <h3 class="sub-h" id="whats-new">📣 What's new</h3><p class="soon">Coming soon.</p>
 <h2 class="sec">Food science</h2>
 <h3 class="sub-h" id="myths">🤯 Myths</h3><ul><li><a href="/en/blog/barras-granola-azucar-oculta">
-<span class="e">🌾</span>
+<img class="ci" src="/blog/img/barras-granola-azucar-oculta.jpg" alt="That &quot;fit&quot; granola bar can carry as much sugar as a cookie" width="600" height="400" loading="lazy">
+<span class="cbody">
 <span class="tt">That "fit" granola bar can carry as much sugar as a cookie</span>
 <span class="dk">The box says "oats" and "fiber." The nutrition label tells a different story.</span>
 <span class="dt">Jul 17, 2026</span>
+</span>
 </a></li><li><a href="/en/blog/productos-light-azucar-oculta">
-<span class="e">🍓</span>
+<img class="ci" src="/blog/img/productos-light-azucar-oculta.jpg" alt="Your &quot;light&quot; yogurt can pack more sugar than a donut" width="600" height="400" loading="lazy">
+<span class="cbody">
 <span class="tt">Your "light" yogurt can pack more sugar than a donut</span>
 <span class="dk">"Low fat" almost never means "low sugar." Very often it means the exact opposite.</span>
 <span class="dt">Jul 7, 2026</span>
+</span>
 </a></li><li><a href="/en/blog/mitos-comida-virales">
-<span class="e">🤯</span>
+<img class="ci" src="/blog/img/mitos-comida-virales.jpg" alt="7 food myths everyone repeats (that science already debunked)" width="600" height="400" loading="lazy">
+<span class="cbody">
 <span class="tt">7 food myths everyone repeats (that science already debunked)</span>
 <span class="dk">You forward them on WhatsApp without a second thought. Here they are, one by one, with the source that knocks them down.</span>
 <span class="dt">Jul 7, 2026</span>
+</span>
 </a></li><li><a href="/en/blog/huevo-colesterol-mito">
-<span class="e">🥚</span>
+<img class="ci" src="/blog/img/huevo-colesterol-mito.jpg" alt="Do eggs clog your arteries? What the science actually found" width="600" height="400" loading="lazy">
+<span class="cbody">
 <span class="tt">Do eggs clog your arteries? What the science actually found</span>
 <span class="dk">For decades we were told eggs spike your cholesterol. The large studies tell a different story.</span>
 <span class="dt">Jul 6, 2026</span>
+</span>
 </a></li><li><a href="/en/blog/aguacate-engorda-mito">
-<span class="e">🥑</span>
+<img class="ci" src="/blog/img/aguacate-engorda-mito.jpg" alt="&quot;Avocado is fattening&quot;: the myth that confuses fat with the enemy" width="600" height="400" loading="lazy">
+<span class="cbody">
 <span class="tt">"Avocado is fattening": the myth that confuses fat with the enemy</span>
 <span class="dk">Yes, avocado is calorie-dense. No, that doesn't make it the villain of your diet. The science puts it on your heart's side.</span>
 <span class="dt">Jul 5, 2026</span>
+</span>
 </a></li><li><a href="/en/blog/pan-integral-mito">
-<span class="e">🍞</span>
+<img class="ci" src="/blog/img/pan-integral-mito.jpg" alt="Your &quot;whole wheat&quot; bread might not be whole wheat: the brown-color trick" width="600" height="400" loading="lazy">
+<span class="cbody">
 <span class="tt">Your "whole wheat" bread might not be whole wheat: the brown-color trick</span>
 <span class="dk">Many "multigrain" or "whole" breads are dyed white flour. Here's how to spot them in 5 seconds.</span>
 <span class="dt">Jul 3, 2026</span>
+</span>
 </a></li><li><a href="/en/blog/jugo-natural-vs-fruta">
-<span class="e">🧃</span>
+<img class="ci" src="/blog/img/jugo-natural-vs-fruta.jpg" alt="The &quot;natural&quot; juice you think is healthy can hold as much sugar as a soda" width="600" height="400" loading="lazy">
+<span class="cbody">
 <span class="tt">The "natural" juice you think is healthy can hold as much sugar as a soda</span>
 <span class="dk">Juicing fruit strips out the best part and concentrates the sugar. It's not the same as biting into it.</span>
 <span class="dt">Jul 2, 2026</span>
+</span>
 </a></li></ul><h3 class="sub-h" id="labels">🏷️ How to read labels</h3><ul><li><a href="/en/blog/e141-clorofila-cobre-colorante">
-<span class="e">🧪</span>
+<img class="ci" src="/blog/img/e141-clorofila-cobre-colorante.jpg" alt="That bright green in your chewing gum isn't &quot;natural&quot; — it's chlorophyll with copper" width="600" height="400" loading="lazy">
+<span class="cbody">
 <span class="tt">That bright green in your chewing gum isn't "natural" — it's chlorophyll with copper</span>
 <span class="dk">It's called E141, and it shows up in candy, canned vegetables and ice cream. Here's what we know — and don't — about its safety.</span>
 <span class="dt">Jul 17, 2026</span>
+</span>
 </a></li></ul><h3 class="sub-h" id="health">❤️ Health</h3><ul><li><a href="/en/blog/sal-presion-arterial-oms">
-<span class="e">🧂</span>
+<img class="ci" src="/blog/img/sal-presion-arterial-oms.jpg" alt="The salt mistake almost everyone makes (and your blood pressure feels it)" width="600" height="400" loading="lazy">
+<span class="cbody">
 <span class="tt">The salt mistake almost everyone makes (and your blood pressure feels it)</span>
 <span class="dk">The world eats more than double the recommended salt. The WHO explains why your heart notices.</span>
 <span class="dt">Jul 5, 2026</span>
+</span>
 </a></li><li><a href="/en/blog/refresco-zero-edulcorantes-oms">
-<span class="e">🥤</span>
+<img class="ci" src="/blog/img/refresco-zero-edulcorantes-oms.jpg" alt="&quot;Zero&quot; soda: why the WHO tells you not to use it to lose weight" width="600" height="400" loading="lazy">
+<span class="cbody">
 <span class="tt">"Zero" soda: why the WHO tells you not to use it to lose weight</span>
 <span class="dk">Zero sugar isn't the same as zero consequences. In 2023 the WHO issued a warning that surprised a lot of people.</span>
 <span class="dt">Jul 4, 2026</span>
+</span>
 </a></li></ul><h3 class="sub-h" id="recipes">🍳 Recipes</h3><p class="soon">Coming soon.</p>
 <footer>© 2026 CalorIA Scan · <a href="/en/">Home</a> · <a href="/en/calories/">Food calories</a></footer>
 </div></body></html>
