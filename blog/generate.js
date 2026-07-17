@@ -216,13 +216,13 @@ function hub(all, L){
   const title = isEN ? 'Nutrition Myths & Food Science — CalorIA Scan Blog' : 'Mitos de Nutrición y Ciencia de la Comida — Blog CalorIA Scan';
   const desc = isEN ? 'Viral food claims, checked against real science. Hidden sugar in "light" products, the egg-cholesterol myth, sweeteners and more — every claim sourced.' : 'Los mitos de la comida que se vuelven virales, revisados con ciencia real. Azúcar oculta en productos "light", el mito del huevo y el colesterol, edulcorantes y más — con fuentes.';
   const t = isEN ? {
-    home:'Home', switch:'Español',
+    home:'Home', switch:'Español', h1:'CalorIA Scan Blog: Latest News and Trends',
     secApp:'About the app', secScience:'Food science', appTips:'App tips', news:"What's new", recipes:'Recipes',
     soon:'Coming soon.',
     navAppDesc:'Tips to get the most out of the app, and the latest updates.',
     navScienceDesc:'Myths, labels, health and recipes — all explained with real sources.'
   } : {
-    home:'Inicio', switch:'English',
+    home:'Inicio', switch:'English', h1:'Blog de CalorIA Scan: Últimas Noticias y Tendencias',
     secApp:'Sobre la app', secScience:'Ciencia de la comida', appTips:'Tips de la app', news:'Novedades', recipes:'Recetas',
     soon:'Próximamente.',
     navAppDesc:'Tips para sacarle provecho a la app, y las últimas novedades.',
@@ -294,6 +294,7 @@ function hub(all, L){
 .wrap{max-width:1100px;margin:0 auto;padding:24px 20px 64px}
 a.lang{float:right;font-size:13px;border:1px solid var(--line);padding:3px 10px;border-radius:20px;text-decoration:none;color:var(--mut)}
 nav.bc{font-size:13px;color:var(--mut);margin:6px 0 12px}nav.bc a{color:var(--mut);text-decoration:none}
+h1{font-size:32px;letter-spacing:-.01em;margin:.2em 0 20px}
 .nav-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;margin:8px 0 40px}
 .nav-card{padding:28px;position:relative;overflow:hidden;background:var(--glass-bg);border:0.5px solid var(--glass-border);border-radius:var(--radius-xl);box-shadow:var(--glass-shadow);transition:transform .3s cubic-bezier(.22,1,.36,1),box-shadow .3s ease}
 .nav-card::after{content:'';position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--cobalt),var(--burnt),var(--cactus));opacity:0;transition:opacity .3s ease}
@@ -318,11 +319,13 @@ li a:hover{border-color:var(--g);box-shadow:0 4px 16px rgba(46,125,50,.08)}
 .dk{display:block;color:var(--mut);font-size:15px}.dt{display:block;color:var(--mut);font-size:12px;margin-top:8px}
 .soon{font-size:14px;color:var(--mut);margin:0}
 footer{font-size:13px;color:var(--mut);margin-top:30px;border-top:1px solid var(--line);padding-top:16px}footer a{color:var(--mut)}
+@media(max-width:560px){h1{font-size:26px}}
 </style>
 </head>
 <body><div class="wrap">
 <a class="lang" href="${isEN?'/blog/':'/en/blog/'}">${t.switch}</a>
 <nav class="bc"><a href="${isEN?'/en/':'/'}">${t.home}</a> › Blog</nav>
+<h1>${esc(t.h1)}</h1>
 ${navHTML}
 <h2 class="sec">${esc(t.secApp)}</h2>
 ${appHTML}
