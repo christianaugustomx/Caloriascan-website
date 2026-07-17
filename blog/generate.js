@@ -318,8 +318,8 @@ h2.sec{font-size:22px;letter-spacing:-.01em;margin:38px 0 4px;padding-top:26px;b
 h2.sec:first-of-type{border-top:none;padding-top:0;margin-top:0}
 h3.sub-h{font-size:15px;font-weight:700;color:var(--mut);text-transform:uppercase;letter-spacing:.04em;margin:22px 0 12px;scroll-margin-top:90px}
 ul{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
-li a{display:flex;flex-direction:column;height:100%;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;text-decoration:none;color:var(--ink);transition:border-color .15s,box-shadow .15s}
-li a:hover{border-color:var(--g);box-shadow:0 4px 16px rgba(22,38,79,.1)}
+li a{display:flex;flex-direction:column;height:100%;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;text-decoration:none;color:var(--ink);transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
+li a:hover{transform:translateY(-4px);border-color:var(--g);box-shadow:0 10px 24px rgba(22,38,79,.12)}
 .ci{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;background:var(--line)}
 .cbody{display:flex;flex-direction:column;padding:16px 18px 18px}
 .tt{display:block;font-size:20px;font-weight:700;line-height:1.3;margin:0 0 4px;letter-spacing:-.01em}
