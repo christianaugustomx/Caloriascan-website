@@ -267,7 +267,6 @@ function hub(all, L){
 .wrap{max-width:780px;margin:0 auto;padding:24px 18px 64px}
 a.lang{float:right;font-size:13px;border:1px solid var(--line);padding:3px 10px;border-radius:20px;text-decoration:none;color:var(--mut)}
 nav.bc{font-size:13px;color:var(--mut);margin:6px 0 12px}nav.bc a{color:var(--mut);text-decoration:none}
-h1{font-size:32px;letter-spacing:-.01em;margin:.2em 0 .1em}.sub{color:var(--mut);font-size:18px;margin:0 0 22px}
 h2.sec{font-size:22px;letter-spacing:-.01em;margin:38px 0 4px;padding-top:26px;border-top:1px solid var(--line)}
 h2.sec:first-of-type{border-top:none;padding-top:0;margin-top:0}
 h3.sub-h{font-size:15px;font-weight:700;color:var(--mut);text-transform:uppercase;letter-spacing:.04em;margin:22px 0 12px}
@@ -279,14 +278,11 @@ li a:hover{border-color:var(--g);box-shadow:0 4px 16px rgba(46,125,50,.08)}
 .dk{display:block;color:var(--mut);font-size:15px}.dt{display:block;color:var(--mut);font-size:12px;margin-top:8px}
 .soon{font-size:14px;color:var(--mut);margin:0}
 footer{font-size:13px;color:var(--mut);margin-top:30px;border-top:1px solid var(--line);padding-top:16px}footer a{color:var(--mut)}
-@media(max-width:560px){h1{font-size:27px}}
 </style>
 </head>
 <body><div class="wrap">
 <a class="lang" href="${isEN?'/blog/':'/en/blog/'}">${t.switch}</a>
 <nav class="bc"><a href="${isEN?'/en/':'/'}">${t.home}</a> › Blog</nav>
-<h1>${isEN?'Food myths, checked against real science':'Mitos de la comida, revisados con ciencia real'}</h1>
-<p class="sub">${isEN?'The viral claims everyone repeats — sourced, fact-checked, and explained in plain language.':'Las afirmaciones virales que todos repiten — con fuentes, verificadas y explicadas en simple.'}</p>
 <h2 class="sec">${esc(t.secApp)}</h2>
 ${appHTML}
 <h2 class="sec">${esc(t.secScience)}</h2>
