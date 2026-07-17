@@ -215,11 +215,11 @@ function hub(all, L){
   const title = isEN ? 'Nutrition Myths & Food Science — CalorIA Scan Blog' : 'Mitos de Nutrición y Ciencia de la Comida — Blog CalorIA Scan';
   const desc = isEN ? 'Viral food claims, checked against real science. Hidden sugar in "light" products, the egg-cholesterol myth, sweeteners and more — every claim sourced.' : 'Los mitos de la comida que se vuelven virales, revisados con ciencia real. Azúcar oculta en productos "light", el mito del huevo y el colesterol, edulcorantes y más — con fuentes.';
   const t = isEN ? {
-    home:'Home', bannerTag:'Scan your plate, know your calories instantly.', bannerBtn:'Get the app free', switch:'Español',
+    home:'Home', switch:'Español',
     secApp:'About the app', secScience:'Food science', appTips:'App tips', news:"What's new", recipes:'Recipes',
     soon:'Coming soon.'
   } : {
-    home:'Inicio', bannerTag:'Escanea tu plato y conoce tus calorías al instante.', bannerBtn:'Descarga gratis', switch:'English',
+    home:'Inicio', switch:'English',
     secApp:'Sobre la app', secScience:'Ciencia de la comida', appTips:'Tips de la app', news:'Novedades', recipes:'Recetas',
     soon:'Próximamente.'
   };
@@ -262,15 +262,12 @@ function hub(all, L){
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <script type="application/ld+json">${JSON.stringify(ld)}</script>
 <style>
-:root{--g:#2e7d32;--ink:#1c2430;--mut:#5b6675;--line:#e6e9ef;--soft:#f0f7f1}
+:root{--g:#2e7d32;--ink:#1c2430;--mut:#5b6675;--line:#e6e9ef}
 *{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);line-height:1.6}
 .wrap{max-width:780px;margin:0 auto;padding:24px 18px 64px}
 a.lang{float:right;font-size:13px;border:1px solid var(--line);padding:3px 10px;border-radius:20px;text-decoration:none;color:var(--mut)}
 nav.bc{font-size:13px;color:var(--mut);margin:6px 0 12px}nav.bc a{color:var(--mut);text-decoration:none}
 h1{font-size:32px;letter-spacing:-.01em;margin:.2em 0 .1em}.sub{color:var(--mut);font-size:18px;margin:0 0 22px}
-.banner{background:var(--soft);border:1px solid #cfe6d3;border-radius:16px;padding:18px 22px;margin:0 0 30px;display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
-.banner strong{display:block;font-size:16px}.banner span{display:block;color:var(--mut);font-size:14px;margin-top:2px}
-.banner .btn{flex-shrink:0;background:var(--g);color:#fff;text-decoration:none;padding:11px 20px;border-radius:10px;font-weight:700;font-size:14px}
 h2.sec{font-size:22px;letter-spacing:-.01em;margin:38px 0 4px;padding-top:26px;border-top:1px solid var(--line)}
 h2.sec:first-of-type{border-top:none;padding-top:0;margin-top:0}
 h3.sub-h{font-size:15px;font-weight:700;color:var(--mut);text-transform:uppercase;letter-spacing:.04em;margin:22px 0 12px}
@@ -290,10 +287,6 @@ footer{font-size:13px;color:var(--mut);margin-top:30px;border-top:1px solid var(
 <nav class="bc"><a href="${isEN?'/en/':'/'}">${t.home}</a> › Blog</nav>
 <h1>${isEN?'Food myths, checked against real science':'Mitos de la comida, revisados con ciencia real'}</h1>
 <p class="sub">${isEN?'The viral claims everyone repeats — sourced, fact-checked, and explained in plain language.':'Las afirmaciones virales que todos repiten — con fuentes, verificadas y explicadas en simple.'}</p>
-<div class="banner">
-<div><strong>CalorIA Scan</strong><span>${esc(t.bannerTag)}</span></div>
-<a class="btn" href="${APP_URL}" rel="nofollow">${esc(t.bannerBtn)}</a>
-</div>
 <h2 class="sec">${esc(t.secApp)}</h2>
 ${appHTML}
 <h2 class="sec">${esc(t.secScience)}</h2>
