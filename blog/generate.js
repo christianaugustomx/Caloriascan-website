@@ -218,12 +218,22 @@ function hub(all, L){
   const t = isEN ? {
     home:'Home', switch:'Español', h1:'CalorIA Scan Blog: Latest News and Trends',
     secApp:'About the app', secScience:'Food science', appTips:'App tips', news:"What's new", recipes:'Recipes',
-    soon:'Coming soon.'
+    soon:'Coming soon.',
+    navFeatures:'App Features', navHealth:'Health', navMitos:'Myths', navLabels:'Labels'
   } : {
     home:'Inicio', switch:'English', h1:'Blog de CalorIA Scan: Últimas Noticias y Tendencias',
     secApp:'Sobre la app', secScience:'Ciencia de la comida', appTips:'Tips de la app', news:'Novedades', recipes:'Recetas',
-    soon:'Próximamente.'
+    soon:'Próximamente.',
+    navFeatures:'Funciones de la app', navHealth:'Salud', navMitos:'Mitos', navLabels:'Etiquetas'
   };
+  const floatNav = `<nav class="floatnav" aria-label="${isEN?'Section navigation':'Navegación de secciones'}">
+<a href="#app">${esc(t.secApp)}</a>
+<a href="#app-tips">${esc(t.navFeatures)}</a>
+<a href="#salud">${esc(t.navHealth)}</a>
+<a href="#mitos">${esc(t.navMitos)}</a>
+<a href="#etiquetas">${esc(t.navLabels)}</a>
+<a href="#recipes">${esc(t.recipes)}</a>
+</nav>`;
   const card = (x)=>{
     const c = x[L];
     const dateStr = new Date(x.date+'T12:00:00Z').toLocaleDateString(isEN?'en-US':'es-MX',{year:'numeric',month:'short',day:'numeric'});
@@ -269,9 +279,13 @@ function hub(all, L){
 a.lang{float:right;font-size:13px;border:1px solid var(--line);padding:3px 10px;border-radius:20px;text-decoration:none;color:var(--mut)}
 nav.bc{font-size:13px;color:var(--mut);margin:6px 0 12px}nav.bc a{color:var(--mut);text-decoration:none}
 h1{font-size:32px;letter-spacing:-.01em;margin:.2em 0 20px}
-h2.sec{font-size:22px;letter-spacing:-.01em;margin:38px 0 4px;padding-top:26px;border-top:1px solid var(--line);scroll-margin-top:16px}
+.floatnav{position:sticky;top:16px;z-index:20;background:#fff;border:1px solid var(--line);border-radius:16px;box-shadow:0 8px 24px rgba(0,0,0,.07);margin:0 0 32px;padding:10px 14px;display:flex;gap:8px;overflow-x:auto;scrollbar-width:none}
+.floatnav::-webkit-scrollbar{display:none}
+.floatnav a{flex:0 0 auto;font-size:13px;font-weight:700;color:var(--ink);text-decoration:none;padding:8px 15px;border-radius:20px;white-space:nowrap;transition:background .15s,color .15s}
+.floatnav a:hover{background:var(--line)}
+h2.sec{font-size:22px;letter-spacing:-.01em;margin:38px 0 4px;padding-top:26px;border-top:1px solid var(--line);scroll-margin-top:90px}
 h2.sec:first-of-type{border-top:none;padding-top:0;margin-top:0}
-h3.sub-h{font-size:15px;font-weight:700;color:var(--mut);text-transform:uppercase;letter-spacing:.04em;margin:22px 0 12px;scroll-margin-top:16px}
+h3.sub-h{font-size:15px;font-weight:700;color:var(--mut);text-transform:uppercase;letter-spacing:.04em;margin:22px 0 12px;scroll-margin-top:90px}
 ul{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
 li a{display:block;height:100%;border:1px solid var(--line);border-radius:14px;padding:18px 20px;text-decoration:none;color:var(--ink);transition:border-color .15s,box-shadow .15s}
 li a:hover{border-color:var(--g);box-shadow:0 4px 16px rgba(46,125,50,.08)}
@@ -287,7 +301,8 @@ footer{font-size:13px;color:var(--mut);margin-top:30px;border-top:1px solid var(
 <a class="lang" href="${isEN?'/blog/':'/en/blog/'}">${t.switch}</a>
 <nav class="bc"><a href="${isEN?'/en/':'/'}">${t.home}</a> › Blog</nav>
 <h1>${esc(t.h1)}</h1>
-<h2 class="sec">${esc(t.secApp)}</h2>
+${floatNav}
+<h2 class="sec" id="app">${esc(t.secApp)}</h2>
 ${appHTML}
 <h2 class="sec">${esc(t.secScience)}</h2>
 ${scienceHTML}

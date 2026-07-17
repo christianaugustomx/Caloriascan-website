@@ -26,9 +26,13 @@
 a.lang{float:right;font-size:13px;border:1px solid var(--line);padding:3px 10px;border-radius:20px;text-decoration:none;color:var(--mut)}
 nav.bc{font-size:13px;color:var(--mut);margin:6px 0 12px}nav.bc a{color:var(--mut);text-decoration:none}
 h1{font-size:32px;letter-spacing:-.01em;margin:.2em 0 20px}
-h2.sec{font-size:22px;letter-spacing:-.01em;margin:38px 0 4px;padding-top:26px;border-top:1px solid var(--line);scroll-margin-top:16px}
+.floatnav{position:sticky;top:16px;z-index:20;background:#fff;border:1px solid var(--line);border-radius:16px;box-shadow:0 8px 24px rgba(0,0,0,.07);margin:0 0 32px;padding:10px 14px;display:flex;gap:8px;overflow-x:auto;scrollbar-width:none}
+.floatnav::-webkit-scrollbar{display:none}
+.floatnav a{flex:0 0 auto;font-size:13px;font-weight:700;color:var(--ink);text-decoration:none;padding:8px 15px;border-radius:20px;white-space:nowrap;transition:background .15s,color .15s}
+.floatnav a:hover{background:var(--line)}
+h2.sec{font-size:22px;letter-spacing:-.01em;margin:38px 0 4px;padding-top:26px;border-top:1px solid var(--line);scroll-margin-top:90px}
 h2.sec:first-of-type{border-top:none;padding-top:0;margin-top:0}
-h3.sub-h{font-size:15px;font-weight:700;color:var(--mut);text-transform:uppercase;letter-spacing:.04em;margin:22px 0 12px;scroll-margin-top:16px}
+h3.sub-h{font-size:15px;font-weight:700;color:var(--mut);text-transform:uppercase;letter-spacing:.04em;margin:22px 0 12px;scroll-margin-top:90px}
 ul{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
 li a{display:block;height:100%;border:1px solid var(--line);border-radius:14px;padding:18px 20px;text-decoration:none;color:var(--ink);transition:border-color .15s,box-shadow .15s}
 li a:hover{border-color:var(--g);box-shadow:0 4px 16px rgba(46,125,50,.08)}
@@ -44,7 +48,15 @@ footer{font-size:13px;color:var(--mut);margin-top:30px;border-top:1px solid var(
 <a class="lang" href="/en/blog/">English</a>
 <nav class="bc"><a href="/">Inicio</a> › Blog</nav>
 <h1>Blog de CalorIA Scan: Últimas Noticias y Tendencias</h1>
-<h2 class="sec">Sobre la app</h2>
+<nav class="floatnav" aria-label="Navegación de secciones">
+<a href="#app">Sobre la app</a>
+<a href="#app-tips">Funciones de la app</a>
+<a href="#salud">Salud</a>
+<a href="#mitos">Mitos</a>
+<a href="#etiquetas">Etiquetas</a>
+<a href="#recipes">Recetas</a>
+</nav>
+<h2 class="sec" id="app">Sobre la app</h2>
 <h3 class="sub-h" id="app-tips">📱 Tips de la app</h3><p class="soon">Próximamente.</p>
 <h3 class="sub-h" id="whats-new">📣 Novedades</h3><p class="soon">Próximamente.</p>
 <h2 class="sec">Ciencia de la comida</h2>
