@@ -191,9 +191,6 @@ ${sourcesHTML}
 
 ${shareBar(url, c.title, L)}
 
-<h2>${esc(t.related)}</h2>
-<ul class="rel">${related(p,all,L)}</ul>
-
 <div class="comments">
 <h2>${esc(t.comments)}</h2>
 <form class="comment-form">
@@ -205,6 +202,9 @@ ${shareBar(url, c.title, L)}
 </form>
 <p class="comment-soon">${esc(t.commentSoon)}</p>
 </div>
+
+<h2>${esc(t.related)}</h2>
+<ul class="rel">${related(p,all,L)}</ul>
 
 <p class="disc">${esc(t.disc)}</p>
 <footer>© ${new Date().getFullYear()} CalorIA Scan · <a href="${isEN?'/en/':'/'}">${t.home}</a> · <a href="/privacy-policy">${isEN?'Privacy':'Privacidad'}</a> · <a href="/terms">${isEN?'Terms':'Términos'}</a></footer>
