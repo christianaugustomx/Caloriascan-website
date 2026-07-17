@@ -295,15 +295,18 @@ function hub(all, L){
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="${hubImg}">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
 <script type="application/ld+json">${JSON.stringify(ld)}</script>
 <style>
-:root{--g:#2e7d32;--ink:#1c2430;--mut:#5b6675;--line:#e6e9ef}
-*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);line-height:1.6}
+:root{--g:#1E9E6A;--ink:#16264F;--mut:#5A6577;--line:rgba(22,38,79,.1);--bg:#F4F0E7;--card:#fff}
+*{box-sizing:border-box}body{margin:0;font-family:'Nunito',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
 .wrap{max-width:1100px;margin:0 auto;padding:24px 20px 64px}
 a.lang{float:right;font-size:13px;border:1px solid var(--line);padding:3px 10px;border-radius:20px;text-decoration:none;color:var(--mut)}
 nav.bc{font-size:13px;color:var(--mut);margin:6px 0 12px}nav.bc a{color:var(--mut);text-decoration:none}
 h1{font-size:32px;letter-spacing:-.01em;margin:.2em 0 20px}
-.floatnav{position:sticky;top:16px;z-index:20;background:#fff;border:1px solid var(--line);border-radius:16px;box-shadow:0 8px 24px rgba(0,0,0,.07);margin:0 0 32px;padding:10px 22px;display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;scroll-snap-type:x proximity;-webkit-mask-image:linear-gradient(to right,transparent,#000 16px,#000 calc(100% - 16px),transparent);mask-image:linear-gradient(to right,transparent,#000 16px,#000 calc(100% - 16px),transparent)}
+.floatnav{position:sticky;top:16px;z-index:20;background:var(--card);border:1px solid var(--line);border-radius:16px;box-shadow:0 8px 24px rgba(22,38,79,.08);margin:0 0 32px;padding:10px 22px;display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;scroll-snap-type:x proximity;-webkit-mask-image:linear-gradient(to right,transparent,#000 16px,#000 calc(100% - 16px),transparent);mask-image:linear-gradient(to right,transparent,#000 16px,#000 calc(100% - 16px),transparent)}
 .floatnav::-webkit-scrollbar{display:none}
 .floatnav a{flex:0 0 auto;font-size:13px;font-weight:700;color:var(--ink);text-decoration:none;padding:8px 15px;border-radius:20px;white-space:nowrap;transition:background .15s,color .15s;scroll-snap-align:start}
 .floatnav a:hover{background:var(--line)}
@@ -311,8 +314,8 @@ h2.sec{font-size:22px;letter-spacing:-.01em;margin:38px 0 4px;padding-top:26px;b
 h2.sec:first-of-type{border-top:none;padding-top:0;margin-top:0}
 h3.sub-h{font-size:15px;font-weight:700;color:var(--mut);text-transform:uppercase;letter-spacing:.04em;margin:22px 0 12px;scroll-margin-top:90px}
 ul{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
-li a{display:block;height:100%;border:1px solid var(--line);border-radius:14px;padding:18px 20px;text-decoration:none;color:var(--ink);transition:border-color .15s,box-shadow .15s}
-li a:hover{border-color:var(--g);box-shadow:0 4px 16px rgba(46,125,50,.08)}
+li a{display:block;height:100%;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;text-decoration:none;color:var(--ink);transition:border-color .15s,box-shadow .15s}
+li a:hover{border-color:var(--g);box-shadow:0 4px 16px rgba(22,38,79,.1)}
 .e{font-size:26px}
 .tt{display:block;font-size:20px;font-weight:700;line-height:1.3;margin:8px 0 4px;letter-spacing:-.01em}
 .dk{display:block;color:var(--mut);font-size:15px}.dt{display:block;color:var(--mut);font-size:12px;margin-top:8px}
