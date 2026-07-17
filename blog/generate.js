@@ -310,7 +310,7 @@ h1{font-size:32px;letter-spacing:-.01em;margin:.2em 0 20px}
 h2.sec{font-size:22px;letter-spacing:-.01em;margin:38px 0 4px;padding-top:26px;border-top:1px solid var(--line);scroll-margin-top:90px}
 h2.sec:first-of-type{border-top:none;padding-top:0;margin-top:0}
 h3.sub-h{font-size:15px;font-weight:700;color:var(--mut);text-transform:uppercase;letter-spacing:.04em;margin:22px 0 12px;scroll-margin-top:90px}
-ul{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
+ul{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
 li a{display:block;height:100%;border:1px solid var(--line);border-radius:14px;padding:18px 20px;text-decoration:none;color:var(--ink);transition:border-color .15s,box-shadow .15s}
 li a:hover{border-color:var(--g);box-shadow:0 4px 16px rgba(46,125,50,.08)}
 .e{font-size:26px}
