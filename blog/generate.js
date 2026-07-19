@@ -61,7 +61,7 @@ function post(p, all, L){
     ctaBtn:'Get CalorIA Scan free', switch:'Español',
     disc:'This article is informational and not medical advice. Consult a doctor or registered dietitian before changing your diet, especially with a pre-existing condition.',
     comments:'Comments', commentPlaceholder:'Write your comment...', namePlaceholder:'Your name',
-    commentBtn:'Post', commentSoon:'💬 Comments will be available soon.'
+    commentBtn:'Post'
   } : {
     home:'Inicio', blog:'Blog', by:'Por', min:'min de lectura', tldr:'En resumen',
     sources:'Fuentes', related:'Sigue leyendo', ctaTitle:'Deja de adivinar tus calorías',
@@ -69,7 +69,7 @@ function post(p, all, L){
     ctaBtn:'Descarga CalorIA Scan gratis', switch:'English',
     disc:'Este artículo es informativo y no constituye consejo médico. Consulta a un médico o nutriólogo antes de cambiar tu dieta, especialmente si tienes alguna condición de salud.',
     comments:'Comentarios', commentPlaceholder:'Escribe tu comentario...', namePlaceholder:'Tu nombre',
-    commentBtn:'Publicar', commentSoon:'💬 Los comentarios estarán disponibles muy pronto.'
+    commentBtn:'Publicar'
   };
 
   const ld = [
@@ -155,13 +155,21 @@ ul.rel a{display:block;border:1px solid var(--line);border-radius:12px;padding:1
 ul.rel a:hover{border-color:var(--g)}
 .rc-emoji{font-size:24px;display:block}.rc-cat{display:block;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--g);margin:6px 0 3px}.rc-title{display:block;font-size:15px;font-weight:600;line-height:1.35}
 .comments{margin:38px 0}
+.comments-list{margin:0 0 18px}
+.comment-item{padding:14px 0;border-bottom:1px solid var(--line)}
+.comment-item:last-child{border-bottom:none}
+.comment-meta{display:flex;gap:10px;align-items:baseline;font-size:13px;color:var(--mut);margin-bottom:4px}
+.comment-meta strong{color:var(--ink);font-size:14px}
+.comment-text{margin:0;white-space:pre-wrap;word-break:break-word;font-size:15px}
+.comment-empty{font-size:14px;color:var(--mut)}
 .comment-form{background:var(--soft);border:1px solid var(--line);border-radius:14px;padding:18px}
 .comment-form textarea{width:100%;border:1px solid var(--line);border-radius:10px;padding:12px;font-family:inherit;font-size:15px;resize:vertical;background:#fff;color:var(--ink)}
-.comment-form textarea:disabled,.comment-form input:disabled{background:#eef1f5;color:var(--mut);cursor:not-allowed}
 .comment-row{display:flex;gap:10px;margin-top:10px;flex-wrap:wrap}
 .comment-row input{flex:1;min-width:160px;border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-family:inherit;font-size:14px;background:#fff}
-.comment-row button{background:var(--g);color:#fff;border:none;border-radius:10px;padding:10px 20px;font-weight:700;font-size:14px;opacity:.6;cursor:not-allowed}
-.comment-soon{font-size:13px;color:var(--mut);margin:10px 0 0}
+.comment-row button{background:var(--g);color:#fff;border:none;border-radius:10px;padding:10px 20px;font-weight:700;font-size:14px;cursor:pointer}
+.comment-row button:disabled{opacity:.6;cursor:not-allowed}
+.comment-error{font-size:13px;color:#c0392b;margin:10px 0 0;display:none}
+.comment-hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
 .disc{font-size:12px;color:var(--mut);border-top:1px solid var(--line);margin-top:38px;padding-top:14px}
 footer{font-size:13px;color:var(--mut);margin-top:16px}footer a{color:var(--mut)}
 @media(max-width:560px){h1{font-size:27px}.dek{font-size:17px}ul.rel{grid-template-columns:1fr}}
@@ -193,14 +201,16 @@ ${shareBar(url, c.title, L)}
 
 <div class="comments">
 <h2>${esc(t.comments)}</h2>
-<form class="comment-form">
-<textarea rows="4" placeholder="${escAttr(t.commentPlaceholder)}" disabled></textarea>
+<div class="comments-list" id="commentsList"></div>
+<form class="comment-form" id="commentForm">
+<textarea id="commentMessage" rows="4" maxlength="1000" placeholder="${escAttr(t.commentPlaceholder)}" required></textarea>
 <div class="comment-row">
-<input type="text" placeholder="${escAttr(t.namePlaceholder)}" disabled>
-<button type="button" disabled>${esc(t.commentBtn)}</button>
+<input type="text" id="commentName" maxlength="60" placeholder="${escAttr(t.namePlaceholder)}" required>
+<input type="text" id="commentWebsite" class="comment-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+<button type="submit" id="commentSubmit">${esc(t.commentBtn)}</button>
 </div>
+<p class="comment-error" id="commentError"></p>
 </form>
-<p class="comment-soon">${esc(t.commentSoon)}</p>
 </div>
 
 <h2>${esc(t.related)}</h2>
@@ -209,6 +219,7 @@ ${shareBar(url, c.title, L)}
 <p class="disc">${esc(t.disc)}</p>
 <footer>© ${new Date().getFullYear()} CalorIA Scan · <a href="${isEN?'/en/':'/'}">${t.home}</a> · <a href="/privacy-policy">${isEN?'Privacy':'Privacidad'}</a> · <a href="/terms">${isEN?'Terms':'Términos'}</a></footer>
 </article>
+<script src="/blog/comments.js" defer></script>
 </body>
 </html>`;
 }
