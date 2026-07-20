@@ -659,9 +659,10 @@ footer {
 /* ═══════ PRICING CARDS ═══════ */
 .pricing-grid {
   display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px; align-items: start;
+  gap: 20px; align-items: stretch;
 }
 .pricing-card {
+  display: flex; flex-direction: column;
   padding: 32px 24px; text-align: center; position: relative;
   background: var(--glass-bg);
   backdrop-filter: blur(var(--glass-blur)); -webkit-backdrop-filter: blur(var(--glass-blur));
@@ -689,7 +690,7 @@ footer {
 .pricing-price .currency { font-size: 20px; vertical-align: super; }
 .pricing-period { font-size: 13px; color: var(--text-light); margin-top: 4px; }
 .pricing-tagline { font-size: 12px; color: var(--burnt); font-style: italic; margin-top: 2px; font-family: 'Nunito', sans-serif; font-weight: 500; }
-.pricing-features { list-style: none; padding: 0; margin: 24px 0; text-align: left; }
+.pricing-features { list-style: none; padding: 0; margin: 24px 0; text-align: left; flex: 1; }
 .pricing-features li {
   display: flex; align-items: center; gap: 8px;
   padding: 7px 0; font-size: 13px; color: var(--text-mid);
