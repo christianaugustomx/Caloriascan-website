@@ -107,7 +107,10 @@ for (const p of posts){
   for (const L of ['es','en']){
     const c = p[L];
     const cat = L === 'en' ? p.category_en : p.category_es;
-    const tag = L === 'en' ? '🔬 With real sources' : '🔬 Con fuentes reales';
+    const hasSources = c.sources && c.sources.length > 0;
+    const tag = hasSources
+      ? (L === 'en' ? '🔬 With real sources' : '🔬 Con fuentes reales')
+      : (L === 'en' ? '🌽 Our story' : '🌽 Nuestra historia');
     render(card(c.title, cat, p.emoji, tag, imgPath), path.join(OUT, `${p.slug}-${L}.jpg`));
     n++;
   }

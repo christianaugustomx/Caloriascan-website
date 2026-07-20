@@ -20,316 +20,129 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap" rel="stylesheet">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Blog","name":"CalorIA Scan Blog","url":"https://caloriascan.com/en/blog/","inLanguage":"en","blogPost":[{"@type":"BlogPosting","headline":"That bright green in your chewing gum isn't \"natural\" — it's chlorophyll with copper","url":"https://caloriascan.com/en/blog/e141-clorofila-cobre-colorante","datePublished":"2026-07-17"},{"@type":"BlogPosting","headline":"That \"fit\" granola bar can carry as much sugar as a cookie","url":"https://caloriascan.com/en/blog/barras-granola-azucar-oculta","datePublished":"2026-07-17"},{"@type":"BlogPosting","headline":"Your \"light\" yogurt can pack more sugar than a donut","url":"https://caloriascan.com/en/blog/productos-light-azucar-oculta","datePublished":"2026-07-07"},{"@type":"BlogPosting","headline":"Do eggs clog your arteries? What the science actually found","url":"https://caloriascan.com/en/blog/huevo-colesterol-mito","datePublished":"2026-07-06"},{"@type":"BlogPosting","headline":"\"Zero\" soda: why the WHO tells you not to use it to lose weight","url":"https://caloriascan.com/en/blog/refresco-zero-edulcorantes-oms","datePublished":"2026-07-04"},{"@type":"BlogPosting","headline":"\"Avocado is fattening\": the myth that confuses fat with the enemy","url":"https://caloriascan.com/en/blog/aguacate-engorda-mito","datePublished":"2026-07-05"},{"@type":"BlogPosting","headline":"The salt mistake almost everyone makes (and your blood pressure feels it)","url":"https://caloriascan.com/en/blog/sal-presion-arterial-oms","datePublished":"2026-07-05"},{"@type":"BlogPosting","headline":"Your \"whole wheat\" bread might not be whole wheat: the brown-color trick","url":"https://caloriascan.com/en/blog/pan-integral-mito","datePublished":"2026-07-03"},{"@type":"BlogPosting","headline":"The \"natural\" juice you think is healthy can hold as much sugar as a soda","url":"https://caloriascan.com/en/blog/jugo-natural-vs-fruta","datePublished":"2026-07-02"},{"@type":"BlogPosting","headline":"7 food myths everyone repeats (that science already debunked)","url":"https://caloriascan.com/en/blog/mitos-comida-virales","datePublished":"2026-07-07"}]}</script>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Blog","name":"CalorIA Scan Blog","url":"https://caloriascan.com/en/blog/","inLanguage":"en","blogPost":[{"@type":"BlogPosting","headline":"That bright green in your chewing gum isn't \"natural\" — it's chlorophyll with copper","url":"https://caloriascan.com/en/blog/e141-clorofila-cobre-colorante","datePublished":"2026-07-17"},{"@type":"BlogPosting","headline":"That \"fit\" granola bar can carry as much sugar as a cookie","url":"https://caloriascan.com/en/blog/barras-granola-azucar-oculta","datePublished":"2026-07-17"},{"@type":"BlogPosting","headline":"Your \"light\" yogurt can pack more sugar than a donut","url":"https://caloriascan.com/en/blog/productos-light-azucar-oculta","datePublished":"2026-07-07"},{"@type":"BlogPosting","headline":"Do eggs clog your arteries? What the science actually found","url":"https://caloriascan.com/en/blog/huevo-colesterol-mito","datePublished":"2026-07-06"},{"@type":"BlogPosting","headline":"\"Zero\" soda: why the WHO tells you not to use it to lose weight","url":"https://caloriascan.com/en/blog/refresco-zero-edulcorantes-oms","datePublished":"2026-07-04"},{"@type":"BlogPosting","headline":"\"Avocado is fattening\": the myth that confuses fat with the enemy","url":"https://caloriascan.com/en/blog/aguacate-engorda-mito","datePublished":"2026-07-05"},{"@type":"BlogPosting","headline":"The salt mistake almost everyone makes (and your blood pressure feels it)","url":"https://caloriascan.com/en/blog/sal-presion-arterial-oms","datePublished":"2026-07-05"},{"@type":"BlogPosting","headline":"Your \"whole wheat\" bread might not be whole wheat: the brown-color trick","url":"https://caloriascan.com/en/blog/pan-integral-mito","datePublished":"2026-07-03"},{"@type":"BlogPosting","headline":"The \"natural\" juice you think is healthy can hold as much sugar as a soda","url":"https://caloriascan.com/en/blog/jugo-natural-vs-fruta","datePublished":"2026-07-02"},{"@type":"BlogPosting","headline":"7 food myths everyone repeats (that science already debunked)","url":"https://caloriascan.com/en/blog/mitos-comida-virales","datePublished":"2026-07-07"},{"@type":"BlogPosting","headline":"Why we built CalorIA Scan: the app that actually understands Mexican food","url":"https://caloriascan.com/en/blog/por-que-creamos-caloria-scan","datePublished":"2026-07-20"}]}</script>
 <style>
-:root{--blue:#0047AB;--blue-light:#2D6FD6;--orange:#CC5500;--green:#2D8C6B;--red:#B8372A;--ink:#2A1F14;--mut:#6B5B4A;--mut2:#9A8D7E;--cream:#FDFBF7;--line:#EBDFC8}
-*{box-sizing:border-box}
-body{margin:0;font-family:'DM Sans',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background-color:var(--cream);background-image:linear-gradient(rgba(0,71,171,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(0,71,171,.03) 1px,transparent 1px);background-size:40px 40px;color:var(--ink);line-height:1.6}
-a{text-decoration:none;color:inherit}
-
-/* Nav */
-.floatnav{position:sticky;top:12px;z-index:100;margin:12px 20px 0;max-width:1160px;margin-left:auto;margin-right:auto}
-.navcard{display:flex;align-items:center;justify-content:space-between;padding:10px 20px;background:rgba(253,251,247,.82);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border:.5px solid rgba(255,255,255,.65);border-radius:24px;box-shadow:0 8px 32px rgba(0,71,171,.08)}
-.brand{display:flex;align-items:center;gap:10px;font-size:18px;font-weight:800;color:var(--blue);letter-spacing:-.5px}
-.brand img{width:36px;height:36px;border-radius:10px;object-fit:cover;box-shadow:0 2px 8px rgba(0,71,171,.15);display:block}
-.brand .ia{color:var(--orange)}
-.navlinks{display:flex;gap:2px;align-items:center}
-.navlinks a{font-size:14px;font-weight:500;color:var(--mut);padding:8px 13px;border-radius:10px}
-.navlinks a:hover{background:rgba(0,71,171,.06)}
-.navlinks .cta{display:inline-flex;align-items:center;justify-content:center;padding:9px 16px;border-radius:12px;font-size:13px;font-weight:600;color:var(--cream);background:linear-gradient(180deg,var(--blue-light) 0%,var(--blue) 100%);box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 4px 16px rgba(0,71,171,.30);margin-left:6px}
-.navlinks .lang{font-size:11px;font-weight:700;padding:5px 10px;border-radius:8px;border:1px solid rgba(0,71,171,.30);color:var(--blue);letter-spacing:.5px;margin-left:6px}
-.hamburger{display:none;flex-direction:column;gap:4px;padding:6px;cursor:pointer;background:none;border:none}
-.hamburger span{width:20px;height:2px;background:var(--ink);border-radius:2px}
-.mobilepanel{display:none;flex-direction:column;gap:2px;padding:10px 8px;margin-top:8px;background:rgba(253,251,247,.95);backdrop-filter:blur(20px);border:.5px solid rgba(255,255,255,.65);border-radius:18px;box-shadow:0 8px 32px rgba(0,71,171,.08)}
-.mobilepanel a{font-size:14px;font-weight:500;color:var(--mut);padding:10px 14px;border-radius:10px}
-.mobilepanel.open{display:flex}
-@media(max-width:760px){
-  .navlinks a:not(.cta):not(.lang){display:none}
-  .hamburger{display:flex}
-}
-
-/* Hero */
-header#top{max-width:1100px;margin:0 auto;padding:56px 20px 24px;position:relative}
-nav.bc{font-size:13px;color:var(--mut2);margin-bottom:18px}
-nav.bc a{color:var(--mut2)}
-.eyebrow{display:inline-block;font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--blue);margin-bottom:14px}
-h1{font-weight:800;font-size:clamp(34px,5.5vw,52px);line-height:1.08;letter-spacing:-.5px;color:var(--ink);max-width:680px;margin:0}
-.dek{font-style:italic;font-weight:500;font-size:17px;color:var(--mut);margin-top:14px;max-width:560px}
-
-/* Chips */
-.chips{max-width:1100px;margin:0 auto;padding:8px 20px 40px;display:flex;gap:8px;flex-wrap:wrap}
-.chip{font-size:13px;font-weight:700;padding:10px 18px;border-radius:9999px;cursor:pointer;border:1.5px solid var(--line);background:rgba(255,255,255,.6);color:var(--mut);transition:all .2s ease}
-.chip.active{border-color:var(--blue);background:linear-gradient(180deg,var(--blue-light),var(--blue));color:var(--cream)}
-
-/* Glass card sections */
-.glass{background:rgba(255,255,255,.60);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border:.5px solid rgba(255,255,255,.65);border-radius:24px;box-shadow:0 8px 32px rgba(0,71,171,.08)}
-section#about-app{max-width:1100px;margin:0 auto;padding:0 20px 48px}
-.grid-2{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
-.info-card{padding:28px;text-align:center}
-.info-card .ico{font-size:28px;margin-bottom:12px}
-.info-card h3{font-size:17px;font-weight:700;margin:0 0 6px}
-.info-card p{font-size:13px;color:var(--mut2);margin:0}
-
-/* Featured */
-.featured-wrap{max-width:1100px;margin:0 auto;padding:0 20px 48px}
-.featured{display:grid;grid-template-columns:1.1fr 1fr;background:rgba(255,255,255,.78);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);border:.5px solid rgba(255,255,255,.75);border-radius:24px;box-shadow:0 8px 32px rgba(0,71,171,.08);overflow:hidden;position:relative}
-.featured::before{content:"";position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--blue),var(--orange),var(--green));z-index:2}
-.featured-img{min-height:320px;background:var(--line)}
-.featured-img img{width:100%;height:100%;object-fit:cover;display:block}
-.featured-body{padding:36px 40px;display:flex;flex-direction:column;justify-content:center}
-.badge-row{display:flex;gap:8px;align-items:center;margin-bottom:14px}
-.badge{font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:5px 12px;border-radius:9999px}
-.badge-date{font-size:12px;color:var(--mut2)}
-.featured-body h2{font-weight:700;font-size:26px;line-height:1.25;letter-spacing:-.3px;margin:0 0 12px}
-.featured-body .dek{font-size:15px;color:var(--mut);line-height:1.6;margin:0 0 20px;font-style:normal;font-weight:400;max-width:none}
-.read-more{display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:700;color:var(--blue)}
-@media(max-width:700px){.featured{grid-template-columns:1fr}.featured-img{min-height:220px}}
-
-/* Grid */
-.grid-wrap{max-width:1100px;margin:0 auto;padding:0 20px 64px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px}
-.card{display:flex;flex-direction:column;overflow:hidden;position:relative;transition:transform .3s cubic-bezier(.22,1,.36,1),box-shadow .3s ease}
-.card:hover{transform:translateY(-4px);box-shadow:0 16px 48px rgba(0,71,171,.12)}
-.card .thumb{width:100%;aspect-ratio:4/3;background:var(--line);position:relative;overflow:hidden}
-.card .thumb img{width:100%;height:100%;object-fit:cover;display:block}
-.card .thumb .badge{position:absolute;top:12px;left:12px;background:rgba(253,251,247,.92)}
-.card .body{padding:20px;display:flex;flex-direction:column;flex:1}
-.card h3{font-weight:700;font-size:18px;line-height:1.3;letter-spacing:-.2px;margin:0 0 8px}
-.card .dk{font-size:13.5px;color:var(--mut);line-height:1.55;margin:0 0 14px;flex:1}
-.card .dt{font-size:12px;color:var(--mut2)}
-.no-posts{display:none;text-align:center;color:var(--mut2);font-size:14px;padding:40px 0}
-
-/* Coming soon */
-section#coming-soon{max-width:1100px;margin:0 auto;padding:0 20px 64px;text-align:center}
-section#coming-soon .grid-2{max-width:340px;margin:0 auto}
-
-/* CTA */
-.cta-wrap{max-width:1100px;margin:0 auto;padding:0 20px 56px}
-.cta{padding:56px 36px;position:relative;overflow:hidden;text-align:center;background:linear-gradient(135deg,var(--blue) 0%,#1B3A8C 100%);border-radius:24px;box-shadow:0 20px 60px rgba(0,71,171,.25)}
-.cta::before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.03) 1px,transparent 1px);background-size:40px 40px}
-.cta::after{content:"";position:absolute;top:0;left:0;right:0;height:6px;background:repeating-linear-gradient(90deg,rgba(255,255,255,.4) 0 8px,transparent 8px 10px,var(--orange) 10px 18px,transparent 18px 20px,var(--green) 20px 28px,transparent 28px 32px)}
-.cta h2{font-weight:800;font-size:clamp(24px,4vw,34px);color:var(--cream);position:relative;z-index:1;margin:0}
-.cta p{color:rgba(253,251,247,.75);font-size:16px;margin:12px 0 26px;position:relative;z-index:1}
-.cta .btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 28px;border-radius:14px;font-size:15px;font-weight:600;color:var(--blue);background:linear-gradient(180deg,#fff 0%,#F5EDE0 100%);box-shadow:0 2px 8px rgba(42,31,20,.06);position:relative;z-index:1}
-
-/* Footer */
-.stripe{height:6px;background:repeating-linear-gradient(90deg,var(--blue) 0 8px,var(--cream) 8px 10px,var(--orange) 10px 18px,var(--cream) 18px 20px,var(--green) 20px 28px,var(--cream) 28px 32px);opacity:.65}
-footer{padding:40px 20px 28px;text-align:center;border-top:.5px solid var(--line)}
-.footer-logo{font-weight:800;font-size:20px;color:var(--blue);margin-bottom:14px;letter-spacing:-.5px}
-.footer-logo .ia{color:var(--orange)}
-.footer-links{display:flex;gap:22px;justify-content:center;flex-wrap:wrap;margin-bottom:18px}
-.footer-links a{font-size:13px;color:var(--mut)}
-.footer-copy{font-size:12px;color:var(--mut2)}
+:root{--g:#1E9E6A;--ink:#16264F;--mut:#5A6577;--line:rgba(22,38,79,.1);--bg:#F4F0E7;--card:#fff}
+*{box-sizing:border-box}body{margin:0;font-family:'Nunito',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+.wrap{max-width:1100px;margin:0 auto;padding:24px 20px 64px}
+a.lang{float:right;font-size:13px;border:1px solid var(--line);padding:3px 10px;border-radius:20px;text-decoration:none;color:var(--mut)}
+nav.bc{font-size:13px;color:var(--mut);margin:6px 0 12px}nav.bc a{color:var(--mut);text-decoration:none}
+h1{font-size:32px;letter-spacing:-.01em;margin:.2em 0 20px}
+.floatnav{position:sticky;top:16px;z-index:20;background:var(--card);border:1px solid var(--line);border-radius:16px;box-shadow:0 8px 24px rgba(22,38,79,.08);margin:0 0 32px;padding:10px 22px;display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;scroll-snap-type:x proximity;-webkit-mask-image:linear-gradient(to right,transparent,#000 16px,#000 calc(100% - 16px),transparent);mask-image:linear-gradient(to right,transparent,#000 16px,#000 calc(100% - 16px),transparent)}
+.floatnav::-webkit-scrollbar{display:none}
+.floatnav a{flex:0 0 auto;font-size:13px;font-weight:700;color:var(--ink);text-decoration:none;padding:8px 15px;border-radius:20px;white-space:nowrap;transition:background .15s,color .15s;scroll-snap-align:start}
+.floatnav a:hover{background:var(--line)}
+h2.sec{font-size:22px;letter-spacing:-.01em;margin:38px 0 4px;padding-top:26px;border-top:1px solid var(--line);scroll-margin-top:90px}
+h2.sec:first-of-type{border-top:none;padding-top:0;margin-top:0}
+h3.sub-h{font-size:15px;font-weight:700;color:var(--mut);text-transform:uppercase;letter-spacing:.04em;margin:22px 0 12px;scroll-margin-top:90px}
+ul{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+li a{display:flex;flex-direction:column;height:100%;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;text-decoration:none;color:var(--ink);transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
+li a:hover{transform:translateY(-4px);border-color:var(--g);box-shadow:0 10px 24px rgba(22,38,79,.12)}
+.ci{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;background:var(--line)}
+.cbody{display:flex;flex-direction:column;padding:16px 18px 18px}
+.tt{display:block;font-size:20px;font-weight:700;line-height:1.3;margin:0 0 4px;letter-spacing:-.01em}
+.dk{display:block;color:var(--mut);font-size:15px}.dt{display:block;color:var(--mut);font-size:12px;margin-top:8px}
+.soon{font-size:14px;color:var(--mut);margin:0}
+footer{font-size:13px;color:var(--mut);margin-top:30px;border-top:1px solid var(--line);padding-top:16px}footer a{color:var(--mut)}
+@media(max-width:560px){h1{font-size:26px}}
 </style>
 </head>
-<body>
-
-<nav class="floatnav">
-  <div class="navcard">
-    <a href="#top" class="brand">
-      <img src="/assets/icon-landing.png" alt="CalorIA Scan">
-      <span>Calor<span class="ia">IA</span>Scan</span>
-    </a>
-    <div class="navlinks">
-      <a href="#catalog" data-filter="Myths" data-scroll>Myths</a>
-      <a href="#catalog" data-filter="Additives" data-scroll>Labels</a>
-      <a href="#catalog" data-filter="Health" data-scroll>Health</a>
-      <a href="#coming-soon">Recipes</a>
-      <a href="https://apps.apple.com/app/id6761160287" rel="nofollow" class="cta">Download</a>
-      <a href="/blog/" class="lang">🇲🇽 ES</a>
-    </div>
-    <button class="hamburger" aria-label="Open menu" onclick="document.getElementById('mobilepanel').classList.toggle('open')"><span></span><span></span><span></span></button>
-  </div>
-  <div class="mobilepanel" id="mobilepanel">
-    <a href="#catalog" data-filter="Myths" data-scroll>Myths</a>
-    <a href="#catalog" data-filter="Additives" data-scroll>Labels</a>
-    <a href="#catalog" data-filter="Health" data-scroll>Health</a>
-    <a href="#coming-soon">Recipes</a>
-  </div>
+<body><div class="wrap">
+<a class="lang" href="/blog/">Español</a>
+<nav class="bc"><a href="/en/">Home</a> › Blog</nav>
+<h1>CalorIA Scan Blog: Latest News and Trends</h1>
+<nav class="floatnav" aria-label="Section navigation">
+<a href="#app">About the app</a>
+<a href="#historia">Our Story</a>
+<a href="#app-tips">App Features</a>
+<a href="#salud">Health</a>
+<a href="#mitos">Myths</a>
+<a href="#etiquetas">Labels</a>
+<a href="#recipes">Recipes</a>
 </nav>
+<h2 class="sec" id="app">About the app</h2>
+<h3 class="sub-h" id="historia">🌽 Our story</h3><ul><li><a href="/en/blog/por-que-creamos-caloria-scan">
 
-<header id="top">
-  <nav class="bc"><a href="/en/">Home</a> › Blog</nav>
-  <div class="eyebrow">Blog</div>
-  <h1>Nutrition myths, checked against real science</h1>
-  <p class="dek">What goes viral on WhatsApp, tested against the WHO, Harvard and the FAO. No fear-mongering, no lecturing — just the source.</p>
-</header>
-
-<div class="chips" id="chips">
-  <button class="chip active" data-filter="All">All</button>
-  <button class="chip" data-filter="Myths">Myths</button>
-  <button class="chip" data-filter="Additives">Additives</button>
-  <button class="chip" data-filter="Sweeteners">Sweeteners</button>
-  <button class="chip" data-filter="Health">Health</button>
-</div>
-
-<section id="about-app">
-  <div class="eyebrow">About the app</div>
-  <div class="grid-2">
-    <div class="glass info-card">
-      <div class="ico">📱</div>
-      <h3>App tips</h3>
-      <p>Coming soon</p>
-    </div>
-    <div class="glass info-card">
-      <div class="ico">📣</div>
-      <h3>What's new</h3>
-      <p>Coming soon</p>
-    </div>
-  </div>
-</section>
-
-<section class="featured-wrap" id="catalog" data-category="Additives">
-  <a class="featured" href="/en/blog/e141-clorofila-cobre-colorante">
-    <div class="featured-img"><img src="/blog/img/e141-clorofila-cobre-colorante.jpg" alt="That bright green in your chewing gum isn't &quot;natural&quot; — it's chlorophyll with copper"></div>
-    <div class="featured-body">
-      <div class="badge-row">
-        <span class="badge" style="color:var(--green);background:rgba(45,140,107,.10)">🧪 Additives</span>
-        <span class="badge-date">Jul 17, 2026</span>
-      </div>
-      <h2>That bright green in your chewing gum isn't "natural" — it's chlorophyll with copper</h2>
-      <p class="dek">It's called E141, and it shows up in candy, canned vegetables and ice cream. Here's what we know — and don't — about its safety.</p>
-      <span class="read-more">Read article →</span>
-    </div>
-  </a>
-</section>
-
-<section class="grid-wrap">
-  <div class="grid">
-    <a class="glass card" data-category="Myths" href="/en/blog/barras-granola-azucar-oculta">
-      <div class="thumb"><img src="/blog/img/barras-granola-azucar-oculta.jpg" alt="That &quot;fit&quot; granola bar can carry as much sugar as a cookie"><span class="badge" style="color:var(--orange);background:rgba(204,85,0,.10)">🌾 Myths</span></div>
-      <div class="body">
-        <h3>That "fit" granola bar can carry as much sugar as a cookie</h3>
-        <p class="dk">The box says "oats" and "fiber." The nutrition label tells a different story.</p>
-        <span class="dt">Jul 17, 2026</span>
-      </div>
-    </a>
-    <a class="glass card" data-category="Myths" href="/en/blog/productos-light-azucar-oculta">
-      <div class="thumb"><img src="/blog/img/productos-light-azucar-oculta.jpg" alt="Your &quot;light&quot; yogurt can pack more sugar than a donut"><span class="badge" style="color:var(--orange);background:rgba(204,85,0,.10)">🍓 Myths</span></div>
-      <div class="body">
-        <h3>Your "light" yogurt can pack more sugar than a donut</h3>
-        <p class="dk">"Low fat" almost never means "low sugar." Very often it means the exact opposite.</p>
-        <span class="dt">Jul 7, 2026</span>
-      </div>
-    </a>
-    <a class="glass card" data-category="Myths" href="/en/blog/mitos-comida-virales">
-      <div class="thumb"><img src="/blog/img/mitos-comida-virales.jpg" alt="7 food myths everyone repeats (that science already debunked)"><span class="badge" style="color:var(--orange);background:rgba(204,85,0,.10)">🤯 Myths</span></div>
-      <div class="body">
-        <h3>7 food myths everyone repeats (that science already debunked)</h3>
-        <p class="dk">You forward them on WhatsApp without a second thought. Here they are, one by one, with the source that knocks them down.</p>
-        <span class="dt">Jul 7, 2026</span>
-      </div>
-    </a>
-    <a class="glass card" data-category="Myths" href="/en/blog/huevo-colesterol-mito">
-      <div class="thumb"><img src="/blog/img/huevo-colesterol-mito.jpg" alt="Do eggs clog your arteries? What the science actually found"><span class="badge" style="color:var(--orange);background:rgba(204,85,0,.10)">🥚 Myths</span></div>
-      <div class="body">
-        <h3>Do eggs clog your arteries? What the science actually found</h3>
-        <p class="dk">For decades we were told eggs spike your cholesterol. The large studies tell a different story.</p>
-        <span class="dt">Jul 6, 2026</span>
-      </div>
-    </a>
-    <a class="glass card" data-category="Sweeteners" href="/en/blog/refresco-zero-edulcorantes-oms">
-      <div class="thumb"><img src="/blog/img/refresco-zero-edulcorantes-oms.jpg" alt="&quot;Zero&quot; soda: why the WHO tells you not to use it to lose weight"><span class="badge" style="color:var(--blue);background:rgba(0,71,171,.10)">🥤 Sweeteners</span></div>
-      <div class="body">
-        <h3>"Zero" soda: why the WHO tells you not to use it to lose weight</h3>
-        <p class="dk">Zero sugar isn't the same as zero consequences. In 2023 the WHO issued a warning that surprised a lot of people.</p>
-        <span class="dt">Jul 4, 2026</span>
-      </div>
-    </a>
-    <a class="glass card" data-category="Myths" href="/en/blog/aguacate-engorda-mito">
-      <div class="thumb"><img src="/blog/img/aguacate-engorda-mito.jpg" alt="&quot;Avocado is fattening&quot;: the myth that confuses fat with the enemy"><span class="badge" style="color:var(--orange);background:rgba(204,85,0,.10)">🥑 Myths</span></div>
-      <div class="body">
-        <h3>"Avocado is fattening": the myth that confuses fat with the enemy</h3>
-        <p class="dk">Yes, avocado is calorie-dense. No, that doesn't make it the villain of your diet. The science puts it on your heart's side.</p>
-        <span class="dt">Jul 5, 2026</span>
-      </div>
-    </a>
-    <a class="glass card" data-category="Health" href="/en/blog/sal-presion-arterial-oms">
-      <div class="thumb"><img src="/blog/img/sal-presion-arterial-oms.jpg" alt="The salt mistake almost everyone makes (and your blood pressure feels it)"><span class="badge" style="color:var(--red);background:rgba(184,55,42,.10)">🧂 Health</span></div>
-      <div class="body">
-        <h3>The salt mistake almost everyone makes (and your blood pressure feels it)</h3>
-        <p class="dk">The world eats more than double the recommended salt. The WHO explains why your heart notices.</p>
-        <span class="dt">Jul 5, 2026</span>
-      </div>
-    </a>
-    <a class="glass card" data-category="Myths" href="/en/blog/pan-integral-mito">
-      <div class="thumb"><img src="/blog/img/pan-integral-mito.jpg" alt="Your &quot;whole wheat&quot; bread might not be whole wheat: the brown-color trick"><span class="badge" style="color:var(--orange);background:rgba(204,85,0,.10)">🍞 Myths</span></div>
-      <div class="body">
-        <h3>Your "whole wheat" bread might not be whole wheat: the brown-color trick</h3>
-        <p class="dk">Many "multigrain" or "whole" breads are dyed white flour. Here's how to spot them in 5 seconds.</p>
-        <span class="dt">Jul 3, 2026</span>
-      </div>
-    </a>
-    <a class="glass card" data-category="Myths" href="/en/blog/jugo-natural-vs-fruta">
-      <div class="thumb"><img src="/blog/img/jugo-natural-vs-fruta.jpg" alt="The &quot;natural&quot; juice you think is healthy can hold as much sugar as a soda"><span class="badge" style="color:var(--orange);background:rgba(204,85,0,.10)">🧃 Myths</span></div>
-      <div class="body">
-        <h3>The "natural" juice you think is healthy can hold as much sugar as a soda</h3>
-        <p class="dk">Juicing fruit strips out the best part and concentrates the sugar. It's not the same as biting into it.</p>
-        <span class="dt">Jul 2, 2026</span>
-      </div>
-    </a>
-  </div>
-  <p class="no-posts" id="no-posts">No articles in this category yet.</p>
-</section>
-
-<section id="coming-soon">
-  <div class="eyebrow">Coming soon</div>
-  <h2 style="font-weight:700;font-size:clamp(24px,3.5vw,32px);letter-spacing:-.3px;margin:0 0 32px;">Recipes</h2>
-  <div class="grid-2">
-    <div class="glass info-card">
-      <div class="ico">🍳</div>
-      <h3>Recipes</h3>
-      <p>Coming soon</p>
-    </div>
-  </div>
-</section>
-
-<section class="cta-wrap">
-  <div class="cta">
-    <h2>Scan your next meal in seconds</h2>
-    <p>Tacos, tortas, chilaquiles… whatever it is 🌮. Calories and macros, instantly.</p>
-    <a class="btn" href="https://apps.apple.com/app/id6761160287" rel="nofollow">Download free</a>
-  </div>
-</section>
-
-<div class="stripe"></div>
-<footer>
-  <div class="footer-logo">Calor<span class="ia">IA</span>Scan</div>
-  <div class="footer-links">
-    <a href="/en/">Home</a>
-    <a href="/en/calories/">Food calories</a>
-    <a href="/privacy-policy">Privacy</a>
-    <a href="/terms">Terms</a>
-  </div>
-  <div class="footer-copy">© 2026 CalorIA Scan · Made in Mexico 🇲🇽</div>
-</footer>
-
-<script>
-(function(){
-  var chips = document.querySelectorAll('[data-filter]');
-  var items = document.querySelectorAll('[data-category]');
-  var noPosts = document.getElementById('no-posts');
-  var grid = document.getElementById('catalog');
-  function apply(cat){
-    document.querySelectorAll('.chip').forEach(function(c){ c.classList.toggle('active', c.dataset.filter===cat); });
-    var anyVisible = false;
-    items.forEach(function(el){
-      var show = cat === 'All' || el.dataset.category === cat;
-      el.style.display = show ? '' : 'none';
-      if (show) anyVisible = true;
-    });
-    if (noPosts) noPosts.style.display = anyVisible ? 'none' : 'block';
-  }
-  chips.forEach(function(c){
-    c.addEventListener('click', function(e){
-      if (c.tagName === 'A') e.preventDefault();
-      apply(c.dataset.filter);
-      if (c.hasAttribute('data-scroll') && grid) grid.scrollIntoView({behavior:'smooth', block:'start'});
-      document.getElementById('mobilepanel').classList.remove('open');
-    });
-  });
-})();
-</script>
-</body>
-</html>
+<span class="cbody">
+<span class="tt">Why we built CalorIA Scan: the app that actually understands Mexican food</span>
+<span class="dk">I tried English-language calorie apps that had no idea what a torta or a mole was. So I built my own —first for me, then for everyone.</span>
+<span class="dt">Jul 20, 2026</span>
+</span>
+</a></li></ul>
+<h3 class="sub-h" id="app-tips">📱 App tips</h3><p class="soon">Coming soon.</p>
+<h3 class="sub-h" id="whats-new">📣 What's new</h3><p class="soon">Coming soon.</p>
+<h2 class="sec">Food science</h2>
+<h3 class="sub-h" id="myths">🤯 Myths</h3><ul><li><a href="/en/blog/barras-granola-azucar-oculta">
+<img class="ci" src="/blog/img/barras-granola-azucar-oculta.jpg" alt="That &quot;fit&quot; granola bar can carry as much sugar as a cookie" width="600" height="400" loading="lazy">
+<span class="cbody">
+<span class="tt">That "fit" granola bar can carry as much sugar as a cookie</span>
+<span class="dk">The box says "oats" and "fiber." The nutrition label tells a different story.</span>
+<span class="dt">Jul 17, 2026</span>
+</span>
+</a></li><li><a href="/en/blog/productos-light-azucar-oculta">
+<img class="ci" src="/blog/img/productos-light-azucar-oculta.jpg" alt="Your &quot;light&quot; yogurt can pack more sugar than a donut" width="600" height="400" loading="lazy">
+<span class="cbody">
+<span class="tt">Your "light" yogurt can pack more sugar than a donut</span>
+<span class="dk">"Low fat" almost never means "low sugar." Very often it means the exact opposite.</span>
+<span class="dt">Jul 7, 2026</span>
+</span>
+</a></li><li><a href="/en/blog/mitos-comida-virales">
+<img class="ci" src="/blog/img/mitos-comida-virales.jpg" alt="7 food myths everyone repeats (that science already debunked)" width="600" height="400" loading="lazy">
+<span class="cbody">
+<span class="tt">7 food myths everyone repeats (that science already debunked)</span>
+<span class="dk">You forward them on WhatsApp without a second thought. Here they are, one by one, with the source that knocks them down.</span>
+<span class="dt">Jul 7, 2026</span>
+</span>
+</a></li><li><a href="/en/blog/huevo-colesterol-mito">
+<img class="ci" src="/blog/img/huevo-colesterol-mito.jpg" alt="Do eggs clog your arteries? What the science actually found" width="600" height="400" loading="lazy">
+<span class="cbody">
+<span class="tt">Do eggs clog your arteries? What the science actually found</span>
+<span class="dk">For decades we were told eggs spike your cholesterol. The large studies tell a different story.</span>
+<span class="dt">Jul 6, 2026</span>
+</span>
+</a></li><li><a href="/en/blog/aguacate-engorda-mito">
+<img class="ci" src="/blog/img/aguacate-engorda-mito.jpg" alt="&quot;Avocado is fattening&quot;: the myth that confuses fat with the enemy" width="600" height="400" loading="lazy">
+<span class="cbody">
+<span class="tt">"Avocado is fattening": the myth that confuses fat with the enemy</span>
+<span class="dk">Yes, avocado is calorie-dense. No, that doesn't make it the villain of your diet. The science puts it on your heart's side.</span>
+<span class="dt">Jul 5, 2026</span>
+</span>
+</a></li><li><a href="/en/blog/pan-integral-mito">
+<img class="ci" src="/blog/img/pan-integral-mito.jpg" alt="Your &quot;whole wheat&quot; bread might not be whole wheat: the brown-color trick" width="600" height="400" loading="lazy">
+<span class="cbody">
+<span class="tt">Your "whole wheat" bread might not be whole wheat: the brown-color trick</span>
+<span class="dk">Many "multigrain" or "whole" breads are dyed white flour. Here's how to spot them in 5 seconds.</span>
+<span class="dt">Jul 3, 2026</span>
+</span>
+</a></li><li><a href="/en/blog/jugo-natural-vs-fruta">
+<img class="ci" src="/blog/img/jugo-natural-vs-fruta.jpg" alt="The &quot;natural&quot; juice you think is healthy can hold as much sugar as a soda" width="600" height="400" loading="lazy">
+<span class="cbody">
+<span class="tt">The "natural" juice you think is healthy can hold as much sugar as a soda</span>
+<span class="dk">Juicing fruit strips out the best part and concentrates the sugar. It's not the same as biting into it.</span>
+<span class="dt">Jul 2, 2026</span>
+</span>
+</a></li></ul><h3 class="sub-h" id="labels">🏷️ How to read labels</h3><ul><li><a href="/en/blog/e141-clorofila-cobre-colorante">
+<img class="ci" src="/blog/img/e141-clorofila-cobre-colorante.jpg" alt="That bright green in your chewing gum isn't &quot;natural&quot; — it's chlorophyll with copper" width="600" height="400" loading="lazy">
+<span class="cbody">
+<span class="tt">That bright green in your chewing gum isn't "natural" — it's chlorophyll with copper</span>
+<span class="dk">It's called E141, and it shows up in candy, canned vegetables and ice cream. Here's what we know — and don't — about its safety.</span>
+<span class="dt">Jul 17, 2026</span>
+</span>
+</a></li></ul><h3 class="sub-h" id="health">❤️ Health</h3><ul><li><a href="/en/blog/sal-presion-arterial-oms">
+<img class="ci" src="/blog/img/sal-presion-arterial-oms.jpg" alt="The salt mistake almost everyone makes (and your blood pressure feels it)" width="600" height="400" loading="lazy">
+<span class="cbody">
+<span class="tt">The salt mistake almost everyone makes (and your blood pressure feels it)</span>
+<span class="dk">The world eats more than double the recommended salt. The WHO explains why your heart notices.</span>
+<span class="dt">Jul 5, 2026</span>
+</span>
+</a></li><li><a href="/en/blog/refresco-zero-edulcorantes-oms">
+<img class="ci" src="/blog/img/refresco-zero-edulcorantes-oms.jpg" alt="&quot;Zero&quot; soda: why the WHO tells you not to use it to lose weight" width="600" height="400" loading="lazy">
+<span class="cbody">
+<span class="tt">"Zero" soda: why the WHO tells you not to use it to lose weight</span>
+<span class="dk">Zero sugar isn't the same as zero consequences. In 2023 the WHO issued a warning that surprised a lot of people.</span>
+<span class="dt">Jul 4, 2026</span>
+</span>
+</a></li></ul><h3 class="sub-h" id="recipes">🍳 Recipes</h3><p class="soon">Coming soon.</p>
+<footer>© 2026 CalorIA Scan · <a href="/en/">Home</a> · <a href="/en/calories/">Food calories</a></footer>
+</div></body></html>
