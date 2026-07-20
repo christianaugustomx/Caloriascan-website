@@ -95,8 +95,7 @@ function post(p, all, L){
 
   const bodyHTML = c.body.map(b=>`<h2>${esc(b.h)}</h2>${b.p.map(x=>`<p>${x}</p>`).join('')}`).join('\n');
   const tldrHTML = `<div class="tldr"><h2>${esc(t.tldr)}</h2><ul>${c.tldr.map(x=>`<li>${x}</li>`).join('')}</ul></div>`;
-  const hasSources = c.sources && c.sources.length > 0;
-  const sourcesHTML = hasSources ? `<ol class="sources">${c.sources.map(s=>`<li><a href="${escAttr(s.url)}" target="_blank" rel="noopener nofollow">${esc(s.name)}</a></li>`).join('')}</ol>` : '';
+  const sourcesHTML = `<ol class="sources">${c.sources.map(s=>`<li><a href="${escAttr(s.url)}" target="_blank" rel="noopener nofollow">${esc(s.name)}</a></li>`).join('')}</ol>`;
 
   return `<!DOCTYPE html>
 <html lang="${L}">
@@ -195,7 +194,8 @@ ${bodyHTML}
 <a class="btn" href="${APP_URL}" rel="nofollow">${esc(t.ctaBtn)}</a>
 </div>
 
-${hasSources ? `<h2>${esc(t.sources)}</h2>\n${sourcesHTML}` : ''}
+<h2>${esc(t.sources)}</h2>
+${sourcesHTML}
 
 ${shareBar(url, c.title, L)}
 
@@ -253,17 +253,16 @@ function hub(all, L){
   const t = isEN ? {
     home:'Home', switch:'Español', h1:'CalorIA Scan Blog: Latest News and Trends',
     secApp:'About the app', secScience:'Food science', appTips:'App tips', news:"What's new", recipes:'Recipes',
-    soon:'Coming soon.', ourStory:'Our story',
-    navFeatures:'App Features', navHealth:'Health', navMitos:'Myths', navLabels:'Labels', navStory:'Our Story'
+    soon:'Coming soon.',
+    navFeatures:'App Features', navHealth:'Health', navMitos:'Myths', navLabels:'Labels'
   } : {
     home:'Inicio', switch:'English', h1:'Blog de CalorIA Scan: Últimas Noticias y Tendencias',
     secApp:'Sobre la app', secScience:'Ciencia de la comida', appTips:'Tips de la app', news:'Novedades', recipes:'Recetas',
-    soon:'Próximamente.', ourStory:'Nuestra historia',
-    navFeatures:'Funciones de la app', navHealth:'Salud', navMitos:'Mitos', navLabels:'Etiquetas', navStory:'Nuestra historia'
+    soon:'Próximamente.',
+    navFeatures:'Funciones de la app', navHealth:'Salud', navMitos:'Mitos', navLabels:'Etiquetas'
   };
   const floatNav = `<nav class="floatnav" aria-label="${isEN?'Section navigation':'Navegación de secciones'}">
 <a href="#app">${esc(t.secApp)}</a>
-<a href="#historia">${esc(t.navStory)}</a>
 <a href="#app-tips">${esc(t.navFeatures)}</a>
 <a href="#salud">${esc(t.navHealth)}</a>
 <a href="#mitos">${esc(t.navMitos)}</a>
@@ -284,15 +283,10 @@ ${img}
 </span>
 </a></li>`;
   };
-  const storyCat = isEN ? 'Our Story' : 'Historia';
-  const storyPosts = all.filter(p => (isEN ? p.category_en : p.category_es) === storyCat);
-  const sciencePosts = all.filter(p => (isEN ? p.category_en : p.category_es) !== storyCat);
-  const subsections = groupBySubsection(sciencePosts, L);
+  const subsections = groupBySubsection(all, L);
   const scienceHTML = subsections.map(g=>`<h3 class="sub-h" id="${g.key}">${esc(g.icon)} ${esc(g.sub)}</h3><ul>${g.posts.map(card).join('')}</ul>`).join('')
     + `<h3 class="sub-h" id="recipes">🍳 ${esc(t.recipes)}</h3><p class="soon">${esc(t.soon)}</p>`;
-  const storyHTML = storyPosts.length ? `<h3 class="sub-h" id="historia">🌽 ${esc(t.ourStory)}</h3><ul>${storyPosts.map(card).join('')}</ul>` : '';
-  const appHTML = `${storyHTML}
-<h3 class="sub-h" id="app-tips">📱 ${esc(t.appTips)}</h3><p class="soon">${esc(t.soon)}</p>
+  const appHTML = `<h3 class="sub-h" id="app-tips">📱 ${esc(t.appTips)}</h3><p class="soon">${esc(t.soon)}</p>
 <h3 class="sub-h" id="whats-new">📣 ${esc(t.news)}</h3><p class="soon">${esc(t.soon)}</p>`;
   const ld = {"@context":"https://schema.org","@type":"Blog","name":"CalorIA Scan Blog","url":url,"inLanguage":L,
     "blogPost": all.map(x=>({"@type":"BlogPosting","headline":x[L].title,"url":`${DOMAIN}${isEN?'/en/blog/':'/blog/'}${x.slug}`,"datePublished":x.date}))};
