@@ -659,9 +659,10 @@ footer {
 /* ═══════ PRICING CARDS ═══════ */
 .pricing-grid {
   display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px; align-items: start;
+  gap: 20px; align-items: stretch;
 }
 .pricing-card {
+  display: flex; flex-direction: column;
   padding: 32px 24px; text-align: center; position: relative;
   background: var(--glass-bg);
   backdrop-filter: blur(var(--glass-blur)); -webkit-backdrop-filter: blur(var(--glass-blur));
@@ -689,7 +690,7 @@ footer {
 .pricing-price .currency { font-size: 20px; vertical-align: super; }
 .pricing-period { font-size: 13px; color: var(--text-light); margin-top: 4px; }
 .pricing-tagline { font-size: 12px; color: var(--burnt); font-style: italic; margin-top: 2px; font-family: 'Nunito', sans-serif; font-weight: 500; }
-.pricing-features { list-style: none; padding: 0; margin: 24px 0; text-align: left; }
+.pricing-features { list-style: none; padding: 0; margin: 24px 0; text-align: left; flex: 1; }
 .pricing-features li {
   display: flex; align-items: center; gap: 8px;
   padding: 7px 0; font-size: 13px; color: var(--text-mid);
@@ -1188,7 +1189,7 @@ footer {
     &#127873; Try Pro free for 7 days — cancel anytime
   </div>
 
-  <div class="pricing-grid" style="max-width:720px;margin:0 auto;">
+  <div class="pricing-grid" style="max-width:1100px;margin:0 auto;">
     <!-- Gratuito -->
     <div class="pricing-card animate-in">
       <div class="pricing-tier">Free</div>
@@ -1206,6 +1207,7 @@ footer {
         <li class="disabled"><span class="cross">&#10007;</span> Export PDF report</li>
       </ul>
       <a class="ceramic-btn ghost" href="https://apps.apple.com/app/id6761160287" target="_blank">Start free</a>
+      <p style="font-size:12px;color:var(--text-mid);margin-top:10px;text-align:center;line-height:1.4;visibility:hidden;" aria-hidden="true">Cancel anytime. No charge during the 7 days.</p>
     </div>
 
     <!-- Pro Monthly -->
