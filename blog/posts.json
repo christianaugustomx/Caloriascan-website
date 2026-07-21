@@ -1104,5 +1104,107 @@
         }
       ]
     }
+  },
+  {
+    "slug": "por-que-creamos-caloria-scan",
+    "date": "2026-07-20",
+    "category_es": "Historia",
+    "category_en": "Our Story",
+    "emoji": "🌽",
+    "cluster": "historia",
+    "es": {
+      "title": "Por qué creamos CalorIA Scan: la app que sí entiende la comida mexicana",
+      "dek": "Probé apps de conteo de calorías hechas en inglés que no tenían idea de qué era una torta o un mole. Por eso construí la mía —primero para mí, después para todos.",
+      "excerpt": "Antes de crear CalorIA Scan probé varias apps de conteo de calorías hechas en el extranjero que no reconocían la comida mexicana real. Esta es la historia detrás de la app.",
+      "tldr": [
+        "Antes de crear CalorIA Scan probé varias apps de conteo de calorías de origen inglés y estadounidense —casi ninguna reconocía bien la comida mexicana real.",
+        "Después de años cargando con sobrepeso, aprendí que saber exactamente qué estás comiendo —no una dieta perfecta— es el primer paso para tomarte en serio tu salud.",
+        "Construí la app para mí mismo. Cuando vi que de verdad funcionaba, decidí compartirla con más gente que vive el mismo problema."
+      ],
+      "body": [
+        {
+          "h": "Las apps que no reconocían mi plato",
+          "p": [
+            "Antes de CalorIA Scan probé varias apps de conteo de calorías, casi todas hechas en Inglaterra o Estados Unidos. Sobre el papel hacían lo que necesitaba: tomas una foto y te dicen qué comiste. En la práctica, apuntaba la cámara a una torta, a unos chilaquiles o a un plato de birria, y la app adivinaba cualquier otra cosa —o simplemente no encontraba nada parecido en su base de datos.",
+            "No era un error aislado. Volvía a pasar con esquites, con mole poblano, con unos tacos al pastor. Entendí que el problema no era yo apuntando mal la cámara: era que esas apps se construyeron pensando en comida empacada y platillos anglosajones, no en la enorme variedad de la comida mexicana real."
+          ]
+        },
+        {
+          "h": "Por qué contar calorías se volvió algo serio para mí",
+          "p": [
+            "Durante muchos años cargué con sobrepeso. Sé lo que se siente no poder verte como quieres verte, evitar espejos, comprar ropa pensando en \"esconder\" en lugar de sentirte bien. En algún momento entendí que el primer paso no era una dieta estricta ni prohibirme todo lo que me gustaba —era simplemente saber, con honestidad, qué estaba comiendo cada día.",
+            "Esa fue la parte que más me costó encontrar en cualquier app: no un plan milagroso, sino una forma rápida y confiable de ver mis calorías y macros reales, comida por comida, con lo que de verdad como —no con una versión genérica y en inglés de mi dieta."
+          ]
+        },
+        {
+          "h": "La comida mexicana no es un solo plato",
+          "p": [
+            "Parte del problema es que \"comida mexicana\" no es una categoría chica. Un mole cambia de estado a estado y de casa en casa. Un taco puede ser al pastor, de canasta, dorado o de guisado. Hay tortas, pozole, cochinita pibil, tamales de docenas de rellenos distintos, antojitos que ni siquiera tienen nombre fuera de su ciudad. Es una cocina enorme y viva, no una lista corta de platillos que quepan en tres categorías genéricas.",
+            "Las apps que probé simplemente no estaban diseñadas para esa diversidad. Y tiene sentido: si tu base de datos se construyó alrededor de comida de Estados Unidos o Reino Unido, la comida mexicana real siempre va a quedar fuera de foco."
+          ]
+        },
+        {
+          "h": "Empecé a construirla solo para mí",
+          "p": [
+            "No vengo de una empresa de tecnología alimentaria ni tenía un plan de negocio. Tenía un problema concreto —quería saber qué comía, sin que la app adivinara mal cada vez que comía algo mexicano— y empecé a construir una herramienta para resolvérmelo a mí mismo: reconocimiento de comida por foto, entrenado y ajustado para los platillos que de verdad tengo enfrente todos los días."
+          ]
+        },
+        {
+          "h": "De herramienta personal a CalorIA Scan",
+          "p": [
+            "Cuando empezó a funcionar de forma consistente para mí, se la mostré a familia y amigos. La reacción se repitió: a ellos les pasaba exactamente lo mismo con otras apps. Ahí entendí que no era solo mi problema —era un hueco que afecta a muchísima gente que come comida mexicana o latina todos los días y quiere tomarse en serio su salud sin traducir su plato a categorías que no le quedan.",
+            "Así nació el equipo detrás de CalorIA Scan: gente que decidió convertir una herramienta personal en algo que más personas pudieran usar. Seguimos construyendo la app pensando en la misma pregunta que me hice yo al inicio: ¿qué estoy comiendo, de verdad?"
+          ]
+        }
+      ],
+      "sources": []
+    },
+    "en": {
+      "title": "Why we built CalorIA Scan: the app that actually understands Mexican food",
+      "dek": "I tried English-language calorie apps that had no idea what a torta or a mole was. So I built my own —first for me, then for everyone.",
+      "excerpt": "Before creating CalorIA Scan, I tried calorie-counting apps built abroad that couldn't recognize real Mexican food. Here's the story behind the app.",
+      "tldr": [
+        "Before creating CalorIA Scan, I tried several calorie-counting apps of English and American origin —almost none of them recognized real Mexican food well.",
+        "After years carrying extra weight, I learned that knowing exactly what you're eating —not a perfect diet— is the first step to taking your health seriously.",
+        "I built the app for myself. Once I saw it actually worked, I decided to share it with more people living the same problem."
+      ],
+      "body": [
+        {
+          "h": "The apps that couldn't recognize my plate",
+          "p": [
+            "Before CalorIA Scan, I tried several calorie-counting apps, almost all of them built in England or the United States. On paper they did exactly what I needed: take a photo, get told what you ate. In practice, I'd point the camera at a torta, at chilaquiles, at a plate of birria, and the app would guess something completely different —or just come up empty.",
+            "It wasn't a one-off glitch. It happened again with esquites, with mole poblano, with tacos al pastor. I realized the problem wasn't how I was holding the camera —it was that these apps were built around packaged food and Anglo dishes, not the enormous variety of real Mexican food."
+          ]
+        },
+        {
+          "h": "Why counting calories became something I took seriously",
+          "p": [
+            "For many years I carried extra weight. I know what it feels like to not be able to look the way you want, to avoid mirrors, to buy clothes to \"hide\" instead of feeling good in them. At some point I understood the first step wasn't a strict diet or banning everything I liked —it was simply knowing, honestly, what I was eating every day.",
+            "That was the part hardest to find in any app: not a miracle plan, but a fast, reliable way to see my real calories and macros, meal by meal, based on what I actually eat —not a generic, English-language version of my diet."
+          ]
+        },
+        {
+          "h": "Mexican food isn't one single dish",
+          "p": [
+            "Part of the problem is that \"Mexican food\" isn't a small category. A mole changes from state to state and from house to house. A taco can be al pastor, de canasta, dorado, or de guisado. There's tortas, pozole, cochinita pibil, tamales with dozens of different fillings, street snacks that don't even have a name outside their own city. It's a huge, living cuisine —not a short list of dishes that fit into three generic categories.",
+            "The apps I tried simply weren't built for that diversity. Which makes sense: if your database was built around food from the US or the UK, real Mexican food will always fall outside the frame."
+          ]
+        },
+        {
+          "h": "I started building it just for myself",
+          "p": [
+            "I don't come from a food-tech company, and I didn't have a business plan. I had a concrete problem —I wanted to know what I was eating, without the app guessing wrong every time I ate something Mexican— and I started building a tool to solve it for myself: photo-based food recognition, trained and tuned for the dishes I actually have in front of me every day."
+          ]
+        },
+        {
+          "h": "From personal tool to CalorIA Scan",
+          "p": [
+            "Once it started working consistently for me, I showed it to family and friends. The reaction was the same every time: the exact same thing happened to them with other apps. That's when I understood it wasn't just my problem —it was a gap affecting a lot of people who eat Mexican or Latino food every day and want to take their health seriously without translating their plate into categories that don't fit it.",
+            "That's how the team behind CalorIA Scan came together: people who decided to turn a personal tool into something more people could use. We keep building the app around the same question I asked myself at the start: what am I actually eating?"
+          ]
+        }
+      ],
+      "sources": []
+    }
   }
 ]

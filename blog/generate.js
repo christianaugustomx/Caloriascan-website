@@ -95,7 +95,8 @@ function post(p, all, L){
 
   const bodyHTML = c.body.map(b=>`<h2>${esc(b.h)}</h2>${b.p.map(x=>`<p>${x}</p>`).join('')}`).join('\n');
   const tldrHTML = `<div class="tldr"><h2>${esc(t.tldr)}</h2><ul>${c.tldr.map(x=>`<li>${x}</li>`).join('')}</ul></div>`;
-  const sourcesHTML = `<ol class="sources">${c.sources.map(s=>`<li><a href="${escAttr(s.url)}" target="_blank" rel="noopener nofollow">${esc(s.name)}</a></li>`).join('')}</ol>`;
+  const hasSources = c.sources && c.sources.length > 0;
+  const sourcesHTML = hasSources ? `<ol class="sources">${c.sources.map(s=>`<li><a href="${escAttr(s.url)}" target="_blank" rel="noopener nofollow">${esc(s.name)}</a></li>`).join('')}</ol>` : '';
 
   return `<!DOCTYPE html>
 <html lang="${L}">
@@ -194,8 +195,7 @@ ${bodyHTML}
 <a class="btn" href="${APP_URL}" rel="nofollow">${esc(t.ctaBtn)}</a>
 </div>
 
-<h2>${esc(t.sources)}</h2>
-${sourcesHTML}
+${hasSources ? `<h2>${esc(t.sources)}</h2>\n${sourcesHTML}` : ''}
 
 ${shareBar(url, c.title, L)}
 
