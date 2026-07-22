@@ -78,14 +78,15 @@ section#sobre-la-app{max-width:1100px;margin:0 auto;padding:0 20px 48px}
 .featured::before{content:"";position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--blue),var(--orange),var(--green));z-index:2}
 .featured-img{min-height:320px;background:var(--line)}
 .featured-img img{width:100%;height:100%;object-fit:cover;display:block}
-.featured-img.logo{position:relative;overflow:hidden;min-height:220px;background:radial-gradient(circle at 50% 42%,#122a54 0%,#0b1c3d 72%);display:flex;align-items:center;justify-content:center;padding:30px}
-.featured-img.logo img{position:relative;z-index:1;width:auto;height:auto;max-width:150px;max-height:150px;object-fit:contain;border-radius:26px;box-shadow:0 18px 40px rgba(6,16,36,.45)}
-.featured-img.logo::after{content:"";position:absolute;left:0;right:0;top:-30%;height:32%;z-index:2;pointer-events:none;
+.featured-img.logo{min-height:220px;background:radial-gradient(circle at 50% 42%,#122a54 0%,#0b1c3d 72%);display:flex;align-items:center;justify-content:center;padding:30px}
+.logo-badge{position:relative;width:150px;height:150px;border-radius:26px;overflow:hidden;box-shadow:0 18px 40px rgba(6,16,36,.45)}
+.logo-badge img{position:relative;z-index:1;width:100%;height:100%;object-fit:contain;display:block}
+.logo-badge::after{content:"";position:absolute;left:0;right:0;top:-30%;height:32%;z-index:2;pointer-events:none;
   background:linear-gradient(180deg,transparent 0%,rgba(124,196,255,.10) 30%,rgba(180,225,255,.85) 50%,rgba(124,196,255,.10) 70%,transparent 100%);
   opacity:0;transition:opacity .2s ease}
-.featured:hover .featured-img.logo::after{opacity:1;animation:scan-sweep 1.6s ease-in-out infinite}
+.featured:hover .logo-badge::after{opacity:1;animation:scan-sweep 1.6s ease-in-out infinite}
 @keyframes scan-sweep{0%{top:-30%}100%{top:100%}}
-@media(prefers-reduced-motion:reduce){.featured:hover .featured-img.logo::after{animation:none;opacity:0}}
+@media(prefers-reduced-motion:reduce){.featured:hover .logo-badge::after{animation:none;opacity:0}}
 .featured-body{padding:36px 40px;display:flex;flex-direction:column;justify-content:center}
 .badge-row{display:flex;gap:8px;align-items:center;margin-bottom:14px}
 .badge{font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:5px 12px;border-radius:9999px}
@@ -191,7 +192,7 @@ footer{padding:40px 20px 28px;text-align:center;border-top:.5px solid var(--line
 
 <section class="featured-wrap" id="catalogo">
   <a class="featured" href="/blog/por-que-creamos-caloria-scan">
-    <div class="featured-img logo"><img src="/assets/icon-landing.png" alt="CalorIA Scan"></div>
+    <div class="featured-img logo"><span class="logo-badge"><img src="/assets/icon-landing.png" alt="CalorIA Scan"></span></div>
     <div class="featured-body">
       <div class="badge-row">
         <span class="badge" style="color:var(--blue);background:rgba(0,71,171,.10)">Historia</span>
