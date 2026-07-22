@@ -128,8 +128,8 @@ function post(p, all, L){
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <script type="application/ld+json">${JSON.stringify(ld)}</script>
 <style>
-:root{--g:#2e7d32;--ink:#1c2430;--mut:#5b6675;--line:#e6e9ef;--bg:#fff;--soft:#f6f8fb}
-*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.7}
+:root{--g:#2e7d32;--ink:#1c2430;--mut:#5b6675;--line:#e6e9ef;--bg:#FDFBF7;--soft:#f6f8fb}
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background-color:var(--bg);background-image:linear-gradient(rgba(0,71,171,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(0,71,171,.03) 1px,transparent 1px);background-size:40px 40px;line-height:1.7}
 .wrap{max-width:720px;margin:0 auto;padding:20px 18px 64px}
 a{color:var(--g)}
 nav.bc{font-size:13px;color:var(--mut);margin:6px 0 18px}nav.bc a{color:var(--mut);text-decoration:none}
