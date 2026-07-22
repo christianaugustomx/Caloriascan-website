@@ -21,7 +21,7 @@ const QUERIES = {
   'sal-presion-arterial-oms': ['salt shaker table', 'coarse salt bowl', 'sea salt food'],
   'pan-integral-mito': ['whole grain bread', 'bread loaf sliced', 'bread'],
   'jugo-natural-vs-fruta': ['orange juice glass', 'fresh orange juice', 'orange juice'],
-  'calorias-platillos-mexicanos-favoritos': ['tacos plate table', 'mexican food tacos', 'mexican tacos street food'],
+  'calorias-platillos-mexicanos-favoritos': ['mexican food tacos', 'mexican tacos street food', 'tacos plate table'],
   'mitos-comida-virales': ['fresh vegetables fruits', 'healthy food table', 'fruits vegetables'],
 };
 
