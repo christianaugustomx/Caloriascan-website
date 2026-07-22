@@ -185,7 +185,6 @@ footer{font-size:13px;color:var(--mut);margin-top:16px}footer a{color:var(--mut)
 <p class="dek">${esc(c.dek)}</p>
 <p class="meta">${t.by} CalorIA Scan · ${dateStr} · ${readMin} ${t.min}</p>
 ${hasHero ? `<img class="hero" src="${heroUrl}" alt="${escAttr(c.title)}" width="1200" height="675" loading="eager">` : ''}
-${shareBar(url, c.title, L)}
 ${tldrHTML}
 ${bodyHTML}
 
