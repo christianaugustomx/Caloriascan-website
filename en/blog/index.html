@@ -58,9 +58,6 @@ h1{font-weight:800;font-size:clamp(34px,5.5vw,52px);line-height:1.08;letter-spac
 .dek{font-style:italic;font-weight:500;font-size:17px;color:var(--mut);margin-top:14px;max-width:560px}
 
 /* Chips */
-.chips{max-width:1100px;margin:0 auto;padding:8px 20px 40px;display:flex;gap:8px;flex-wrap:wrap}
-.chip{font-size:13px;font-weight:700;padding:10px 18px;border-radius:9999px;cursor:pointer;border:1.5px solid var(--line);background:rgba(255,255,255,.6);color:var(--mut);transition:all .2s ease}
-.chip.active{border-color:var(--blue);background:linear-gradient(180deg,var(--blue-light),var(--blue));color:var(--cream)}
 
 /* Glass card sections */
 .glass{background:rgba(255,255,255,.60);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border:.5px solid rgba(255,255,255,.65);border-radius:24px;box-shadow:0 8px 32px rgba(0,71,171,.08)}
@@ -160,17 +157,8 @@ footer{padding:40px 20px 28px;text-align:center;border-top:.5px solid var(--line
 
 <header id="top">
   <nav class="bc"><a href="/en/">Home</a> › Blog</nav>
-  <div class="eyebrow">Blog</div>
   <h1>CalorIA Scan Blog — Updates, insights and highlights from the CalorIA Scan world.</h1>
 </header>
-
-<div class="chips" id="chips">
-  <button class="chip active" data-filter="All">All</button>
-  <button class="chip" data-filter="Myths">Myths</button>
-  <button class="chip" data-filter="Additives">Additives</button>
-  <button class="chip" data-filter="Sweeteners">Sweeteners</button>
-  <button class="chip" data-filter="Health">Health</button>
-</div>
 
 <section class="featured-wrap" id="catalog">
   <a class="featured" href="/en/blog/por-que-creamos-caloria-scan">
