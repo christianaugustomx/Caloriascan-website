@@ -98,5 +98,15 @@
     "landing": "https://stocksnap.io/photo/jelly-beans-LQLLMMQ7KX",
     "query": "green candy sweets",
     "url": "https://cdn.stocksnap.io/img-thumbs/960w/LQLLMMQ7KX.jpg"
+  },
+  "calorias-platillos-mexicanos-favoritos": {
+    "rank": 0,
+    "title": "Mexican Tacos",
+    "license": "cc0",
+    "creator": "Tim Sullivan",
+    "source": "stocksnap",
+    "landing": "https://stocksnap.io/photo/mexican-tacos-UPG7YS3LGW",
+    "query": "mexican food tacos",
+    "url": "https://cdn.stocksnap.io/img-thumbs/960w/UPG7YS3LGW.jpg"
   }
 }

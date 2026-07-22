@@ -1206,5 +1206,137 @@
       ],
       "sources": []
     }
+  },
+  {
+    "slug": "calorias-platillos-mexicanos-favoritos",
+    "date": "2026-07-22",
+    "category_es": "Salud",
+    "category_en": "Health",
+    "emoji": "🌮",
+    "cluster": "calorias",
+    "es": {
+      "title": "Cuántas calorías tiene tu antojito favorito: la guía rápida de la comida mexicana",
+      "dek": "De los tacos al pastor al mole poblano, así se comparan las calorías de los platillos que más pides — para que dejes de adivinar.",
+      "excerpt": "Comparamos las calorías de los antojitos mexicanos más pedidos —tacos, mole, pozole, chilaquiles y más— para que sepas qué estás comiendo antes de pedirlo.",
+      "tldr": [
+        "Un mole poblano (480 kcal) puede tener más del doble de calorías que unos tacos al pastor (220 kcal) —mismo antojo mexicano, calorías muy distintas.",
+        "El tamaño de la porción cambia todo: unos chilaquiles (480 kcal) fácilmente igualan a un plato de enchiladas (420 kcal) sin que lo notes.",
+        "Estos números son promedios generales de nuestra base de datos de comida mexicana. La única forma de saber las calorías exactas de tu plato específico es escanearlo."
+      ],
+      "body": [
+        {
+          "h": "Tacos al pastor — 220 kcal",
+          "p": [
+            "El antojo más pedido de México, y de los más ligeros de esta lista. Tres tacos al pastor bien servidos rondan las 220 kcal, casi todo entre la tortilla, la carne marinada y un poco de piña. El golpe calórico real casi siempre viene de lo que le agregas encima: crema, queso extra o una salsa muy aceitosa."
+          ]
+        },
+        {
+          "h": "Guacamole — 160 kcal",
+          "p": [
+            "Una porción estándar de guacamole ronda las 160 kcal —casi todas de grasa buena del aguacate. No es el villano de la mesa; el problema real suele ser cuánto totopo frito le echas de vehículo."
+          ]
+        },
+        {
+          "h": "Elote — 180 kcal",
+          "p": [
+            "Un elote preparado (mayonesa, queso, chile, limón) se va a unas 180 kcal. La mazorca sola apenas suma un tercio de eso —el resto es la mayonesa y el queso, que puedes pedir \"al gusto\" para bajarle."
+          ]
+        },
+        {
+          "h": "Pozole rojo — 350 kcal",
+          "p": [
+            "Un plato de pozole rojo con su carne y maíz cacahuazintle ronda las 350 kcal antes de que le agregues nada. Con lechuga, rábano y orégano encima el número casi no cambia —pero un puño extra de chicharrón sí lo mueve rápido."
+          ]
+        },
+        {
+          "h": "Enchiladas rojas — 420 kcal",
+          "p": [
+            "Tres enchiladas rojas bañadas y con queso suman alrededor de 420 kcal. Aquí el aceite de freír la tortilla antes de rellenarla pesa tanto como el relleno mismo."
+          ]
+        },
+        {
+          "h": "Chilaquiles rojos — 480 kcal",
+          "p": [
+            "Un plato de chilaquiles con crema, queso y un huevo encima llega fácilmente a 480 kcal —lo mismo que un mole poblano completo. Es el desayuno que más se subestima en calorías porque \"son solo totopos\"."
+          ]
+        },
+        {
+          "h": "Mole poblano — 480 kcal",
+          "p": [
+            "Una pieza de pollo bañada en mole poblano ronda también las 480 kcal, empatando con los chilaquiles. Tiene sentido: el mole lleva chocolate, manteca y varios tipos de chile molido —es una salsa densa, no una salsa ligera."
+          ]
+        },
+        {
+          "h": "Por qué estos números son solo el punto de partida",
+          "p": [
+            "Estas cifras son promedios de nuestra propia base de datos de comida mexicana y latina —útiles para comparar antojos entre sí, pero no para saber exactamente qué comiste tú hoy. La porción, la mano de quien cocina y lo que le agregaste encima pueden mover el número final 100 kcal o más para arriba o para abajo.",
+            "Si de verdad quieres saber qué tiene tu plato específico —no un promedio, el tuyo— tómale una foto con CalorIA Scan. Y si quieres seguir comparando, tenemos calorías y macros de más de 60 platillos mexicanos y latinos en nuestro <a href=\"/calorias/\">catálogo de calorías</a>."
+          ]
+        }
+      ],
+      "sources": []
+    },
+    "en": {
+      "title": "How many calories are in your favorite Mexican dish? The quick guide",
+      "dek": "From tacos al pastor to mole poblano, here's how the calories in your go-to order really compare — so you stop guessing.",
+      "excerpt": "We compare the calories in the most-ordered Mexican dishes —tacos, mole, pozole, chilaquiles and more— so you know what you're eating before you order it.",
+      "tldr": [
+        "A mole poblano (480 kcal) can carry more than double the calories of tacos al pastor (220 kcal) —same Mexican craving, very different calorie counts.",
+        "Portion size changes everything: a chilaquiles plate (480 kcal) can easily match a plate of enchiladas (420 kcal) without you noticing.",
+        "These numbers are general averages from our own Mexican food database. The only way to know the exact calories in your specific plate is to scan it."
+      ],
+      "body": [
+        {
+          "h": "Tacos al pastor — 220 kcal",
+          "p": [
+            "Mexico's most-ordered craving, and one of the lightest on this list. Three well-served tacos al pastor land around 220 kcal, mostly split between the tortilla, marinated pork, and a bit of pineapple. The real calorie hit almost always comes from what you pile on top: extra cream, extra cheese, or a very oily salsa."
+          ]
+        },
+        {
+          "h": "Guacamole — 160 kcal",
+          "p": [
+            "A standard serving of guacamole runs about 160 kcal —almost all of it good fat from the avocado. It's not the villain at the table; the real issue is usually how many fried chips you're using as the delivery vehicle."
+          ]
+        },
+        {
+          "h": "Elote (Mexican street corn) — 180 kcal",
+          "p": [
+            "A fully dressed elote (mayo, cheese, chili, lime) runs about 180 kcal. The corn itself is barely a third of that —the rest is the mayo and cheese, which you can ask for \"light\" to bring the number down."
+          ]
+        },
+        {
+          "h": "Pozole rojo — 350 kcal",
+          "p": [
+            "A bowl of red pozole with its meat and hominy corn runs around 350 kcal before you add anything. Lettuce, radish and oregano on top barely move that number —but an extra handful of chicharrón does, fast."
+          ]
+        },
+        {
+          "h": "Enchiladas rojas — 420 kcal",
+          "p": [
+            "Three red enchiladas, sauced and cheesed, add up to roughly 420 kcal. Here, the oil from frying the tortilla before rolling it carries almost as much weight as the filling itself."
+          ]
+        },
+        {
+          "h": "Chilaquiles rojos — 480 kcal",
+          "p": [
+            "A plate of chilaquiles with cream, cheese and an egg on top easily reaches 480 kcal —the same as a full mole poblano. It's the most underestimated breakfast calorie-wise, because \"it's just chips\"."
+          ]
+        },
+        {
+          "h": "Mole poblano — 480 kcal",
+          "p": [
+            "A piece of chicken bathed in mole poblano also runs around 480 kcal, tying with chilaquiles. That tracks: mole is built from chocolate, lard and several kinds of ground chile —it's a dense sauce, not a light one."
+          ]
+        },
+        {
+          "h": "Why these numbers are only the starting point",
+          "p": [
+            "These figures are averages from our own Mexican and Latino food database —useful for comparing cravings against each other, but not for knowing exactly what you ate today. Portion size, whoever's cooking, and whatever you piled on top can swing the final number by 100 kcal or more in either direction.",
+            "If you actually want to know what's in your specific plate —not an average, yours— take a photo of it with CalorIA Scan. And if you want to keep comparing, we have calories and macros for 60+ Mexican and Latino dishes in our <a href=\"/en/calories/\">calorie catalog</a>."
+          ]
+        }
+      ],
+      "sources": []
+    }
   }
 ]
