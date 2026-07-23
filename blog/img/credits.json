@@ -107,6 +107,7 @@
     "source": "stocksnap",
     "landing": "https://stocksnap.io/photo/mexican-tacos-UPG7YS3LGW",
     "query": "mexican food tacos",
-    "url": "https://cdn.stocksnap.io/img-thumbs/960w/UPG7YS3LGW.jpg"
+    "url": "https://cdn.stocksnap.io/img-thumbs/960w/UPG7YS3LGW.jpg",
+    "notes": "landscape crop of the original portrait photo (same photographer/license), re-cropped to a 3:2 band to avoid the extreme zoomed crop that a portrait source forced in landscape containers."
   }
 }
