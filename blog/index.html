@@ -105,12 +105,13 @@ h1{font-weight:800;font-size:clamp(34px,5.5vw,52px);line-height:1.08;letter-spac
 .card .thumb img{width:100%;height:100%;object-fit:cover;display:block}
 .card .thumb .badge{position:absolute;top:12px;left:12px;background:rgba(253,251,247,.92)}
 .card .thumb.logo{background:radial-gradient(circle at 50% 42%,#122a54 0%,#0b1c3d 72%);display:flex;align-items:center;justify-content:center}
-.card .thumb.logo::after{content:"";position:absolute;left:0;right:0;top:-30%;height:32%;z-index:2;pointer-events:none;
+.card .thumb.logo .icon-wrap{position:relative;width:35%;aspect-ratio:1/1;border-radius:18%;overflow:hidden;box-shadow:0 10px 24px rgba(6,16,36,.4)}
+.card .thumb.logo .icon-wrap img{width:100%;height:100%;object-fit:contain;display:block}
+.card .thumb.logo .icon-wrap::after{content:"";position:absolute;left:0;right:0;top:-30%;height:32%;z-index:2;pointer-events:none;
   background:linear-gradient(180deg,transparent 0%,rgba(124,196,255,.10) 30%,rgba(180,225,255,.85) 50%,rgba(124,196,255,.10) 70%,transparent 100%);
   opacity:0;transition:opacity .2s ease}
-.card:hover .thumb.logo::after{opacity:1;animation:scan-sweep 1.6s ease-in-out infinite}
-@media(prefers-reduced-motion:reduce){.card:hover .thumb.logo::after{animation:none;opacity:0}}
-.card .thumb.logo img{width:auto;height:auto;max-width:35%;max-height:35%;object-fit:contain;border-radius:18%;box-shadow:0 10px 24px rgba(6,16,36,.4)}
+.card:hover .thumb.logo .icon-wrap::after{opacity:1;animation:scan-sweep 1.6s ease-in-out infinite}
+@media(prefers-reduced-motion:reduce){.card:hover .thumb.logo .icon-wrap::after{animation:none;opacity:0}}
 .card .body{padding:20px;display:flex;flex-direction:column;flex:1}
 .card h3{font-weight:700;font-size:18px;line-height:1.3;letter-spacing:-.2px;margin:0 0 8px}
 .card .dk{font-size:13.5px;color:var(--mut);line-height:1.55;margin:0 0 14px;flex:1}
@@ -200,7 +201,7 @@ footer{padding:40px 20px 28px;text-align:center;border-top:.5px solid var(--line
       </div>
     </a>
     <a class="glass card" href="/blog/por-que-creamos-caloria-scan">
-      <div class="thumb logo"><img src="/assets/icon-app.png" alt="CalorIA Scan"><span class="badge" style="color:var(--blue);background:rgba(31,82,222,.10)">Historia</span></div>
+      <div class="thumb logo"><span class="icon-wrap"><img src="/assets/icon-app.png" alt="CalorIA Scan"></span><span class="badge" style="color:var(--blue);background:rgba(31,82,222,.10)">Historia</span></div>
       <div class="body">
         <h3>Por qué creamos CalorIA Scan: la app que sí entiende la comida mexicana</h3>
         <p class="dk">Probé apps de conteo de calorías hechas en inglés que no tenían idea de qué era una torta o un mole. Por eso construí la mía —para quienes aman la comida mexicana tanto como yo y quieren tomar el control de lo que comen.</p>
