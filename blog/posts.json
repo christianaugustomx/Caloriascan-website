@@ -1502,5 +1502,93 @@
       ],
       "sources": []
     }
+  },
+  {
+    "slug": "fibra-nutriente-que-falta",
+    "date": "2026-08-04",
+    "category_es": "Salud",
+    "category_en": "Health",
+    "emoji": "🥦",
+    "cluster": "salud",
+    "es": {
+      "title": "La fibra: el nutriente que casi nadie está consumiendo suficiente",
+      "dek": "La mayoría de los adultos come muy por debajo de la fibra recomendada al día —y eso tiene un costo real para tu digestión, tu corazón y tus niveles de azúcar.",
+      "excerpt": "Casi nadie llega a los 25-38 gramos de fibra diarios que recomienda la ciencia. Te explicamos por qué importa y cómo cerrar la brecha sin complicarte.",
+      "tldr": [
+        "La ingesta recomendada de fibra es de unos 25 g al día para mujeres adultas y 38 g para hombres adultos —pero el adulto promedio apenas llega a 15 g.",
+        "La fibra no es un solo nutriente: la soluble ayuda a bajar el colesterol y estabilizar el azúcar en sangre; la insoluble mejora el tránsito intestinal.",
+        "No necesitas suplementos: frijoles, avena, lentejas, manzana con cáscara y verduras ya te acercan bastante a la meta diaria."
+      ],
+      "body": [
+        {
+          "h": "Cuánta fibra deberías comer (y cuánta comes en realidad)",
+          "p": [
+            "Las guías de nutrición recomiendan alrededor de 25 gramos de fibra al día para mujeres adultas y 38 gramos para hombres adultos, según el Institute of Medicine de Estados Unidos. En la práctica, el adulto promedio en dietas occidentales apenas llega a 15 gramos al día —bien por debajo de lo recomendado. Es una de las brechas nutricionales más consistentes que existen, y a diferencia de otros nutrientes, casi no se habla de ella."
+          ]
+        },
+        {
+          "h": "Por qué esta brecha sí importa",
+          "p": [
+            "La fibra hace más que \"ayudar a ir al baño\". La fibra soluble —la que se disuelve en agua, presente en avena, frijoles y manzanas— retrasa la absorción de azúcar y ayuda a reducir el colesterol LDL. La fibra insoluble —la de granos integrales y verduras— agrega volumen a las heces y mejora el tránsito intestinal. Juntas, una ingesta adecuada de fibra se asocia con menor riesgo cardiovascular y mejor control de glucosa, según Harvard T.H. Chan School of Public Health."
+          ]
+        },
+        {
+          "h": "No se trata de un suplemento, se trata de tu plato",
+          "p": [
+            "No necesitas polvos ni cápsulas para cerrar la brecha. Media taza de frijoles negros cocidos aporta cerca de 7-8 gramos de fibra; una manzana con cáscara, unos 4 gramos; media taza de avena cruda, otros 4 gramos. Cambiar arroz blanco por integral, dejar la cáscara en frutas y verduras cuando se pueda, y agregar una porción de leguminosas al día son ajustes pequeños que suman rápido."
+          ]
+        },
+        {
+          "h": "Cómo saber si tu dieta ya te está dando suficiente",
+          "p": [
+            "La forma más simple de saberlo es sumar lo que comes en un día típico y compararlo con la meta de 25-38 gramos. CalorIA Scan calcula fibra junto con calorías y macros cada vez que escaneas un plato, así que puedes ver en tiempo real qué tan cerca —o lejos— estás de la meta, sin tener que hacer cuentas a mano."
+          ]
+        }
+      ],
+      "sources": [
+        {"name": "Harvard T.H. Chan — The Nutrition Source: Fiber", "url": "https://nutritionsource.hsph.harvard.edu/carbohydrates/fiber/"},
+        {"name": "Dietary Guidelines for Americans", "url": "https://www.dietaryguidelines.gov/"}
+      ]
+    },
+    "en": {
+      "title": "Fiber: the nutrient almost nobody gets enough of",
+      "dek": "Most adults eat well below the recommended amount of fiber each day —and that has a real cost for your digestion, your heart, and your blood sugar.",
+      "excerpt": "Almost nobody hits the 25-38 grams of fiber a day that nutrition science recommends. Here's why it matters and how to close the gap without overcomplicating it.",
+      "tldr": [
+        "The recommended fiber intake is about 25 g a day for adult women and 38 g for adult men —but the average adult gets only around 15 g.",
+        "Fiber isn't one nutrient: soluble fiber helps lower cholesterol and stabilize blood sugar; insoluble fiber improves digestive transit.",
+        "You don't need supplements: beans, oats, lentils, apples with the skin on, and vegetables already get you most of the way to your daily goal."
+      ],
+      "body": [
+        {
+          "h": "How much fiber you should eat (and how much you actually eat)",
+          "p": [
+            "Nutrition guidelines recommend around 25 grams of fiber a day for adult women and 38 grams for adult men, according to the U.S. Institute of Medicine. In practice, the average adult on a Western diet gets only about 15 grams a day —well below that target. It's one of the most consistent nutrition gaps out there, and unlike other nutrients, it barely gets talked about."
+          ]
+        },
+        {
+          "h": "Why this gap actually matters",
+          "p": [
+            "Fiber does more than \"help you go.\" Soluble fiber —the kind that dissolves in water, found in oats, beans and apples— slows sugar absorption and helps lower LDL cholesterol. Insoluble fiber —found in whole grains and vegetables— adds bulk to stool and improves digestive transit. Together, adequate fiber intake is linked to lower cardiovascular risk and better blood sugar control, according to the Harvard T.H. Chan School of Public Health."
+          ]
+        },
+        {
+          "h": "It's not about a supplement, it's about your plate",
+          "p": [
+            "You don't need powders or capsules to close the gap. Half a cup of cooked black beans has about 7-8 grams of fiber; an apple with the skin on, about 4 grams; half a cup of raw oats, another 4 grams. Swapping white rice for brown, leaving the skin on fruits and vegetables when you can, and adding one serving of legumes a day are small changes that add up fast."
+          ]
+        },
+        {
+          "h": "How to know if your diet is already giving you enough",
+          "p": [
+            "The simplest way to know is to add up what you eat on a typical day and compare it to the 25-38 gram target. CalorIA Scan calculates fiber alongside calories and macros every time you scan a plate, so you can see in real time how close —or far— you are from the goal, without doing the math by hand."
+          ]
+        }
+      ],
+      "sources": [
+        {"name": "Harvard T.H. Chan — The Nutrition Source: Fiber", "url": "https://nutritionsource.hsph.harvard.edu/carbohydrates/fiber/"},
+        {"name": "Dietary Guidelines for Americans", "url": "https://www.dietaryguidelines.gov/"}
+      ]
+    }
   }
 ]
