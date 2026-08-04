@@ -1430,7 +1430,7 @@
     "cluster": "producto",
     "es": {
       "title": "Qué hay de nuevo en CalorIA Scan 2.0.2",
-      "dek": "Reconocimiento de comida más preciso, un selector de temas rediseñado y tu racha ahora sincronizada en todos tus dispositivos.",
+      "dek": "Reconocimiento de comida más preciso, un selector de temas completamente rediseñado y tu racha ahora sincronizada en todos tus dispositivos —así luce la actualización 2.0.2, ya disponible para descargar desde la App Store.",
       "excerpt": "La versión 2.0.2 de CalorIA Scan ya está disponible: mejoramos el reconocimiento de platillos, rediseñamos el selector de temas y arreglamos la racha semanal entre dispositivos.",
       "tldr": [
         "El reconocimiento de comida ya no duplica palabras en el nombre del platillo detectado.",
@@ -1467,7 +1467,7 @@
     },
     "en": {
       "title": "What's new in CalorIA Scan 2.0.2",
-      "dek": "More accurate food recognition, a redesigned theme switcher, and your streak now synced across every device.",
+      "dek": "More accurate food recognition, a completely redesigned theme switcher, and your streak now synced across every device —that's what's inside the 2.0.2 update, live now on the App Store.",
       "excerpt": "CalorIA Scan 2.0.2 is here: sharper food recognition, a redesigned theme switcher, and a fix for weekly streaks across devices.",
       "tldr": [
         "Food recognition no longer duplicates words in the detected dish name.",
