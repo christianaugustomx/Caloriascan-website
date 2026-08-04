@@ -1420,5 +1420,87 @@
       ],
       "sources": []
     }
+  },
+  {
+    "slug": "novedades-caloria-scan-2-0-2",
+    "date": "2026-08-04",
+    "category_es": "Producto",
+    "category_en": "Product",
+    "emoji": "✨",
+    "cluster": "producto",
+    "es": {
+      "title": "Qué hay de nuevo en CalorIA Scan 2.0.2",
+      "dek": "Reconocimiento de comida más preciso, un selector de temas rediseñado y tu racha ahora sincronizada en todos tus dispositivos.",
+      "excerpt": "La versión 2.0.2 de CalorIA Scan ya está disponible: mejoramos el reconocimiento de platillos, rediseñamos el selector de temas y arreglamos la racha semanal entre dispositivos.",
+      "tldr": [
+        "El reconocimiento de comida ya no duplica palabras en el nombre del platillo detectado.",
+        "El selector de temas se rediseñó: ahora puedes recorrer los siete temas de la app sin perder tu selección.",
+        "Tu racha semanal (los puntos de cada día) ahora se sincroniza completa entre todos tus dispositivos."
+      ],
+      "body": [
+        {
+          "h": "Reconocimiento de comida más preciso",
+          "p": [
+            "Uno de los ajustes más pedidos: los nombres de los platillos que detecta la cámara ya no se repiten. Antes, un plato podía aparecer con palabras duplicadas cuando el modelo dudaba entre dos nombres parecidos. Con 2.0.2 el reconocimiento limpia esa duplicación antes de mostrarte el resultado, así que el nombre que ves es el nombre real del platillo."
+          ]
+        },
+        {
+          "h": "Selector de temas rediseñado",
+          "p": [
+            "CalorIA Scan tiene siete temas visuales, y hasta ahora cambiar entre ellos podía sentirse un poco torpe. El selector se rediseñó por completo: ahora puedes recorrer los siete temas de forma fluida sin que la app pierda tu selección a mitad del camino."
+          ]
+        },
+        {
+          "h": "Tu racha, sincronizada en todos tus dispositivos",
+          "p": [
+            "Si usas CalorIA Scan en tu iPhone y tu iPad, seguro notaste que los puntos de tu racha semanal no siempre coincidían entre uno y otro. Lo arreglamos: tu historial completo de racha ahora se sincroniza en todos tus dispositivos, así que ves el mismo progreso sin importar en cuál abras la app."
+          ]
+        },
+        {
+          "h": "Cómo actualizar",
+          "p": [
+            "La actualización 2.0.2 ya está disponible en la App Store. Si tienes las actualizaciones automáticas activadas, probablemente ya la tengas instalada —si no, puedes actualizarla manualmente desde la app de App Store en tu iPhone."
+          ]
+        }
+      ],
+      "sources": []
+    },
+    "en": {
+      "title": "What's new in CalorIA Scan 2.0.2",
+      "dek": "More accurate food recognition, a redesigned theme switcher, and your streak now synced across every device.",
+      "excerpt": "CalorIA Scan 2.0.2 is here: sharper food recognition, a redesigned theme switcher, and a fix for weekly streaks across devices.",
+      "tldr": [
+        "Food recognition no longer duplicates words in the detected dish name.",
+        "The theme switcher was redesigned: you can now cycle through all seven app themes without losing your selection.",
+        "Your weekly streak (the day dots) now syncs in full across every device you use."
+      ],
+      "body": [
+        {
+          "h": "More accurate food recognition",
+          "p": [
+            "One of the most requested fixes: dish names detected by the camera no longer repeat words. Before, a plate could show up with duplicated words when the model hesitated between two similar names. With 2.0.2, recognition cleans that duplication up before showing you the result, so the name you see is the real name of the dish."
+          ]
+        },
+        {
+          "h": "Redesigned theme switcher",
+          "p": [
+            "CalorIA Scan ships with seven visual themes, and until now switching between them could feel a little clunky. The switcher got a full redesign: you can now cycle through all seven themes smoothly, without the app losing your selection halfway through."
+          ]
+        },
+        {
+          "h": "Your streak, synced across every device",
+          "p": [
+            "If you use CalorIA Scan on both your iPhone and iPad, you've probably noticed your weekly streak dots didn't always match between the two. That's fixed: your full streak history now syncs across every device, so you see the same progress no matter which one you open."
+          ]
+        },
+        {
+          "h": "How to update",
+          "p": [
+            "Version 2.0.2 is live on the App Store now. If you have automatic updates turned on, you probably already have it —otherwise, update manually from the App Store app on your iPhone."
+          ]
+        }
+      ],
+      "sources": []
+    }
   }
 ]
