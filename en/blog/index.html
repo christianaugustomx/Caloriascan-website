@@ -36,6 +36,13 @@ a{text-decoration:none;color:inherit}
 .brand .logo-icon img{width:100%;height:100%;object-fit:cover;display:block}
 .brand .ia{color:var(--orange)}
 .navlinks{display:flex;gap:2px;align-items:center}
+.nav-search{position:relative;flex:1;max-width:240px;margin:0 14px}
+.nav-search input{width:100%;padding:9px 14px 9px 34px;border-radius:12px;border:1px solid rgba(0,71,171,.14);background:rgba(255,255,255,.55);font-size:13px;font-family:inherit;color:var(--ink);outline:none;transition:border-color .15s,background .15s}
+.nav-search input:focus{border-color:var(--blue);background:#fff}
+.nav-search input::placeholder{color:var(--mut2)}
+.nav-search::before{content:"🔍";position:absolute;left:11px;top:50%;transform:translateY(-50%);font-size:12px;pointer-events:none;opacity:.55}
+.mobilepanel .nav-search{max-width:none;margin:0 0 8px;flex:none}
+@media(max-width:760px){.navcard>.nav-search{display:none}}
 .navlinks a{font-size:14px;font-weight:500;color:var(--mut);padding:8px 13px;border-radius:10px}
 .navlinks a:not(.cta):hover{background:rgba(0,71,171,.06)}
 .navlinks .cta{display:inline-flex;align-items:center;justify-content:center;padding:9px 18px;border-radius:12px;font-size:13px;font-weight:700;color:#fff;position:relative;overflow:hidden;background:linear-gradient(180deg,var(--blue-light) 0%,var(--blue) 100%);box-shadow:0 3px 0 #123FB8,0 8px 18px rgba(31,82,222,.32);margin-left:6px;transition:box-shadow .18s cubic-bezier(.22,1,.36,1),transform .18s cubic-bezier(.22,1,.36,1)}
@@ -147,6 +154,9 @@ footer{padding:40px 20px 28px;text-align:center;border-top:.5px solid var(--line
       <span class="logo-icon"><img src="/assets/icon-app.png" alt="CalorIA Scan"></span>
       <span>Calor<span class="ia">IA</span>Scan</span>
     </a>
+    <div class="nav-search">
+      <input type="text" id="blogSearch" placeholder="Search articles..." aria-label="Search articles">
+    </div>
     <div class="navlinks">
       <a href="#catalog" data-filter="Myths" data-scroll>Myths</a>
       <a href="#catalog" data-filter="Additives" data-scroll>Labels</a>
@@ -159,6 +169,9 @@ footer{padding:40px 20px 28px;text-align:center;border-top:.5px solid var(--line
     <button class="hamburger" aria-label="Open menu" onclick="document.getElementById('mobilepanel').classList.toggle('open')"><span></span><span></span><span></span></button>
   </div>
   <div class="mobilepanel" id="mobilepanel">
+    <div class="nav-search mobile-search">
+      <input type="text" id="blogSearchMobile" placeholder="Search articles..." aria-label="Search articles">
+    </div>
     <a href="#catalog" data-filter="Myths" data-scroll>Myths</a>
     <a href="#catalog" data-filter="Additives" data-scroll>Labels</a>
     <a href="#catalog" data-filter="Health" data-scroll>Health</a>
@@ -338,22 +351,56 @@ footer{padding:40px 20px 28px;text-align:center;border-top:.5px solid var(--line
   var items = document.querySelectorAll('[data-category]');
   var noPosts = document.getElementById('no-posts');
   var grid = document.getElementById('catalog');
-  function apply(cat){
-    document.querySelectorAll('.chip').forEach(function(c){ c.classList.toggle('active', c.dataset.filter===cat); });
+  var searchInputs = [document.getElementById('blogSearch'), document.getElementById('blogSearchMobile')].filter(Boolean);
+  var featuredSections = [document.getElementById('catalog'), document.getElementById('about-the-app')];
+  var currentCat = 'All';
+  var defaultNoPostsText = noPosts ? noPosts.textContent : '';
+
+  function titleMatches(el, q){
+    if (!q) return true;
+    if (!el) return false;
+    var title = el.querySelector('h2, h3');
+    return !!title && title.textContent.toLowerCase().indexOf(q) !== -1;
+  }
+
+  function render(){
+    var q = searchInputs.length ? searchInputs[0].value.trim().toLowerCase() : '';
     var anyVisible = false;
     items.forEach(function(el){
-      var show = cat === 'All' || el.dataset.category === cat;
+      var catOk = currentCat === 'All' || el.dataset.category === currentCat;
+      var show = catOk && titleMatches(el, q);
       el.style.display = show ? '' : 'none';
       if (show) anyVisible = true;
     });
-    if (noPosts) noPosts.style.display = anyVisible ? 'none' : 'block';
+    featuredSections.forEach(function(sec){
+      if (!sec) return;
+      sec.style.display = titleMatches(sec.querySelector('a.featured, a.card'), q) ? '' : 'none';
+    });
+    if (noPosts){
+      noPosts.style.display = anyVisible ? 'none' : 'block';
+      noPosts.textContent = q ? 'No articles found for "' + q + '".' : defaultNoPostsText;
+    }
   }
+
+  function apply(cat){
+    document.querySelectorAll('.chip').forEach(function(c){ c.classList.toggle('active', c.dataset.filter===cat); });
+    currentCat = cat;
+    render();
+  }
+
   chips.forEach(function(c){
     c.addEventListener('click', function(e){
       if (c.tagName === 'A') e.preventDefault();
       apply(c.dataset.filter);
       if (c.hasAttribute('data-scroll') && grid) grid.scrollIntoView({behavior:'smooth', block:'start'});
       document.getElementById('mobilepanel').classList.remove('open');
+    });
+  });
+
+  searchInputs.forEach(function(inp){
+    inp.addEventListener('input', function(){
+      searchInputs.forEach(function(other){ if (other !== inp) other.value = inp.value; });
+      render();
     });
   });
 })();
