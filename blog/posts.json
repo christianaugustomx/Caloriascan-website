@@ -1590,5 +1590,87 @@
         {"name": "Dietary Guidelines for Americans", "url": "https://www.dietaryguidelines.gov/"}
       ]
     }
+  },
+  {
+    "slug": "receta-tamales-verdes",
+    "date": "2026-08-04",
+    "category_es": "Recetas",
+    "category_en": "Recipes",
+    "emoji": "🌽",
+    "cluster": "recetas",
+    "es": {
+      "title": "Tamales verdes: la receta tradicional paso a paso",
+      "dek": "Masa esponjosa, salsa verde con un toque picante y pollo deshebrado, todo envuelto en hoja de maíz. Así se hacen los tamales verdes desde cero.",
+      "excerpt": "Aprende a preparar tamales verdes auténticos en casa: masa batida hasta esponjar, salsa de tomate verde y pollo, envueltos en hoja de maíz y cocidos al vapor.",
+      "tldr": [
+        "Los tamales verdes llevan tres partes: masa batida con manteca, salsa de tomate verde con chile serrano, y relleno de pollo deshebrado.",
+        "El secreto de una masa esponjosa: batirla hasta que una bolita de masa flote en un vaso de agua.",
+        "Un tamal mediano con relleno de pollo ronda las 200-220 kcal —tres tamales ya se acercan a una comida completa."
+      ],
+      "body": [
+        {
+          "h": "Ingredientes (para unos 16 tamales)",
+          "p": [
+            "<ul><li>1 kg de masa de maíz para tamales</li><li>300 g de manteca de cerdo o manteca vegetal</li><li>1 cucharadita de sal</li><li>1 cucharadita de polvo para hornear</li><li>1 taza de caldo de pollo</li><li>500 g de pechuga de pollo, cocida y deshebrada</li><li>500 g de tomate verde (tomatillo), sin cáscara</li><li>2-3 chiles serranos, al gusto</li><li>¼ de cebolla blanca</li><li>1 diente de ajo</li><li>Un puñado de cilantro fresco</li><li>20-24 hojas de maíz secas, remojadas en agua caliente</li></ul>"
+          ]
+        },
+        {
+          "h": "Preparación",
+          "p": [
+            "<ol><li>Remoja las hojas de maíz en agua caliente durante 30 minutos, hasta que estén flexibles y fáciles de doblar.</li><li>Hierve el tomate verde, los chiles, la cebolla y el ajo en agua durante 8-10 minutos. Licúa con el cilantro y sazona con sal —esta es tu salsa base.</li><li>Bate la manteca sola hasta que esponje y aclare de color. Agrega la masa, la sal y el polvo para hornear, y ve incorporando el caldo poco a poco hasta lograr una pasta suave. Bate 5-8 minutos más: entre más aire le entre, más esponjosos quedan los tamales.</li><li>Mezcla el pollo deshebrado con un poco de la salsa verde para el relleno.</li><li>Extiende una capa de masa sobre cada hoja de maíz, agrega una cucharada de relleno al centro, y cierra doblando los lados y la punta hacia abajo.</li><li>Acomoda los tamales de pie en una vaporera, con la abertura hacia arriba, y cocina 60-75 minutos a fuego medio. Revisa cada 20 minutos que la vaporera no se quede sin agua.</li></ol>"
+          ]
+        },
+        {
+          "h": "Cómo saber si ya están listos",
+          "p": [
+            "El truco de siempre: la masa cocida se despega limpiamente de la hoja de maíz. Saca un tamal y déjalo enfriar un minuto —si la masa se pega a la hoja, todavía les falta tiempo de vapor. Si se despega sola, están listos."
+          ]
+        },
+        {
+          "h": "Cuántas calorías tiene un tamal",
+          "p": [
+            "Un tamal verde mediano con relleno de pollo ronda las 200-220 kcal —un número parecido al de los <a href=\"/calorias/tamale\">tamales que ya tenemos en nuestro catálogo de calorías</a>, aunque el relleno y la cantidad de manteca mueven el número de un tamal a otro. Si quieres saber exactamente cuánto tiene el tuyo, tómale una foto con CalorIA Scan."
+          ]
+        }
+      ],
+      "sources": []
+    },
+    "en": {
+      "title": "Tamales verdes: the traditional recipe, step by step",
+      "dek": "Fluffy masa, a mildly spicy tomatillo salsa, and shredded chicken, all wrapped in a corn husk. Here's how real tamales verdes come together from scratch.",
+      "excerpt": "Learn to make authentic tamales verdes at home: whipped masa, tomatillo-chicken filling, wrapped in corn husks and steamed.",
+      "tldr": [
+        "Tamales verdes have three parts: masa whipped with lard, a tomatillo-serrano salsa, and a shredded chicken filling.",
+        "The secret to fluffy masa: whip it until a small ball of it floats in a glass of water.",
+        "A medium chicken tamal runs about 200-220 kcal —three of them already add up to a full meal."
+      ],
+      "body": [
+        {
+          "h": "Ingredients (makes about 16 tamales)",
+          "p": [
+            "<ul><li>1 kg (2.2 lb) fresh masa for tamales</li><li>300 g (10.5 oz) lard or vegetable shortening</li><li>1 teaspoon salt</li><li>1 teaspoon baking powder</li><li>1 cup chicken broth</li><li>500 g (1 lb) chicken breast, cooked and shredded</li><li>500 g (1 lb) tomatillos, husked</li><li>2-3 serrano peppers, to taste</li><li>¼ white onion</li><li>1 garlic clove</li><li>A handful of fresh cilantro</li><li>20-24 dried corn husks, soaked in hot water</li></ul>"
+          ]
+        },
+        {
+          "h": "Method",
+          "p": [
+            "<ol><li>Soak the corn husks in hot water for 30 minutes, until pliable and easy to fold.</li><li>Boil the tomatillos, chiles, onion and garlic in water for 8-10 minutes. Blend with the cilantro and season with salt —this is your base salsa.</li><li>Whip the lard alone until it fluffs up and lightens in color. Add the masa, salt and baking powder, then work in the broth a little at a time until you get a smooth, spreadable paste. Keep whipping for 5-8 more minutes: the more air you beat in, the fluffier the tamales come out.</li><li>Mix the shredded chicken with a bit of the salsa for the filling.</li><li>Spread a layer of masa on each corn husk, add a spoonful of filling in the center, and close by folding the sides in and the tip down.</li><li>Stand the tamales upright in a steamer, opening facing up, and steam for 60-75 minutes over medium heat. Check every 20 minutes that the steamer hasn't run dry.</li></ol>"
+          ]
+        },
+        {
+          "h": "How to tell when they're done",
+          "p": [
+            "The classic test: cooked masa peels cleanly off the corn husk. Pull one out and let it cool for a minute —if the masa sticks to the husk, they need more steam time. If it releases on its own, they're ready."
+          ]
+        },
+        {
+          "h": "How many calories are in a tamal",
+          "p": [
+            "A medium tamal verde with chicken filling runs about 200-220 kcal —close to the <a href=\"/en/calories/tamale\">tamale reference already in our calorie catalog</a>, though the filling and how much lard goes in can shift that number from one tamal to the next. If you want to know exactly what's in yours, snap a photo with CalorIA Scan."
+          ]
+        }
+      ],
+      "sources": []
+    }
   }
 ]
