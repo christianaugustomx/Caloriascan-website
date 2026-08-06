@@ -161,7 +161,7 @@ footer{padding:40px 20px 28px;text-align:center;border-top:.5px solid var(--line
     <div class="navlinks">
       <a href="#sobre-la-app">Sobre la App</a>
       <a href="#catalogo" data-filter="Mitos" data-scroll>Mitos</a>
-      <a href="#catalogo" data-filter="Salud" data-scroll>Salud</a>
+      <a href="#salud">Salud</a>
       <a href="#recetas">Recetas</a>
       <a href="/blog/por-que-creamos-caloria-scan">Nuestra Historia</a>
       <a href="https://apps.apple.com/app/id6761160287" rel="nofollow" class="cta">Descargar</a>
@@ -175,7 +175,7 @@ footer{padding:40px 20px 28px;text-align:center;border-top:.5px solid var(--line
     </div>
     <a href="#sobre-la-app">Sobre la App</a>
     <a href="#catalogo" data-filter="Mitos" data-scroll>Mitos</a>
-    <a href="#catalogo" data-filter="Salud" data-scroll>Salud</a>
+    <a href="#salud">Salud</a>
     <a href="#recetas">Recetas</a>
     <a href="/blog/por-que-creamos-caloria-scan">Nuestra Historia</a>
   </div>
@@ -216,9 +216,10 @@ footer{padding:40px 20px 28px;text-align:center;border-top:.5px solid var(--line
   </a>
 </section>
 
-<section class="grid-wrap">
+<section class="grid-wrap" id="salud" style="margin-top:16px">
+  <div class="eyebrow">Salud</div>
   <div class="grid">
-    <a class="glass card" data-category="Salud" href="/blog/fibra-nutriente-que-falta">
+    <a class="glass card" href="/blog/fibra-nutriente-que-falta">
       <div class="thumb"><img src="/blog/img/fibra-nutriente-que-falta.jpg" alt="La fibra: el nutriente que casi nadie está consumiendo suficiente"><span class="badge" style="color:var(--red);background:rgba(184,55,42,.10)">🥦 Salud</span></div>
       <div class="body">
         <h3>La fibra: el nutriente que casi nadie está consumiendo suficiente</h3>
@@ -226,7 +227,7 @@ footer{padding:40px 20px 28px;text-align:center;border-top:.5px solid var(--line
         <span class="dt">4 ago 2026</span>
       </div>
     </a>
-    <a class="glass card" data-category="Salud" href="/blog/calorias-platillos-mexicanos-favoritos">
+    <a class="glass card" href="/blog/calorias-platillos-mexicanos-favoritos">
       <div class="thumb"><img src="/blog/img/calorias-platillos-mexicanos-favoritos.jpg" alt="Cuántas calorías tiene tu antojito favorito: la guía rápida de la comida mexicana"><span class="badge" style="color:var(--red);background:rgba(184,55,42,.10)">🌮 Salud</span></div>
       <div class="body">
         <h3>Cuántas calorías tiene tu antojito favorito: la guía rápida de la comida mexicana</h3>
@@ -234,6 +235,19 @@ footer{padding:40px 20px 28px;text-align:center;border-top:.5px solid var(--line
         <span class="dt">22 jul 2026</span>
       </div>
     </a>
+    <a class="glass card" href="/blog/sal-presion-arterial-oms">
+      <div class="thumb"><img src="/blog/img/sal-presion-arterial-oms.jpg" alt="El error de la sal que casi todos cometen (y tu presión lo resiente)"><span class="badge" style="color:var(--red);background:rgba(184,55,42,.10)">🧂 Salud</span></div>
+      <div class="body">
+        <h3>El error de la sal que casi todos cometen (y tu presión lo resiente)</h3>
+        <p class="dk">El mundo come más del doble de la sal recomendada. La OMS explica por qué tu corazón lo nota.</p>
+        <span class="dt">5 jul 2026</span>
+      </div>
+    </a>
+  </div>
+</section>
+
+<section class="grid-wrap">
+  <div class="grid">
     <a class="glass card" data-category="Aditivos" href="/blog/e141-clorofila-cobre-colorante">
       <div class="thumb"><img src="/blog/img/e141-clorofila-cobre-colorante.jpg" alt="El verde brillante de tu goma de mascar no es &quot;natural&quot;: es clorofila con cobre"><span class="badge" style="color:var(--green);background:rgba(45,140,107,.10)">🧪 Aditivos</span></div>
       <div class="body">
@@ -287,14 +301,6 @@ footer{padding:40px 20px 28px;text-align:center;border-top:.5px solid var(--line
       <div class="body">
         <h3>"El aguacate engorda": el mito que confunde grasa con enemigo</h3>
         <p class="dk">Sí, el aguacate es calórico. No, eso no lo convierte en el culpable de tu dieta. La ciencia lo pone del lado del corazón.</p>
-        <span class="dt">5 jul 2026</span>
-      </div>
-    </a>
-    <a class="glass card" data-category="Salud" href="/blog/sal-presion-arterial-oms">
-      <div class="thumb"><img src="/blog/img/sal-presion-arterial-oms.jpg" alt="El error de la sal que casi todos cometen (y tu presión lo resiente)"><span class="badge" style="color:var(--red);background:rgba(184,55,42,.10)">🧂 Salud</span></div>
-      <div class="body">
-        <h3>El error de la sal que casi todos cometen (y tu presión lo resiente)</h3>
-        <p class="dk">El mundo come más del doble de la sal recomendada. La OMS explica por qué tu corazón lo nota.</p>
         <span class="dt">5 jul 2026</span>
       </div>
     </a>
@@ -357,7 +363,7 @@ footer{padding:40px 20px 28px;text-align:center;border-top:.5px solid var(--line
   var noPosts = document.getElementById('no-posts');
   var grid = document.getElementById('catalogo');
   var searchInputs = [document.getElementById('blogSearch'), document.getElementById('blogSearchMobile')].filter(Boolean);
-  var featuredSections = [document.getElementById('catalogo'), document.getElementById('sobre-la-app'), document.getElementById('recetas')];
+  var featuredSections = [document.getElementById('catalogo'), document.getElementById('sobre-la-app'), document.getElementById('salud'), document.getElementById('recetas')];
   var currentCat = 'Todos';
   var defaultNoPostsText = noPosts ? noPosts.textContent : '';
 
@@ -379,7 +385,14 @@ footer{padding:40px 20px 28px;text-align:center;border-top:.5px solid var(--line
     });
     featuredSections.forEach(function(sec){
       if (!sec) return;
-      sec.style.display = titleMatches(sec.querySelector('a.featured, a.card'), q) ? '' : 'none';
+      var links = sec.querySelectorAll('a.featured, a.card');
+      var anyMatch = false;
+      links.forEach(function(link){
+        var show = titleMatches(link, q);
+        link.style.display = show ? '' : 'none';
+        if (show) anyMatch = true;
+      });
+      sec.style.display = anyMatch ? '' : 'none';
     });
     if (noPosts){
       noPosts.style.display = anyVisible ? 'none' : 'block';

@@ -161,7 +161,7 @@ footer{padding:40px 20px 28px;text-align:center;border-top:.5px solid var(--line
     <div class="navlinks">
       <a href="#about-the-app">About the App</a>
       <a href="#catalog" data-filter="Myths" data-scroll>Myths</a>
-      <a href="#catalog" data-filter="Health" data-scroll>Health</a>
+      <a href="#health">Health</a>
       <a href="#recipes">Recipes</a>
       <a href="/en/blog/por-que-creamos-caloria-scan">Our Story</a>
       <a href="https://apps.apple.com/app/id6761160287" rel="nofollow" class="cta">Download</a>
@@ -175,7 +175,7 @@ footer{padding:40px 20px 28px;text-align:center;border-top:.5px solid var(--line
     </div>
     <a href="#about-the-app">About the App</a>
     <a href="#catalog" data-filter="Myths" data-scroll>Myths</a>
-    <a href="#catalog" data-filter="Health" data-scroll>Health</a>
+    <a href="#health">Health</a>
     <a href="#recipes">Recipes</a>
     <a href="/en/blog/por-que-creamos-caloria-scan">Our Story</a>
   </div>
@@ -216,9 +216,10 @@ footer{padding:40px 20px 28px;text-align:center;border-top:.5px solid var(--line
   </a>
 </section>
 
-<section class="grid-wrap">
+<section class="grid-wrap" id="health" style="margin-top:16px">
+  <div class="eyebrow">Health</div>
   <div class="grid">
-    <a class="glass card" data-category="Health" href="/en/blog/fibra-nutriente-que-falta">
+    <a class="glass card" href="/en/blog/fibra-nutriente-que-falta">
       <div class="thumb"><img src="/blog/img/fibra-nutriente-que-falta.jpg" alt="Fiber: the nutrient almost nobody gets enough of"><span class="badge" style="color:var(--red);background:rgba(184,55,42,.10)">🥦 Health</span></div>
       <div class="body">
         <h3>Fiber: the nutrient almost nobody gets enough of</h3>
@@ -226,7 +227,7 @@ footer{padding:40px 20px 28px;text-align:center;border-top:.5px solid var(--line
         <span class="dt">Aug 4, 2026</span>
       </div>
     </a>
-    <a class="glass card" data-category="Health" href="/en/blog/calorias-platillos-mexicanos-favoritos">
+    <a class="glass card" href="/en/blog/calorias-platillos-mexicanos-favoritos">
       <div class="thumb"><img src="/blog/img/calorias-platillos-mexicanos-favoritos.jpg" alt="How many calories are in your favorite Mexican dish? The quick guide"><span class="badge" style="color:var(--red);background:rgba(184,55,42,.10)">🌮 Health</span></div>
       <div class="body">
         <h3>How many calories are in your favorite Mexican dish? The quick guide</h3>
@@ -234,6 +235,19 @@ footer{padding:40px 20px 28px;text-align:center;border-top:.5px solid var(--line
         <span class="dt">Jul 22, 2026</span>
       </div>
     </a>
+    <a class="glass card" href="/en/blog/sal-presion-arterial-oms">
+      <div class="thumb"><img src="/blog/img/sal-presion-arterial-oms.jpg" alt="The salt mistake almost everyone makes (and your blood pressure feels it)"><span class="badge" style="color:var(--red);background:rgba(184,55,42,.10)">🧂 Health</span></div>
+      <div class="body">
+        <h3>The salt mistake almost everyone makes (and your blood pressure feels it)</h3>
+        <p class="dk">The world eats more than double the recommended salt. The WHO explains why your heart notices.</p>
+        <span class="dt">Jul 5, 2026</span>
+      </div>
+    </a>
+  </div>
+</section>
+
+<section class="grid-wrap">
+  <div class="grid">
     <a class="glass card" data-category="Additives" href="/en/blog/e141-clorofila-cobre-colorante">
       <div class="thumb"><img src="/blog/img/e141-clorofila-cobre-colorante.jpg" alt="That bright green in your chewing gum isn't &quot;natural&quot; — it's chlorophyll with copper"><span class="badge" style="color:var(--green);background:rgba(45,140,107,.10)">🧪 Additives</span></div>
       <div class="body">
@@ -287,14 +301,6 @@ footer{padding:40px 20px 28px;text-align:center;border-top:.5px solid var(--line
       <div class="body">
         <h3>"Avocado is fattening": the myth that confuses fat with the enemy</h3>
         <p class="dk">Yes, avocado is calorie-dense. No, that doesn't make it the villain of your diet. The science puts it on your heart's side.</p>
-        <span class="dt">Jul 5, 2026</span>
-      </div>
-    </a>
-    <a class="glass card" data-category="Health" href="/en/blog/sal-presion-arterial-oms">
-      <div class="thumb"><img src="/blog/img/sal-presion-arterial-oms.jpg" alt="The salt mistake almost everyone makes (and your blood pressure feels it)"><span class="badge" style="color:var(--red);background:rgba(184,55,42,.10)">🧂 Health</span></div>
-      <div class="body">
-        <h3>The salt mistake almost everyone makes (and your blood pressure feels it)</h3>
-        <p class="dk">The world eats more than double the recommended salt. The WHO explains why your heart notices.</p>
         <span class="dt">Jul 5, 2026</span>
       </div>
     </a>
@@ -357,7 +363,7 @@ footer{padding:40px 20px 28px;text-align:center;border-top:.5px solid var(--line
   var noPosts = document.getElementById('no-posts');
   var grid = document.getElementById('catalog');
   var searchInputs = [document.getElementById('blogSearch'), document.getElementById('blogSearchMobile')].filter(Boolean);
-  var featuredSections = [document.getElementById('catalog'), document.getElementById('about-the-app'), document.getElementById('recipes')];
+  var featuredSections = [document.getElementById('catalog'), document.getElementById('about-the-app'), document.getElementById('health'), document.getElementById('recipes')];
   var currentCat = 'All';
   var defaultNoPostsText = noPosts ? noPosts.textContent : '';
 
@@ -379,7 +385,14 @@ footer{padding:40px 20px 28px;text-align:center;border-top:.5px solid var(--line
     });
     featuredSections.forEach(function(sec){
       if (!sec) return;
-      sec.style.display = titleMatches(sec.querySelector('a.featured, a.card'), q) ? '' : 'none';
+      var links = sec.querySelectorAll('a.featured, a.card');
+      var anyMatch = false;
+      links.forEach(function(link){
+        var show = titleMatches(link, q);
+        link.style.display = show ? '' : 'none';
+        if (show) anyMatch = true;
+      });
+      sec.style.display = anyMatch ? '' : 'none';
     });
     if (noPosts){
       noPosts.style.display = anyVisible ? 'none' : 'block';
