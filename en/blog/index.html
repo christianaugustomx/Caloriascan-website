@@ -162,7 +162,7 @@ footer{padding:40px 20px 28px;text-align:center;border-top:.5px solid var(--line
       <a href="#about-the-app">About the App</a>
       <a href="#catalog" data-filter="Myths" data-scroll>Myths</a>
       <a href="#catalog" data-filter="Health" data-scroll>Health</a>
-      <a href="/en/blog/receta-chilaquiles-verdes">Recipes</a>
+      <a href="#recipes">Recipes</a>
       <a href="/en/blog/por-que-creamos-caloria-scan">Our Story</a>
       <a href="https://apps.apple.com/app/id6761160287" rel="nofollow" class="cta">Download</a>
       <a href="/blog/" class="lang">🇲🇽 ES</a>
@@ -176,7 +176,7 @@ footer{padding:40px 20px 28px;text-align:center;border-top:.5px solid var(--line
     <a href="#about-the-app">About the App</a>
     <a href="#catalog" data-filter="Myths" data-scroll>Myths</a>
     <a href="#catalog" data-filter="Health" data-scroll>Health</a>
-    <a href="/en/blog/receta-chilaquiles-verdes">Recipes</a>
+    <a href="#recipes">Recipes</a>
     <a href="/en/blog/por-que-creamos-caloria-scan">Our Story</a>
   </div>
 </nav>
@@ -224,14 +224,6 @@ footer{padding:40px 20px 28px;text-align:center;border-top:.5px solid var(--line
         <h3>Fiber: the nutrient almost nobody gets enough of</h3>
         <p class="dk">Almost nobody hits the 25-38 grams of fiber a day that nutrition science recommends. Here's why it matters and how to close the gap.</p>
         <span class="dt">Aug 4, 2026</span>
-      </div>
-    </a>
-    <a class="glass card" data-category="Recipes" href="/en/blog/receta-chilaquiles-verdes">
-      <div class="thumb"><img src="/blog/img/receta-chilaquiles-verdes.jpg" alt="Chilaquiles verdes: the classic recipe in 20 minutes"><span class="badge" style="color:var(--blue);background:rgba(31,82,222,.10)">🍳 Recipes</span></div>
-      <div class="body">
-        <h3>Chilaquiles verdes: the classic recipe in 20 minutes</h3>
-        <p class="dk">Crispy on the edges, bathed in tomatillo salsa in the middle. Here's how real chilaquiles verdes come together, step by step.</p>
-        <span class="dt">Jul 23, 2026</span>
       </div>
     </a>
     <a class="glass card" data-category="Health" href="/en/blog/calorias-platillos-mexicanos-favoritos">
@@ -326,6 +318,18 @@ footer{padding:40px 20px 28px;text-align:center;border-top:.5px solid var(--line
   <p class="no-posts" id="no-posts">No articles in this category yet.</p>
 </section>
 
+<section class="featured-wrap" id="recipes" style="margin-top:16px">
+  <div class="eyebrow">Recipes</div>
+  <a class="glass card" href="/en/blog/receta-chilaquiles-verdes" style="max-width:360px">
+    <div class="thumb"><img src="/blog/img/receta-chilaquiles-verdes.jpg" alt="Chilaquiles verdes: the classic recipe in 20 minutes"><span class="badge" style="color:var(--blue);background:rgba(31,82,222,.10)">🍳 Recipes</span></div>
+    <div class="body">
+      <h3>Chilaquiles verdes: the classic recipe in 20 minutes</h3>
+      <p class="dk">Crispy on the edges, bathed in tomatillo salsa in the middle. Here's how real chilaquiles verdes come together, step by step.</p>
+      <span class="dt">Jul 23, 2026</span>
+    </div>
+  </a>
+</section>
+
 <section class="cta-wrap">
   <div class="cta">
     <h2>Scan your next meal in seconds</h2>
@@ -353,7 +357,7 @@ footer{padding:40px 20px 28px;text-align:center;border-top:.5px solid var(--line
   var noPosts = document.getElementById('no-posts');
   var grid = document.getElementById('catalog');
   var searchInputs = [document.getElementById('blogSearch'), document.getElementById('blogSearchMobile')].filter(Boolean);
-  var featuredSections = [document.getElementById('catalog'), document.getElementById('about-the-app')];
+  var featuredSections = [document.getElementById('catalog'), document.getElementById('about-the-app'), document.getElementById('recipes')];
   var currentCat = 'All';
   var defaultNoPostsText = noPosts ? noPosts.textContent : '';
 

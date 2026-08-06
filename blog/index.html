@@ -162,7 +162,7 @@ footer{padding:40px 20px 28px;text-align:center;border-top:.5px solid var(--line
       <a href="#sobre-la-app">Sobre la App</a>
       <a href="#catalogo" data-filter="Mitos" data-scroll>Mitos</a>
       <a href="#catalogo" data-filter="Salud" data-scroll>Salud</a>
-      <a href="/blog/receta-chilaquiles-verdes">Recetas</a>
+      <a href="#recetas">Recetas</a>
       <a href="/blog/por-que-creamos-caloria-scan">Nuestra Historia</a>
       <a href="https://apps.apple.com/app/id6761160287" rel="nofollow" class="cta">Descargar</a>
       <a href="/en/blog/" class="lang">🇺🇸 EN</a>
@@ -176,7 +176,7 @@ footer{padding:40px 20px 28px;text-align:center;border-top:.5px solid var(--line
     <a href="#sobre-la-app">Sobre la App</a>
     <a href="#catalogo" data-filter="Mitos" data-scroll>Mitos</a>
     <a href="#catalogo" data-filter="Salud" data-scroll>Salud</a>
-    <a href="/blog/receta-chilaquiles-verdes">Recetas</a>
+    <a href="#recetas">Recetas</a>
     <a href="/blog/por-que-creamos-caloria-scan">Nuestra Historia</a>
   </div>
 </nav>
@@ -224,14 +224,6 @@ footer{padding:40px 20px 28px;text-align:center;border-top:.5px solid var(--line
         <h3>La fibra: el nutriente que casi nadie está consumiendo suficiente</h3>
         <p class="dk">Casi nadie llega a los 25-38 gramos de fibra diarios que recomienda la ciencia. Te explicamos por qué importa y cómo cerrar la brecha.</p>
         <span class="dt">4 ago 2026</span>
-      </div>
-    </a>
-    <a class="glass card" data-category="Recetas" href="/blog/receta-chilaquiles-verdes">
-      <div class="thumb"><img src="/blog/img/receta-chilaquiles-verdes.jpg" alt="Chilaquiles verdes: la receta clásica en 20 minutos"><span class="badge" style="color:var(--blue);background:rgba(31,82,222,.10)">🍳 Recetas</span></div>
-      <div class="body">
-        <h3>Chilaquiles verdes: la receta clásica en 20 minutos</h3>
-        <p class="dk">Crujientes por fuera, bañados en salsa de tomate verde por dentro. Así se hacen los chilaquiles verdes de siempre, paso a paso.</p>
-        <span class="dt">23 jul 2026</span>
       </div>
     </a>
     <a class="glass card" data-category="Salud" href="/blog/calorias-platillos-mexicanos-favoritos">
@@ -326,6 +318,18 @@ footer{padding:40px 20px 28px;text-align:center;border-top:.5px solid var(--line
   <p class="no-posts" id="no-posts">No hay artículos en esta categoría todavía.</p>
 </section>
 
+<section class="featured-wrap" id="recetas" style="margin-top:16px">
+  <div class="eyebrow">Recetas</div>
+  <a class="glass card" href="/blog/receta-chilaquiles-verdes" style="max-width:360px">
+    <div class="thumb"><img src="/blog/img/receta-chilaquiles-verdes.jpg" alt="Chilaquiles verdes: la receta clásica en 20 minutos"><span class="badge" style="color:var(--blue);background:rgba(31,82,222,.10)">🍳 Recetas</span></div>
+    <div class="body">
+      <h3>Chilaquiles verdes: la receta clásica en 20 minutos</h3>
+      <p class="dk">Crujientes por fuera, bañados en salsa de tomate verde por dentro. Así se hacen los chilaquiles verdes de siempre, paso a paso.</p>
+      <span class="dt">23 jul 2026</span>
+    </div>
+  </a>
+</section>
+
 <section class="cta-wrap">
   <div class="cta">
     <h2>Escanea tu próxima comida en segundos</h2>
@@ -353,7 +357,7 @@ footer{padding:40px 20px 28px;text-align:center;border-top:.5px solid var(--line
   var noPosts = document.getElementById('no-posts');
   var grid = document.getElementById('catalogo');
   var searchInputs = [document.getElementById('blogSearch'), document.getElementById('blogSearchMobile')].filter(Boolean);
-  var featuredSections = [document.getElementById('catalogo'), document.getElementById('sobre-la-app')];
+  var featuredSections = [document.getElementById('catalogo'), document.getElementById('sobre-la-app'), document.getElementById('recetas')];
   var currentCat = 'Todos';
   var defaultNoPostsText = noPosts ? noPosts.textContent : '';
 
