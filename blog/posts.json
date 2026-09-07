@@ -1848,5 +1848,103 @@
       ],
       "sources": []
     }
+  },
+  {
+    "slug": "grasa-buena-vs-grasa-trans-mito",
+    "date": "2026-08-18",
+    "category_es": "Mitos",
+    "category_en": "Myths",
+    "emoji": "🧈",
+    "cluster": "mitos",
+    "es": {
+      "title": "No toda la grasa es mala: el mito que confunde grasa con grasa trans",
+      "dek": "Durante años nos vendieron la idea de que \"bajo en grasa\" es sinónimo de saludable. La ciencia dice algo distinto: importa qué tipo de grasa comes, no cuánta.",
+      "excerpt": "El mito de que toda grasa engorda o hace daño viene de confundir la grasa en general con la grasa trans y el exceso de grasa saturada. Te explicamos la diferencia real.",
+      "tldr": [
+        "La OMS no recomienda eliminar la grasa: recomienda limitar la grasa saturada a menos del 10% de tus calorías diarias y la grasa trans a menos del 1%.",
+        "Las grasas insaturadas —las del aguacate, el aceite de oliva, las nueces y el pescado— no son el problema; se asocian con menor riesgo cardiovascular.",
+        "Muchos productos \"bajos en grasa\" de los 90 reemplazaban esa grasa con azúcar y harinas refinadas —lo cual empeoró, no mejoró, el problema."
+      ],
+      "body": [
+        {
+          "h": "De dónde viene el mito",
+          "p": [
+            "Durante los años 80 y 90, la industria alimentaria promovió con fuerza los productos \"bajos en grasa\" o \"sin grasa\" como la opción saludable por excelencia. El mensaje caló tan hondo que muchas personas todavía asocian cualquier grasa en la comida con subir de peso o dañar el corazón. El problema es que ese mensaje nunca distinguió entre los distintos tipos de grasa —y esa distinción es exactamente lo que importa."
+          ]
+        },
+        {
+          "h": "Lo que la OMS realmente recomienda",
+          "p": [
+            "La Organización Mundial de la Salud no pide eliminar la grasa de la dieta. Su recomendación es limitar la grasa saturada a menos del 10% de las calorías diarias y la grasa trans a menos del 1% —idealmente evitarla por completo—, mientras se favorece un cambio hacia grasas insaturadas. Es una recomendación sobre el tipo de grasa, no sobre la cantidad total que comes."
+          ]
+        },
+        {
+          "h": "La grasa que sí conviene comer",
+          "p": [
+            "Las grasas insaturadas —presentes en el aceite de oliva, el aguacate, las nueces, las semillas y el pescado— se asocian con menor riesgo cardiovascular, no mayor. Eliminarlas de la dieta no solo es innecesario, sino que te priva de nutrientes que el cuerpo necesita para absorber vitaminas y mantener las células funcionando bien."
+          ]
+        },
+        {
+          "h": "El efecto secundario de las dietas bajas en grasa",
+          "p": [
+            "Cuando un producto le quita la grasa a un alimento, casi siempre necesita reemplazarla con algo para que siga sabiendo bien —y ese algo suele ser azúcar o harinas refinadas. Así fue como muchos productos \"light\" de los 90 terminaron siendo menos saludables que sus versiones originales, a pesar de la etiqueta."
+          ]
+        },
+        {
+          "h": "La conclusión práctica",
+          "p": [
+            "No se trata de comer sin grasa, se trata de elegir bien de dónde viene. Cambia manteca y margarina por aceite de oliva, prioriza pescado y nueces sobre embutidos, y no le tengas miedo al aguacate. Si quieres ver exactamente cuánta grasa —y de qué tipo— llevas en tu plato, escanéalo con CalorIA Scan."
+          ]
+        }
+      ],
+      "sources": [
+        {"name": "OMS — Alimentación sana (recomendación de grasas saturadas y trans)", "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"}
+      ]
+    },
+    "en": {
+      "title": "Not all fat is bad: the myth that confuses fat with trans fat",
+      "dek": "For years we were sold the idea that \"low-fat\" means healthy. The science says something different: what type of fat you eat matters more than how much.",
+      "excerpt": "The myth that all fat is fattening or unhealthy comes from confusing fat in general with trans fat and excess saturated fat. Here's the real difference.",
+      "tldr": [
+        "The WHO doesn't recommend cutting out fat: it recommends keeping saturated fat under 10% of your daily calories and trans fat under 1%.",
+        "Unsaturated fats —found in avocado, olive oil, nuts and fish— aren't the problem; they're linked to lower cardiovascular risk.",
+        "Many \"low-fat\" products from the 90s replaced that fat with sugar and refined flour —which made things worse, not better."
+      ],
+      "body": [
+        {
+          "h": "Where the myth comes from",
+          "p": [
+            "Through the 80s and 90s, the food industry heavily pushed \"low-fat\" and \"fat-free\" products as the healthy choice by default. The message stuck so well that many people still associate any fat in food with weight gain or heart damage. The problem is that message never distinguished between different types of fat —and that distinction is exactly what matters."
+          ]
+        },
+        {
+          "h": "What the WHO actually recommends",
+          "p": [
+            "The World Health Organization doesn't call for cutting fat out of your diet. Its recommendation is to keep saturated fat under 10% of daily calories and trans fat under 1% —ideally avoiding it entirely— while shifting toward unsaturated fats. It's a recommendation about the type of fat, not the total amount you eat."
+          ]
+        },
+        {
+          "h": "The fat you should actually be eating",
+          "p": [
+            "Unsaturated fats —found in olive oil, avocado, nuts, seeds and fish— are linked to lower cardiovascular risk, not higher. Cutting them out isn't just unnecessary, it deprives your body of nutrients it needs to absorb vitamins and keep cells working properly."
+          ]
+        },
+        {
+          "h": "The side effect of low-fat diets",
+          "p": [
+            "When a product strips the fat out of a food, it almost always needs to replace it with something to keep it tasting good —and that something is usually sugar or refined flour. That's how a lot of \"light\" products from the 90s ended up less healthy than their original versions, despite the label."
+          ]
+        },
+        {
+          "h": "The practical takeaway",
+          "p": [
+            "It's not about eating fat-free, it's about choosing where your fat comes from. Swap lard and margarine for olive oil, prioritize fish and nuts over processed meats, and don't fear the avocado. If you want to see exactly how much fat —and what type— is on your plate, scan it with CalorIA Scan."
+          ]
+        }
+      ],
+      "sources": [
+        {"name": "WHO — Healthy diet (saturated and trans fat recommendations)", "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"}
+      ]
+    }
   }
 ]
