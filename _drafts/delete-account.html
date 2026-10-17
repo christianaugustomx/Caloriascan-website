@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<!-- Google tag (gtag.js) with Consent Mode v2 (GDPR default-deny) -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied',
+    analytics_storage: 'denied',
+    wait_for_update: 500
+  });
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18120210375"></script>
+<script>
+  gtag('js', new Date());
+  gtag('config', 'AW-18120210375');
+</script>
+<script defer src="/assets/cookie-banner.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- DRAFT-ONLY: delete this robots tag when publishing -->
+<meta name="robots" content="noindex, nofollow">
+<title>Eliminar Cuenta — CalorIA Scan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+<style>
+:root {
+  --cobalt: #0047AB;
+  --cobalt-light: #2D6FD6;
+  --cobalt-glow: rgba(0,71,171,0.10);
+  --burnt: #CC5500;
+  --burnt-light: #E07830;
+  --cactus: #2D8C6B;
+  --cream: #FDFBF7;
+  --cream-warm: #F5EDE0;
+  --cream-deep: #EBDFC8;
+  --text-dark: #2A1F14;
+  --text-mid: #6B5B4A;
+  --text-light: #9A8D7E;
+  --glass-bg: rgba(255,255,255,0.60);
+  --glass-border: rgba(255,255,255,0.65);
+  --glass-shadow: 0 4px 20px rgba(0,71,171,0.07);
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: var(--text-dark);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--cream);
+  background-image:
+    linear-gradient(rgba(0,71,171,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,71,171,0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+  min-height: 100vh;
+}
+
+.tile-strip {
+  height: 6px;
+  background: repeating-linear-gradient(90deg,
+    var(--cobalt) 0 8px, var(--cream) 8px 10px,
+    var(--burnt) 10px 18px, var(--cream) 18px 20px,
+    var(--cactus) 20px 28px, var(--cream) 28px 32px
+  );
+  opacity: 0.65;
+}
+
+/* NAV */
+nav {
+  background: rgba(253,251,247,0.92);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 0.5px solid rgba(255,255,255,0.5);
+  padding: 14px 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-logo {
+  display: flex; align-items: center; gap: 10px;
+  font-size: 20px; font-weight: 800; color: var(--cobalt);
+  text-decoration: none; letter-spacing: -0.5px;
+}
+.nav-logo-icon {
+  width: 42px; height: 42px; border-radius: 12px;
+  overflow: hidden; flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(0,71,171,0.15);
+}
+.nav-logo-icon img { width: 100%; height: 100%; object-fit: cover; }
+.accent-ia { color: var(--burnt); }
+
+.lang-switch {
+  display: inline-flex;
+  gap: 2px;
+  background: rgba(0,71,171,0.06);
+  border: 0.5px solid rgba(0,71,171,0.12);
+  border-radius: 999px;
+  padding: 3px;
+  font-size: 11px;
+  letter-spacing: 0.6px;
+  font-weight: 700;
+}
+.lang-switch a {
+  color: var(--text-mid);
+  text-decoration: none;
+  padding: 5px 11px;
+  border-radius: 999px;
+  transition: color .15s ease, background .15s ease;
+}
+.lang-switch a:hover { color: var(--cobalt); }
+.lang-switch a.active {
+  background: var(--cobalt);
+  color: #fff;
+}
+
+/* MAIN */
+.page-wrap {
+  max-width: 640px;
+  margin: 60px auto;
+  padding: 0 20px 80px;
+}
+
+.danger-icon {
+  width: 72px; height: 72px; border-radius: 50%;
+  background: rgba(204,85,0,0.08);
+  border: 2px solid rgba(204,85,0,0.2);
+  display: flex; align-items: center; justify-content: center;
+  margin: 0 auto 24px;
+}
+.danger-icon svg {
+  width: 32px; height: 32px;
+  color: var(--burnt);
+}
+
+h1 {
+  font-size: 28px; font-weight: 800; color: var(--text-dark);
+  letter-spacing: -0.5px; text-align: center; margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 15px; color: var(--text-mid);
+  text-align: center; margin-bottom: 40px;
+  max-width: 480px; margin-left: auto; margin-right: auto;
+}
+
+.card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 0.5px solid var(--glass-border);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--glass-shadow);
+  padding: 32px;
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  font-size: 17px; font-weight: 700; color: var(--text-dark);
+  margin-bottom: 14px;
+  letter-spacing: -0.2px;
+}
+
+.card ul {
+  list-style: none; padding: 0;
+}
+.card ul li {
+  font-size: 14px; color: var(--text-mid);
+  padding: 8px 0;
+  border-bottom: 0.5px solid var(--cream-deep);
+  display: flex; align-items: flex-start; gap: 10px;
+  line-height: 1.5;
+}
+.card ul li:last-child { border-bottom: none; }
+.card ul li::before {
+  content: '•';
+  color: var(--burnt);
+  font-weight: 700;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.steps { counter-reset: step; }
+.step-item {
+  display: flex; gap: 14px; align-items: flex-start;
+  margin-bottom: 18px;
+}
+.step-item:last-child { margin-bottom: 0; }
+.step-num {
+  width: 28px; height: 28px; border-radius: 50%; flex-shrink: 0;
+  background: linear-gradient(180deg, var(--cobalt-light) 0%, var(--cobalt) 100%);
+  color: #fff; font-size: 13px; font-weight: 800;
+  display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,71,171,0.2);
+}
+.step-text strong { display: block; font-size: 14px; color: var(--text-dark); margin-bottom: 2px; }
+.step-text span { font-size: 13px; color: var(--text-mid); }
+
+.warning-box {
+  background: rgba(204,85,0,0.05);
+  border: 1px solid rgba(204,85,0,0.2);
+  border-radius: var(--radius-lg);
+  padding: 18px 20px;
+  margin-bottom: 28px;
+  font-size: 13px; color: var(--burnt);
+  display: flex; gap: 12px; align-items: flex-start;
+  line-height: 1.6;
+}
+.warning-box svg {
+  width: 20px; height: 20px; flex-shrink: 0; margin-top: 1px;
+  color: var(--burnt);
+}
+
+/* FORM */
+.form-group { margin-bottom: 20px; }
+label {
+  display: block; font-size: 13px; font-weight: 600;
+  color: var(--text-dark); margin-bottom: 6px;
+}
+input[type="email"], select, textarea {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1.5px solid var(--cream-deep);
+  border-radius: 12px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px; color: var(--text-dark);
+  background: rgba(255,255,255,0.8);
+  transition: border-color 0.2s ease;
+  outline: none;
+}
+input[type="email"]:focus, select:focus, textarea:focus {
+  border-color: var(--cobalt);
+}
+textarea { resize: vertical; min-height: 90px; }
+select { appearance: none; cursor: pointer; }
+
+.checkbox-group {
+  display: flex; align-items: flex-start; gap: 10px;
+  margin-bottom: 20px;
+}
+.checkbox-group input[type="checkbox"] {
+  width: 18px; height: 18px; margin-top: 2px;
+  accent-color: var(--burnt); flex-shrink: 0; cursor: pointer;
+}
+.checkbox-group label {
+  font-size: 13px; color: var(--text-mid);
+  font-weight: 400; margin-bottom: 0; cursor: pointer;
+  line-height: 1.5;
+}
+
+.btn-delete {
+  width: 100%;
+  padding: 16px;
+  border: none; cursor: pointer;
+  border-radius: 14px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px; font-weight: 700;
+  color: #fff;
+  background: linear-gradient(180deg, #E05530 0%, #B84000 100%);
+  box-shadow: 0 4px 16px rgba(204,85,0,0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  letter-spacing: -0.2px;
+}
+.btn-delete:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(204,85,0,0.35);
+}
+.btn-delete:active { transform: scale(0.98); }
+
+.back-link {
+  display: block; text-align: center; margin-top: 20px;
+  font-size: 14px; color: var(--cobalt); text-decoration: none;
+  font-weight: 600;
+}
+.back-link:hover { text-decoration: underline; }
+
+/* SUCCESS */
+#successMsg {
+  display: none; text-align: center;
+  background: rgba(45,140,107,0.07);
+  border: 1.5px solid rgba(45,140,107,0.25);
+  border-radius: var(--radius-xl);
+  padding: 40px 32px;
+}
+#successMsg .success-icon {
+  width: 56px; height: 56px; border-radius: 50%;
+  background: var(--cactus);
+  display: flex; align-items: center; justify-content: center;
+  margin: 0 auto 16px;
+}
+#successMsg .success-icon svg {
+  width: 28px; height: 28px; color: #fff;
+}
+#successMsg h2 { font-size: 22px; font-weight: 800; color: var(--cactus); margin-bottom: 8px; }
+#successMsg p { font-size: 14px; color: var(--text-mid); max-width: 360px; margin: 0 auto; }
+
+footer {
+  text-align: center; padding: 24px 20px;
+  border-top: 0.5px solid var(--cream-deep);
+  font-size: 12px; color: var(--text-light);
+}
+footer a { color: var(--text-mid); text-decoration: none; }
+footer a:hover { color: var(--cobalt); }
+
+@media (max-width: 480px) {
+  nav { padding: 12px 16px; }
+  .nav-logo { font-size: 17px; gap: 8px; }
+  .nav-logo-icon { width: 36px; height: 36px; }
+  .card { padding: 24px 20px; }
+}
+</style>
+</head>
+<body>
+
+<div class="tile-strip"></div>
+
+<nav>
+  <a href="/" class="nav-logo">
+    <div class="nav-logo-icon"><img src="/assets/Icon/app_icon.png" alt="CalorIA Scan"></div>
+    <span style="white-space:nowrap;">Calor<span class="accent-ia">IA</span> Scan</span>
+  </a>
+  <div class="lang-switch" role="navigation" aria-label="Idioma">
+    <a href="/delete-account.html" class="active" aria-current="page">ES</a>
+    <a href="/en/delete-account.html">EN</a>
+  </div>
+</nav>
+
+<div class="page-wrap">
+
+  <div class="danger-icon" aria-hidden="true">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="3 6 5 6 21 6"></polyline>
+      <path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"></path>
+      <path d="M10 11v6M14 11v6"></path>
+      <path d="M9 6V4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"></path>
+    </svg>
+  </div>
+  <!-- DRAFT-ONLY: delete this banner when publishing -->
+  <div style="background:#fff3cd;border:1px solid #e0a100;color:#5b4300;border-radius:10px;padding:12px 14px;font-size:13px;margin-bottom:16px;"><strong>BORRADOR — NO PUBLICAR.</strong> Busque <code>PRE-PUBLISH</code> en este archivo.</div>
+  <h1>Eliminar tu cuenta</h1>
+  <p class="subtitle">Entendemos que puede que ya no necesites CalorIA Scan. Antes de continuar, lee con atención lo que ocurrirá con tus datos.</p>
+
+  <!-- What gets deleted -->
+  <div class="card">
+    <h2>Qué se elimina</h2>
+    <ul>
+      <li>Tu perfil y datos personales (nombre, correo, configuración)</li>
+      <li>Todo tu historial de comidas y escaneos</li>
+      <li>Tus macros, metas y estadísticas semanales</li>
+      <li>Tu lista de favoritos y comidas frecuentes</li>
+      <li>Tu registro de suscriptor en RevenueCat y el acceso de inicio de sesión con Apple</li>
+      <!-- PRE-PUBLISH: Apple token revocation + RevenueCat subscriber deletion are implemented and tested on app branch feat/consent-and-deletion (delete-account order: Apple revoke -> delete user -> RevenueCat). NOT live until the function is deployed, the 4 APPLE_* secrets are set, and 2.0.5 ships (old app builds cannot revoke Apple). Verify with a throwaway Apple ID before publishing. -->
+    </ul>
+  </div>
+
+  <!-- What we keep -->
+  <div class="card">
+    <h2>Qué conservamos y por cuánto tiempo</h2>
+    <ul>
+      <li>Copias de seguridad automáticas: tus datos desaparecen de ellas en un máximo de 7 días</li>
+      <li>Un contador anónimo de escaneos de prueba por dispositivo (sin tus fotos ni datos de salud), para evitar que se reinicie la prueba gratuita</li>
+      <li>Correcciones a resultados de escaneo, sin vínculo contigo</li>
+      <li>Registros de transacciones que Apple, Google o la ley fiscal exijan conservar</li>
+    </ul>
+  </div>
+
+  <!-- How to delete -->
+  <div class="card">
+    <h2>Cómo eliminar desde la aplicación</h2>
+    <div class="steps">
+      <div class="step-item">
+        <div class="step-num">1</div>
+        <div class="step-text">
+          <strong>Abre CalorIA Scan</strong>
+          <span>Ve a la pantalla principal de la aplicación en tu dispositivo.</span>
+        </div>
+      </div>
+      <div class="step-item">
+        <div class="step-num">2</div>
+        <div class="step-text">
+          <strong>Ve a Mi Perfil</strong>
+          <span>Toca el icono de perfil en la barra inferior.</span>
+        </div>
+      </div>
+      <!-- PRE-PUBLISH: confirm the exact in-app path in the shipped build (profile_screen.dart has a "Delete my account" button; the old page said Settings → Account). -->
+      <div class="step-item">
+        <div class="step-num">3</div>
+        <div class="step-text">
+          <strong>Selecciona "Eliminar mi cuenta"</strong>
+          <span>Confirma tu decisión. El proceso es inmediato e irreversible.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Warning -->
+  <div class="warning-box" role="alert">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+      <line x1="12" y1="9" x2="12" y2="13"></line>
+      <line x1="12" y1="17" x2="12.01" y2="17"></line>
+    </svg>
+    <span>Esta acción es <strong>permanente e irreversible</strong>. Una vez eliminada tu cuenta, no podremos recuperar ninguno de tus datos. <strong>Eliminar tu cuenta no cancela tu suscripción</strong>: Apple o Google te seguirán cobrando hasta que la canceles en Ajustes → [tu nombre] → Suscripciones (iPhone) o en Google Play → Pagos y suscripciones (Android).</span>
+  </div>
+
+  <!-- Request form -->
+  <div class="card" id="formCard">
+    <h2>Solicitar eliminación por correo</h2>
+    <p style="font-size:13px;color:var(--text-mid);margin-bottom:20px;">Si no puedes acceder a la aplicación, completa este formulario y procesaremos tu solicitud normalmente en <strong>3 a 5 días hábiles</strong> y, en todo caso, dentro de 20 días hábiles. Más información en nuestra <a href="/privacy-policy.html#eliminar-cuenta">Política de Privacidad</a>.</p>
+
+    <form id="deleteForm" onsubmit="handleSubmit(event)">
+      <div class="form-group">
+        <label for="email">Correo electrónico de tu cuenta *</label>
+        <input type="email" id="email" placeholder="correo@ejemplo.com" required>
+      </div>
+
+      <div class="form-group">
+        <label for="reason">Razón de eliminación</label>
+        <select id="reason">
+          <option value="">Selecciona una razón (opcional)</option>
+          <option value="privacy">Privacidad y datos personales</option>
+          <option value="not-using">Ya no uso la aplicación</option>
+          <option value="switching">Cambié a otra aplicación</option>
+          <option value="technical">Problemas técnicos</option>
+          <option value="other">Otra razón</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="comments">Comentarios adicionales</label>
+        <textarea id="comments" placeholder="Cuéntanos cómo podemos mejorar..."></textarea>
+      </div>
+
+      <div class="checkbox-group">
+        <input type="checkbox" id="confirm" required>
+        <label for="confirm">Entiendo que esta acción es permanente e irreversible y que todos mis datos serán eliminados definitivamente.</label>
+      </div>
+
+      <button type="submit" class="btn-delete">Solicitar eliminación de cuenta</button>
+    </form>
+  </div>
+
+  <!-- Success message -->
+  <div id="successMsg" role="status">
+    <div class="success-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="20 6 9 17 4 12"></polyline>
+      </svg>
+    </div>
+    <h2>Solicitud recibida</h2>
+    <p>Hemos recibido tu solicitud. Procesaremos la eliminación de tu cuenta normalmente en 3 a 5 días hábiles (máximo 20 días hábiles) y te confirmaremos por correo electrónico.</p>
+  </div>
+
+  <a href="/" class="back-link">← Volver a CalorIA Scan</a>
+
+</div>
+
+<footer>
+  © 2026 CalorIA Scan · Hecho con orgullo en México &nbsp;·&nbsp;
+  <a href="/privacy-policy.html">Privacidad</a> &nbsp;·&nbsp;
+  <a href="/terms.html">Términos</a> &nbsp;·&nbsp;
+  <a href="#" onclick="if(window.caloriascanResetCookieConsent){caloriascanResetCookieConsent();}return false;">Preferencias de cookies</a>
+</footer>
+
+<script>
+function handleSubmit(e) {
+  e.preventDefault();
+  const email = document.getElementById('email').value;
+  const reason = document.getElementById('reason').value;
+  const comments = document.getElementById('comments').value;
+
+  const subject = encodeURIComponent('Solicitud de eliminación de cuenta — CalorIA Scan');
+  const body = encodeURIComponent(
+    'Correo: ' + email + '\n' +
+    'Razón: ' + (reason || 'No especificada') + '\n' +
+    'Comentarios: ' + (comments || 'Ninguno')
+  );
+  window.location.href = 'mailto:privacy@caloriascan.com?subject=' + subject + '&body=' + body;
+
+  document.getElementById('formCard').style.display = 'none';
+  document.getElementById('successMsg').style.display = 'block';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
+
+</body>
+</html>
