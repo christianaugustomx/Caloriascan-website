@@ -1546,8 +1546,14 @@
         }
       ],
       "sources": [
-        {"name": "Harvard T.H. Chan — The Nutrition Source: Fiber", "url": "https://nutritionsource.hsph.harvard.edu/carbohydrates/fiber/"},
-        {"name": "Dietary Guidelines for Americans", "url": "https://www.dietaryguidelines.gov/"}
+        {
+          "name": "Harvard T.H. Chan — The Nutrition Source: Fiber",
+          "url": "https://nutritionsource.hsph.harvard.edu/carbohydrates/fiber/"
+        },
+        {
+          "name": "Dietary Guidelines for Americans",
+          "url": "https://www.dietaryguidelines.gov/"
+        }
       ]
     },
     "en": {
@@ -1586,8 +1592,14 @@
         }
       ],
       "sources": [
-        {"name": "Harvard T.H. Chan — The Nutrition Source: Fiber", "url": "https://nutritionsource.hsph.harvard.edu/carbohydrates/fiber/"},
-        {"name": "Dietary Guidelines for Americans", "url": "https://www.dietaryguidelines.gov/"}
+        {
+          "name": "Harvard T.H. Chan — The Nutrition Source: Fiber",
+          "url": "https://nutritionsource.hsph.harvard.edu/carbohydrates/fiber/"
+        },
+        {
+          "name": "Dietary Guidelines for Americans",
+          "url": "https://www.dietaryguidelines.gov/"
+        }
       ]
     }
   },
@@ -1898,7 +1910,10 @@
         }
       ],
       "sources": [
-        {"name": "OMS — Alimentación sana (recomendación de grasas saturadas y trans)", "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"}
+        {
+          "name": "OMS — Alimentación sana (recomendación de grasas saturadas y trans)",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+        }
       ]
     },
     "en": {
@@ -1943,8 +1958,105 @@
         }
       ],
       "sources": [
-        {"name": "WHO — Healthy diet (saturated and trans fat recommendations)", "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"}
+        {
+          "name": "WHO — Healthy diet (saturated and trans fat recommendations)",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+        }
       ]
+    }
+  },
+  {
+    "slug": "novedades-caloria-scan-2-0-3",
+    "date": "2026-10-16",
+    "category_es": "Producto",
+    "category_en": "Product",
+    "emoji": "✨",
+    "cluster": "producto",
+    "es": {
+      "title": "Qué hay de nuevo en CalorIA Scan 2.0.3",
+      "dek": "Una cámara que ya no se estira al girar el teléfono, fotos que respetan la orientación en la que las tomas y un historial día por día más claro —así luce la actualización 2.0.3, ya disponible en la App Store.",
+      "excerpt": "La versión 2.0.3 de CalorIA Scan mejora la cámara, convierte tu historial en una lista continua y trae mejoras de rendimiento y estabilidad.",
+      "tldr": [
+        "La vista previa de la cámara ya no se estira ni se desplaza cuando giras el teléfono.",
+        "Las fotos respetan la orientación en la que las tomas.",
+        "Tu historial ahora es una lista continua, y \"Ayer\" muestra el día de la semana y la fecha."
+      ],
+      "body": [
+        {
+          "h": "Una cámara más estable",
+          "p": [
+            "Escanear tu plato es lo primero que haces en CalorIA Scan, así que la cámara tenía que sentirse bien. Hasta ahora, al girar el teléfono la vista previa podía estirarse o desplazarse. Con 2.0.3 eso se acabó: la vista previa se mantiene en su lugar y con las proporciones correctas, sin importar cómo sostengas el teléfono."
+          ]
+        },
+        {
+          "h": "Fotos que respetan la orientación",
+          "p": [
+            "Además de arreglar la vista previa, ahora las fotos conservan la orientación en la que las tomaste. Si fotografías tu comida en horizontal, queda en horizontal; si la tomas en vertical, queda en vertical."
+          ]
+        },
+        {
+          "h": "Historial día por día, en una sola lista",
+          "p": [
+            "Tu registro ahora es una lista continua, así que puedes recorrer tus días sin saltar entre pantallas. Y un detalle pequeño pero útil: \"Ayer\" ahora muestra el día de la semana y la fecha, para que ubiques de un vistazo a qué día te refieres."
+          ]
+        },
+        {
+          "h": "Rendimiento y estabilidad",
+          "p": [
+            "Esta versión también incluye mejoras de rendimiento y estabilidad para que la app se sienta más fluida en el día a día."
+          ]
+        },
+        {
+          "h": "Cómo actualizar",
+          "p": [
+            "La actualización 2.0.3 ya está disponible en la App Store. Si tienes las actualizaciones automáticas activadas, probablemente ya la tengas instalada —si no, puedes actualizarla manualmente desde la app de App Store en tu iPhone."
+          ]
+        }
+      ],
+      "sources": []
+    },
+    "en": {
+      "title": "What's new in CalorIA Scan 2.0.3",
+      "dek": "A camera that no longer stretches when you rotate your phone, photos that keep the orientation you took them in, and a clearer day-by-day history —that's what's inside the 2.0.3 update, live now on the App Store.",
+      "excerpt": "CalorIA Scan 2.0.3 improves the camera, turns your history into one continuous list, and brings performance and stability improvements.",
+      "tldr": [
+        "The camera preview no longer stretches or shifts when you rotate your phone.",
+        "Photos keep the orientation you took them in.",
+        "Your history is now one continuous list, and \"Yesterday\" shows the weekday and date."
+      ],
+      "body": [
+        {
+          "h": "A steadier camera",
+          "p": [
+            "Scanning your plate is the first thing you do in CalorIA Scan, so the camera has to feel right. Until now, rotating your phone could make the preview stretch or shift. With 2.0.3 that's gone: the preview stays in place with the right proportions, however you hold your phone."
+          ]
+        },
+        {
+          "h": "Photos that keep their orientation",
+          "p": [
+            "On top of the preview fix, photos now keep the orientation you took them in. Shoot your meal in landscape and it stays landscape; shoot it in portrait and it stays portrait."
+          ]
+        },
+        {
+          "h": "Day-by-day history, in one list",
+          "p": [
+            "Your log is now one continuous list, so you can scroll through your days without jumping between screens. And a small but handy detail: \"Yesterday\" now shows the weekday and date, so you can tell at a glance which day you mean."
+          ]
+        },
+        {
+          "h": "Performance and stability",
+          "p": [
+            "This release also includes performance and stability improvements to make the app feel smoother day to day."
+          ]
+        },
+        {
+          "h": "How to update",
+          "p": [
+            "Version 2.0.3 is live on the App Store now. If you have automatic updates turned on, you probably already have it —otherwise, update manually from the App Store app on your iPhone."
+          ]
+        }
+      ],
+      "sources": []
     }
   }
 ]
