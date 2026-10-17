@@ -354,7 +354,18 @@ footer a:hover { color: var(--cobalt); }
       <li>Your entire history of meals and scans</li>
       <li>Your macros, goals, and weekly statistics</li>
       <li>Your favorites list and frequent foods</li>
-      <li>Any active Pro subscription tied to the account</li>
+      <li>Your subscriber record at RevenueCat and your Sign in with Apple access (from version 2.0.5)</li>
+    </ul>
+  </div>
+
+  <!-- What we keep -->
+  <div class="card">
+    <h2>What we keep and for how long</h2>
+    <ul>
+      <li>Automatic backups: your data disappears from them within 7 days</li>
+      <li>An anonymous per-device trial scan counter (no photos or health data), to stop the free trial from being reset</li>
+      <li>Corrections to scan results, with no link to you</li>
+      <li>Transaction records that Apple, Google or tax law require us to keep</li>
     </ul>
   </div>
 
@@ -379,14 +390,7 @@ footer a:hover { color: var(--cobalt); }
       <div class="step-item">
         <div class="step-num">3</div>
         <div class="step-text">
-          <strong>Settings → Account</strong>
-          <span>Tap the settings icon in the top-right corner.</span>
-        </div>
-      </div>
-      <div class="step-item">
-        <div class="step-num">4</div>
-        <div class="step-text">
-          <strong>Select "Delete account"</strong>
+          <strong>Select "Delete my account"</strong>
           <span>Confirm your decision. The process is immediate and irreversible.</span>
         </div>
       </div>
@@ -400,13 +404,13 @@ footer a:hover { color: var(--cobalt); }
       <line x1="12" y1="9" x2="12" y2="13"></line>
       <line x1="12" y1="17" x2="12.01" y2="17"></line>
     </svg>
-    <span>This action is <strong>permanent and irreversible</strong>. Once your account is deleted, we will not be able to recover any of your data. If you have an active Pro subscription, we recommend cancelling it first from the App Store.</span>
+    <span>This action is <strong>permanent and irreversible</strong>. Once your account is deleted, we will not be able to recover any of your data. <strong>Deleting your account does not cancel your subscription</strong>: Apple or Google will keep billing you until you cancel in Settings → [your name] → Subscriptions (iPhone) or Google Play → Payments &amp; subscriptions (Android).</span>
   </div>
 
   <!-- Request form -->
   <div class="card" id="formCard">
     <h2>Request deletion by email</h2>
-    <p style="font-size:13px;color:var(--text-mid);margin-bottom:20px;">If you cannot access the app, complete this form and we will process your request within <strong>3 to 5 business days</strong>.</p>
+    <p style="font-size:13px;color:var(--text-mid);margin-bottom:20px;">If you cannot access the app, complete this form and we will usually process your request within <strong>3 to 5 business days</strong> and, in any case, within 20 business days. More information in our <a href="/en/privacy-policy.html#delete-account">Privacy Policy</a>.</p>
 
     <form id="deleteForm" onsubmit="handleSubmit(event)">
       <div class="form-group">
@@ -448,7 +452,7 @@ footer a:hover { color: var(--cobalt); }
       </svg>
     </div>
     <h2>Request received</h2>
-    <p>We have received your request. We will process the deletion of your account within 3 to 5 business days and confirm by email.</p>
+    <p>We have received your request. We will usually process the deletion of your account within 3 to 5 business days (20 business days at most) and confirm by email.</p>
   </div>
 
   <a href="/en/" class="back-link">← Back to CalorIA Scan</a>

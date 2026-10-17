@@ -354,7 +354,18 @@ footer a:hover { color: var(--cobalt); }
       <li>Todo tu historial de comidas y escaneos</li>
       <li>Tus macros, metas y estadísticas semanales</li>
       <li>Tu lista de favoritos y comidas frecuentes</li>
-      <li>Cualquier suscripción Pro activa asociada a la cuenta</li>
+      <li>Tu registro de suscriptor en RevenueCat y el acceso de inicio de sesión con Apple (desde la versión 2.0.5)</li>
+    </ul>
+  </div>
+
+  <!-- What we keep -->
+  <div class="card">
+    <h2>Qué conservamos y por cuánto tiempo</h2>
+    <ul>
+      <li>Copias de seguridad automáticas: tus datos desaparecen de ellas en un máximo de 7 días</li>
+      <li>Un contador anónimo de escaneos de prueba por dispositivo (sin tus fotos ni datos de salud), para evitar que se reinicie la prueba gratuita</li>
+      <li>Correcciones a resultados de escaneo, sin vínculo contigo</li>
+      <li>Registros de transacciones que Apple, Google o la ley fiscal exijan conservar</li>
     </ul>
   </div>
 
@@ -379,14 +390,7 @@ footer a:hover { color: var(--cobalt); }
       <div class="step-item">
         <div class="step-num">3</div>
         <div class="step-text">
-          <strong>Configuración → Cuenta</strong>
-          <span>Toca el icono de ajustes en la esquina superior derecha.</span>
-        </div>
-      </div>
-      <div class="step-item">
-        <div class="step-num">4</div>
-        <div class="step-text">
-          <strong>Selecciona "Eliminar cuenta"</strong>
+          <strong>Selecciona "Eliminar mi cuenta"</strong>
           <span>Confirma tu decisión. El proceso es inmediato e irreversible.</span>
         </div>
       </div>
@@ -400,13 +404,13 @@ footer a:hover { color: var(--cobalt); }
       <line x1="12" y1="9" x2="12" y2="13"></line>
       <line x1="12" y1="17" x2="12.01" y2="17"></line>
     </svg>
-    <span>Esta acción es <strong>permanente e irreversible</strong>. Una vez eliminada tu cuenta, no podremos recuperar ninguno de tus datos. Si tienes una suscripción Pro activa, te recomendamos cancelarla primero desde la App Store.</span>
+    <span>Esta acción es <strong>permanente e irreversible</strong>. Una vez eliminada tu cuenta, no podremos recuperar ninguno de tus datos. <strong>Eliminar tu cuenta no cancela tu suscripción</strong>: Apple o Google te seguirán cobrando hasta que la canceles en Ajustes → [tu nombre] → Suscripciones (iPhone) o en Google Play → Pagos y suscripciones (Android).</span>
   </div>
 
   <!-- Request form -->
   <div class="card" id="formCard">
     <h2>Solicitar eliminación por correo</h2>
-    <p style="font-size:13px;color:var(--text-mid);margin-bottom:20px;">Si no puedes acceder a la aplicación, completa este formulario y procesaremos tu solicitud en un plazo de <strong>3 a 5 días hábiles</strong>.</p>
+    <p style="font-size:13px;color:var(--text-mid);margin-bottom:20px;">Si no puedes acceder a la aplicación, completa este formulario y procesaremos tu solicitud normalmente en <strong>3 a 5 días hábiles</strong> y, en todo caso, dentro de 20 días hábiles. Más información en nuestra <a href="/privacy-policy.html#eliminar-cuenta">Política de Privacidad</a>.</p>
 
     <form id="deleteForm" onsubmit="handleSubmit(event)">
       <div class="form-group">
@@ -448,7 +452,7 @@ footer a:hover { color: var(--cobalt); }
       </svg>
     </div>
     <h2>Solicitud recibida</h2>
-    <p>Hemos recibido tu solicitud. Procesaremos la eliminación de tu cuenta en un plazo de 3 a 5 días hábiles y te confirmaremos por correo electrónico.</p>
+    <p>Hemos recibido tu solicitud. Procesaremos la eliminación de tu cuenta normalmente en 3 a 5 días hábiles (máximo 20 días hábiles) y te confirmaremos por correo electrónico.</p>
   </div>
 
   <a href="/" class="back-link">← Volver a CalorIA Scan</a>
