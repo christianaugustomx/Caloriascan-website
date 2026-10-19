@@ -15,7 +15,7 @@ const posts = JSON.parse(fs.readFileSync(path.join(__dirname, 'posts.json'), 'ut
 const esc = s => String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 const escAttr = s => esc(s).replace(/"/g,'&quot;');
 const enc = s => encodeURIComponent(String(s == null ? '' : s));
-const wordCount = body => body.reduce((n,b)=> n + (b.h?b.h.split(/\s+/).length:0) + b.p.reduce((m,p)=> m + p.replace(/<[^>]+>/g,' ').split(/\s+/).filter(Boolean).length, 0), 0);
+const wordCount = body => body.reduce((n,b)=> n + (b.h?b.h.split(/\s+/).length:0) + b.p.filter(p=>!/^<figure/.test(p)).reduce((m,p)=> m + p.replace(/<[^>]+>/g,' ').split(/\s+/).filter(Boolean).length, 0), 0);
 
 function shareBar(url, title, L){
   const t = L==='en' ? 'Share' : 'Compartir';
@@ -93,7 +93,7 @@ function post(p, all, L){
     }
   ];
 
-  const bodyHTML = c.body.map(b=>`<h2>${esc(b.h)}</h2>${b.p.map(x=>`<p>${x}</p>`).join('')}`).join('\n');
+  const bodyHTML = c.body.map(b=>`<h2>${esc(b.h)}</h2>${b.p.map(x=>/^<figure/.test(x)?x:`<p>${x}</p>`).join('')}`).join('\n');
   const tldrHTML = `<div class="tldr"><h2>${esc(t.tldr)}</h2><ul>${c.tldr.map(x=>`<li>${x}</li>`).join('')}</ul></div>`;
   const hasSources = c.sources && c.sources.length > 0;
   const sourcesHTML = hasSources ? `<ol class="sources">${c.sources.map(s=>`<li><a href="${escAttr(s.url)}" target="_blank" rel="noopener nofollow">${esc(s.name)}</a></li>`).join('')}</ol>` : '';
@@ -173,6 +173,30 @@ ul.rel a:hover{border-color:var(--g)}
 .comment-hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
 .disc{font-size:12px;color:var(--mut);border-top:1px solid var(--line);margin-top:38px;padding-top:14px}
 footer{font-size:13px;color:var(--mut);margin-top:16px}footer a{color:var(--mut)}
+.shots{margin:26px 0}.shots .phones{display:flex;flex-wrap:wrap;justify-content:center;gap:22px}.shots figcaption{font-size:13px;color:var(--mut);text-align:center;margin-top:12px}
+.phone{position:relative;width:300px;height:590px;border:7px solid #1c2430;border-radius:38px;background:#FCF3E9;overflow:hidden;font-family:ui-rounded,"SF Pro Rounded","Nunito",-apple-system,"Segoe UI",system-ui,sans-serif;color:#2b1c12;line-height:1.25;box-shadow:0 14px 34px rgba(60,40,20,.18);text-align:left}
+.phone *{box-sizing:border-box;margin:0}
+.phone .ph-top{display:flex;align-items:center;gap:22px;padding:16px 16px 8px}.phone .ph-top b{font-size:19px;font-weight:800}
+.phone .ph-card{background:#fff;border-radius:22px;padding:14px;margin:8px 10px 10px;box-shadow:0 4px 14px rgba(120,80,30,.07)}
+.phone .ph-ring{display:flex;align-items:center;gap:12px}.phone .ph-ring .ph-mut{white-space:nowrap}.phone .ph-ring div>.ph-mut:last-child{font-size:11px}.phone .ph-ring svg{flex:none}
+.phone .ph-mut{color:#8b7a6a;font-size:12px}.phone .ph-big{font-size:36px;font-weight:900;color:#2DBE60;line-height:1.05}
+.phone .ph-bar{height:11px;border-radius:6px;background:#8FB0E4;margin:12px 0 9px}.phone .ph-leg{font-size:12px;color:#8b7a6a;display:flex;align-items:center;gap:6px}
+.phone .dot{width:9px;height:9px;border-radius:50%;display:inline-block;flex:none}
+.phone .ph-h{display:flex;align-items:center;gap:8px;font-weight:800;font-size:17px}
+.phone .pro{background:#F5821F;color:#fff;font-size:9px;font-weight:800;border-radius:10px;padding:3px 8px;letter-spacing:.03em}
+.phone .seg{display:inline-flex;background:#FFCB77;border-radius:14px;padding:3px;margin:10px 0 9px}.phone .seg span{font-size:12px;padding:6px 12px;border-radius:11px;color:#6b4a1c}.phone .seg .on{background:#FF8A1F;color:#fff;font-weight:700}
+.phone .ph-stack{display:flex;gap:2px;height:11px;margin:9px 0 10px}.phone .ph-stack i{display:block;height:100%}.phone .ph-stack i:first-child{border-radius:6px 0 0 6px}.phone .ph-stack i:last-child{border-radius:0 6px 6px 0}
+.phone .ph-note{background:#E6F6EA;border-radius:14px;padding:9px 12px;font-size:12.5px;color:#6f6558;margin-bottom:8px}
+.phone .ph-row{display:flex;align-items:center;gap:10px;padding:7px 0}.phone .ph-row .n{flex:1;font-size:14px;color:#7a6a5a;font-weight:700}.phone .ph-row small{display:block;font-size:11.5px;font-weight:500;color:#8b7a6a}.phone .ph-row .r{text-align:right;font-weight:800;font-size:14px;color:#2b1c12}.phone .ph-row .r small{font-weight:500}
+.phone .ph-ai{background:linear-gradient(135deg,#FFF1E0,#FFE2C8);border:1.5px solid #F8C79A;border-radius:22px;padding:13px 14px;margin:8px 10px 10px}
+.phone .ph-ai .hd{display:flex;align-items:center;gap:9px;font-weight:800;font-size:14px}.phone .ph-ai .hd .pro{margin-left:auto}.phone .ph-ai p{display:flex;gap:9px;font-size:12.5px;line-height:1.45;color:#3a2a1e;margin:9px 0 0}
+.phone .chips{display:flex;gap:7px;margin:10px 0 6px;overflow:hidden;white-space:nowrap}.phone .chips span{border:1.5px solid #E6DED3;border-radius:20px;padding:6px 11px;font-size:12px;color:#4a3a2c;display:inline-flex;align-items:center;gap:6px;flex:none}.phone .chips .on{background:#FF8A1F;border-color:#FF8A1F;color:#fff;font-weight:700}
+.phone .ph-meal{display:flex;gap:10px;padding:7px 0}.phone .ph-ico{width:40px;height:40px;border-radius:12px;background:#FFCB77;flex:none;display:flex;align-items:center;justify-content:center;font-size:18px}
+.phone .ph-meal b{display:block;font-size:14px;color:#7a6a5a;font-weight:700}.phone .ph-meal .m{font-size:11.5px;color:#8b7a6a}.phone .tag{display:inline-block;background:#E8EEFA;color:#6a7f9e;border-radius:10px;padding:3px 9px;font-size:11.5px;margin-top:5px}.phone .tag.p{background:#FBEBD0;color:#9a7a45}
+.phone .ph-nav{position:absolute;left:10px;right:10px;bottom:12px;height:56px;background:#fff;border-radius:26px;box-shadow:0 -2px 18px rgba(120,80,30,.12);display:grid;grid-template-columns:1fr 1fr 62px 1fr 1fr;align-items:center;text-align:center}
+.phone .ph-nav div{font-size:10px;color:#b9a99a;display:flex;flex-direction:column;align-items:center;gap:2px}.phone .ph-nav div svg{width:20px;height:20px;fill:currentColor}.phone .ph-nav .on{color:#F5821F;font-weight:700}
+.phone .ph-fab{position:absolute;left:50%;bottom:36px;width:54px;height:54px;margin-left:-27px;border-radius:50%;background:linear-gradient(#FFB04A,#F57C1F);box-shadow:0 4px 0 #D96A12,0 8px 16px rgba(245,124,31,.35);display:flex;align-items:center;justify-content:center}.phone .ph-fab svg{width:26px;height:26px;fill:#fff}
+@media(max-width:560px){.phone{width:100%;max-width:300px}}
 @media(max-width:560px){h1{font-size:27px}.dek{font-size:17px}ul.rel{grid-template-columns:1fr}}
 </style>
 </head>
