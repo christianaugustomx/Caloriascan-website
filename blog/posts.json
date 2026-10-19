@@ -2058,5 +2058,135 @@
       ],
       "sources": []
     }
+  },
+  {
+    "slug": "proteina-por-que-registrarla",
+    "date": "2026-10-19",
+    "category_es": "Salud",
+    "category_en": "Health",
+    "emoji": "🥩",
+    "cluster": "salud",
+    "es": {
+      "title": "Proteína: por qué conviene registrarla y cómo CalorIA Scan te lo facilita",
+      "dek": "Casi todo el mundo cuenta calorías, pero muy pocos saben cuánta proteína comen en realidad. Te explicamos por qué vale la pena medirla y cómo hacerlo sin complicarte.",
+      "excerpt": "La proteína sostiene tus músculos, te ayuda a sentirte satisfecho y es el nutriente más fácil de subestimar. Así puedes llevar su registro con CalorIA Scan.",
+      "tldr": [
+        "La recomendación general para un adulto sano es de unos 0.8 gramos de proteína por kilo de peso al día, y ese número es un mínimo, no una meta ideal para todos.",
+        "Es fácil quedarse corto sin notarlo: la proteína suele repartirse mal entre las comidas, con desayunos y cenas casi sin ella.",
+        "CalorIA Scan calcula la proteína de tu plato desde una foto, te deja ajustar ingredientes y compara tu día contra la meta que definas."
+      ],
+      "body": [
+        {
+          "h": "Por qué importa tanto la proteína",
+          "p": [
+            "La proteína es el material con el que tu cuerpo construye y repara músculo, piel, enzimas y defensas. No se almacena como la grasa, así que necesitas comerla todos los días. Además, las comidas con buena proteína suelen dejarte satisfecho por más tiempo, lo que ayuda a no andar picando entre horas."
+          ]
+        },
+        {
+          "h": "¿Cuánta necesitas?",
+          "p": [
+            "La recomendación para un adulto sano es de alrededor de 0.8 gramos por kilo de peso corporal al día: unos 56 gramos si pesas 70 kilos. Los lineamientos alimentarios de Estados Unidos también la expresan como entre el 10% y el 35% de tus calorías diarias.",
+            "Ojo: 0.8 g/kg es la cantidad para evitar deficiencias, no necesariamente la óptima para todos. Si entrenas, estás recuperándote de una lesión o eres adulto mayor, tu necesidad puede ser mayor. Y si tienes enfermedad renal o alguna condición médica, consulta a tu médico o nutriólogo antes de subirla."
+          ]
+        },
+        {
+          "h": "Por qué es tan fácil quedarse corto",
+          "p": [
+            "Si desayunas pan dulce con café, comes un plato de arroz con poco guisado y cenas cereal, quizá llegas a tus calorías pero no a tu proteína. En la dieta mexicana hay excelentes fuentes —frijoles, lentejas, huevo, pollo, pescado, queso fresco—, pero solemos concentrarlas en una sola comida y dejar las demás casi sin ellas.",
+            "Un huevo aporta cerca de 6 gramos y una taza de frijoles cocidos, alrededor de 15. Son cantidades que no se notan a ojo, y justo por eso conviene medirlas."
+          ]
+        },
+        {
+          "h": "Registrar tu proteína sin complicarte",
+          "p": [
+            "Pesar cada ingrediente no es sostenible para casi nadie. Por eso lo práctico es medir poco y medir bien: ver cuánta proteína llevas en el día, detectar qué comida se queda corta y ajustar la siguiente. Con unos días de registro empiezas a reconocer qué platillos te aportan mucho y cuáles casi nada."
+          ]
+        },
+        {
+          "h": "Qué hace CalorIA Scan por ti",
+          "p": [
+            "<ul><li><strong>Escanea tu plato:</strong> toma una foto y la app estima calorías y macros, incluida la proteína, pensando en la comida mexicana real.</li><li><strong>Ajusta los ingredientes:</strong> quita la crema, agrega aguacate o cambia la tortilla, y los macros se recalculan al instante.</li><li><strong>Macro pills:</strong> indicadores de color para ver de un vistazo proteína, carbohidratos y grasas.</li><li><strong>Metas personalizadas:</strong> define tus objetivos de calorías y macronutrientes según tu cuerpo, tu actividad y tus metas, y compara tu día contra ellos.</li><li><strong>Historial y reporte:</strong> revisa tu progreso diario y semanal y, si lo necesitas, genera un reporte en PDF para compartirlo con tu nutriólogo.</li></ul>",
+            "Algunas funciones, como el seguimiento de objetivos, las estadísticas semanales y el reporte en PDF, forman parte del plan Pro."
+          ]
+        },
+        {
+          "h": "La conclusión práctica",
+          "p": [
+            "No necesitas obsesionarte con los gramos. Basta con saber cuánta proteína comes en promedio y repartirla mejor entre tus comidas. Empieza registrando una semana normal y fíjate en dónde se queda corta."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "Harvard T.H. Chan — The Nutrition Source: Protein",
+          "url": "https://nutritionsource.hsph.harvard.edu/what-should-you-eat/protein/"
+        },
+        {
+          "name": "Dietary Guidelines for Americans",
+          "url": "https://www.dietaryguidelines.gov/"
+        }
+      ]
+    },
+    "en": {
+      "title": "Protein: why it's worth tracking and how CalorIA Scan makes it easy",
+      "dek": "Almost everyone counts calories, but very few people know how much protein they actually eat. Here's why it's worth measuring and how to do it without the hassle.",
+      "excerpt": "Protein supports your muscles, keeps you feeling full, and is the nutrient easiest to underestimate. Here's how to track it with CalorIA Scan.",
+      "tldr": [
+        "The general recommendation for a healthy adult is about 0.8 grams of protein per kilo of body weight a day, and that number is a minimum, not an ideal target for everyone.",
+        "It's easy to fall short without noticing: protein is often spread unevenly across meals, with breakfasts and dinners that have almost none.",
+        "CalorIA Scan estimates the protein on your plate from a photo, lets you adjust ingredients, and compares your day against the goal you set."
+      ],
+      "body": [
+        {
+          "h": "Why protein matters so much",
+          "p": [
+            "Protein is what your body uses to build and repair muscle, skin, enzymes and immune defenses. It isn't stored the way fat is, so you need to eat it every day. Meals with good protein also tend to keep you full for longer, which helps with grazing between meals."
+          ]
+        },
+        {
+          "h": "How much do you need?",
+          "p": [
+            "The recommendation for a healthy adult is about 0.8 grams per kilo of body weight a day: around 56 grams if you weigh 70 kilos. The US Dietary Guidelines also express it as 10% to 35% of your daily calories.",
+            "Keep in mind: 0.8 g/kg is the amount to avoid deficiency, not necessarily the best amount for everyone. If you train, are recovering from an injury, or are an older adult, you may need more. And if you have kidney disease or another medical condition, check with your doctor or dietitian before increasing it."
+          ]
+        },
+        {
+          "h": "Why it's so easy to fall short",
+          "p": [
+            "If you have sweet bread and coffee for breakfast, a plate of rice with a little stew for lunch and cereal for dinner, you may hit your calories but not your protein. The Mexican diet has excellent sources —beans, lentils, eggs, chicken, fish, queso fresco— but we tend to pile them into one meal and leave the others with almost none.",
+            "An egg gives you about 6 grams and a cup of cooked beans about 15. Those amounts are hard to eyeball, which is exactly why they're worth measuring."
+          ]
+        },
+        {
+          "h": "Tracking your protein without the hassle",
+          "p": [
+            "Weighing every ingredient isn't sustainable for almost anyone. The practical approach is to measure a little, and measure well: see how much protein you've had so far today, spot which meal falls short, and adjust the next one. After a few days of logging, you start to recognize which dishes give you a lot and which give you almost none."
+          ]
+        },
+        {
+          "h": "What CalorIA Scan does for you",
+          "p": [
+            "<ul><li><strong>Scan your plate:</strong> take a photo and the app estimates calories and macros, protein included, built around real Mexican food.</li><li><strong>Adjust ingredients:</strong> remove the crema, add avocado or swap the tortilla, and the macros recalculate instantly.</li><li><strong>Macro pills:</strong> color-coded indicators to see protein, carbs and fat at a glance.</li><li><strong>Personalized goals:</strong> set calorie and macronutrient targets based on your body, activity and goals, and compare your day against them.</li><li><strong>History and report:</strong> review your daily and weekly progress and, if you need it, generate a PDF report to share with your dietitian.</li></ul>",
+            "Some features, like goal tracking, weekly stats and the PDF report, are part of the Pro plan."
+          ]
+        },
+        {
+          "h": "The practical takeaway",
+          "p": [
+            "You don't need to obsess over grams. It's enough to know roughly how much protein you eat and spread it better across your meals. Start by logging one normal week and see where it falls short."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "Harvard T.H. Chan — The Nutrition Source: Protein",
+          "url": "https://nutritionsource.hsph.harvard.edu/what-should-you-eat/protein/"
+        },
+        {
+          "name": "Dietary Guidelines for Americans",
+          "url": "https://www.dietaryguidelines.gov/"
+        }
+      ]
+    }
   }
 ]
