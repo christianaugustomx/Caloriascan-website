@@ -258,6 +258,7 @@ fs.writeFileSync(path.join(dES,'index.html'), hub(pages,'es'));
 const today = new Date().toISOString().slice(0,10);
 const entry = (loc,en,es) => `  <url>\n    <loc>${loc}</loc>\n    <lastmod>${today}</lastmod>\n    <xhtml:link rel="alternate" hreflang="en" href="${en}"/>\n    <xhtml:link rel="alternate" hreflang="es" href="${es}"/>\n    <xhtml:link rel="alternate" hreflang="x-default" href="${en}"/>\n  </url>`;
 let sm = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n`;
+sm += entry(`${DOMAIN}/`, `${DOMAIN}/en/`, `${DOMAIN}/`) + '\n';
 sm += entry(`${DOMAIN}/en/`, `${DOMAIN}/en/`, `${DOMAIN}/`) + '\n';
 sm += entry(`${DOMAIN}/en/calories/`, `${DOMAIN}/en/calories/`, `${DOMAIN}/calorias/`) + '\n';
 sm += entry(`${DOMAIN}/calorias/`, `${DOMAIN}/en/calories/`, `${DOMAIN}/calorias/`) + '\n';

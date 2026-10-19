@@ -18,3 +18,1048 @@
   from = "/en/blog/novedades-caloria-scan-2-0-3"
   to = "/en/blog/novedades-caloria-scan-2-0-7"
   status = 301
+
+# Canonicalize .html URLs (served 200 otherwise -> duplicate content in Google)
+[[redirects]]
+  from = "/blog/aguacate-engorda-mito.html"
+  to = "/blog/aguacate-engorda-mito"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/barras-granola-azucar-oculta.html"
+  to = "/blog/barras-granola-azucar-oculta"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/calorias-platillos-mexicanos-favoritos.html"
+  to = "/blog/calorias-platillos-mexicanos-favoritos"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/e141-clorofila-cobre-colorante.html"
+  to = "/blog/e141-clorofila-cobre-colorante"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/fibra-nutriente-que-falta.html"
+  to = "/blog/fibra-nutriente-que-falta"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/grasa-buena-vs-grasa-trans-mito.html"
+  to = "/blog/grasa-buena-vs-grasa-trans-mito"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/huevo-colesterol-mito.html"
+  to = "/blog/huevo-colesterol-mito"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/index.html"
+  to = "/blog/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/jugo-natural-vs-fruta.html"
+  to = "/blog/jugo-natural-vs-fruta"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/mitos-comida-virales.html"
+  to = "/blog/mitos-comida-virales"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/novedades-caloria-scan-2-0-2.html"
+  to = "/blog/novedades-caloria-scan-2-0-2"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/pan-integral-mito.html"
+  to = "/blog/pan-integral-mito"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/por-que-creamos-caloria-scan.html"
+  to = "/blog/por-que-creamos-caloria-scan"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/productos-light-azucar-oculta.html"
+  to = "/blog/productos-light-azucar-oculta"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/proteina-por-que-registrarla.html"
+  to = "/blog/proteina-por-que-registrarla"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/receta-chilaquiles-verdes.html"
+  to = "/blog/receta-chilaquiles-verdes"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/receta-fideo-seco.html"
+  to = "/blog/receta-fideo-seco"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/receta-mole-poblano-arroz-rojo.html"
+  to = "/blog/receta-mole-poblano-arroz-rojo"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/receta-tamales-verdes.html"
+  to = "/blog/receta-tamales-verdes"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/refresco-zero-edulcorantes-oms.html"
+  to = "/blog/refresco-zero-edulcorantes-oms"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/sal-presion-arterial-oms.html"
+  to = "/blog/sal-presion-arterial-oms"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/bacon.html"
+  to = "/calorias/bacon"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/bagel.html"
+  to = "/calorias/bagel"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/banana.html"
+  to = "/calorias/banana"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/barbacoa.html"
+  to = "/calorias/barbacoa"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/birria-tacos.html"
+  to = "/calorias/birria-tacos"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/buffalo-wings.html"
+  to = "/calorias/buffalo-wings"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/caesar-salad.html"
+  to = "/calorias/caesar-salad"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/carne-asada.html"
+  to = "/calorias/carne-asada"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/carnitas.html"
+  to = "/calorias/carnitas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/cheeseburger.html"
+  to = "/calorias/cheeseburger"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/chicken-burrito.html"
+  to = "/calorias/chicken-burrito"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/chicken-fajitas.html"
+  to = "/calorias/chicken-fajitas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/chicken-nuggets.html"
+  to = "/calorias/chicken-nuggets"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/chicken-quesadilla.html"
+  to = "/calorias/chicken-quesadilla"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/chicken-tinga.html"
+  to = "/calorias/chicken-tinga"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/chilaquiles.html"
+  to = "/calorias/chilaquiles"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/chiles-rellenos.html"
+  to = "/calorias/chiles-rellenos"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/churros.html"
+  to = "/calorias/churros"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/cochinita-pibil.html"
+  to = "/calorias/cochinita-pibil"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/concha-pan-dulce.html"
+  to = "/calorias/concha-pan-dulce"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/corn-tortilla.html"
+  to = "/calorias/corn-tortilla"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/cotija-cheese.html"
+  to = "/calorias/cotija-cheese"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/empanada.html"
+  to = "/calorias/empanada"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/enchiladas.html"
+  to = "/calorias/enchiladas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/esquites.html"
+  to = "/calorias/esquites"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/flan.html"
+  to = "/calorias/flan"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/flour-tortilla.html"
+  to = "/calorias/flour-tortilla"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/french-fries.html"
+  to = "/calorias/french-fries"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/fried-rice.html"
+  to = "/calorias/fried-rice"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/gorditas.html"
+  to = "/calorias/gorditas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/grilled-cheese.html"
+  to = "/calorias/grilled-cheese"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/guacamole.html"
+  to = "/calorias/guacamole"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/horchata.html"
+  to = "/calorias/horchata"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/hot-dog.html"
+  to = "/calorias/hot-dog"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/huevos-rancheros.html"
+  to = "/calorias/huevos-rancheros"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/index.html"
+  to = "/calorias/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/mac-and-cheese.html"
+  to = "/calorias/mac-and-cheese"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/menudo.html"
+  to = "/calorias/menudo"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/mexican-rice.html"
+  to = "/calorias/mexican-rice"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/mexican-street-corn.html"
+  to = "/calorias/mexican-street-corn"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/mexican-torta.html"
+  to = "/calorias/mexican-torta"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/michelada.html"
+  to = "/calorias/michelada"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/migas.html"
+  to = "/calorias/migas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/mole-poblano.html"
+  to = "/calorias/mole-poblano"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/nachos.html"
+  to = "/calorias/nachos"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/oatmeal.html"
+  to = "/calorias/oatmeal"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/pancakes.html"
+  to = "/calorias/pancakes"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/pico-de-gallo.html"
+  to = "/calorias/pico-de-gallo"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/pozole.html"
+  to = "/calorias/pozole"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/queso-fresco.html"
+  to = "/calorias/queso-fresco"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/ramen.html"
+  to = "/calorias/ramen"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/refried-beans.html"
+  to = "/calorias/refried-beans"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/scrambled-eggs.html"
+  to = "/calorias/scrambled-eggs"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/slice-of-pizza.html"
+  to = "/calorias/slice-of-pizza"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/sopes.html"
+  to = "/calorias/sopes"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/spaghetti.html"
+  to = "/calorias/spaghetti"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/street-taco.html"
+  to = "/calorias/street-taco"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/tacos-al-pastor.html"
+  to = "/calorias/tacos-al-pastor"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/tamale.html"
+  to = "/calorias/tamale"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/taquitos.html"
+  to = "/calorias/taquitos"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/tostada.html"
+  to = "/calorias/tostada"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/calorias/tres-leches-cake.html"
+  to = "/calorias/tres-leches-cake"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/delete-account.html"
+  to = "/delete-account"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/aguacate-engorda-mito.html"
+  to = "/en/blog/aguacate-engorda-mito"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/barras-granola-azucar-oculta.html"
+  to = "/en/blog/barras-granola-azucar-oculta"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/calorias-platillos-mexicanos-favoritos.html"
+  to = "/en/blog/calorias-platillos-mexicanos-favoritos"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/e141-clorofila-cobre-colorante.html"
+  to = "/en/blog/e141-clorofila-cobre-colorante"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/fibra-nutriente-que-falta.html"
+  to = "/en/blog/fibra-nutriente-que-falta"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/grasa-buena-vs-grasa-trans-mito.html"
+  to = "/en/blog/grasa-buena-vs-grasa-trans-mito"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/huevo-colesterol-mito.html"
+  to = "/en/blog/huevo-colesterol-mito"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/index.html"
+  to = "/en/blog/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/jugo-natural-vs-fruta.html"
+  to = "/en/blog/jugo-natural-vs-fruta"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/mitos-comida-virales.html"
+  to = "/en/blog/mitos-comida-virales"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/novedades-caloria-scan-2-0-2.html"
+  to = "/en/blog/novedades-caloria-scan-2-0-2"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/pan-integral-mito.html"
+  to = "/en/blog/pan-integral-mito"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/por-que-creamos-caloria-scan.html"
+  to = "/en/blog/por-que-creamos-caloria-scan"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/productos-light-azucar-oculta.html"
+  to = "/en/blog/productos-light-azucar-oculta"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/proteina-por-que-registrarla.html"
+  to = "/en/blog/proteina-por-que-registrarla"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/receta-chilaquiles-verdes.html"
+  to = "/en/blog/receta-chilaquiles-verdes"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/receta-fideo-seco.html"
+  to = "/en/blog/receta-fideo-seco"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/receta-mole-poblano-arroz-rojo.html"
+  to = "/en/blog/receta-mole-poblano-arroz-rojo"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/receta-tamales-verdes.html"
+  to = "/en/blog/receta-tamales-verdes"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/refresco-zero-edulcorantes-oms.html"
+  to = "/en/blog/refresco-zero-edulcorantes-oms"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/sal-presion-arterial-oms.html"
+  to = "/en/blog/sal-presion-arterial-oms"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/bacon.html"
+  to = "/en/calories/bacon"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/bagel.html"
+  to = "/en/calories/bagel"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/banana.html"
+  to = "/en/calories/banana"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/barbacoa.html"
+  to = "/en/calories/barbacoa"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/birria-tacos.html"
+  to = "/en/calories/birria-tacos"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/buffalo-wings.html"
+  to = "/en/calories/buffalo-wings"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/caesar-salad.html"
+  to = "/en/calories/caesar-salad"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/carne-asada.html"
+  to = "/en/calories/carne-asada"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/carnitas.html"
+  to = "/en/calories/carnitas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/cheeseburger.html"
+  to = "/en/calories/cheeseburger"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/chicken-burrito.html"
+  to = "/en/calories/chicken-burrito"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/chicken-fajitas.html"
+  to = "/en/calories/chicken-fajitas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/chicken-nuggets.html"
+  to = "/en/calories/chicken-nuggets"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/chicken-quesadilla.html"
+  to = "/en/calories/chicken-quesadilla"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/chicken-tinga.html"
+  to = "/en/calories/chicken-tinga"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/chilaquiles.html"
+  to = "/en/calories/chilaquiles"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/chiles-rellenos.html"
+  to = "/en/calories/chiles-rellenos"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/churros.html"
+  to = "/en/calories/churros"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/cochinita-pibil.html"
+  to = "/en/calories/cochinita-pibil"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/concha-pan-dulce.html"
+  to = "/en/calories/concha-pan-dulce"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/corn-tortilla.html"
+  to = "/en/calories/corn-tortilla"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/cotija-cheese.html"
+  to = "/en/calories/cotija-cheese"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/empanada.html"
+  to = "/en/calories/empanada"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/enchiladas.html"
+  to = "/en/calories/enchiladas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/esquites.html"
+  to = "/en/calories/esquites"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/flan.html"
+  to = "/en/calories/flan"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/flour-tortilla.html"
+  to = "/en/calories/flour-tortilla"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/french-fries.html"
+  to = "/en/calories/french-fries"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/fried-rice.html"
+  to = "/en/calories/fried-rice"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/gorditas.html"
+  to = "/en/calories/gorditas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/grilled-cheese.html"
+  to = "/en/calories/grilled-cheese"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/guacamole.html"
+  to = "/en/calories/guacamole"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/horchata.html"
+  to = "/en/calories/horchata"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/hot-dog.html"
+  to = "/en/calories/hot-dog"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/huevos-rancheros.html"
+  to = "/en/calories/huevos-rancheros"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/index.html"
+  to = "/en/calories/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/mac-and-cheese.html"
+  to = "/en/calories/mac-and-cheese"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/menudo.html"
+  to = "/en/calories/menudo"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/mexican-rice.html"
+  to = "/en/calories/mexican-rice"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/mexican-street-corn.html"
+  to = "/en/calories/mexican-street-corn"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/mexican-torta.html"
+  to = "/en/calories/mexican-torta"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/michelada.html"
+  to = "/en/calories/michelada"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/migas.html"
+  to = "/en/calories/migas"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/mole-poblano.html"
+  to = "/en/calories/mole-poblano"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/nachos.html"
+  to = "/en/calories/nachos"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/oatmeal.html"
+  to = "/en/calories/oatmeal"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/pancakes.html"
+  to = "/en/calories/pancakes"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/pico-de-gallo.html"
+  to = "/en/calories/pico-de-gallo"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/pozole.html"
+  to = "/en/calories/pozole"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/queso-fresco.html"
+  to = "/en/calories/queso-fresco"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/ramen.html"
+  to = "/en/calories/ramen"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/refried-beans.html"
+  to = "/en/calories/refried-beans"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/scrambled-eggs.html"
+  to = "/en/calories/scrambled-eggs"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/slice-of-pizza.html"
+  to = "/en/calories/slice-of-pizza"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/sopes.html"
+  to = "/en/calories/sopes"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/spaghetti.html"
+  to = "/en/calories/spaghetti"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/street-taco.html"
+  to = "/en/calories/street-taco"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/tacos-al-pastor.html"
+  to = "/en/calories/tacos-al-pastor"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/tamale.html"
+  to = "/en/calories/tamale"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/taquitos.html"
+  to = "/en/calories/taquitos"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/tostada.html"
+  to = "/en/calories/tostada"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/calories/tres-leches-cake.html"
+  to = "/en/calories/tres-leches-cake"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/delete-account.html"
+  to = "/en/delete-account"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/index.html"
+  to = "/en/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/privacy-policy.html"
+  to = "/en/privacy-policy"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/terms.html"
+  to = "/en/terms"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/privacy-policy.html"
+  to = "/privacy-policy"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/terms.html"
+  to = "/terms"
+  status = 301
+  force = true
