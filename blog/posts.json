@@ -1966,93 +1966,131 @@
     }
   },
   {
-    "slug": "novedades-caloria-scan-2-0-3",
-    "date": "2026-10-16",
+    "slug": "novedades-caloria-scan-2-0-7",
+    "date": "2026-10-19",
     "category_es": "Producto",
     "category_en": "Product",
     "emoji": "✨",
     "cluster": "producto",
     "es": {
-      "title": "Qué hay de nuevo en CalorIA Scan 2.0.3",
-      "dek": "Una cámara que ya no se estira al girar el teléfono, fotos que respetan la orientación en la que las tomas y un historial día por día más claro —así luce la actualización 2.0.3, ya disponible en la App Store.",
-      "excerpt": "La versión 2.0.3 de CalorIA Scan mejora la cámara, convierte tu historial en una lista continua y trae mejoras de rendimiento y estabilidad.",
+      "title": "CalorIA Scan 2.0.7: tu proteína, tus comidas y tu privacidad, más claras que nunca",
+      "dek": "Nuevo Protein tracker, escaneos más rápidos, edición de comidas ya registradas, borrado deslizando y un aviso de privacidad más claro —todo lo nuevo en la actualización 2.0.7.",
+      "excerpt": "La versión 2.0.7 de CalorIA Scan estrena el Protein tracker, acelera los escaneos, te deja editar y borrar comidas registradas y refuerza tu privacidad.",
       "tldr": [
-        "La vista previa de la cámara ya no se estira ni se desplaza cuando giras el teléfono.",
-        "Las fotos respetan la orientación en la que las tomas.",
-        "Tu historial ahora es una lista continua, y \"Ayer\" muestra el día de la semana y la fecha."
+        "Nuevo Protein tracker: toca tu proteína en Inicio y descubre si viene de pollo, res, cerdo, pescado, huevo, lácteos o fuentes vegetales.",
+        "Ahora puedes renombrar una comida, editar la porción de una que ya registraste y borrar comidas deslizando.",
+        "Tu privacidad es más clara: consentimiento expreso, analítica opcional y una eliminación de cuenta más completa."
       ],
       "body": [
         {
-          "h": "Una cámara más estable",
+          "h": "Nuevo: Protein tracker",
           "p": [
-            "Escanear tu plato es lo primero que haces en CalorIA Scan, así que la cámara tenía que sentirse bien. Hasta ahora, al girar el teléfono la vista previa podía estirarse o desplazarse. Con 2.0.3 eso se acabó: la vista previa se mantiene en su lugar y con las proporciones correctas, sin importar cómo sostengas el teléfono."
+            "Toca tu proteína en Inicio y descubre de dónde viene: pollo, res, cerdo, pescado, huevo, lácteos o fuentes vegetales. Ves tu día gratis; con Pro también ves tus fuentes de los últimos 7 y 30 días.",
+            "<strong>Tu nutriólogo IA (Pro):</strong> un consejo corto cada día sobre la variedad de tus fuentes de proteína, con la personalidad que elegiste: Profesional, Chilango o Abuelita."
           ]
         },
         {
-          "h": "Fotos que respetan la orientación",
+          "h": "Escaneos más rápidos",
           "p": [
-            "Además de arreglar la vista previa, ahora las fotos conservan la orientación en la que las tomaste. Si fotografías tu comida en horizontal, queda en horizontal; si la tomas en vertical, queda en vertical."
+            "Tus resultados aparecen hasta 2 segundos antes."
           ]
         },
         {
-          "h": "Historial día por día, en una sola lista",
+          "h": "Ponle el nombre que quieras",
           "p": [
-            "Tu registro ahora es una lista continua, así que puedes recorrer tus días sin saltar entre pantallas. Y un detalle pequeño pero útil: \"Ayer\" ahora muestra el día de la semana y la fecha, para que ubiques de un vistazo a qué día te refieres."
+            "Toca el lápiz junto al nombre de tu comida para corregirlo antes de guardarla. Si escribes otra proteína (por ejemplo \"de cerdo\" en vez de pollo), los ingredientes y las calorías se ajustan solos. Y ahora tienes 20 proteínas nuevas para cambiar: muslo, alitas, arrachera, chuleta, cochinita, salmón, tilapia, atún, frijoles, lentejas y más."
           ]
         },
         {
-          "h": "Rendimiento y estabilidad",
+          "h": "Edita una comida que ya registraste",
           "p": [
-            "Esta versión también incluye mejoras de rendimiento y estabilidad para que la app se sienta más fluida en el día a día."
+            "¿Comiste solo la mitad? Abre una comida de hoy y ajusta la porción (de ½ a 5) con el mismo selector que usas al escanear: calorías, macros y gramos se recalculan al instante. También puedes cambiarle el nombre. Toca \"Guardar cambios\" y listo; se actualiza también en tu respaldo en la nube."
+          ]
+        },
+        {
+          "h": "Borra comidas deslizando",
+          "p": [
+            "En Inicio, desliza una comida hacia la izquierda y confirma para eliminarla. Se borra también de tu respaldo en la nube, y ya no vuelve a aparecer al reabrir la app."
+          ]
+        },
+        {
+          "h": "Tu privacidad, más clara",
+          "p": [
+            "<ul><li><strong>Consentimiento expreso:</strong> te pedimos permiso de forma clara para usar tus datos de nutrición, y por separado (y opcional) para tu peso, estatura, edad, sexo y nivel de actividad. Puedes retirarlo cuando quieras en Perfil → Más → Retirar consentimiento.</li><li><strong>Analítica opcional:</strong> en la Unión Europea, el Reino Unido y Suiza está apagada hasta que tú la actives. En cualquier país puedes apagarla en Perfil → Más.</li><li><strong>Eliminar tu cuenta es más completo:</strong> también desconectamos \"Iniciar sesión con Apple\" y borramos tus datos de compras con nuestro proveedor de pagos.</li><li><strong>Aviso de privacidad actualizado</strong> el 17 de octubre de 2026: <a href=\"/privacy-policy\">caloriascan.com/privacy-policy</a></li></ul>"
+          ]
+        },
+        {
+          "h": "Y además",
+          "p": [
+            "<ul><li>Un recorrido rápido te muestra las funciones clave la primera vez que usas la app.</li><li>El menú de abajo ahora cambia al idioma que elijas.</li><li>El botón \"¿Ya tienes cuenta? Inicia sesión\" es más grande y fácil de encontrar.</li><li>Ya puedes salir de la cámara aunque no se pueda abrir.</li></ul>"
           ]
         },
         {
           "h": "Cómo actualizar",
           "p": [
-            "La actualización 2.0.3 ya está disponible en la App Store. Si tienes las actualizaciones automáticas activadas, probablemente ya la tengas instalada —si no, puedes actualizarla manualmente desde la app de App Store en tu iPhone."
+            "Actualiza CalorIA Scan desde el App Store y cuéntanos qué te parece. Cada comentario nos ayuda a mejorar. 🌽"
           ]
         }
       ],
       "sources": []
     },
     "en": {
-      "title": "What's new in CalorIA Scan 2.0.3",
-      "dek": "A camera that no longer stretches when you rotate your phone, photos that keep the orientation you took them in, and a clearer day-by-day history —that's what's inside the 2.0.3 update, live now on the App Store.",
-      "excerpt": "CalorIA Scan 2.0.3 improves the camera, turns your history into one continuous list, and brings performance and stability improvements.",
+      "title": "CalorIA Scan 2.0.7: your protein, your meals and your privacy, clearer than ever",
+      "dek": "A new Protein tracker, faster scans, editing for meals you've already logged, swipe to delete and clearer privacy —everything new in the 2.0.7 update.",
+      "excerpt": "CalorIA Scan 2.0.7 introduces the Protein tracker, speeds up scans, lets you edit and delete logged meals, and strengthens your privacy.",
       "tldr": [
-        "The camera preview no longer stretches or shifts when you rotate your phone.",
-        "Photos keep the orientation you took them in.",
-        "Your history is now one continuous list, and \"Yesterday\" shows the weekday and date."
+        "New Protein tracker: tap your protein on Home and see whether it comes from chicken, beef, pork, fish, eggs, dairy or plant-based sources.",
+        "You can now rename a meal, edit the portion of one you've already logged, and swipe to delete meals.",
+        "Privacy is clearer: express consent, optional analytics and a more complete account deletion."
       ],
       "body": [
         {
-          "h": "A steadier camera",
+          "h": "New: Protein tracker",
           "p": [
-            "Scanning your plate is the first thing you do in CalorIA Scan, so the camera has to feel right. Until now, rotating your phone could make the preview stretch or shift. With 2.0.3 that's gone: the preview stays in place with the right proportions, however you hold your phone."
+            "Tap your protein on Home and see where it comes from: chicken, beef, pork, fish, eggs, dairy or plant-based sources. Today's view is free; with Pro you also see your sources over the last 7 and 30 days.",
+            "<strong>Your AI nutritionist (Pro):</strong> a short daily tip on the variety of your protein sources, in the personality you picked: Profesional, Chilango or Abuelita."
           ]
         },
         {
-          "h": "Photos that keep their orientation",
+          "h": "Faster scans",
           "p": [
-            "On top of the preview fix, photos now keep the orientation you took them in. Shoot your meal in landscape and it stays landscape; shoot it in portrait and it stays portrait."
+            "Your results now appear up to 2 seconds sooner."
           ]
         },
         {
-          "h": "Day-by-day history, in one list",
+          "h": "Name it your way",
           "p": [
-            "Your log is now one continuous list, so you can scroll through your days without jumping between screens. And a small but handy detail: \"Yesterday\" now shows the weekday and date, so you can tell at a glance which day you mean."
+            "Tap the pencil next to your meal's name to fix it before saving. Type a different protein (say \"pork\" instead of chicken) and the ingredients and calories update automatically. Plus 20 new proteins to swap in: thigh, wings, skirt steak, pork chop, cochinita, salmon, tilapia, tuna, beans, lentils and more."
           ]
         },
         {
-          "h": "Performance and stability",
+          "h": "Edit a meal you already logged",
           "p": [
-            "This release also includes performance and stability improvements to make the app feel smoother day to day."
+            "Only ate half? Open a meal from today and adjust the portion (½ to 5) with the same selector you use when scanning: calories, macros and grams recalculate instantly. You can rename it too. Tap \"Save changes\" and it also updates in your cloud backup."
+          ]
+        },
+        {
+          "h": "Swipe to delete meals",
+          "p": [
+            "On Home, swipe a meal left and confirm to remove it. It's also removed from your cloud backup, and it no longer comes back when you reopen the app."
+          ]
+        },
+        {
+          "h": "Clearer privacy",
+          "p": [
+            "<ul><li><strong>Express consent:</strong> we clearly ask permission to use your nutrition data, and separately (optional) for your weight, height, age, sex and activity level. Withdraw it anytime in Profile → More → Withdraw consent.</li><li><strong>Optional analytics:</strong> in the EU, UK and Switzerland it stays off until you turn it on. Anywhere, you can turn it off in Profile → More.</li><li><strong>More complete account deletion:</strong> we also disconnect \"Sign in with Apple\" and erase your purchase data with our payments provider.</li><li><strong>Updated privacy policy</strong> on October 17, 2026: <a href=\"/en/privacy-policy.html\">caloriascan.com/en/privacy-policy.html</a></li></ul>"
+          ]
+        },
+        {
+          "h": "And also",
+          "p": [
+            "<ul><li>A quick tour shows you the key features the first time you use the app.</li><li>The bottom menu now follows the language you pick.</li><li>The \"Already have an account? Sign in\" button is bigger and easier to find.</li><li>You can now leave the camera screen even when the camera can't start.</li></ul>"
           ]
         },
         {
           "h": "How to update",
           "p": [
-            "Version 2.0.3 is live on the App Store now. If you have automatic updates turned on, you probably already have it —otherwise, update manually from the App Store app on your iPhone."
+            "Update CalorIA Scan from the App Store and tell us what you think. Every comment helps us improve."
           ]
         }
       ],

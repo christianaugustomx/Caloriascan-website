@@ -8,3 +8,13 @@
     Strict-Transport-Security = "max-age=31536000; includeSubDomains"
     Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' cdn.tailwindcss.com fonts.googleapis.com; style-src 'self' 'unsafe-inline' fonts.googleapis.com; font-src fonts.gstatic.com; connect-src 'self' https://cuioliuujsqbegqkflso.supabase.co;"
     Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+[[redirects]]
+  from = "/blog/novedades-caloria-scan-2-0-3"
+  to = "/blog/novedades-caloria-scan-2-0-7"
+  status = 301
+
+[[redirects]]
+  from = "/en/blog/novedades-caloria-scan-2-0-3"
+  to = "/en/blog/novedades-caloria-scan-2-0-7"
+  status = 301
