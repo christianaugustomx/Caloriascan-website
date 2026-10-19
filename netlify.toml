@@ -87,6 +87,12 @@
   force = true
 
 [[redirects]]
+  from = "/blog/novedades-caloria-scan-2-0-7.html"
+  to = "/blog/novedades-caloria-scan-2-0-7"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/blog/pan-integral-mito.html"
   to = "/blog/pan-integral-mito"
   status = 301
@@ -587,6 +593,12 @@
 [[redirects]]
   from = "/en/blog/novedades-caloria-scan-2-0-2.html"
   to = "/en/blog/novedades-caloria-scan-2-0-2"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/novedades-caloria-scan-2-0-7.html"
+  to = "/en/blog/novedades-caloria-scan-2-0-7"
   status = 301
   force = true
 
