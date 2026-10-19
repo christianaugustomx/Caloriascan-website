@@ -121,22 +121,9 @@
     "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHg2NzA2ODgtaW1hZ2Uta3d2djhkMTYuanBn.jpg"
   },
   "proteina-por-que-registrarla": {
-    "note": "Collage of three CC0 Wikimedia Commons photos",
     "license": "cc0",
     "source": "wikimedia commons",
-    "parts": [
-      {
-        "title": "Grilled chicken breast, Santo Domingo, La Palma.jpg",
-        "landing": "https://commons.wikimedia.org/wiki/File:Grilled_chicken_breast,_Santo_Domingo,_La_Palma.jpg"
-      },
-      {
-        "title": "6-Pack-Chicken-Eggs.jpg",
-        "landing": "https://commons.wikimedia.org/wiki/File:6-Pack-Chicken-Eggs.jpg"
-      },
-      {
-        "title": "Mixture of beans ... and pardina lentils 1.jpg",
-        "landing": "https://commons.wikimedia.org/wiki/File:Mixture_of_beans_(small_red,_cannellini,_pinto,_roman,_red_kidney,_black),_peas_(blackeye,_yellow_split),_and_pardina_lentils_1.jpg"
-      }
-    ]
+    "title": "Grilled plated salmon fillet.jpg",
+    "landing": "https://commons.wikimedia.org/wiki/File:Grilled_plated_salmon_fillet.jpg"
   }
 }
