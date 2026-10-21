@@ -1967,15 +1967,15 @@
   },
   {
     "slug": "novedades-caloria-scan-2-0-7",
-    "date": "2026-10-19",
+    "date": "2026-10-21",
     "category_es": "Producto",
     "category_en": "Product",
     "emoji": "✨",
     "cluster": "producto",
     "es": {
       "title": "CalorIA Scan 2.0.7: tu proteína y tus comidas, más claras que nunca",
-      "dek": "Nuevo Protein tracker, escaneos más rápidos, edición de comidas ya registradas y borrado deslizando —todo lo nuevo en la actualización 2.0.7.",
-      "excerpt": "La versión 2.0.7 de CalorIA Scan estrena el Protein tracker, acelera los escaneos y te deja editar y borrar comidas registradas.",
+      "dek": "Nuevo Protein tracker, escaneos más rápidos, edición de comidas ya registradas y borrado deslizando —todo lo nuevo en la actualización 2.0.7, ya disponible en el App Store.",
+      "excerpt": "La versión 2.0.7 de CalorIA Scan ya está disponible: estrena el Protein tracker, acelera los escaneos y te deja editar y borrar comidas registradas.",
       "tldr": [
         "Nuevo Protein tracker: toca tu proteína en Inicio y descubre si viene de pollo, res, cerdo, pescado, huevo, lácteos o fuentes vegetales.",
         "Ahora puedes renombrar una comida, editar la porción de una que ya registraste y borrar comidas deslizando.",
@@ -2023,7 +2023,7 @@
         {
           "h": "Cómo actualizar",
           "p": [
-            "La actualización 2.0.7 estará disponible en el App Store a partir del 20 de octubre de 2026. Cuando la veas, actualiza CalorIA Scan y cuéntanos qué te parece. Cada comentario nos ayuda a mejorar."
+            "La actualización 2.0.7 ya está disponible en el App Store. Si tienes las actualizaciones automáticas activadas, probablemente ya la tengas instalada; si no, puedes actualizarla manualmente desde la app de App Store en tu iPhone. Cuéntanos qué te parece: cada comentario nos ayuda a mejorar."
           ]
         }
       ],
@@ -2031,8 +2031,8 @@
     },
     "en": {
       "title": "CalorIA Scan 2.0.7: your protein and your meals, clearer than ever",
-      "dek": "A new Protein tracker, faster scans, editing for meals you've already logged and swipe to delete —everything new in the 2.0.7 update.",
-      "excerpt": "CalorIA Scan 2.0.7 introduces the Protein tracker, speeds up scans, and lets you edit and delete logged meals.",
+      "dek": "A new Protein tracker, faster scans, editing for meals you've already logged and swipe to delete —everything new in the 2.0.7 update, now available on the App Store.",
+      "excerpt": "CalorIA Scan 2.0.7 is now available: it introduces the Protein tracker, speeds up scans, and lets you edit and delete logged meals.",
       "tldr": [
         "New Protein tracker: tap your protein on Home and see whether it comes from chicken, beef, pork, fish, eggs, dairy or plant-based sources.",
         "You can now rename a meal, edit the portion of one you've already logged, and swipe to delete meals.",
@@ -2080,7 +2080,7 @@
         {
           "h": "How to update",
           "p": [
-            "Version 2.0.7 will be available on the App Store starting October 20, 2026. When you see it, update CalorIA Scan and tell us what you think. Every comment helps us improve."
+            "Version 2.0.7 is now available on the App Store. If you have automatic updates turned on, you probably already have it; otherwise, update manually from the App Store app on your iPhone. Tell us what you think: every comment helps us improve."
           ]
         }
       ],
