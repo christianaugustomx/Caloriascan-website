@@ -1973,13 +1973,13 @@
     "emoji": "✨",
     "cluster": "producto",
     "es": {
-      "title": "CalorIA Scan 2.0.7: tu proteína, tus comidas y tu privacidad, más claras que nunca",
-      "dek": "Nuevo Protein tracker, escaneos más rápidos, edición de comidas ya registradas, borrado deslizando y un aviso de privacidad más claro —todo lo nuevo en la actualización 2.0.7.",
-      "excerpt": "La versión 2.0.7 de CalorIA Scan estrena el Protein tracker, acelera los escaneos, te deja editar y borrar comidas registradas y refuerza tu privacidad.",
+      "title": "CalorIA Scan 2.0.7: tu proteína y tus comidas, más claras que nunca",
+      "dek": "Nuevo Protein tracker, escaneos más rápidos, edición de comidas ya registradas y borrado deslizando —todo lo nuevo en la actualización 2.0.7.",
+      "excerpt": "La versión 2.0.7 de CalorIA Scan estrena el Protein tracker, acelera los escaneos y te deja editar y borrar comidas registradas.",
       "tldr": [
         "Nuevo Protein tracker: toca tu proteína en Inicio y descubre si viene de pollo, res, cerdo, pescado, huevo, lácteos o fuentes vegetales.",
         "Ahora puedes renombrar una comida, editar la porción de una que ya registraste y borrar comidas deslizando.",
-        "Tu privacidad es más clara: consentimiento expreso, analítica opcional y una eliminación de cuenta más completa."
+        "Los escaneos son más rápidos: tus resultados aparecen hasta 2 segundos antes."
       ],
       "body": [
         {
@@ -2015,12 +2015,6 @@
           ]
         },
         {
-          "h": "Tu privacidad, más clara",
-          "p": [
-            "<ul><li><strong>Consentimiento expreso:</strong> te pedimos permiso de forma clara para usar tus datos de nutrición, y por separado (y opcional) para tu peso, estatura, edad, sexo y nivel de actividad. Puedes retirarlo cuando quieras en Perfil → Más → Retirar consentimiento.</li><li><strong>Analítica opcional:</strong> en la Unión Europea, el Reino Unido y Suiza está apagada hasta que tú la actives. En cualquier país puedes apagarla en Perfil → Más.</li><li><strong>Eliminar tu cuenta es más completo:</strong> también desconectamos \"Iniciar sesión con Apple\" y borramos tus datos de compras con nuestro proveedor de pagos.</li><li><strong>Aviso de privacidad actualizado</strong> el 17 de octubre de 2026: <a href=\"/privacy-policy\">caloriascan.com/privacy-policy</a></li></ul>"
-          ]
-        },
-        {
           "h": "Y además",
           "p": [
             "<ul><li>Un recorrido rápido te muestra las funciones clave la primera vez que usas la app.</li><li>El menú de abajo ahora cambia al idioma que elijas.</li><li>El botón \"¿Ya tienes cuenta? Inicia sesión\" es más grande y fácil de encontrar.</li><li>Ya puedes salir de la cámara aunque no se pueda abrir.</li></ul>"
@@ -2036,13 +2030,13 @@
       "sources": []
     },
     "en": {
-      "title": "CalorIA Scan 2.0.7: your protein, your meals and your privacy, clearer than ever",
-      "dek": "A new Protein tracker, faster scans, editing for meals you've already logged, swipe to delete and clearer privacy —everything new in the 2.0.7 update.",
-      "excerpt": "CalorIA Scan 2.0.7 introduces the Protein tracker, speeds up scans, lets you edit and delete logged meals, and strengthens your privacy.",
+      "title": "CalorIA Scan 2.0.7: your protein and your meals, clearer than ever",
+      "dek": "A new Protein tracker, faster scans, editing for meals you've already logged and swipe to delete —everything new in the 2.0.7 update.",
+      "excerpt": "CalorIA Scan 2.0.7 introduces the Protein tracker, speeds up scans, and lets you edit and delete logged meals.",
       "tldr": [
         "New Protein tracker: tap your protein on Home and see whether it comes from chicken, beef, pork, fish, eggs, dairy or plant-based sources.",
         "You can now rename a meal, edit the portion of one you've already logged, and swipe to delete meals.",
-        "Privacy is clearer: express consent, optional analytics and a more complete account deletion."
+        "Scans are faster: your results now appear up to 2 seconds sooner."
       ],
       "body": [
         {
@@ -2075,12 +2069,6 @@
           "h": "Swipe to delete meals",
           "p": [
             "On Home, swipe a meal left and confirm to remove it. It's also removed from your cloud backup, and it no longer comes back when you reopen the app."
-          ]
-        },
-        {
-          "h": "Clearer privacy",
-          "p": [
-            "<ul><li><strong>Express consent:</strong> we clearly ask permission to use your nutrition data, and separately (optional) for your weight, height, age, sex and activity level. Withdraw it anytime in Profile → More → Withdraw consent.</li><li><strong>Optional analytics:</strong> in the EU, UK and Switzerland it stays off until you turn it on. Anywhere, you can turn it off in Profile → More.</li><li><strong>More complete account deletion:</strong> we also disconnect \"Sign in with Apple\" and erase your purchase data with our payments provider.</li><li><strong>Updated privacy policy</strong> on October 17, 2026: <a href=\"/en/privacy-policy.html\">caloriascan.com/en/privacy-policy.html</a></li></ul>"
           ]
         },
         {
