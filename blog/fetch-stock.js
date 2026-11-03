@@ -24,6 +24,7 @@ const QUERIES = {
   'calorias-platillos-mexicanos-favoritos': ['mexican food tacos', 'mexican tacos street food', 'tacos plate table'],
   'mitos-comida-virales': ['fresh vegetables fruits', 'healthy food table', 'fruits vegetables'],
   'fibra-nutriente-que-falta': ['beans oats lentils', 'high fiber food', 'legumes whole grains'],
+  'calorias-que-se-beben-bebidas': ['latte coffee cup milk', 'iced coffee glass', 'hot chocolate mug', 'coffee with milk'],
 };
 
 const BAD = /zygote|cell|sperm|easter|tattoo|sculpture|diagram|chart|\blogo\b|anatomy|microscope|virus|molecule|chemical|\bnail\b|soap|sign|poster|drawing|cartoon|painting|statue|coin|stamp|silver|cellar|century|antique|museum|\b1[0-9]{3}\b|engraving|porcelain|ceramic vase/i;

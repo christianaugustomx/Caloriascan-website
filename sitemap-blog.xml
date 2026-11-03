@@ -2,17 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://caloriascan.com/en/blog/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://caloriascan.com/en/blog/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://caloriascan.com/blog/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caloriascan.com/en/blog/"/>
   </url>
   <url>
     <loc>https://caloriascan.com/blog/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://caloriascan.com/en/blog/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://caloriascan.com/blog/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caloriascan.com/en/blog/"/>
+  </url>
+  <url>
+    <loc>https://caloriascan.com/en/blog/calorias-que-se-beben-bebidas</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caloriascan.com/en/blog/calorias-que-se-beben-bebidas"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://caloriascan.com/blog/calorias-que-se-beben-bebidas"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://caloriascan.com/en/blog/calorias-que-se-beben-bebidas"/>
+  </url>
+  <url>
+    <loc>https://caloriascan.com/blog/calorias-que-se-beben-bebidas</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caloriascan.com/en/blog/calorias-que-se-beben-bebidas"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://caloriascan.com/blog/calorias-que-se-beben-bebidas"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://caloriascan.com/en/blog/calorias-que-se-beben-bebidas"/>
   </url>
   <url>
     <loc>https://caloriascan.com/en/blog/e141-clorofila-cobre-colorante</loc>

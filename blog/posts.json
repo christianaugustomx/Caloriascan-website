@@ -1,5 +1,183 @@
 [
   {
+    "slug": "calorias-que-se-beben-bebidas",
+    "date": "2026-11-03",
+    "category_es": "Salud",
+    "category_en": "Health",
+    "emoji": "☕",
+    "cluster": "azucar",
+    "es": {
+      "title": "Las calorías que se beben: lo que hay en tu vaso y casi nadie cuenta",
+      "dek": "Café con leche, atole, agua fresca, refresco: lo líquido también suma. Te explicamos cómo calcularlo y qué dicen la OMS y las guías alimentarias mexicanas.",
+      "excerpt": "Las bebidas pueden aportar muchas calorías y azúcar sin que lo notes, porque sacian menos que la comida. Así puedes calcular tu vaso y registrarlo con CalorIA Scan.",
+      "tldr": [
+        "Las bebidas azucaradas aportan calorías que casi no se sienten: sacian menos que la comida sólida y es fácil no compensarlas después.",
+        "Las Guías Alimentarias para la Población Mexicana 2023 recomiendan tomar agua natural a lo largo del día y con las comidas en lugar de refrescos, jugos, aguas preparadas con sobres y bebidas deportivas. La OMS pide que los azúcares libres sean menos del 10% de tus calorías.",
+        "Para calcular una bebida basta con leer la etiqueta por 100 ml o sumar sus ingredientes. CalorIA Scan lo hace desde una foto y te muestra de dónde viene cada caloría."
+      ],
+      "body": [
+        {
+          "h": "Por qué las calorías líquidas pasan desapercibidas",
+          "p": [
+            "Cuando comes, tu cuerpo registra la saciedad. Con las bebidas pasa menos: según Harvard T.H. Chan, quienes toman bebidas azucaradas no se sienten tan llenos como si hubieran comido las mismas calorías en alimentos sólidos, y tienden a no comer menos después para compensar. Por eso un vaso \"inocente\" puede sumar bastante a tu día sin que te des cuenta."
+          ]
+        },
+        {
+          "h": "El café con leche: de dónde vienen las calorías",
+          "p": [
+            "Un ejemplo real: escaneamos con CalorIA Scan un café latte de una taza (240 ml). La app estimó <strong>120 kcal</strong> y 6 g de proteína, y el desglose muestra que <strong>118 de esas 120 kcal vienen de la leche</strong> (200 g); el espresso aporta apenas 2 kcal. Si la taza es 1.5 veces más grande, el cálculo sube a 180 kcal.",
+            "El café solo casi no suma: lo que suma es lo que le agregas. Cada gramo de azúcar aporta unas 4 kcal, así que una cucharada rasa (unos 12.5 g) suma alrededor de 50 kcal, sin contar la leche, la crema o los jarabes."
+          ]
+        },
+        {
+          "h": "Aguas frescas, atole y champurrado: la receta manda",
+          "p": [
+            "Aquí no existe una cifra única. Un agua de jamaica, una horchata o un atole pueden tener pocas calorías o muchas, según cuánto azúcar, piloncillo, leche, masa o chocolate lleven. Si buscas el mismo atole en bases de datos públicas verás cifras muy distintas, justo porque cada receta es diferente.",
+            "Un ejemplo para hacer la cuenta (hipotético, no es una receta de referencia): una jarra de 2 litros de agua fresca con 1 taza de azúcar, unos 200 g. Son unas 800 kcal en total. Repartidas en 8 vasos de 250 ml, cada vaso lleva unos <strong>25 g de azúcar y unas 100 kcal</strong>. Si tu receta lleva menos azúcar, la cuenta baja; lo importante es hacerla.",
+            "Con el atole y el champurrado pasa algo parecido, y además cambia si se preparan con agua o con leche. Por eso conviene registrar tu receta ingrediente por ingrediente y no confiar en una cifra genérica."
+          ]
+        },
+        {
+          "h": "El refresco: la cuenta más fácil de hacer",
+          "p": [
+            "Aquí sí hay una etiqueta: el refresco de cola original de Coca-Cola México declara <strong>42 kcal y 10.5 g de azúcares por cada 100 ml</strong>. Para una botella de 600 ml la cuenta es multiplicar por 6 (cálculo nuestro a partir de esos datos): unas <strong>252 kcal y 63 g de azúcar</strong>. Es más de lo que la OMS sugiere como máximo de azúcares libres en un día de 2,000 kcal: menos del 10%, es decir, menos de 50 g.",
+            "Es la misma lógica de nuestros artículos sobre <a href=\"/blog/jugo-natural-vs-fruta\">jugo natural vs. fruta</a> y <a href=\"/blog/refresco-zero-edulcorantes-oms\">refresco zero</a>: lo importante es saber cuánto hay en el vaso."
+          ]
+        },
+        {
+          "h": "Qué recomiendan la OMS y las guías mexicanas",
+          "p": [
+            "La OMS recomienda que los azúcares libres —los que se añaden a alimentos y bebidas, más los de la miel, los jarabes y los jugos de fruta— sean menos del 10% de tu energía diaria, y sugiere que bajar a menos del 5% podría dar beneficios adicionales (esta segunda recomendación es condicional).",
+            "Las Guías Alimentarias Saludables y Sostenibles para la Población Mexicana 2023 (SSA, INSP y UNICEF) piden tomar agua natural a lo largo del día y con todas las comidas, en lugar de refrescos, jugos, aguas preparadas con sobres en polvo y bebidas deportivas.",
+            "Eso no significa que nunca puedas tomarte un atole en temporada o un café con leche: significa saber cuánto es y decidir con información."
+          ]
+        },
+        {
+          "h": "Cómo calcular tus bebidas sin obsesionarte",
+          "p": [
+            "<ul><li><strong>Si trae etiqueta:</strong> lee las calorías y los azúcares por 100 ml y multiplica por los ml de tu envase.</li><li><strong>Si la preparas en casa:</strong> suma lo que le echas —azúcar, piloncillo, leche, miel, chocolate—. El azúcar aporta unas 4 kcal por gramo.</li><li><strong>Si te la sirven:</strong> estima el tamaño del vaso. 240 ml no es lo mismo que 500.</li><li><strong>Durante una semana:</strong> registra tus bebidas como si fueran comida y mira cuáles se llevan más calorías.</li></ul>"
+          ]
+        },
+        {
+          "h": "Qué hace CalorIA Scan por ti",
+          "p": [
+            "<ul><li><strong>Escanea tu bebida:</strong> toma una foto y la app estima calorías y macros.</li><li><strong>Te muestra de dónde vienen las calorías:</strong> el desglose por ingrediente deja ver, por ejemplo, que casi todo el latte es la leche.</li><li><strong>Ajusta ingredientes y porciones:</strong> cambia o quita ingredientes y pasa de 1 a 1.5 porciones; los valores se recalculan al instante.</li><li><strong>Lleva tus azúcares:</strong> estima azúcares y fibra dentro de 13 nutrientes rastreados (son valores estimados).</li><li><strong>Compara tu día con tu meta:</strong> define tu meta de calorías y macros y mira cuántas te quedan en el día.</li></ul>",
+            "Los valores son estimaciones hechas con IA: si tu bebida es casera, ajusta los ingredientes para acercarte a tu receta."
+          ]
+        },
+        {
+          "h": "La conclusión práctica",
+          "p": [
+            "El agua natural sigue siendo la base. Para todo lo demás no hace falta prohibirte nada: basta con saber cuánto hay en el vaso. Empieza esta semana registrando todas tus bebidas y fíjate cuál es la que más suma. Si tienes diabetes u otra condición médica, consulta a tu médico o nutriólogo antes de hacer cambios importantes en tu alimentación."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "Harvard T.H. Chan — The Nutrition Source: Sugary Drinks",
+          "url": "https://nutritionsource.hsph.harvard.edu/healthy-drinks/drinks-to-consume-in-moderation/sugary-drinks/"
+        },
+        {
+          "name": "OMS — Recomendación sobre la ingesta de azúcares para adultos y niños (2015)",
+          "url": "https://who.int/news/item/04-03-2015-who-calls-on-countries-to-reduce-sugars-intake-among-adults-and-children"
+        },
+        {
+          "name": "Guías Alimentarias Saludables y Sostenibles para la Población Mexicana 2023 (SSA, INSP, UNICEF) — infografía",
+          "url": "https://www.gob.mx/cms/uploads/attachment/file/863929/Infografi_a_Gui_as_Alimentarias_Poblacio_n_16Oct23.pdf"
+        },
+        {
+          "name": "Coca-Cola México — Información nutrimental de Coca-Cola Original (por 100 ml)",
+          "url": "https://www.coca-cola.com/mx/es/brands/coca-cola/productos/coca-cola-original"
+        }
+      ]
+    },
+    "en": {
+      "title": "The calories you drink: what's in your glass that almost nobody counts",
+      "dek": "Latte, atole, agua fresca, soda: liquids add up too. Here's how to work it out and what WHO and the Mexican dietary guidelines say.",
+      "excerpt": "Drinks can carry a lot of calories and sugar without you noticing, because they fill you up less than food. Here's how to work out your glass and log it with CalorIA Scan.",
+      "tldr": [
+        "Sugary drinks bring calories you barely feel: they fill you up less than solid food, and it's easy not to make up for them later.",
+        "The 2023 Dietary Guidelines for the Mexican Population recommend drinking plain water throughout the day and with meals instead of soda, juice, powdered-mix drinks and sports drinks. WHO says free sugars should stay under 10% of your calories.",
+        "To work out a drink, read the label per 100 ml or add up its ingredients. CalorIA Scan does it from a photo and shows where each calorie comes from."
+      ],
+      "body": [
+        {
+          "h": "Why liquid calories go unnoticed",
+          "p": [
+            "When you eat, your body registers fullness. It does so less with drinks: according to Harvard T.H. Chan, people who drink sugary beverages don't feel as full as if they had eaten the same calories from solid food, and they tend not to eat less afterward to make up for it. That's why an \"innocent\" glass can add quite a bit to your day without you realizing."
+          ]
+        },
+        {
+          "h": "Latte: where the calories really come from",
+          "p": [
+            "A real example: we scanned a one-cup latte (240 ml) with CalorIA Scan. The app estimated <strong>120 kcal</strong> and 6 g of protein, and the breakdown shows that <strong>118 of those 120 kcal come from the milk</strong> (200 g); the espresso adds just 2 kcal. If the cup is 1.5 times bigger, the estimate goes up to 180 kcal.",
+            "Black coffee barely counts: what adds up is what you put in it. Each gram of sugar provides about 4 kcal, so a level tablespoon (about 12.5 g) adds around 50 kcal, not counting milk, cream or syrups."
+          ]
+        },
+        {
+          "h": "Aguas frescas, atole and champurrado: the recipe decides",
+          "p": [
+            "There is no single number here. A jamaica (hibiscus) water, a horchata or an atole can have few calories or many, depending on how much sugar, piloncillo, milk, masa or chocolate goes in. Look up the same atole in public databases and you'll see very different figures, precisely because every recipe is different.",
+            "An example to do the math (hypothetical, not a reference recipe): a 2-liter pitcher of agua fresca with 1 cup of sugar, about 200 g. That's roughly 800 kcal in total. Split into 8 glasses of 250 ml, each glass carries about <strong>25 g of sugar and about 100 kcal</strong>. If your recipe uses less sugar, the math goes down; what matters is doing it.",
+            "Atole and champurrado work similarly, and they also change depending on whether they're made with water or milk. That's why it's best to log your recipe ingredient by ingredient rather than trust a generic number."
+          ]
+        },
+        {
+          "h": "Soda: the easiest math to do",
+          "p": [
+            "Here there is a label: original Coca-Cola from Coca-Cola Mexico declares <strong>42 kcal and 10.5 g of sugars per 100 ml</strong>. For a 600 ml bottle, multiply by 6 (our calculation from those figures): about <strong>252 kcal and 63 g of sugar</strong>. That is more than WHO suggests as a ceiling for free sugars in a 2,000 kcal day: under 10%, which is under 50 g.",
+            "It's the same logic as our articles on <a href=\"/en/blog/jugo-natural-vs-fruta\">fresh juice vs. whole fruit</a> and <a href=\"/en/blog/refresco-zero-edulcorantes-oms\">zero soda</a>: what matters is knowing how much is in the glass."
+          ]
+        },
+        {
+          "h": "What WHO and the Mexican guidelines recommend",
+          "p": [
+            "WHO recommends that free sugars —those added to foods and drinks, plus the sugars in honey, syrups and fruit juices— stay below 10% of your daily energy, and suggests that going below 5% could bring additional benefits (this second recommendation is conditional).",
+            "The 2023 Healthy and Sustainable Dietary Guidelines for the Mexican Population (SSA, INSP and UNICEF) ask people to drink plain water throughout the day and with all meals, instead of soda, juice, powdered-mix drinks and sports drinks.",
+            "That doesn't mean you can never enjoy an atole in season or a latte: it means knowing how much it is and deciding with information."
+          ]
+        },
+        {
+          "h": "How to work out your drinks without obsessing",
+          "p": [
+            "<ul><li><strong>If it has a label:</strong> read calories and sugars per 100 ml and multiply by the ml in your container.</li><li><strong>If you make it at home:</strong> add up what goes in —sugar, piloncillo, milk, honey, chocolate—. Sugar provides about 4 kcal per gram.</li><li><strong>If it's served to you:</strong> estimate the cup size. 240 ml is not the same as 500.</li><li><strong>For one week:</strong> log your drinks as if they were food and see which ones carry the most calories.</li></ul>"
+          ]
+        },
+        {
+          "h": "What CalorIA Scan does for you",
+          "p": [
+            "<ul><li><strong>Scan your drink:</strong> take a photo and the app estimates calories and macros.</li><li><strong>Shows where the calories come from:</strong> the ingredient breakdown reveals, for example, that almost all of a latte is the milk.</li><li><strong>Adjust ingredients and portions:</strong> change or remove ingredients and go from 1 to 1.5 portions; values recalculate instantly.</li><li><strong>Keep track of sugars:</strong> it estimates sugars and fiber among 13 tracked nutrients (estimated values).</li><li><strong>Compare your day with your goal:</strong> set your calorie and macro goal and see how many you have left today.</li></ul>",
+            "Values are AI estimates: if your drink is homemade, adjust the ingredients to get closer to your recipe."
+          ]
+        },
+        {
+          "h": "The practical takeaway",
+          "p": [
+            "Plain water stays the foundation. For everything else you don't need to ban anything: it's enough to know how much is in the glass. This week, log all your drinks and notice which one adds the most. If you have diabetes or another medical condition, talk to your doctor or dietitian before making major changes to your diet."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "Harvard T.H. Chan — The Nutrition Source: Sugary Drinks",
+          "url": "https://nutritionsource.hsph.harvard.edu/healthy-drinks/drinks-to-consume-in-moderation/sugary-drinks/"
+        },
+        {
+          "name": "WHO — Guideline on sugars intake for adults and children (2015)",
+          "url": "https://who.int/news/item/04-03-2015-who-calls-on-countries-to-reduce-sugars-intake-among-adults-and-children"
+        },
+        {
+          "name": "Healthy and Sustainable Dietary Guidelines for the Mexican Population 2023 (SSA, INSP, UNICEF) — infographic, in Spanish",
+          "url": "https://www.gob.mx/cms/uploads/attachment/file/863929/Infografi_a_Gui_as_Alimentarias_Poblacio_n_16Oct23.pdf"
+        },
+        {
+          "name": "Coca-Cola Mexico — Nutrition information for Coca-Cola Original (per 100 ml), in Spanish",
+          "url": "https://www.coca-cola.com/mx/es/brands/coca-cola/productos/coca-cola-original"
+        }
+      ]
+    }
+  },
+  {
     "slug": "e141-clorofila-cobre-colorante",
     "date": "2026-07-17",
     "category_es": "Aditivos",
