@@ -255,16 +255,33 @@ fs.writeFileSync(path.join(dEN,'index.html'), hub(pages,'en'));
 fs.writeFileSync(path.join(dES,'index.html'), hub(pages,'es'));
 
 // sitemap with hreflang alternates
+// lastmod = the date a page's content last CHANGED (Google uses it as a hint).
+// A page keeps its previous date unless its generated HTML differs from the
+// committed file in the site root; only then is it stamped with today's date.
 const today = new Date().toISOString().slice(0,10);
-const entry = (loc,en,es) => `  <url>\n    <loc>${loc}</loc>\n    <lastmod>${today}</lastmod>\n    <xhtml:link rel="alternate" hreflang="en" href="${en}"/>\n    <xhtml:link rel="alternate" hreflang="es" href="${es}"/>\n    <xhtml:link rel="alternate" hreflang="x-default" href="${en}"/>\n  </url>`;
+const siteRoot = path.resolve(__dirname, '..');
+const readOr = f => { try { return fs.readFileSync(f,'utf8'); } catch { return null; } };
+const oldLastmod = {};
+const oldSitemap = readOr(path.join(siteRoot,'sitemap.xml')) || '';
+for (const m of oldSitemap.matchAll(/<loc>([^<]+)<\/loc>\s*<lastmod>([^<]+)<\/lastmod>/g)) oldLastmod[m[1]] = m[2];
+const lastmodFor = (loc, rel) => {
+  const fresh = readOr(path.join(OUT, rel));
+  const committed = readOr(path.join(siteRoot, rel));
+  const unchanged = fresh !== null && fresh === committed;
+  return unchanged && oldLastmod[loc] ? oldLastmod[loc] : today;
+};
+const entry = (loc,en,es,lm) => `  <url>\n    <loc>${loc}</loc>\n    <lastmod>${lm}</lastmod>\n    <xhtml:link rel="alternate" hreflang="en" href="${en}"/>\n    <xhtml:link rel="alternate" hreflang="es" href="${es}"/>\n    <xhtml:link rel="alternate" hreflang="x-default" href="${en}"/>\n  </url>`;
 let sm = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n`;
-sm += entry(`${DOMAIN}/`, `${DOMAIN}/en/`, `${DOMAIN}/`) + '\n';
-sm += entry(`${DOMAIN}/en/`, `${DOMAIN}/en/`, `${DOMAIN}/`) + '\n';
-sm += entry(`${DOMAIN}/en/calories/`, `${DOMAIN}/en/calories/`, `${DOMAIN}/calorias/`) + '\n';
-sm += entry(`${DOMAIN}/calorias/`, `${DOMAIN}/en/calories/`, `${DOMAIN}/calorias/`) + '\n';
+// hand-maintained pages (not generated here): keep their existing date
+const keep = loc => oldLastmod[loc] || today;
+sm += entry(`${DOMAIN}/`, `${DOMAIN}/en/`, `${DOMAIN}/`, keep(`${DOMAIN}/`)) + '\n';
+sm += entry(`${DOMAIN}/en/`, `${DOMAIN}/en/`, `${DOMAIN}/`, keep(`${DOMAIN}/en/`)) + '\n';
+sm += entry(`${DOMAIN}/en/calories/`, `${DOMAIN}/en/calories/`, `${DOMAIN}/calorias/`, lastmodFor(`${DOMAIN}/en/calories/`,'en/calories/index.html')) + '\n';
+sm += entry(`${DOMAIN}/calorias/`, `${DOMAIN}/en/calories/`, `${DOMAIN}/calorias/`, lastmodFor(`${DOMAIN}/calorias/`,'calorias/index.html')) + '\n';
 for(const s of urls){
   const en=`${DOMAIN}/en/calories/${s}`, es=`${DOMAIN}/calorias/${s}`;
-  sm += entry(en,en,es)+'\n'; sm += entry(es,en,es)+'\n';
+  sm += entry(en,en,es,lastmodFor(en,`en/calories/${s}.html`))+'\n';
+  sm += entry(es,en,es,lastmodFor(es,`calorias/${s}.html`))+'\n';
 }
 sm += `</urlset>\n`;
 fs.writeFileSync(path.join(OUT,'sitemap.xml'), sm);
