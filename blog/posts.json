@@ -175,6 +175,22 @@
           "url": "https://www.coca-cola.com/mx/es/brands/coca-cola/productos/coca-cola-original"
         }
       ]
+    },
+    "ig_tags": {
+      "es": [
+        "CalorIAScan",
+        "BebidasMexicanas",
+        "AzucarOculta",
+        "ContarCalorias",
+        "AlimentacionConsciente"
+      ],
+      "en": [
+        "CalorIAScan",
+        "MexicanDrinks",
+        "HiddenSugar",
+        "CalorieTracking",
+        "MindfulEating"
+      ]
     }
   },
   {
