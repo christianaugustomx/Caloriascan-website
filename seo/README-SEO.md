@@ -17,11 +17,11 @@ SUPABASE_URL=https://<ref>.supabase.co SUPABASE_KEY=<anon-or-service-key> node s
 Use the **anon** key if `dishes` allows public read (preferred). Never commit a
 service_role key — keep it in a `.gitignored` `.env`.
 
-## Generate pages (writes into the repo root)
+## Generate pages (writes to a build folder, never the repo root)
 ```bash
-node seo/generate.js .          # outputs en/calories/, calorias/, sitemap.xml, robots.txt
+node seo/generate.js ./build    # outputs en/calories/, calorias/, sitemap.xml, robots.txt into ./build
 ```
-(Default output dir is `./build` for previewing; pass `.` to write into the site root.)
+Never pass `.` as the output folder. The script wipes its output folder first, so `.` would delete the whole repo. It refuses `.` and `/` as a safety check, but don't rely on that. Compare `build/` with the site root, then copy only the files you intend to publish. Delete `build/` afterwards.
 
 ## After deploy
 1. Submit `https://caloriascan.com/sitemap.xml` in Google Search Console.
