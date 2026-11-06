@@ -153,7 +153,7 @@ function post(p, all, L){
   const sectionHTML = b => `<h2>${esc(b.h)}</h2>${b.p.map(x=>/^<figure/.test(x)?x:`<p>${x}</p>`).join('')}`;
   // body items flagged "app": true render as a highlighted CalorIA Scan callout (id=que-hace-caloria-scan)
   const bodyHTML = c.body.map(b=> b.app
-    ? `<section class="app-callout" id="que-hace-caloria-scan"><div class="app-tag"><img src="/assets/icon-app.png" alt="" width="30" height="30"><span>${esc(t.appTag)}</span></div>${sectionHTML(b)}<a class="btn" href="${APP_URL}" rel="nofollow">${esc(t.ctaBtn)}</a></section>`
+    ? `<section class="app-callout" id="que-hace-caloria-scan"><div class="app-tag"><img src="/assets/icon-app.png" alt="" width="30" height="30"><span>${esc(t.appTag)}</span></div>${sectionHTML(b)}</section>`
     : sectionHTML(b)).join('\n');
   const appSec = c.body.find(b=>b.app);
   const tldrHTML = `<div class="tldr"><h2>${esc(t.tldr)}</h2><ul>${c.tldr.map(x=>`<li>${x}</li>`).join('')}</ul>${appSec?`<a class="tldr-jump" href="#que-hace-caloria-scan">${esc(t.jump)}: ${esc(appSec.h)} ↓</a>`:''}</div>`;
@@ -231,8 +231,7 @@ p{margin:0 0 16px;font-size:17px}
 .app-callout li{position:relative;padding:11px 0 11px 36px;border-top:1px solid #d3e8d6;font-size:16px;line-height:1.5}
 .app-callout li:first-child{border-top:0}
 .app-callout li::before{content:"✓";position:absolute;left:0;top:11px;width:23px;height:23px;border-radius:50%;background:var(--g);color:#fff;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center;line-height:1}
-.app-callout p:last-of-type{margin-bottom:12px}
-.app-callout .btn{margin:2px 0 4px}
+.app-callout p:last-of-type{margin-bottom:6px}
 @media(max-width:560px){.app-callout{padding:20px 18px 18px 24px}}
 .cta{background:#f0f7f1;border:1px solid #cfe6d3;border-radius:16px;padding:24px;margin:34px 0;text-align:center}
 .cta h2{margin:0 0 8px}.cta p{color:var(--ink)}.btn{display:inline-block;background:var(--g);color:#fff;text-decoration:none;padding:13px 24px;border-radius:10px;font-weight:700;margin-top:6px}
