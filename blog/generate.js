@@ -115,7 +115,7 @@ function post(p, all, L){
     home:'Home', blog:'Blog', by:'By', min:'min read', tldr:'The short version',
     sources:'Sources', related:'Keep reading', ctaTitle:'Stop guessing your calories',
     ctaText:'CalorIA Scan reads your plate from a photo and gives you calories and macros tuned for real Mexican and Latino food — where generic apps get it wrong.',
-    ctaBtn:'Get CalorIA Scan free', switch:'Español',
+    ctaBtn:'Get CalorIA Scan free', appTag:'With CalorIA Scan', jump:'Jump to', switch:'Español',
     disc:'This article is informational and not medical advice. Consult a doctor or registered dietitian before changing your diet, especially with a pre-existing condition.',
     comments:'Comments', commentPlaceholder:'Write your comment...', namePlaceholder:'Your name',
     commentBtn:'Post'
@@ -123,7 +123,7 @@ function post(p, all, L){
     home:'Inicio', blog:'Blog', by:'Por', min:'min de lectura', tldr:'En resumen',
     sources:'Fuentes', related:'Sigue leyendo', ctaTitle:'Deja de adivinar tus calorías',
     ctaText:'CalorIA Scan lee tu plato desde una foto y te da calorías y macros pensados para la comida mexicana y latina real — donde las apps genéricas se equivocan.',
-    ctaBtn:'Descarga CalorIA Scan gratis', switch:'English',
+    ctaBtn:'Descarga CalorIA Scan gratis', appTag:'Con CalorIA Scan', jump:'Ir a', switch:'English',
     disc:'Este artículo es informativo y no constituye consejo médico. Consulta a un médico o nutriólogo antes de cambiar tu dieta, especialmente si tienes alguna condición de salud.',
     comments:'Comentarios', commentPlaceholder:'Escribe tu comentario...', namePlaceholder:'Tu nombre',
     commentBtn:'Publicar'
@@ -150,8 +150,13 @@ function post(p, all, L){
     }
   ];
 
-  const bodyHTML = c.body.map(b=>`<h2>${esc(b.h)}</h2>${b.p.map(x=>/^<figure/.test(x)?x:`<p>${x}</p>`).join('')}`).join('\n');
-  const tldrHTML = `<div class="tldr"><h2>${esc(t.tldr)}</h2><ul>${c.tldr.map(x=>`<li>${x}</li>`).join('')}</ul></div>`;
+  const sectionHTML = b => `<h2>${esc(b.h)}</h2>${b.p.map(x=>/^<figure/.test(x)?x:`<p>${x}</p>`).join('')}`;
+  // body items flagged "app": true render as a highlighted CalorIA Scan callout (id=que-hace-caloria-scan)
+  const bodyHTML = c.body.map(b=> b.app
+    ? `<section class="app-callout" id="que-hace-caloria-scan"><div class="app-tag"><img src="/assets/icon-app.png" alt="" width="30" height="30"><span>${esc(t.appTag)}</span></div>${sectionHTML(b)}<a class="btn" href="${APP_URL}" rel="nofollow">${esc(t.ctaBtn)}</a></section>`
+    : sectionHTML(b)).join('\n');
+  const appSec = c.body.find(b=>b.app);
+  const tldrHTML = `<div class="tldr"><h2>${esc(t.tldr)}</h2><ul>${c.tldr.map(x=>`<li>${x}</li>`).join('')}</ul>${appSec?`<a class="tldr-jump" href="#que-hace-caloria-scan">${esc(t.jump)}: ${esc(appSec.h)} ↓</a>`:''}</div>`;
   const hasSources = c.sources && c.sources.length > 0;
   const sourcesHTML = hasSources ? `<ol class="sources">${c.sources.map(s=>`<li><a href="${escAttr(s.url)}" target="_blank" rel="noopener nofollow">${esc(s.name)}</a></li>`).join('')}</ol>` : '';
 
@@ -216,6 +221,19 @@ p{margin:0 0 16px;font-size:17px}
 .tldr{background:var(--soft);border:1px solid var(--line);border-left:4px solid var(--g);border-radius:12px;padding:16px 20px;margin:26px 0}
 .tldr h2{margin:0 0 8px;font-size:15px;text-transform:uppercase;letter-spacing:.05em;color:var(--g)}
 .tldr ul{margin:0;padding-left:20px}.tldr li{margin:6px 0;font-size:16px}
+.tldr-jump{display:inline-block;margin-top:10px;font-size:15px;font-weight:700;color:var(--g);text-decoration:none}.tldr-jump:hover{text-decoration:underline}
+.app-callout{position:relative;margin:40px 0;padding:22px 24px 20px 30px;border-radius:20px;background:linear-gradient(160deg,#f3faf4 0%,#e8f4eb 100%);border:1.5px solid #bfe0c5;box-shadow:0 10px 30px rgba(46,125,50,.12);scroll-margin-top:20px}
+.app-callout::before{content:"";position:absolute;left:0;top:0;bottom:0;width:7px;border-radius:20px 0 0 20px;background:linear-gradient(180deg,var(--g),#e8622e)}
+.app-tag{display:flex;align-items:center;gap:10px;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--g)}
+.app-tag img{border-radius:8px;display:block}
+.app-callout h2{margin:8px 0 12px}
+.app-callout ul{list-style:none;padding:0;margin:0 0 14px}
+.app-callout li{position:relative;padding:11px 0 11px 36px;border-top:1px solid #d3e8d6;font-size:16px;line-height:1.5}
+.app-callout li:first-child{border-top:0}
+.app-callout li::before{content:"✓";position:absolute;left:0;top:11px;width:23px;height:23px;border-radius:50%;background:var(--g);color:#fff;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center;line-height:1}
+.app-callout p:last-of-type{margin-bottom:12px}
+.app-callout .btn{margin:2px 0 4px}
+@media(max-width:560px){.app-callout{padding:20px 18px 18px 24px}}
 .cta{background:#f0f7f1;border:1px solid #cfe6d3;border-radius:16px;padding:24px;margin:34px 0;text-align:center}
 .cta h2{margin:0 0 8px}.cta p{color:var(--ink)}.btn{display:inline-block;background:var(--g);color:#fff;text-decoration:none;padding:13px 24px;border-radius:10px;font-weight:700;margin-top:6px}
 .sources{font-size:14px;color:var(--mut);padding-left:22px}.sources li{margin:7px 0}.sources a{word-break:break-word}
