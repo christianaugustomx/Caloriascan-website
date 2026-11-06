@@ -1,5 +1,197 @@
 [
   {
+    "slug": "deficit-calorico-que-es-por-que-importa",
+    "date": "2026-11-06",
+    "category_es": "Salud",
+    "category_en": "Health",
+    "emoji": "⚖️",
+    "cluster": "salud",
+    "ig_tags": {
+      "es": [
+        "CalorIAScan",
+        "DeficitCalorico",
+        "ContarCalorias",
+        "Macros",
+        "AlimentacionConsciente"
+      ],
+      "en": [
+        "CalorIAScan",
+        "CalorieDeficit",
+        "CalorieTracking",
+        "Macros",
+        "MindfulEating"
+      ]
+    },
+    "es": {
+      "title": "Déficit calórico: qué es, por qué importa y cómo CalorIA Scan te ayuda a llevarlo",
+      "dek": "Para bajar de peso hay que comer menos energía de la que gastas. Te explicamos cómo funciona, por qué un déficit moderado funciona mejor y cómo llevar la cuenta sin obsesionarte.",
+      "excerpt": "Un déficit calórico es comer menos energía de la que gastas. Te contamos qué tan grande debe ser, cuándo hablar con un profesional y cómo llevarlo con CalorIA Scan.",
+      "tldr": [
+        "Un déficit calórico significa consumir menos energía de la que tu cuerpo gasta. Es la base para bajar de peso, pero tiene que ser moderado y sostenible.",
+        "El CDC habla de bajar de 1 a 2 libras por semana (0.5 a 1 kg) y el NIDDK de 5% a 10% de tu peso inicial en 6 meses. La regla de \"3,500 calorías por libra\" es solo una simplificación.",
+        "Para llevar tu déficit necesitas saber cuánto comes de verdad. CalorIA Scan estima calorías y macros desde una foto y te muestra cuántas calorías te quedan en el día frente a tu meta."
+      ],
+      "body": [
+        {
+          "h": "Qué es un déficit calórico",
+          "p": [
+            "Tu cuerpo gasta energía todo el día: en mantener sus funciones básicas, en moverte y hasta en digerir. Si comes menos energía de la que gastas, hay un <strong>déficit calórico</strong> y el cuerpo recurre a sus reservas. Si comes lo mismo que gastas, mantienes tu peso; si comes más, hay un superávit.",
+            "Por eso se habla de calorías: no porque sean lo único que importa, sino porque son la unidad con la que se mide ese balance."
+          ]
+        },
+        {
+          "h": "Por qué importa",
+          "p": [
+            "Para bajar de peso, el plan de alimentación tiene que reducir calorías. El NIDDK, el instituto de los NIH que estudia la nutrición y el peso, habla de un plan de alimentación y bebidas reducido en calorías, basado en la ciencia y adaptado a tu salud, tus preferencias y tu cultura. Y si tu meta no es bajar sino mantener, la misma cuenta te sirve para no pasarte.",
+            "El problema es que casi nadie sabe cuánto come de verdad. Un café latte puede sumar 120 kcal sin que lo notes (118 vienen de la leche), y un dip de tahini de solo 20 g aporta 60 kcal. Medir no es obsesionarte: es dejar de adivinar."
+          ]
+        },
+        {
+          "h": "¿Qué tan grande debe ser tu déficit?",
+          "p": [
+            "Más no es mejor. El CDC señala que quienes bajan de peso a un ritmo gradual y constante, de 1 a 2 libras por semana (alrededor de 0.5 a 1 kg), tienen más probabilidades de mantener el peso perdido. El NIDDK, por su parte, recomienda como meta inicial perder entre el 5% y el 10% de tu peso inicial en 6 meses: por ejemplo, entre 4 y 8 kg si hoy pesas 80 kg.",
+            "Quizá hayas oído que quitar 500 calorías al día equivale a una libra por semana (la regla de las 3,500 calorías por libra). Es una simplificación: Kevin Hall y Carson Chow, investigadores de los NIH, explican que su error más serio es no considerar que el balance de energía cambia mientras bajas de peso, y por eso sobrestima la pérdida. Tómala como una idea general, no como una promesa."
+          ]
+        },
+        {
+          "h": "Cómo estimar cuántas calorías te corresponden",
+          "p": [
+            "No hay un número universal: depende de tu edad, tu tamaño, tu actividad y tu cuerpo. El <strong>Body Weight Planner</strong> del NIDDK es una herramienta para adultos de 18 años o más: le pones tu información, un peso meta y un plazo, y te muestra cuántas calorías comer al día para llegar y cuántas para mantenerlo después. No es para menores de 18 años ni para embarazo o lactancia, y sus valores pueden salir demasiado altos si tu metabolismo es anormalmente bajo o eres muy sedentario.",
+            "Siempre son estimaciones. Lo ideal es afinarlas con tu médico o nutriólogo."
+          ]
+        },
+        {
+          "h": "Cuándo conviene hablar primero con un profesional",
+          "p": [
+            "El NIDDK recomienda que el primer paso sea hablar con un profesional de la salud sobre tu peso: puede revisar tus condiciones médicas y los medicamentos o suplementos que tomas, que pueden afectar tu peso o tu capacidad de bajarlo.",
+            "Con más razón si estás embarazada o en lactancia, si eres menor de edad, si tienes diabetes u otra condición médica, o si has tenido antecedentes de trastornos de la conducta alimentaria. En esos casos, un déficit calórico no es algo para hacer por tu cuenta."
+          ]
+        },
+        {
+          "h": "Cómo llevarlo sin obsesionarte",
+          "p": [
+            "<ul><li><strong>Empieza solo registrando:</strong> el CDC sugiere anotar todo lo que comes y bebes durante unos días para ver en qué puedes hacer pequeños cambios.</li><li><strong>No olvides lo líquido:</strong> las bebidas también suman. Lo vimos en <a href=\"/blog/calorias-que-se-beben-bebidas\">las calorías que se beben</a>.</li><li><strong>Cuida la proteína:</strong> ayuda a sentirte satisfecho. Aquí te explicamos <a href=\"/blog/proteina-por-que-registrarla\">cómo registrarla</a>.</li><li><strong>Mira tu semana, no un solo día:</strong> un día fuera de tu meta no define nada; el promedio sí.</li><li><strong>Haz cambios pequeños:</strong> los que puedas sostener durante meses valen más que uno extremo.</li></ul>"
+          ]
+        },
+        {
+          "h": "Qué puede hacer CalorIA Scan por ti",
+          "p": [
+            "<ul><li><strong>Escanear tu plato:</strong> toma una foto y la app estima calorías y macros, pensando en la comida mexicana real.</li><li><strong>Decirte cuánto te queda:</strong> en Inicio ves tus calorías del día frente a tu meta, con las calorías restantes y un puntaje del día.</li><li><strong>Definir tu meta:</strong> fija tus objetivos de calorías y macronutrientes según tu cuerpo, tu actividad y tus metas.</li><li><strong>Ajustar ingredientes y porciones:</strong> quita la crema, cambia la tortilla o corrige la porción de una comida ya registrada (de ½ a 5); todo se recalcula al instante.</li><li><strong>Seguir tu proteína:</strong> el Protein tracker te muestra de dónde viene.</li><li><strong>Ver tu semana:</strong> historial y racha para ver cómo vas.</li><li><strong>Compartirlo con tu nutriólogo:</strong> genera un reporte en PDF con tu historial, tus macros y tus calorías.</li></ul>",
+            "CalorIA Scan no te receta una dieta ni sustituye a un profesional: te ayuda a saber cuánto comes para que tú, y si quieres tu nutriólogo, decidan. Los valores son estimaciones hechas con IA; si tu platillo es casero, ajusta los ingredientes."
+          ]
+        },
+        {
+          "h": "La conclusión práctica",
+          "p": [
+            "Un déficit calórico funciona cuando es moderado, medido y sostenible. Empieza registrando unos días sin cambiar nada, define una meta razonable —mejor con un profesional— y revisa tu semana. Y si lo que quieres es mantener tu peso, la misma cuenta te sirve para no pasarte."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "CDC — Steps for Losing Weight (en inglés)",
+          "url": "https://www.cdc.gov/healthy-weight-growth/losing-weight/index.html"
+        },
+        {
+          "name": "NIDDK (NIH) — Choosing a Safe & Successful Weight-loss Program (en inglés, revisado en febrero de 2024)",
+          "url": "https://www.niddk.nih.gov/health-information/weight-management/choosing-a-safe-successful-weight-loss-program"
+        },
+        {
+          "name": "NIDDK (NIH) — Body Weight Planner (en inglés)",
+          "url": "https://www.niddk.nih.gov/bwp"
+        },
+        {
+          "name": "Hall KD, Chow CC. Why is the 3500 kcal per pound weight loss rule wrong? Int J Obes, 2013",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3859816/"
+        }
+      ]
+    },
+    "en": {
+      "title": "Calorie deficit: what it is, why it matters and how CalorIA Scan helps you track it",
+      "dek": "To lose weight you have to eat less energy than you burn. Here's how it works, why a moderate deficit works better, and how to keep count without obsessing.",
+      "excerpt": "A calorie deficit means eating less energy than you burn. Here's how big it should be, when to talk to a professional, and how to track it with CalorIA Scan.",
+      "tldr": [
+        "A calorie deficit means taking in less energy than your body burns. It's the basis of weight loss, but it has to be moderate and sustainable.",
+        "The CDC points to losing 1 to 2 pounds a week (0.5 to 1 kg) and NIDDK to 5% to 10% of your starting weight in 6 months. The \"3,500 calories per pound\" rule is only a simplification.",
+        "To track your deficit you need to know how much you really eat. CalorIA Scan estimates calories and macros from a photo and shows how many calories you have left today against your goal."
+      ],
+      "body": [
+        {
+          "h": "What a calorie deficit is",
+          "p": [
+            "Your body burns energy all day: keeping its basic functions running, moving, even digesting. If you eat less energy than you burn, you're in a <strong>calorie deficit</strong> and your body draws on its reserves. If you eat what you burn, you maintain your weight; if you eat more, you're in a surplus.",
+            "That's why we talk about calories: not because they're the only thing that matters, but because they're the unit used to measure that balance."
+          ]
+        },
+        {
+          "h": "Why it matters",
+          "p": [
+            "To lose weight, your eating plan has to cut calories. NIDDK, the NIH institute that studies nutrition and weight, describes a reduced-calorie eating and drinking plan that is backed by science and tailored to your health, preferences and culture. And if your goal isn't to lose but to maintain, the same math helps you not overshoot.",
+            "The problem is that almost nobody knows how much they really eat. A latte can add 120 kcal without you noticing (118 of them from the milk), and a tahini dip of just 20 g brings 60 kcal. Measuring isn't obsessing: it's no longer guessing."
+          ]
+        },
+        {
+          "h": "How big should your deficit be?",
+          "p": [
+            "More is not better. The CDC says people who lose weight at a gradual, steady pace, about 1 to 2 pounds a week (roughly 0.5 to 1 kg), are more likely to keep it off. NIDDK recommends an initial goal of losing 5% to 10% of your starting weight within 6 months: for example, between 4 and 8 kg if you weigh 80 kg today.",
+            "You may have heard that cutting 500 calories a day equals one pound a week (the 3,500-calories-per-pound rule). It's a simplification: NIH researchers Kevin Hall and Carson Chow explain that its most serious error is ignoring that energy balance changes as you lose weight, so it overestimates the loss. Treat it as a rough idea, not a promise."
+          ]
+        },
+        {
+          "h": "How to estimate your calories",
+          "p": [
+            "There's no universal number: it depends on your age, size, activity and body. NIDDK's <strong>Body Weight Planner</strong> is a tool for adults 18 and older: you enter your information, a goal weight and a timeframe, and it shows how many calories to eat each day to get there and how many to maintain afterward. It isn't for people under 18 or for pregnancy and breastfeeding, and its values can come out too high if your metabolism is abnormally low or you are very sedentary.",
+            "These are always estimates. The best move is to fine-tune them with your doctor or dietitian."
+          ]
+        },
+        {
+          "h": "When to talk to a professional first",
+          "p": [
+            "NIDDK recommends that the first step be talking to a health care professional about your weight: they can review your medical conditions and the medicines or supplements you take, which can affect your weight or your ability to lose it.",
+            "All the more so if you're pregnant or breastfeeding, under 18, living with diabetes or another medical condition, or have a history of eating disorders. In those cases, a calorie deficit is not something to do on your own."
+          ]
+        },
+        {
+          "h": "How to do it without obsessing",
+          "p": [
+            "<ul><li><strong>Start by only logging:</strong> the CDC suggests writing down everything you eat and drink for a few days to see where you can make small changes.</li><li><strong>Don't forget liquids:</strong> drinks add up too. We covered it in <a href=\"/en/blog/calorias-que-se-beben-bebidas\">the calories you drink</a>.</li><li><strong>Watch your protein:</strong> it helps you feel full. Here's <a href=\"/en/blog/proteina-por-que-registrarla\">how to track it</a>.</li><li><strong>Look at your week, not a single day:</strong> one day off your goal doesn't define anything; the average does.</li><li><strong>Make small changes:</strong> the ones you can keep for months beat one extreme change.</li></ul>"
+          ]
+        },
+        {
+          "h": "What CalorIA Scan does for you",
+          "p": [
+            "<ul><li><strong>Scan your plate:</strong> take a photo and the app estimates calories and macros, built for real Mexican food.</li><li><strong>Tell you what's left:</strong> on Home you see your calories for the day against your goal, with calories remaining and a daily score.</li><li><strong>Set your goal:</strong> define your calorie and macronutrient targets based on your body, activity and goals.</li><li><strong>Adjust ingredients and portions:</strong> remove the cream, swap the tortilla, or fix the portion of a meal you already logged (from ½ to 5); everything recalculates instantly.</li><li><strong>Follow your protein:</strong> the Protein tracker shows where it comes from.</li><li><strong>See your week:</strong> history and streak show how you're doing.</li><li><strong>Share it with your dietitian:</strong> generate a PDF report with your history, macros and calories.</li></ul>",
+            "CalorIA Scan doesn't prescribe a diet or replace a professional: it helps you know how much you eat so that you, and your dietitian if you want, can decide. Values are AI estimates; if your dish is homemade, adjust the ingredients."
+          ]
+        },
+        {
+          "h": "The practical takeaway",
+          "p": [
+            "A calorie deficit works when it's moderate, measured and sustainable. Start by logging a few days without changing anything, set a reasonable goal —ideally with a professional— and review your week. And if what you want is to maintain your weight, the same math helps you not overshoot."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "CDC — Steps for Losing Weight",
+          "url": "https://www.cdc.gov/healthy-weight-growth/losing-weight/index.html"
+        },
+        {
+          "name": "NIDDK (NIH) — Choosing a Safe & Successful Weight-loss Program (reviewed February 2024)",
+          "url": "https://www.niddk.nih.gov/health-information/weight-management/choosing-a-safe-successful-weight-loss-program"
+        },
+        {
+          "name": "NIDDK (NIH) — Body Weight Planner",
+          "url": "https://www.niddk.nih.gov/bwp"
+        },
+        {
+          "name": "Hall KD, Chow CC. Why is the 3500 kcal per pound weight loss rule wrong? Int J Obes, 2013",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3859816/"
+        }
+      ]
+    }
+  },
+  {
     "slug": "calorias-que-se-beben-bebidas",
     "date": "2026-11-03",
     "category_es": "Salud",
