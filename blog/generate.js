@@ -17,6 +17,8 @@ const escAttr = s => esc(s).replace(/"/g,'&quot;');
 const enc = s => encodeURIComponent(String(s == null ? '' : s));
 const wordCount = body => body.reduce((n,b)=> n + (b.h?b.h.split(/\s+/).length:0) + b.p.filter(p=>!/^<figure/.test(p)).reduce((m,p)=> m + p.replace(/<[^>]+>/g,' ').split(/\s+/).filter(Boolean).length, 0), 0);
 
+// Health-related clusters show a visible "information, not medical advice" note under the byline.
+const MED_CLUSTERS = new Set(['salud','mitos','azucar','aditivos','calorias']);
 const IG_HANDLE = 'caloriascan';
 const IG_TAGS = {
   es: {
@@ -111,11 +113,12 @@ function post(p, all, L){
   const cat = isEN ? p.category_en : p.category_es;
   const readMin = Math.max(2, Math.round(wordCount(c.body)/200));
   const dateStr = new Date(p.date+'T12:00:00Z').toLocaleDateString(isEN?'en-US':'es-MX',{year:'numeric',month:'long',day:'numeric'});
+  const reviewedStr = new Date((p.reviewed||p.date)+'T12:00:00Z').toLocaleDateString(isEN?'en-US':'es-MX',{year:'numeric',month:'long',day:'numeric'});
   const t = isEN ? {
     home:'Home', blog:'Blog', by:'By', min:'min read', tldr:'The short version',
     sources:'Sources', related:'Keep reading', ctaTitle:'Stop guessing your calories',
     ctaText:'CalorIA Scan reads your plate from a photo and gives you calories and macros tuned for real Mexican and Latino food — where generic apps get it wrong.',
-    ctaBtn:'Get CalorIA Scan free', appTag:'With CalorIA Scan', jump:'Jump to', switch:'Español',
+    ctaBtn:'Get CalorIA Scan free', appTag:'With CalorIA Scan', jump:'Jump to', medB:'Informational, not medical advice.', medT:'Consult a doctor or registered dietitian before changing your diet, especially with a pre-existing condition.', medRev:'Sources reviewed on', medPub:'Sources checked at publication', medTerms:'See terms', termsHref:'/en/terms', switch:'Español',
     disc:'This article is informational and not medical advice. Consult a doctor or registered dietitian before changing your diet, especially with a pre-existing condition.',
     comments:'Comments', commentPlaceholder:'Write your comment...', namePlaceholder:'Your name',
     commentBtn:'Post'
@@ -123,7 +126,7 @@ function post(p, all, L){
     home:'Inicio', blog:'Blog', by:'Por', min:'min de lectura', tldr:'En resumen',
     sources:'Fuentes', related:'Sigue leyendo', ctaTitle:'Deja de adivinar tus calorías',
     ctaText:'CalorIA Scan lee tu plato desde una foto y te da calorías y macros pensados para la comida mexicana y latina real — donde las apps genéricas se equivocan.',
-    ctaBtn:'Descarga CalorIA Scan gratis', appTag:'Con CalorIA Scan', jump:'Ir a', switch:'English',
+    ctaBtn:'Descarga CalorIA Scan gratis', appTag:'Con CalorIA Scan', jump:'Ir a', medB:'Información, no consejo médico.', medT:'Consulta a un médico o nutriólogo antes de cambiar tu dieta, sobre todo si tienes alguna condición de salud.', medRev:'Fuentes revisadas el', medPub:'Fuentes consultadas al publicar', medTerms:'Ver términos', termsHref:'/terms', switch:'English',
     disc:'Este artículo es informativo y no constituye consejo médico. Consulta a un médico o nutriólogo antes de cambiar tu dieta, especialmente si tienes alguna condición de salud.',
     comments:'Comentarios', commentPlaceholder:'Escribe tu comentario...', namePlaceholder:'Tu nombre',
     commentBtn:'Publicar'
@@ -201,6 +204,9 @@ h1{font-size:33px;line-height:1.18;margin:.35em 0 .15em;letter-spacing:-.01em}
 .dek{font-size:19px;color:var(--mut);margin:.4em 0 1em}
 .hero{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:16px;display:block;margin:8px 0 22px;background:#eef1f5}
 .meta{font-size:13px;color:var(--mut);margin:0 0 16px}
+.med-note{display:flex;gap:12px;align-items:flex-start;background:#fff8e6;border:1px solid #f0dca6;border-radius:12px;padding:12px 16px;margin:0 0 18px;font-size:14px;line-height:1.5;color:#5b4a1a}
+.med-i{flex:none;width:22px;height:22px;border-radius:50%;background:#e0a82e;color:#fff;font-weight:800;font-size:14px;display:flex;align-items:center;justify-content:center;margin-top:1px}
+.med-note b{color:#3d3010}.med-note small{display:block;margin-top:4px;font-size:12.5px;color:#8a7433}.med-note a{color:#8a6a10;font-weight:700}
 .share{display:flex;align-items:center;gap:8px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:12px 0;margin:0 0 26px}
 .share-label{font-size:13px;color:var(--mut);margin-right:2px}
 .sb{width:36px;height:36px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;font-size:16px;font-weight:700;color:#fff;border:none;cursor:pointer;line-height:1}
@@ -293,6 +299,7 @@ footer{font-size:13px;color:var(--mut);margin-top:16px}footer a{color:var(--mut)
 <h1>${esc(c.title)}</h1>
 <p class="dek">${esc(c.dek)}</p>
 <p class="meta">${t.by} CalorIA Scan · ${dateStr} · ${readMin} ${t.min}</p>
+${MED_CLUSTERS.has(p.cluster)?`<div class="med-note" role="note"><span class="med-i" aria-hidden="true">i</span><div><b>${esc(t.medB)}</b> ${esc(t.medT)}<small>${p.reviewed?`${esc(t.medRev)} ${esc(reviewedStr)}`:`${esc(t.medPub)} (${esc(dateStr)})`} · <a href="${t.termsHref}">${esc(t.medTerms)}</a></small></div></div>`:''}
 ${hasHero ? `<img class="hero" src="${heroUrl}" alt="${escAttr(c.title)}" width="1200" height="675" loading="eager">` : ''}
 ${tldrHTML}
 ${bodyHTML}
