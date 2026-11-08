@@ -2,7 +2,7 @@
 /* CalorIA Scan — blog Open Graph image generator.
    Renders a 1200x630 branded share card (headline baked in) per post per language,
    plus the hub, using headless Google Chrome. Output -> blog/og/<slug>-<lang>.png
-   Run:  node blog/build-og-images.js   (then re-run blog/generate.js)  */
+   Run:  node blog/build-og-images.js [slug]   (with a slug: only that post, no hub cards)  */
 const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
@@ -100,8 +100,10 @@ function render(html, outJpg){
   fs.rmSync(tmpPng, { force: true });
 }
 
+const only = process.argv[2];
 let n = 0;
 for (const p of posts){
+  if (only && p.slug !== only) continue;
   const photo = path.join(IMG, `${p.slug}.jpg`);
   const imgPath = fs.existsSync(photo) ? photo : null;
   for (const L of ['es','en']){
@@ -113,9 +115,11 @@ for (const p of posts){
   }
 }
 // hub cards
-const hubImg = fs.existsSync(path.join(IMG,'mitos-comida-virales.jpg')) ? path.join(IMG,'mitos-comida-virales.jpg') : null;
-render(card('Mitos de la comida, revisados con ciencia real', 'Blog', '🤯', '🔬 Con fuentes reales', hubImg), path.join(OUT, '_hub-es.jpg'));
-render(card('Food myths, checked against real science', 'Blog', '🤯', '🔬 With real sources', hubImg), path.join(OUT, '_hub-en.jpg'));
-n += 2;
+if (!only) {
+  const hubImg = fs.existsSync(path.join(IMG,'mitos-comida-virales.jpg')) ? path.join(IMG,'mitos-comida-virales.jpg') : null;
+  render(card('Mitos de la comida, revisados con ciencia real', 'Blog', '🤯', '🔬 Con fuentes reales', hubImg), path.join(OUT, '_hub-es.jpg'));
+  render(card('Food myths, checked against real science', 'Blog', '🤯', '🔬 With real sources', hubImg), path.join(OUT, '_hub-en.jpg'));
+  n += 2;
+}
 
 console.log('Rendered', n, 'OG images (1200x630) into', OUT);

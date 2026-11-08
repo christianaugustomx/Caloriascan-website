@@ -25,6 +25,7 @@
     "es": {
       "title": "Déficit calórico: qué es, por qué importa y cómo CalorIA Scan te ayuda a llevarlo",
       "dek": "Para bajar de peso hay que comer menos energía de la que gastas. Te explicamos cómo funciona, por qué un déficit moderado funciona mejor y cómo llevar la cuenta sin obsesionarte.",
+      "card": "Para bajar de peso hay que comer menos energía de la que gastas. Cómo funciona, qué tan grande debe ser y cómo llevarlo con CalorIA Scan sin obsesionarte.",
       "excerpt": "Un déficit calórico es comer menos energía de la que gastas. Te contamos qué tan grande debe ser, cuándo hablar con un profesional y cómo llevarlo con CalorIA Scan.",
       "tldr": [
         "Un déficit calórico significa consumir menos energía de la que tu cuerpo gasta. Es la base para bajar de peso, pero tiene que ser moderado y sostenible.",
@@ -110,6 +111,7 @@
     "en": {
       "title": "Calorie deficit: what it is, why it matters and how CalorIA Scan helps you track it",
       "dek": "To lose weight you have to eat less energy than you burn. Here's how it works, why a moderate deficit works better, and how to keep count without obsessing.",
+      "card": "To lose weight you have to eat less energy than you burn. How it works, how big it should be and how to track it with CalorIA Scan without obsessing.",
       "excerpt": "A calorie deficit means eating less energy than you burn. Here's how big it should be, when to talk to a professional, and how to track it with CalorIA Scan.",
       "tldr": [
         "A calorie deficit means taking in less energy than your body burns. It's the basis of weight loss, but it has to be moderate and sustainable.",
@@ -203,6 +205,7 @@
     "es": {
       "title": "Las calorías que se beben: lo que hay en tu vaso y casi nadie cuenta",
       "dek": "Café con leche, atole, agua fresca, refresco: lo líquido también suma. Te explicamos cómo calcularlo y qué dicen la OMS y las guías alimentarias mexicanas.",
+      "card": "Café con leche, atole, agua fresca, refresco: lo líquido también suma. Cómo calcularlo y qué dicen la OMS y las guías mexicanas.",
       "excerpt": "Las bebidas pueden aportar muchas calorías y azúcar sin que lo notes, porque sacian menos que la comida. Así puedes calcular tu vaso y registrarlo con CalorIA Scan.",
       "tldr": [
         "Las bebidas azucaradas aportan calorías que casi no se sienten: sacian menos que la comida sólida y es fácil no compensarlas después.",
@@ -289,6 +292,7 @@
     "en": {
       "title": "The calories you drink: what's in your glass that almost nobody counts",
       "dek": "Latte, atole, agua fresca, soda: liquids add up too. Here's how to work it out and what WHO and the Mexican dietary guidelines say.",
+      "card": "Latte, atole, agua fresca, soda: liquids add up too. How to work it out and what WHO and the Mexican guidelines say.",
       "excerpt": "Drinks can carry a lot of calories and sugar without you noticing, because they fill you up less than food. Here's how to work out your glass and log it with CalorIA Scan.",
       "tldr": [
         "Sugary drinks bring calories you barely feel: they fill you up less than solid food, and it's easy not to make up for them later.",
@@ -1607,6 +1611,7 @@
     "es": {
       "title": "Cuántas calorías tiene tu antojito favorito: la guía rápida de la comida mexicana",
       "dek": "De los tacos al pastor al mole poblano, así se comparan las calorías de los platillos que más pides — para que dejes de adivinar.",
+      "card": "De los tacos al pastor al mole poblano, así se comparan las calorías de los platillos que más pides —para que dejes de adivinar.",
       "excerpt": "Comparamos las calorías de los antojitos mexicanos más pedidos —tacos, mole, pozole, chilaquiles y más— para que sepas qué estás comiendo antes de pedirlo.",
       "tldr": [
         "Un mole poblano (480 kcal) puede tener más del doble de calorías que unos tacos al pastor (220 kcal) —mismo antojo mexicano, calorías muy distintas.",
@@ -1669,6 +1674,7 @@
     "en": {
       "title": "How many calories are in your favorite Mexican dish? The quick guide",
       "dek": "From tacos al pastor to mole poblano, here's how the calories in your go-to order really compare — so you stop guessing.",
+      "card": "From tacos al pastor to mole poblano, here's how the calories in your go-to order really compare —so you stop guessing.",
       "excerpt": "We compare the calories in the most-ordered Mexican dishes —tacos, mole, pozole, chilaquiles and more— so you know what you're eating before you order it.",
       "tldr": [
         "A mole poblano (480 kcal) can carry more than double the calories of tacos al pastor (220 kcal) —same Mexican craving, very different calorie counts.",
@@ -1821,6 +1827,7 @@
     "es": {
       "title": "Qué hay de nuevo en CalorIA Scan 2.0.2",
       "dek": "Reconocimiento de comida más preciso, un selector de temas completamente rediseñado y tu racha ahora sincronizada en todos tus dispositivos —así luce la actualización 2.0.2, ya disponible para descargar desde la App Store.",
+      "card": "Reconocimiento de comida más preciso, un selector de temas rediseñado y tu racha sincronizada en todos tus dispositivos.",
       "excerpt": "La versión 2.0.2 de CalorIA Scan ya está disponible: mejoramos el reconocimiento de platillos, rediseñamos el selector de temas y arreglamos la racha semanal entre dispositivos.",
       "tldr": [
         "El reconocimiento de comida ya no duplica palabras en el nombre del platillo detectado.",
@@ -1858,6 +1865,7 @@
     "en": {
       "title": "What's new in CalorIA Scan 2.0.2",
       "dek": "More accurate food recognition, a completely redesigned theme switcher, and your streak now synced across every device —that's what's inside the 2.0.2 update, live now on the App Store.",
+      "card": "More accurate food recognition, a redesigned theme switcher, and your streak synced across every device.",
       "excerpt": "CalorIA Scan 2.0.2 is here: sharper food recognition, a redesigned theme switcher, and a fix for weekly streaks across devices.",
       "tldr": [
         "Food recognition no longer duplicates words in the detected dish name.",
@@ -1903,6 +1911,7 @@
     "es": {
       "title": "La fibra: el nutriente que casi nadie está consumiendo suficiente",
       "dek": "La mayoría de los adultos come muy por debajo de la fibra recomendada al día —y eso tiene un costo real para tu digestión, tu corazón y tus niveles de azúcar.",
+      "card": "Casi nadie llega a los 25-38 gramos de fibra diarios que recomienda la ciencia. Te explicamos por qué importa y cómo cerrar la brecha.",
       "excerpt": "Casi nadie llega a los 25-38 gramos de fibra diarios que recomienda la ciencia. Te explicamos por qué importa y cómo cerrar la brecha sin complicarte.",
       "tldr": [
         "La ingesta recomendada de fibra es de unos 25 g al día para mujeres adultas y 38 g para hombres adultos —pero el adulto promedio apenas llega a 15 g.",
@@ -1949,6 +1958,7 @@
     "en": {
       "title": "Fiber: the nutrient almost nobody gets enough of",
       "dek": "Most adults eat well below the recommended amount of fiber each day —and that has a real cost for your digestion, your heart, and your blood sugar.",
+      "card": "Almost nobody hits the 25-38 grams of fiber a day that nutrition science recommends. Here's why it matters and how to close the gap.",
       "excerpt": "Almost nobody hits the 25-38 grams of fiber a day that nutrition science recommends. Here's why it matters and how to close the gap without overcomplicating it.",
       "tldr": [
         "The recommended fiber intake is about 25 g a day for adult women and 38 g for adult men —but the average adult gets only around 15 g.",
@@ -2003,6 +2013,7 @@
     "es": {
       "title": "Tamales verdes: la receta tradicional paso a paso",
       "dek": "Masa esponjosa teñida de verde con salsa de tomate y chile serrano, con un relleno de pollo deshebrado, todo envuelto en hoja de maíz. Así se hacen los tamales verdes desde cero.",
+      "card": "Masa esponjosa teñida de verde con salsa de tomate, con un relleno de pollo deshebrado, todo envuelto en hoja de maíz.",
       "excerpt": "Aprende a preparar tamales verdes auténticos en casa: masa batida hasta esponjar, salsa de tomate verde y pollo, envueltos en hoja de maíz y cocidos al vapor.",
       "tldr": [
         "Los tamales verdes llevan la salsa de tomate verde incorporada directo en la masa —por eso salen verdes por dentro—, además del relleno de pollo deshebrado.",
@@ -2040,6 +2051,7 @@
     "en": {
       "title": "Tamales verdes: the traditional recipe, step by step",
       "dek": "Fluffy masa tinted green with tomatillo-serrano salsa, filled with shredded chicken, all wrapped in a corn husk. Here's how real tamales verdes come together from scratch.",
+      "card": "Fluffy masa tinted green with tomatillo salsa, filled with shredded chicken, all wrapped in a corn husk.",
       "excerpt": "Learn to make authentic tamales verdes at home: whipped masa, tomatillo-chicken filling, wrapped in corn husks and steamed.",
       "tldr": [
         "Tamales verdes have the tomatillo salsa whipped directly into the masa —that's what makes them green inside— plus a shredded chicken filling.",
@@ -2085,6 +2097,7 @@
     "es": {
       "title": "Fideo seco: la receta de siempre en 25 minutos",
       "dek": "Fideo dorado en su propio aceite, bañado en salsa de jitomate, y listo cuando ya no le queda ni gota de caldo. Así se hace el fideo seco de toda la vida.",
+      "card": "Fideo dorado en su propio aceite, bañado en salsa de jitomate, y listo cuando ya no le queda ni gota de caldo.",
       "excerpt": "Aprende a preparar fideo seco auténtico: pasta de fideo dorada, salsa de jitomate casera, y el punto exacto para que quede seco, no aguado.",
       "tldr": [
         "El fideo seco lleva tres pasos: dorar la pasta en aceite, licuar una salsa de jitomate, y cocer todo junto hasta que se seque por completo.",
@@ -2122,6 +2135,7 @@
     "en": {
       "title": "Fideo seco: the classic recipe in 25 minutes",
       "dek": "Vermicelli toasted in its own oil, bathed in a tomato sauce, and done the moment there's no broth left in the pot. Here's how real fideo seco comes together.",
+      "card": "Vermicelli toasted in its own oil, bathed in a tomato sauce, and done the moment there's no broth left in the pot.",
       "excerpt": "Learn to make authentic fideo seco: toasted vermicelli, homemade tomato sauce, and the exact point where it turns out dry, not soupy.",
       "tldr": [
         "Fideo seco has three steps: toast the pasta in oil, blend a tomato sauce, and cook it all together until the liquid is fully gone.",
@@ -2167,6 +2181,7 @@
     "es": {
       "title": "Mole poblano con arroz rojo: la receta completa paso a paso",
       "dek": "Chiles secos, chocolate y especias en una salsa profunda que se cuece lento, servida sobre pollo y acompañada de arroz rojo. Así se hace el mole poblano desde cero.",
+      "card": "Chiles secos, chocolate y especias en una salsa profunda que se cuece lento, servida sobre pollo y acompañada de arroz rojo.",
       "excerpt": "Aprende a preparar mole poblano auténtico en casa: chiles tostados, una salsa espesa con chocolate y especias, pollo bañado en mole, y arroz rojo como acompañante.",
       "tldr": [
         "El mole poblano lleva tres bases: chiles secos tostados, especias con chocolate, y el caldo donde se termina de cocer el pollo.",
@@ -2210,6 +2225,7 @@
     "en": {
       "title": "Mole poblano with red rice: the complete step-by-step recipe",
       "dek": "Dried chiles, chocolate and spices in a deep sauce that simmers low and slow, served over chicken alongside red rice. Here's how real mole poblano comes together from scratch.",
+      "card": "Dried chiles, chocolate and spices in a deep sauce that simmers low and slow, served over chicken alongside red rice.",
       "excerpt": "Learn to make authentic mole poblano at home: toasted chiles, a thick sauce with chocolate and spices, chicken bathed in mole, and red rice on the side.",
       "tldr": [
         "Mole poblano is built on three bases: toasted dried chiles, chocolate and spices, and the broth used to finish cooking the chicken.",
@@ -2261,6 +2277,7 @@
     "es": {
       "title": "No toda la grasa es mala: el mito que confunde grasa con grasa trans",
       "dek": "Durante años nos vendieron la idea de que \"bajo en grasa\" es sinónimo de saludable. La ciencia dice algo distinto: importa qué tipo de grasa comes, no cuánta.",
+      "card": "\"Bajo en grasa\" no siempre significó saludable. Te explicamos qué tipo de grasa sí conviene comer, según la OMS.",
       "excerpt": "El mito de que toda grasa engorda o hace daño viene de confundir la grasa en general con la grasa trans y el exceso de grasa saturada. Te explicamos la diferencia real.",
       "tldr": [
         "La OMS no recomienda eliminar la grasa: recomienda limitar la grasa saturada a menos del 10% de tus calorías diarias y la grasa trans a menos del 1%.",
@@ -2309,6 +2326,7 @@
     "en": {
       "title": "Not all fat is bad: the myth that confuses fat with trans fat",
       "dek": "For years we were sold the idea that \"low-fat\" means healthy. The science says something different: what type of fat you eat matters more than how much.",
+      "card": "\"Low-fat\" never automatically meant healthy. Here's what type of fat you should actually eat, according to the WHO.",
       "excerpt": "The myth that all fat is fattening or unhealthy comes from confusing fat in general with trans fat and excess saturated fat. Here's the real difference.",
       "tldr": [
         "The WHO doesn't recommend cutting out fat: it recommends keeping saturated fat under 10% of your daily calories and trans fat under 1%.",
@@ -2365,6 +2383,7 @@
     "es": {
       "title": "CalorIA Scan 2.0.7: tu proteína y tus comidas, más claras que nunca",
       "dek": "Nuevo Protein tracker, escaneos más rápidos, edición de comidas ya registradas y borrado deslizando —todo lo nuevo en la actualización 2.0.7, ya disponible en el App Store.",
+      "card": "Nuevo Protein tracker, escaneos más rápidos, edición de comidas ya registradas y borrado deslizando: todo lo nuevo en la actualización 2.0.7.",
       "excerpt": "La versión 2.0.7 de CalorIA Scan ya está disponible: estrena el Protein tracker, acelera los escaneos y te deja editar y borrar comidas registradas.",
       "tldr": [
         "Nuevo Protein tracker: toca tu proteína en Inicio y descubre si viene de pollo, res, cerdo, pescado, huevo, lácteos o fuentes vegetales.",
@@ -2422,6 +2441,7 @@
     "en": {
       "title": "CalorIA Scan 2.0.7: your protein and your meals, clearer than ever",
       "dek": "A new Protein tracker, faster scans, editing for meals you've already logged and swipe to delete —everything new in the 2.0.7 update, now available on the App Store.",
+      "card": "A new Protein tracker, faster scans, editing for meals you've already logged and swipe to delete: everything new in the 2.0.7 update.",
       "excerpt": "CalorIA Scan 2.0.7 is now available: it introduces the Protein tracker, speeds up scans, and lets you edit and delete logged meals.",
       "tldr": [
         "New Protein tracker: tap your protein on Home and see whether it comes from chicken, beef, pork, fish, eggs, dairy or plant-based sources.",
@@ -2487,6 +2507,7 @@
     "es": {
       "title": "Proteína: por qué conviene registrarla y cómo CalorIA Scan te lo facilita",
       "dek": "Casi todo el mundo cuenta calorías, pero muy pocos saben cuánta proteína comen en realidad. Te explicamos por qué vale la pena medirla y cómo hacerlo sin complicarte.",
+      "card": "La proteína es el nutriente más fácil de subestimar. Te explicamos cuánta necesitas y cómo llevar su registro sin complicarte.",
       "excerpt": "La proteína sostiene tus músculos, te ayuda a sentirte satisfecho y es el nutriente más fácil de subestimar. Así puedes llevar su registro con CalorIA Scan.",
       "tldr": [
         "La recomendación general para un adulto sano es de unos 0.8 gramos de proteína por kilo de peso al día, y ese número es un mínimo, no una meta ideal para todos.",
@@ -2549,6 +2570,7 @@
     "en": {
       "title": "Protein: why it's worth tracking and how CalorIA Scan makes it easy",
       "dek": "Almost everyone counts calories, but very few people know how much protein they actually eat. Here's why it's worth measuring and how to do it without the hassle.",
+      "card": "Protein is the easiest nutrient to underestimate. Here's how much you need and how to track it without the hassle.",
       "excerpt": "Protein supports your muscles, keeps you feeling full, and is the nutrient easiest to underestimate. Here's how to track it with CalorIA Scan.",
       "tldr": [
         "The general recommendation for a healthy adult is about 0.8 grams of protein per kilo of body weight a day, and that number is a minimum, not an ideal target for everyone.",
