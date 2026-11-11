@@ -62,6 +62,18 @@ p{margin:0 0 16px;font-size:17px}
 .tldr{background:var(--soft);border:1px solid var(--line);border-left:4px solid var(--g);border-radius:12px;padding:16px 20px;margin:26px 0}
 .tldr h2{margin:0 0 8px;font-size:15px;text-transform:uppercase;letter-spacing:.05em;color:var(--g)}
 .tldr ul{margin:0;padding-left:20px}.tldr li{margin:6px 0;font-size:16px}
+.tldr-jump{display:inline-block;margin-top:10px;font-size:15px;font-weight:700;color:var(--g);text-decoration:none}.tldr-jump:hover{text-decoration:underline}
+.app-callout{position:relative;margin:40px 0;padding:22px 24px 20px 30px;border-radius:20px;background:linear-gradient(160deg,#f3faf4 0%,#e8f4eb 100%);border:1.5px solid #bfe0c5;box-shadow:0 10px 30px rgba(46,125,50,.12);scroll-margin-top:20px}
+.app-callout::before{content:"";position:absolute;left:0;top:0;bottom:0;width:7px;border-radius:20px 0 0 20px;background:linear-gradient(180deg,var(--g),#e8622e)}
+.app-tag{display:flex;align-items:center;gap:10px;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--g)}
+.app-tag img{border-radius:8px;display:block}
+.app-callout h2{margin:8px 0 12px}
+.app-callout ul{list-style:none;padding:0;margin:0 0 14px}
+.app-callout li{position:relative;padding:11px 0 11px 36px;border-top:1px solid #d3e8d6;font-size:16px;line-height:1.5}
+.app-callout li:first-child{border-top:0}
+.app-callout li::before{content:"✓";position:absolute;left:0;top:11px;width:23px;height:23px;border-radius:50%;background:var(--g);color:#fff;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center;line-height:1}
+.app-callout p:last-of-type{margin-bottom:6px}
+@media(max-width:560px){.app-callout{padding:20px 18px 18px 24px}}
 .cta{background:#f0f7f1;border:1px solid #cfe6d3;border-radius:16px;padding:24px;margin:34px 0;text-align:center}
 .cta h2{margin:0 0 8px}.cta p{color:var(--ink)}.btn{display:inline-block;background:var(--g);color:#fff;text-decoration:none;padding:13px 24px;border-radius:10px;font-weight:700;margin-top:6px}
 .sources{font-size:14px;color:var(--mut);padding-left:22px}.sources li{margin:7px 0}.sources a{word-break:break-word}
@@ -87,6 +99,30 @@ ul.rel a:hover{border-color:var(--g)}
 .comment-hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
 .disc{font-size:12px;color:var(--mut);border-top:1px solid var(--line);margin-top:38px;padding-top:14px}
 footer{font-size:13px;color:var(--mut);margin-top:16px}footer a{color:var(--mut)}
+.shots{margin:26px 0}.shots .phones{display:flex;flex-wrap:wrap;justify-content:center;gap:22px}.shots figcaption{font-size:13px;color:var(--mut);text-align:center;margin-top:12px}
+.phone{position:relative;width:300px;height:590px;border:7px solid #1c2430;border-radius:38px;background:#FCF3E9;overflow:hidden;font-family:ui-rounded,"SF Pro Rounded","Nunito",-apple-system,"Segoe UI",system-ui,sans-serif;color:#2b1c12;line-height:1.25;box-shadow:0 14px 34px rgba(60,40,20,.18);text-align:left}
+.phone *{box-sizing:border-box;margin:0}
+.phone .ph-top{display:flex;align-items:center;gap:22px;padding:16px 16px 8px}.phone .ph-top b{font-size:19px;font-weight:800}
+.phone .ph-card{background:#fff;border-radius:22px;padding:14px;margin:8px 10px 10px;box-shadow:0 4px 14px rgba(120,80,30,.07)}
+.phone .ph-ring{display:flex;align-items:center;gap:12px}.phone .ph-ring .ph-mut{white-space:nowrap}.phone .ph-ring div>.ph-mut:last-child{font-size:11px}.phone .ph-ring svg{flex:none}
+.phone .ph-mut{color:#8b7a6a;font-size:12px}.phone .ph-big{font-size:36px;font-weight:900;color:#2DBE60;line-height:1.05}
+.phone .ph-bar{height:11px;border-radius:6px;background:#8FB0E4;margin:12px 0 9px}.phone .ph-leg{font-size:12px;color:#8b7a6a;display:flex;align-items:center;gap:6px}
+.phone .dot{width:9px;height:9px;border-radius:50%;display:inline-block;flex:none}
+.phone .ph-h{display:flex;align-items:center;gap:8px;font-weight:800;font-size:17px}
+.phone .pro{background:#F5821F;color:#fff;font-size:9px;font-weight:800;border-radius:10px;padding:3px 8px;letter-spacing:.03em}
+.phone .seg{display:inline-flex;background:#FFCB77;border-radius:14px;padding:3px;margin:10px 0 9px}.phone .seg span{font-size:12px;padding:6px 12px;border-radius:11px;color:#6b4a1c}.phone .seg .on{background:#FF8A1F;color:#fff;font-weight:700}
+.phone .ph-stack{display:flex;gap:2px;height:11px;margin:9px 0 10px}.phone .ph-stack i{display:block;height:100%}.phone .ph-stack i:first-child{border-radius:6px 0 0 6px}.phone .ph-stack i:last-child{border-radius:0 6px 6px 0}
+.phone .ph-note{background:#E6F6EA;border-radius:14px;padding:9px 12px;font-size:12.5px;color:#6f6558;margin-bottom:8px}
+.phone .ph-row{display:flex;align-items:center;gap:10px;padding:7px 0}.phone .ph-row .n{flex:1;font-size:14px;color:#7a6a5a;font-weight:700}.phone .ph-row small{display:block;font-size:11.5px;font-weight:500;color:#8b7a6a}.phone .ph-row .r{text-align:right;font-weight:800;font-size:14px;color:#2b1c12}.phone .ph-row .r small{font-weight:500}
+.phone .ph-ai{background:linear-gradient(135deg,#FFF1E0,#FFE2C8);border:1.5px solid #F8C79A;border-radius:22px;padding:13px 14px;margin:8px 10px 10px}
+.phone .ph-ai .hd{display:flex;align-items:center;gap:9px;font-weight:800;font-size:14px}.phone .ph-ai .hd .pro{margin-left:auto}.phone .ph-ai p{display:flex;gap:9px;font-size:12.5px;line-height:1.45;color:#3a2a1e;margin:9px 0 0}
+.phone .chips{display:flex;gap:7px;margin:10px 0 6px;overflow:hidden;white-space:nowrap}.phone .chips span{border:1.5px solid #E6DED3;border-radius:20px;padding:6px 11px;font-size:12px;color:#4a3a2c;display:inline-flex;align-items:center;gap:6px;flex:none}.phone .chips .on{background:#FF8A1F;border-color:#FF8A1F;color:#fff;font-weight:700}
+.phone .ph-meal{display:flex;gap:10px;padding:7px 0}.phone .ph-ico{width:40px;height:40px;border-radius:12px;background:#FFCB77;flex:none;display:flex;align-items:center;justify-content:center;font-size:18px}
+.phone .ph-meal b{display:block;font-size:14px;color:#7a6a5a;font-weight:700}.phone .ph-meal .m{font-size:11.5px;color:#8b7a6a}.phone .tag{display:inline-block;background:#E8EEFA;color:#6a7f9e;border-radius:10px;padding:3px 9px;font-size:11.5px;margin-top:5px}.phone .tag.p{background:#FBEBD0;color:#9a7a45}
+.phone .ph-nav{position:absolute;left:10px;right:10px;bottom:12px;height:56px;background:#fff;border-radius:26px;box-shadow:0 -2px 18px rgba(120,80,30,.12);display:grid;grid-template-columns:1fr 1fr 62px 1fr 1fr;align-items:center;text-align:center}
+.phone .ph-nav div{font-size:10px;color:#b9a99a;display:flex;flex-direction:column;align-items:center;gap:2px}.phone .ph-nav div svg{width:20px;height:20px;fill:currentColor}.phone .ph-nav .on{color:#F5821F;font-weight:700}
+.phone .ph-fab{position:absolute;left:50%;bottom:36px;width:54px;height:54px;margin-left:-27px;border-radius:50%;background:linear-gradient(#FFB04A,#F57C1F);box-shadow:0 4px 0 #D96A12,0 8px 16px rgba(245,124,31,.35);display:flex;align-items:center;justify-content:center}.phone .ph-fab svg{width:26px;height:26px;fill:#fff}
+@media(max-width:560px){.phone{width:100%;max-width:300px}}
 @media(max-width:560px){h1{font-size:27px}.dek{font-size:17px}ul.rel{grid-template-columns:1fr}}
 </style>
 </head>
@@ -99,13 +135,14 @@ footer{font-size:13px;color:var(--mut);margin-top:16px}footer a{color:var(--mut)
 <p class="dek">For years we were sold the idea that "low-fat" means healthy. The science says something different: what type of fat you eat matters more than how much.</p>
 <p class="meta">By CalorIA Scan · August 18, 2026 · 2 min read</p>
 <div class="med-note" role="note"><span class="med-i" aria-hidden="true">i</span><div><b>Informational, not medical advice.</b> Consult a doctor or registered dietitian before changing your diet, especially with a pre-existing condition.<small>Sources checked at publication (August 18, 2026) · <a href="/en/terms">See terms</a></small></div></div>
-
-<div class="tldr"><h2>The short version</h2><ul><li>The WHO doesn't recommend cutting out fat: it recommends keeping saturated fat under 10% of your daily calories and trans fat under 1%.</li><li>Unsaturated fats —found in avocado, olive oil, nuts and fish— aren't the problem; they're linked to lower cardiovascular risk.</li><li>Many "low-fat" products from the 90s replaced that fat with sugar and refined flour —which made things worse, not better.</li></ul></div>
+<img class="hero" src="/blog/img/grasa-buena-vs-grasa-trans-mito.jpg" alt="Not all fat is bad: the myth that confuses fat with trans fat" width="1200" height="675" loading="eager">
+<div class="tldr"><h2>The short version</h2><ul><li>The WHO doesn't recommend cutting out fat: it recommends keeping saturated fat under 10% of your daily calories and trans fat under 1%.</li><li>Unsaturated fats —found in avocado, olive oil, nuts and fish— aren't the problem; they're linked to lower cardiovascular risk.</li><li>Many "low-fat" products from the 90s replaced that fat with sugar and refined flour —which made things worse, not better.</li></ul><a class="tldr-jump" href="#que-hace-caloria-scan">Jump to: What CalorIA Scan does for you ↓</a></div>
 <h2>Where the myth comes from</h2><p>Through the 80s and 90s, the food industry heavily pushed "low-fat" and "fat-free" products as the healthy choice by default. The message stuck so well that many people still associate any fat in food with weight gain or heart damage. The problem is that message never distinguished between different types of fat —and that distinction is exactly what matters.</p>
 <h2>What the WHO actually recommends</h2><p>The World Health Organization doesn't call for cutting fat out of your diet. Its recommendation is to keep saturated fat under 10% of daily calories and trans fat under 1% —ideally avoiding it entirely— while shifting toward unsaturated fats. It's a recommendation about the type of fat, not the total amount you eat.</p>
 <h2>The fat you should actually be eating</h2><p>Unsaturated fats —found in olive oil, avocado, nuts, seeds and fish— are linked to lower cardiovascular risk, not higher. Cutting them out isn't just unnecessary, it deprives your body of nutrients it needs to absorb vitamins and keep cells working properly.</p>
 <h2>The side effect of low-fat diets</h2><p>When a product strips the fat out of a food, it almost always needs to replace it with something to keep it tasting good —and that something is usually sugar or refined flour. That's how a lot of "light" products from the 90s ended up less healthy than their original versions, despite the label.</p>
-<h2>The practical takeaway</h2><p>It's not about eating fat-free, it's about choosing where your fat comes from. Swap lard and margarine for olive oil, prioritize fish and nuts over processed meats, and don't fear the avocado. If you want to see exactly how much fat —and what type— is on your plate, scan it with CalorIA Scan.</p>
+<section class="app-callout" id="que-hace-caloria-scan"><div class="app-tag"><img src="/assets/icon-app.png" alt="" width="30" height="30"><span>With CalorIA Scan</span></div><h2>What CalorIA Scan does for you</h2><p><ul><li><strong>Scan your plate:</strong> take a photo and the app estimates calories and macros, fat included, built for real Mexican food.</li><li><strong>See where the calories come from:</strong> the ingredient breakdown shows what adds the most: the avocado, the cooking oil or the frying.</li><li><strong>Adjust ingredients and portions:</strong> swap fried for grilled, remove the cream or fix the portion (from ½ to 5); everything recalculates instantly.</li><li><strong>See your day against your goal:</strong> set your calorie and macro goal and see what's left.</li></ul></p><p>Values are AI estimates. To know whether a packaged product contains trans fat, its nutrition label is still the most reliable source.</p></section>
+<h2>The practical takeaway</h2><p>It's not about eating fat-free, it's about choosing where your fat comes from. Swap lard and margarine for olive oil, prioritize fish and nuts over processed meats, and don't fear the avocado. If you want to know how much fat is on your plate, scan it with CalorIA Scan.</p>
 
 <div class="cta">
 <h2>Stop guessing your calories</h2>
@@ -165,7 +202,7 @@ function igShare(b){var t=document.getElementById('ig-cap').value;fetch(b.getAtt
 </div>
 
 <h2>Keep reading</h2>
-<ul class="rel"><li><a href="/en/blog/e141-clorofila-cobre-colorante"><span class="rc-emoji">🧪</span><span class="rc-cat">Additives</span><span class="rc-title">That bright green in your chewing gum isn't "natural" — it's chlorophyll with copper</span></a></li><li><a href="/en/blog/barras-granola-azucar-oculta"><span class="rc-emoji">🌾</span><span class="rc-cat">Myths</span><span class="rc-title">That "fit" granola bar can carry as much sugar as a cookie</span></a></li><li><a href="/en/blog/productos-light-azucar-oculta"><span class="rc-emoji">🍓</span><span class="rc-cat">Myths</span><span class="rc-title">Your "light" yogurt can pack more sugar than a donut</span></a></li><li><a href="/en/blog/huevo-colesterol-mito"><span class="rc-emoji">🥚</span><span class="rc-cat">Myths</span><span class="rc-title">Do eggs clog your arteries? What the science actually found</span></a></li></ul>
+<ul class="rel"><li><a href="/en/blog/frijoles-proteina-o-carbohidrato"><span class="rc-emoji">🫘</span><span class="rc-cat">Myths</span><span class="rc-title">Are beans a protein or a carb? The answer, with numbers</span></a></li><li><a href="/en/blog/maraton-guadalupe-reyes-cuanto-peso-se-sube"><span class="rc-emoji">🎄</span><span class="rc-cat">Health</span><span class="rc-title">Guadalupe-Reyes marathon: how much weight you gain and how to avoid it</span></a></li><li><a href="/en/blog/calorias-posadas-tamales-ponche-bunuelos"><span class="rc-emoji">🫔</span><span class="rc-cat">Health</span><span class="rc-title">Posadas calories: tamales, ponche and buñuelos</span></a></li><li><a href="/en/blog/deficit-calorico-que-es-por-que-importa"><span class="rc-emoji">⚖️</span><span class="rc-cat">Health</span><span class="rc-title">Calorie deficit: what it is, why it matters and how CalorIA Scan helps you track it</span></a></li></ul>
 
 <p class="disc">This article is informational and not medical advice. Consult a doctor or registered dietitian before changing your diet, especially with a pre-existing condition.</p>
 <footer>© 2026 CalorIA Scan · <a href="/en/">Home</a> · <a href="/privacy-policy">Privacy</a> · <a href="/terms">Terms</a></footer>

@@ -2938,9 +2938,17 @@
           ]
         },
         {
+          "h": "Qué puede hacer CalorIA Scan por ti",
+          "app": true,
+          "p": [
+            "<ul><li><strong>Escanear tu plato:</strong> toma una foto y la app estima calorías y macros, incluida la grasa, pensando en la comida mexicana real.</li><li><strong>Ver de dónde vienen las calorías:</strong> el desglose por ingrediente te deja ver qué aporta más: el aguacate, el aceite del guisado o la fritura.</li><li><strong>Ajustar ingredientes y porciones:</strong> cambia frito por asado, quita la crema o corrige la porción (de ½ a 5); todo se recalcula al instante.</li><li><strong>Ver tu día frente a tu meta:</strong> define tu meta de calorías y macros y mira cuánto te queda.</li></ul>",
+            "Los valores son estimaciones hechas con IA. Para saber si un producto empaquetado tiene grasas trans, lo más confiable sigue siendo su etiqueta."
+          ]
+        },
+        {
           "h": "La conclusión práctica",
           "p": [
-            "No se trata de comer sin grasa, se trata de elegir bien de dónde viene. Cambia manteca y margarina por aceite de oliva, prioriza pescado y nueces sobre embutidos, y no le tengas miedo al aguacate. Si quieres ver exactamente cuánta grasa —y de qué tipo— llevas en tu plato, escanéalo con CalorIA Scan."
+            "No se trata de comer sin grasa, se trata de elegir bien de dónde viene. Cambia manteca y margarina por aceite de oliva, prioriza pescado y nueces sobre embutidos, y no le tengas miedo al aguacate. Si quieres saber cuánta grasa llevas en tu plato, escanéalo con CalorIA Scan."
           ]
         }
       ],
@@ -2987,9 +2995,17 @@
           ]
         },
         {
+          "h": "What CalorIA Scan does for you",
+          "app": true,
+          "p": [
+            "<ul><li><strong>Scan your plate:</strong> take a photo and the app estimates calories and macros, fat included, built for real Mexican food.</li><li><strong>See where the calories come from:</strong> the ingredient breakdown shows what adds the most: the avocado, the cooking oil or the frying.</li><li><strong>Adjust ingredients and portions:</strong> swap fried for grilled, remove the cream or fix the portion (from ½ to 5); everything recalculates instantly.</li><li><strong>See your day against your goal:</strong> set your calorie and macro goal and see what's left.</li></ul>",
+            "Values are AI estimates. To know whether a packaged product contains trans fat, its nutrition label is still the most reliable source."
+          ]
+        },
+        {
           "h": "The practical takeaway",
           "p": [
-            "It's not about eating fat-free, it's about choosing where your fat comes from. Swap lard and margarine for olive oil, prioritize fish and nuts over processed meats, and don't fear the avocado. If you want to see exactly how much fat —and what type— is on your plate, scan it with CalorIA Scan."
+            "It's not about eating fat-free, it's about choosing where your fat comes from. Swap lard and margarine for olive oil, prioritize fish and nuts over processed meats, and don't fear the avocado. If you want to know how much fat is on your plate, scan it with CalorIA Scan."
           ]
         }
       ],

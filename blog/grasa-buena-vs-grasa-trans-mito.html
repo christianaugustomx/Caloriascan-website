@@ -62,6 +62,18 @@ p{margin:0 0 16px;font-size:17px}
 .tldr{background:var(--soft);border:1px solid var(--line);border-left:4px solid var(--g);border-radius:12px;padding:16px 20px;margin:26px 0}
 .tldr h2{margin:0 0 8px;font-size:15px;text-transform:uppercase;letter-spacing:.05em;color:var(--g)}
 .tldr ul{margin:0;padding-left:20px}.tldr li{margin:6px 0;font-size:16px}
+.tldr-jump{display:inline-block;margin-top:10px;font-size:15px;font-weight:700;color:var(--g);text-decoration:none}.tldr-jump:hover{text-decoration:underline}
+.app-callout{position:relative;margin:40px 0;padding:22px 24px 20px 30px;border-radius:20px;background:linear-gradient(160deg,#f3faf4 0%,#e8f4eb 100%);border:1.5px solid #bfe0c5;box-shadow:0 10px 30px rgba(46,125,50,.12);scroll-margin-top:20px}
+.app-callout::before{content:"";position:absolute;left:0;top:0;bottom:0;width:7px;border-radius:20px 0 0 20px;background:linear-gradient(180deg,var(--g),#e8622e)}
+.app-tag{display:flex;align-items:center;gap:10px;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--g)}
+.app-tag img{border-radius:8px;display:block}
+.app-callout h2{margin:8px 0 12px}
+.app-callout ul{list-style:none;padding:0;margin:0 0 14px}
+.app-callout li{position:relative;padding:11px 0 11px 36px;border-top:1px solid #d3e8d6;font-size:16px;line-height:1.5}
+.app-callout li:first-child{border-top:0}
+.app-callout li::before{content:"✓";position:absolute;left:0;top:11px;width:23px;height:23px;border-radius:50%;background:var(--g);color:#fff;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center;line-height:1}
+.app-callout p:last-of-type{margin-bottom:6px}
+@media(max-width:560px){.app-callout{padding:20px 18px 18px 24px}}
 .cta{background:#f0f7f1;border:1px solid #cfe6d3;border-radius:16px;padding:24px;margin:34px 0;text-align:center}
 .cta h2{margin:0 0 8px}.cta p{color:var(--ink)}.btn{display:inline-block;background:var(--g);color:#fff;text-decoration:none;padding:13px 24px;border-radius:10px;font-weight:700;margin-top:6px}
 .sources{font-size:14px;color:var(--mut);padding-left:22px}.sources li{margin:7px 0}.sources a{word-break:break-word}
@@ -87,6 +99,30 @@ ul.rel a:hover{border-color:var(--g)}
 .comment-hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
 .disc{font-size:12px;color:var(--mut);border-top:1px solid var(--line);margin-top:38px;padding-top:14px}
 footer{font-size:13px;color:var(--mut);margin-top:16px}footer a{color:var(--mut)}
+.shots{margin:26px 0}.shots .phones{display:flex;flex-wrap:wrap;justify-content:center;gap:22px}.shots figcaption{font-size:13px;color:var(--mut);text-align:center;margin-top:12px}
+.phone{position:relative;width:300px;height:590px;border:7px solid #1c2430;border-radius:38px;background:#FCF3E9;overflow:hidden;font-family:ui-rounded,"SF Pro Rounded","Nunito",-apple-system,"Segoe UI",system-ui,sans-serif;color:#2b1c12;line-height:1.25;box-shadow:0 14px 34px rgba(60,40,20,.18);text-align:left}
+.phone *{box-sizing:border-box;margin:0}
+.phone .ph-top{display:flex;align-items:center;gap:22px;padding:16px 16px 8px}.phone .ph-top b{font-size:19px;font-weight:800}
+.phone .ph-card{background:#fff;border-radius:22px;padding:14px;margin:8px 10px 10px;box-shadow:0 4px 14px rgba(120,80,30,.07)}
+.phone .ph-ring{display:flex;align-items:center;gap:12px}.phone .ph-ring .ph-mut{white-space:nowrap}.phone .ph-ring div>.ph-mut:last-child{font-size:11px}.phone .ph-ring svg{flex:none}
+.phone .ph-mut{color:#8b7a6a;font-size:12px}.phone .ph-big{font-size:36px;font-weight:900;color:#2DBE60;line-height:1.05}
+.phone .ph-bar{height:11px;border-radius:6px;background:#8FB0E4;margin:12px 0 9px}.phone .ph-leg{font-size:12px;color:#8b7a6a;display:flex;align-items:center;gap:6px}
+.phone .dot{width:9px;height:9px;border-radius:50%;display:inline-block;flex:none}
+.phone .ph-h{display:flex;align-items:center;gap:8px;font-weight:800;font-size:17px}
+.phone .pro{background:#F5821F;color:#fff;font-size:9px;font-weight:800;border-radius:10px;padding:3px 8px;letter-spacing:.03em}
+.phone .seg{display:inline-flex;background:#FFCB77;border-radius:14px;padding:3px;margin:10px 0 9px}.phone .seg span{font-size:12px;padding:6px 12px;border-radius:11px;color:#6b4a1c}.phone .seg .on{background:#FF8A1F;color:#fff;font-weight:700}
+.phone .ph-stack{display:flex;gap:2px;height:11px;margin:9px 0 10px}.phone .ph-stack i{display:block;height:100%}.phone .ph-stack i:first-child{border-radius:6px 0 0 6px}.phone .ph-stack i:last-child{border-radius:0 6px 6px 0}
+.phone .ph-note{background:#E6F6EA;border-radius:14px;padding:9px 12px;font-size:12.5px;color:#6f6558;margin-bottom:8px}
+.phone .ph-row{display:flex;align-items:center;gap:10px;padding:7px 0}.phone .ph-row .n{flex:1;font-size:14px;color:#7a6a5a;font-weight:700}.phone .ph-row small{display:block;font-size:11.5px;font-weight:500;color:#8b7a6a}.phone .ph-row .r{text-align:right;font-weight:800;font-size:14px;color:#2b1c12}.phone .ph-row .r small{font-weight:500}
+.phone .ph-ai{background:linear-gradient(135deg,#FFF1E0,#FFE2C8);border:1.5px solid #F8C79A;border-radius:22px;padding:13px 14px;margin:8px 10px 10px}
+.phone .ph-ai .hd{display:flex;align-items:center;gap:9px;font-weight:800;font-size:14px}.phone .ph-ai .hd .pro{margin-left:auto}.phone .ph-ai p{display:flex;gap:9px;font-size:12.5px;line-height:1.45;color:#3a2a1e;margin:9px 0 0}
+.phone .chips{display:flex;gap:7px;margin:10px 0 6px;overflow:hidden;white-space:nowrap}.phone .chips span{border:1.5px solid #E6DED3;border-radius:20px;padding:6px 11px;font-size:12px;color:#4a3a2c;display:inline-flex;align-items:center;gap:6px;flex:none}.phone .chips .on{background:#FF8A1F;border-color:#FF8A1F;color:#fff;font-weight:700}
+.phone .ph-meal{display:flex;gap:10px;padding:7px 0}.phone .ph-ico{width:40px;height:40px;border-radius:12px;background:#FFCB77;flex:none;display:flex;align-items:center;justify-content:center;font-size:18px}
+.phone .ph-meal b{display:block;font-size:14px;color:#7a6a5a;font-weight:700}.phone .ph-meal .m{font-size:11.5px;color:#8b7a6a}.phone .tag{display:inline-block;background:#E8EEFA;color:#6a7f9e;border-radius:10px;padding:3px 9px;font-size:11.5px;margin-top:5px}.phone .tag.p{background:#FBEBD0;color:#9a7a45}
+.phone .ph-nav{position:absolute;left:10px;right:10px;bottom:12px;height:56px;background:#fff;border-radius:26px;box-shadow:0 -2px 18px rgba(120,80,30,.12);display:grid;grid-template-columns:1fr 1fr 62px 1fr 1fr;align-items:center;text-align:center}
+.phone .ph-nav div{font-size:10px;color:#b9a99a;display:flex;flex-direction:column;align-items:center;gap:2px}.phone .ph-nav div svg{width:20px;height:20px;fill:currentColor}.phone .ph-nav .on{color:#F5821F;font-weight:700}
+.phone .ph-fab{position:absolute;left:50%;bottom:36px;width:54px;height:54px;margin-left:-27px;border-radius:50%;background:linear-gradient(#FFB04A,#F57C1F);box-shadow:0 4px 0 #D96A12,0 8px 16px rgba(245,124,31,.35);display:flex;align-items:center;justify-content:center}.phone .ph-fab svg{width:26px;height:26px;fill:#fff}
+@media(max-width:560px){.phone{width:100%;max-width:300px}}
 @media(max-width:560px){h1{font-size:27px}.dek{font-size:17px}ul.rel{grid-template-columns:1fr}}
 </style>
 </head>
@@ -99,13 +135,14 @@ footer{font-size:13px;color:var(--mut);margin-top:16px}footer a{color:var(--mut)
 <p class="dek">Durante años nos vendieron la idea de que "bajo en grasa" es sinónimo de saludable. La ciencia dice algo distinto: importa qué tipo de grasa comes, no cuánta.</p>
 <p class="meta">Por CalorIA Scan · 18 de agosto de 2026 · 2 min de lectura</p>
 <div class="med-note" role="note"><span class="med-i" aria-hidden="true">i</span><div><b>Información, no consejo médico.</b> Consulta a un médico o nutriólogo antes de cambiar tu dieta, sobre todo si tienes alguna condición de salud.<small>Fuentes consultadas al publicar (18 de agosto de 2026) · <a href="/terms">Ver términos</a></small></div></div>
-
-<div class="tldr"><h2>En resumen</h2><ul><li>La OMS no recomienda eliminar la grasa: recomienda limitar la grasa saturada a menos del 10% de tus calorías diarias y la grasa trans a menos del 1%.</li><li>Las grasas insaturadas —las del aguacate, el aceite de oliva, las nueces y el pescado— no son el problema; se asocian con menor riesgo cardiovascular.</li><li>Muchos productos "bajos en grasa" de los 90 reemplazaban esa grasa con azúcar y harinas refinadas —lo cual empeoró, no mejoró, el problema.</li></ul></div>
+<img class="hero" src="/blog/img/grasa-buena-vs-grasa-trans-mito.jpg" alt="No toda la grasa es mala: el mito que confunde grasa con grasa trans" width="1200" height="675" loading="eager">
+<div class="tldr"><h2>En resumen</h2><ul><li>La OMS no recomienda eliminar la grasa: recomienda limitar la grasa saturada a menos del 10% de tus calorías diarias y la grasa trans a menos del 1%.</li><li>Las grasas insaturadas —las del aguacate, el aceite de oliva, las nueces y el pescado— no son el problema; se asocian con menor riesgo cardiovascular.</li><li>Muchos productos "bajos en grasa" de los 90 reemplazaban esa grasa con azúcar y harinas refinadas —lo cual empeoró, no mejoró, el problema.</li></ul><a class="tldr-jump" href="#que-hace-caloria-scan">Ir a: Qué puede hacer CalorIA Scan por ti ↓</a></div>
 <h2>De dónde viene el mito</h2><p>Durante los años 80 y 90, la industria alimentaria promovió con fuerza los productos "bajos en grasa" o "sin grasa" como la opción saludable por excelencia. El mensaje caló tan hondo que muchas personas todavía asocian cualquier grasa en la comida con subir de peso o dañar el corazón. El problema es que ese mensaje nunca distinguió entre los distintos tipos de grasa —y esa distinción es exactamente lo que importa.</p>
 <h2>Lo que la OMS realmente recomienda</h2><p>La Organización Mundial de la Salud no pide eliminar la grasa de la dieta. Su recomendación es limitar la grasa saturada a menos del 10% de las calorías diarias y la grasa trans a menos del 1% —idealmente evitarla por completo—, mientras se favorece un cambio hacia grasas insaturadas. Es una recomendación sobre el tipo de grasa, no sobre la cantidad total que comes.</p>
 <h2>La grasa que sí conviene comer</h2><p>Las grasas insaturadas —presentes en el aceite de oliva, el aguacate, las nueces, las semillas y el pescado— se asocian con menor riesgo cardiovascular, no mayor. Eliminarlas de la dieta no solo es innecesario, sino que te priva de nutrientes que el cuerpo necesita para absorber vitaminas y mantener las células funcionando bien.</p>
 <h2>El efecto secundario de las dietas bajas en grasa</h2><p>Cuando un producto le quita la grasa a un alimento, casi siempre necesita reemplazarla con algo para que siga sabiendo bien —y ese algo suele ser azúcar o harinas refinadas. Así fue como muchos productos "light" de los 90 terminaron siendo menos saludables que sus versiones originales, a pesar de la etiqueta.</p>
-<h2>La conclusión práctica</h2><p>No se trata de comer sin grasa, se trata de elegir bien de dónde viene. Cambia manteca y margarina por aceite de oliva, prioriza pescado y nueces sobre embutidos, y no le tengas miedo al aguacate. Si quieres ver exactamente cuánta grasa —y de qué tipo— llevas en tu plato, escanéalo con CalorIA Scan.</p>
+<section class="app-callout" id="que-hace-caloria-scan"><div class="app-tag"><img src="/assets/icon-app.png" alt="" width="30" height="30"><span>Con CalorIA Scan</span></div><h2>Qué puede hacer CalorIA Scan por ti</h2><p><ul><li><strong>Escanear tu plato:</strong> toma una foto y la app estima calorías y macros, incluida la grasa, pensando en la comida mexicana real.</li><li><strong>Ver de dónde vienen las calorías:</strong> el desglose por ingrediente te deja ver qué aporta más: el aguacate, el aceite del guisado o la fritura.</li><li><strong>Ajustar ingredientes y porciones:</strong> cambia frito por asado, quita la crema o corrige la porción (de ½ a 5); todo se recalcula al instante.</li><li><strong>Ver tu día frente a tu meta:</strong> define tu meta de calorías y macros y mira cuánto te queda.</li></ul></p><p>Los valores son estimaciones hechas con IA. Para saber si un producto empaquetado tiene grasas trans, lo más confiable sigue siendo su etiqueta.</p></section>
+<h2>La conclusión práctica</h2><p>No se trata de comer sin grasa, se trata de elegir bien de dónde viene. Cambia manteca y margarina por aceite de oliva, prioriza pescado y nueces sobre embutidos, y no le tengas miedo al aguacate. Si quieres saber cuánta grasa llevas en tu plato, escanéalo con CalorIA Scan.</p>
 
 <div class="cta">
 <h2>Deja de adivinar tus calorías</h2>
@@ -165,7 +202,7 @@ function igShare(b){var t=document.getElementById('ig-cap').value;fetch(b.getAtt
 </div>
 
 <h2>Sigue leyendo</h2>
-<ul class="rel"><li><a href="/blog/e141-clorofila-cobre-colorante"><span class="rc-emoji">🧪</span><span class="rc-cat">Aditivos</span><span class="rc-title">El verde brillante de tu goma de mascar no es "natural": es clorofila con cobre</span></a></li><li><a href="/blog/barras-granola-azucar-oculta"><span class="rc-emoji">🌾</span><span class="rc-cat">Mitos</span><span class="rc-title">Tu barrita de granola "fit" puede tener tanta azúcar como una galleta</span></a></li><li><a href="/blog/productos-light-azucar-oculta"><span class="rc-emoji">🍓</span><span class="rc-cat">Mitos</span><span class="rc-title">Tu yogurt "light" puede tener más azúcar que una dona</span></a></li><li><a href="/blog/huevo-colesterol-mito"><span class="rc-emoji">🥚</span><span class="rc-cat">Mitos</span><span class="rc-title">¿El huevo te tapa las arterias? Lo que la ciencia realmente encontró</span></a></li></ul>
+<ul class="rel"><li><a href="/blog/frijoles-proteina-o-carbohidrato"><span class="rc-emoji">🫘</span><span class="rc-cat">Mitos</span><span class="rc-title">¿Los frijoles son proteína o carbohidrato? La respuesta, con números</span></a></li><li><a href="/blog/maraton-guadalupe-reyes-cuanto-peso-se-sube"><span class="rc-emoji">🎄</span><span class="rc-cat">Salud</span><span class="rc-title">Maratón Guadalupe-Reyes: cuánto peso se sube y cómo evitarlo</span></a></li><li><a href="/blog/calorias-posadas-tamales-ponche-bunuelos"><span class="rc-emoji">🫔</span><span class="rc-cat">Salud</span><span class="rc-title">Calorías de las posadas: tamales, ponche y buñuelos</span></a></li><li><a href="/blog/deficit-calorico-que-es-por-que-importa"><span class="rc-emoji">⚖️</span><span class="rc-cat">Salud</span><span class="rc-title">Déficit calórico: qué es, por qué importa y cómo CalorIA Scan te ayuda a llevarlo</span></a></li></ul>
 
 <p class="disc">Este artículo es informativo y no constituye consejo médico. Consulta a un médico o nutriólogo antes de cambiar tu dieta, especialmente si tienes alguna condición de salud.</p>
 <footer>© 2026 CalorIA Scan · <a href="/">Inicio</a> · <a href="/privacy-policy">Privacidad</a> · <a href="/terms">Términos</a></footer>
