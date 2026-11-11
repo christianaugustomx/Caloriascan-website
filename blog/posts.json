@@ -1,5 +1,225 @@
 [
   {
+    "slug": "frijoles-proteina-o-carbohidrato",
+    "date": "2026-11-11",
+    "category_es": "Mitos",
+    "category_en": "Myths",
+    "emoji": "🫘",
+    "cluster": "mitos",
+    "ig_tags": {
+      "es": [
+        "CalorIAScan",
+        "Frijoles",
+        "Proteina",
+        "ComidaMexicana",
+        "Macros"
+      ],
+      "en": [
+        "CalorIAScan",
+        "Beans",
+        "PlantProtein",
+        "MexicanFood",
+        "Macros"
+      ]
+    },
+    "es": {
+      "title": "¿Los frijoles son proteína o carbohidrato? La respuesta, con números",
+      "dek": "Es una de las dudas de nutrición que más crece en las búsquedas en México. Los frijoles son las dos cosas, y saber cuánto aportan de cada una te ayuda a armar mejor tu plato.",
+      "excerpt": "¿Los frijoles son proteína o carbohidrato? Las dos cosas. Cuánto aportan, cómo se comparan con el huevo y el pollo, y por qué van tan bien con la tortilla.",
+      "tldr": [
+        "Son las dos cosas: una taza de frijoles negros cocidos tiene unos 41 g de carbohidratos (15 de ellos, fibra) y 15 g de proteína, según el USDA.",
+        "Por calorías pesan más los carbohidratos: cerca de 7 de cada 10 calorías del frijol vienen de ahí, y casi 3 de cada 10, de la proteína.",
+        "Por eso las guías los ponen aparte: en el Plato del Bien Comer de 2023, las leguminosas tienen su propio grupo, y la guía de Estados Unidos los cuenta como verdura o como proteína.",
+        "Con la tortilla hacen equipo: el maíz y el frijol se complementan en los aminoácidos que a cada uno le faltan."
+      ],
+      "body": [
+        {
+          "h": "La respuesta corta: las dos cosas",
+          "p": [
+            "Los frijoles son una leguminosa, y las leguminosas no caben en una sola caja. Según el USDA, cada 100 g de frijol negro cocido tienen unas 132 kcal, 23.7 g de carbohidratos (8.7 de ellos, fibra), 8.9 g de proteína y apenas medio gramo de grasa. Una taza (172 g) son unas 227 kcal, 41 g de carbohidratos, 15 g de fibra y 15 g de proteína.",
+            "Si lo vemos por calorías, cerca de 7 de cada 10 vienen de los carbohidratos y casi 3 de cada 10, de la proteína. En sentido estricto, aportan más carbohidratos que proteína. Pero no son un carbohidrato cualquiera: una buena parte es fibra, el nutriente que <a href=\"/blog/fibra-nutriente-que-falta\">casi nadie come suficiente</a>."
+          ]
+        },
+        {
+          "h": "Por qué las guías los ponen aparte",
+          "p": [
+            "En el nuevo Plato del Bien Comer de las Guías Alimentarias para la población mexicana (2023), las leguminosas tienen su propio grupo, separado de los cereales y de los alimentos de origen animal.",
+            "En MyPlate, la guía de Estados Unidos, los frijoles, los chícharos y las lentejas cuentan en dos grupos: como verdura y como proteína. Su regla es práctica: si ya comes suficiente proteína de otras fuentes, los cuentas como verdura; si te falta, como proteína."
+          ]
+        },
+        {
+          "h": "Cómo se comparan con otras proteínas",
+          "p": [
+            "Con datos del USDA y de la base de datos de CalorIA Scan, así se ve la proteína en porciones típicas:",
+            "<ul><li><strong>½ taza de frijoles de la olla (86 g, una palma ahuecada):</strong> unos 7.6 g de proteína y 114 kcal.</li><li><strong>½ taza de lentejas cocidas (99 g):</strong> unos 8.9 g de proteína y 115 kcal.</li><li><strong>1 huevo grande (50 g):</strong> unos 6.3 g de proteína y 72 kcal.</li><li><strong>30 g de <a href=\"/calorias/queso-fresco\">queso fresco</a>:</strong> unos 6 g de proteína y 70 kcal.</li><li><strong>90 g de pechuga de pollo asada (una palma):</strong> unos 28 g de proteína y 149 kcal.</li><li><strong>1 <a href=\"/calorias/corn-tortilla\">tortilla de maíz</a> (30 g):</strong> 1 g de proteína y 50 kcal.</li></ul>",
+            "La diferencia está en la densidad: por cada 100 kcal, la pechuga de pollo da unos 19 g de proteína; el huevo, unos 9, y el frijol, unos 7. El frijol suma proteína, pero para llegar a la misma cantidad necesitas más calorías que con el pollo o el huevo.",
+            "Los refritos cambian según la receta, porque la manteca o el aceite suman grasa. Como referencia, en la base de CalorIA Scan una taza de <a href=\"/calorias/refried-beans\">frijoles refritos</a> (180 g) registra 200 kcal, 10 g de proteína y 6 g de grasa."
+          ]
+        },
+        {
+          "h": "Tortilla y frijol: un equipo con historia",
+          "p": [
+            "La proteína del maíz es baja en dos aminoácidos esenciales, la lisina y el triptófano. La del frijol tiene buena cantidad de los dos, pero es baja en los aminoácidos azufrados, como la metionina, que el maíz sí aporta. Por eso, explica la FAO, juntos se complementan: la mezcla tiene una proteína de mejor calidad que cada uno por separado.",
+            "Tampoco hace falta obsesionarse con combinarlos en cada bocado. La Academia de Nutrición y Dietética de Estados Unidos considera engañosos los términos \"proteína completa\" e \"incompleta\", y señala que las dietas vegetarianas bien planeadas suelen cubrir la proteína cuando se comen suficientes calorías."
+          ]
+        },
+        {
+          "h": "Entonces, ¿cómo los cuento?",
+          "p": [
+            "<ul><li><strong>Si comes carne, pollo, pescado o huevo en casi todas tus comidas:</strong> cuenta los frijoles como tu porción de leguminosa y de fibra, no como tu proteína principal.</li><li><strong>Si comes poca carne:</strong> los frijoles, las lentejas y los garbanzos pueden ser de tus principales fuentes de proteína; acompáñalos con tortilla o arroz, y con huevo o lácteos cuando puedas.</li><li><strong>Mide la porción:</strong> media taza de frijol cocido cabe en una palma ahuecada.</li><li><strong>Fíjate en lo que los acompaña:</strong> el queso, la crema, el chorizo o los totopos suben las calorías.</li></ul>",
+            "¿Cuánta proteína necesitas? Un adulto sano, alrededor de 0.8 g por kilo de peso al día. Lo explicamos en <a href=\"/blog/proteina-por-que-registrarla\">por qué conviene registrar tu proteína</a>."
+          ]
+        },
+        {
+          "h": "Qué puede hacer CalorIA Scan por ti",
+          "app": true,
+          "p": [
+            "<ul><li><strong>Ver los macros de tu plato:</strong> toma una foto y la app estima calorías, proteína, carbohidratos y grasa, pensando en la comida mexicana real.</li><li><strong>Seguir tu proteína:</strong> el Protein tracker te muestra de dónde viene: cuánto del frijol, cuánto del huevo, cuánto de la carne.</li><li><strong>Llevar tu fibra:</strong> la app estima fibra y azúcares dentro de 13 nutrientes rastreados.</li><li><strong>Ajustar ingredientes y porciones:</strong> si tus frijoles son de la olla o refritos, con queso o sin él, cámbialo; la porción va de ½ a 5.</li></ul>",
+            "Los valores son estimaciones hechas con IA: si tus frijoles son caseros, ajusta los ingredientes para acercarte a tu receta."
+          ]
+        },
+        {
+          "h": "La conclusión práctica",
+          "p": [
+            "Los frijoles son carbohidrato y proteína a la vez, con mucha fibra y casi nada de grasa cuando son de la olla. No sustituyen gramo a gramo al pollo o al huevo, pero son una buena fuente de proteína vegetal, sobre todo con tortilla. Cuéntalos, mide la porción y aprovéchalos."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "USDA FoodData Central — Beans, black, mature seeds, cooked, boiled, without salt (en inglés)",
+          "url": "https://fdc.nal.usda.gov/food-details/173735/nutrients"
+        },
+        {
+          "name": "USDA FoodData Central — Lentils, mature seeds, cooked, boiled, without salt (en inglés)",
+          "url": "https://fdc.nal.usda.gov/food-details/172421/nutrients"
+        },
+        {
+          "name": "USDA FoodData Central — Egg, whole, raw, fresh (en inglés)",
+          "url": "https://fdc.nal.usda.gov/food-details/171287/nutrients"
+        },
+        {
+          "name": "USDA FoodData Central — Chicken, broilers or fryers, breast, meat only, cooked, roasted (en inglés)",
+          "url": "https://fdc.nal.usda.gov/food-details/171477/nutrients"
+        },
+        {
+          "name": "Guías Alimentarias Saludables y Sostenibles para la Población Mexicana 2023 (SSA, INSP, UNICEF) — infografía",
+          "url": "https://www.gob.mx/cms/uploads/attachment/file/863929/Infografi_a_Gui_as_Alimentarias_Poblacio_n_16Oct23.pdf"
+        },
+        {
+          "name": "MyPlate (USDA) — Beans, Peas, and Lentils (en inglés)",
+          "url": "https://www.myplate.gov/eat-healthy/protein-foods/beans-and-peas"
+        },
+        {
+          "name": "FAO — Maize in human nutrition (1992): cómo mejorar las dietas a base de maíz (en inglés)",
+          "url": "https://www.fao.org/4/t0395e/T0395E0c.htm"
+        },
+        {
+          "name": "Melina V, Craig W, Levin S. Position of the Academy of Nutrition and Dietetics: Vegetarian Diets. J Acad Nutr Diet, 2016 (en inglés)",
+          "url": "https://doi.org/10.1016/j.jand.2016.09.025"
+        }
+      ]
+    },
+    "en": {
+      "title": "Are beans a protein or a carb? The answer, with numbers",
+      "dek": "It's one of the fastest-growing nutrition questions in Mexican searches. Beans are both, and knowing how much of each they give you helps you build a better plate.",
+      "excerpt": "Are beans a protein or a carb? Both. How much of each they have, how they compare with eggs and chicken, and why they pair so well with tortillas.",
+      "tldr": [
+        "They're both: a cup of cooked black beans has about 41 g of carbs (15 of them fiber) and 15 g of protein, according to the USDA.",
+        "By calories, carbs weigh more: about 7 in 10 calories in beans come from carbs, and nearly 3 in 10 from protein.",
+        "That's why dietary guides treat them separately: in Mexico's 2023 healthy plate, legumes have their own group, and the U.S. guide counts them as a vegetable or a protein.",
+        "With tortillas they make a team: corn and beans complement each other in the amino acids each one lacks."
+      ],
+      "body": [
+        {
+          "h": "The short answer: both",
+          "p": [
+            "Beans are a legume, and legumes don't fit in a single box. According to the USDA, 100 g of cooked black beans has about 132 kcal, 23.7 g of carbohydrate (8.7 of it fiber), 8.9 g of protein and barely half a gram of fat. A cup (172 g) is about 227 kcal, 41 g of carbs, 15 g of fiber and 15 g of protein.",
+            "Looked at by calories, about 7 in 10 come from carbohydrate and nearly 3 in 10 from protein. Strictly speaking, beans provide more carbs than protein. But they aren't just any carb: a good share is fiber, the nutrient <a href=\"/en/blog/fibra-nutriente-que-falta\">almost nobody gets enough of</a>."
+          ]
+        },
+        {
+          "h": "Why dietary guides set them apart",
+          "p": [
+            "In the new Plato del Bien Comer, the healthy plate of Mexico's 2023 dietary guidelines, legumes have their own group, separate from grains and from animal foods.",
+            "In MyPlate, the U.S. guide, beans, peas and lentils count in two groups: as a vegetable and as a protein. Its rule is practical: if you already get enough protein from other foods, count them as a vegetable; if you're short, count them as protein."
+          ]
+        },
+        {
+          "h": "How they compare with other proteins",
+          "p": [
+            "Using USDA data and the CalorIA Scan database, this is what protein looks like in typical portions:",
+            "<ul><li><strong>½ cup of pot beans (86 g, one cupped palm):</strong> about 7.6 g of protein and 114 kcal.</li><li><strong>½ cup of cooked lentils (99 g):</strong> about 8.9 g of protein and 115 kcal.</li><li><strong>1 large egg (50 g):</strong> about 6.3 g of protein and 72 kcal.</li><li><strong>30 g of <a href=\"/en/calories/queso-fresco\">queso fresco</a>:</strong> about 6 g of protein and 70 kcal.</li><li><strong>90 g of roasted chicken breast (one palm):</strong> about 28 g of protein and 149 kcal.</li><li><strong>1 <a href=\"/en/calories/corn-tortilla\">corn tortilla</a> (30 g):</strong> 1 g of protein and 50 kcal.</li></ul>",
+            "The difference is density: per 100 kcal, chicken breast gives about 19 g of protein; egg, about 9; beans, about 7. Beans add protein, but to reach the same amount you need more calories than with chicken or eggs.",
+            "Refried beans vary by recipe, because lard or oil adds fat. For reference, in the CalorIA Scan database a cup of <a href=\"/en/calories/refried-beans\">refried beans</a> (180 g) comes in at 200 kcal, 10 g of protein and 6 g of fat."
+          ]
+        },
+        {
+          "h": "Tortillas and beans: a team with history",
+          "p": [
+            "Corn protein is low in two essential amino acids, lysine and tryptophan. Bean protein has plenty of both, but it's low in sulfur amino acids such as methionine, which corn does provide. That's why, as the FAO explains, they complement each other: the mix has better-quality protein than either one alone.",
+            "There's no need to obsess over combining them in every bite, either. The U.S. Academy of Nutrition and Dietetics calls the terms \"complete\" and \"incomplete\" protein misleading, and notes that well-planned vegetarian diets usually meet protein needs when enough calories are eaten."
+          ]
+        },
+        {
+          "h": "So how should I count them?",
+          "p": [
+            "<ul><li><strong>If you eat meat, chicken, fish or eggs at most meals:</strong> count beans as your legume and fiber portion, not your main protein.</li><li><strong>If you eat little meat:</strong> beans, lentils and chickpeas can be among your main protein sources; pair them with tortillas or rice, and with eggs or dairy when you can.</li><li><strong>Measure the portion:</strong> half a cup of cooked beans fits in one cupped palm.</li><li><strong>Watch what comes with them:</strong> cheese, cream, chorizo or tortilla chips push the calories up.</li></ul>",
+            "How much protein do you need? A healthy adult, about 0.8 g per kilo of body weight a day. We explain it in <a href=\"/en/blog/proteina-por-que-registrarla\">why it's worth tracking your protein</a>."
+          ]
+        },
+        {
+          "h": "What CalorIA Scan does for you",
+          "app": true,
+          "p": [
+            "<ul><li><strong>See your plate's macros:</strong> take a photo and the app estimates calories, protein, carbs and fat, built for real Mexican food.</li><li><strong>Follow your protein:</strong> the Protein tracker shows where it comes from: how much from beans, how much from eggs, how much from meat.</li><li><strong>Track your fiber:</strong> the app estimates fiber and sugars among 13 tracked nutrients.</li><li><strong>Adjust ingredients and portions:</strong> pot beans or refried, with cheese or without, change it; portions go from ½ to 5.</li></ul>",
+            "Values are AI estimates: if your beans are homemade, adjust the ingredients to get closer to your recipe."
+          ]
+        },
+        {
+          "h": "The practical takeaway",
+          "p": [
+            "Beans are carbohydrate and protein at the same time, with lots of fiber and almost no fat when they're cooked plain. They don't replace chicken or eggs gram for gram, but they're a good source of plant protein, especially with tortillas. Count them, measure the portion and make the most of them."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "USDA FoodData Central — Beans, black, mature seeds, cooked, boiled, without salt",
+          "url": "https://fdc.nal.usda.gov/food-details/173735/nutrients"
+        },
+        {
+          "name": "USDA FoodData Central — Lentils, mature seeds, cooked, boiled, without salt",
+          "url": "https://fdc.nal.usda.gov/food-details/172421/nutrients"
+        },
+        {
+          "name": "USDA FoodData Central — Egg, whole, raw, fresh",
+          "url": "https://fdc.nal.usda.gov/food-details/171287/nutrients"
+        },
+        {
+          "name": "USDA FoodData Central — Chicken, broilers or fryers, breast, meat only, cooked, roasted",
+          "url": "https://fdc.nal.usda.gov/food-details/171477/nutrients"
+        },
+        {
+          "name": "Healthy and Sustainable Dietary Guidelines for the Mexican Population 2023 (SSA, INSP, UNICEF) — infographic, in Spanish",
+          "url": "https://www.gob.mx/cms/uploads/attachment/file/863929/Infografi_a_Gui_as_Alimentarias_Poblacio_n_16Oct23.pdf"
+        },
+        {
+          "name": "MyPlate (USDA) — Beans, Peas, and Lentils",
+          "url": "https://www.myplate.gov/eat-healthy/protein-foods/beans-and-peas"
+        },
+        {
+          "name": "FAO — Maize in human nutrition (1992): improving maize-based diets",
+          "url": "https://www.fao.org/4/t0395e/T0395E0c.htm"
+        },
+        {
+          "name": "Melina V, Craig W, Levin S. Position of the Academy of Nutrition and Dietetics: Vegetarian Diets. J Acad Nutr Diet, 2016",
+          "url": "https://doi.org/10.1016/j.jand.2016.09.025"
+        }
+      ]
+    }
+  },
+  {
     "slug": "maraton-guadalupe-reyes-cuanto-peso-se-sube",
     "date": "2026-11-10",
     "category_es": "Salud",
