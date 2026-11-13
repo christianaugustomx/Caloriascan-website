@@ -185,5 +185,15 @@
     "landing": null,
     "query": null,
     "url": null
+  },
+  "porciones-sin-bascula-medir-con-la-mano": {
+    "rank": null,
+    "title": "Palma junto a un filete y puño junto a fruta (foto aportada por CalorIA Scan)",
+    "license": "own",
+    "creator": "CalorIA Scan",
+    "source": "own",
+    "landing": null,
+    "query": null,
+    "url": null
   }
 }
