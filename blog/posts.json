@@ -412,6 +412,194 @@
     }
   },
   {
+    "slug": "porciones-sin-bascula-medir-con-la-mano",
+    "date": "2026-11-13",
+    "category_es": "Salud",
+    "category_en": "Health",
+    "emoji": "✋",
+    "cluster": "salud",
+    "ig_tags": {
+      "es": [
+        "CalorIAScan",
+        "Porciones",
+        "ContarCalorias",
+        "ComidaMexicana",
+        "AlimentacionConsciente"
+      ],
+      "en": [
+        "CalorIAScan",
+        "PortionControl",
+        "CalorieTracking",
+        "MexicanFood",
+        "MindfulEating"
+      ]
+    },
+    "es": {
+      "title": "Porciones sin báscula: cómo medir tu comida con la mano",
+      "dek": "Tu mano es la medida que siempre traes contigo. Así la usa el IMSS para calcular porciones, qué tan precisa es y cómo aplicarla a la comida mexicana.",
+      "excerpt": "Una palma de carne, un puño de fruta, un pulgar de aceite: la guía de porciones con la mano del IMSS, qué tan precisa es y cómo usarla con la comida mexicana.",
+      "tldr": [
+        "El IMSS propone medir con la mano: un puño de fruta (1 taza), una palma ahuecada de arroz o frijol (½ taza), una palma del grosor del meñique de carne (90 g) y un pulgar de aceite, crema o azúcar (1 cucharadita).",
+        "Es una aproximación, no una báscula: en un estudio con alimentos de forma definida, el mejor método con la mano dejó 8 de cada 10 estimaciones a menos de 25 % del peso real; con tazas y cucharas, solo 3 de cada 10.",
+        "Lo que más se escapa es la grasa: un pulgar de aceite son unas 40 kcal y una cucharada, unas 120.",
+        "Con las tortillas no hace falta la mano: cuéntalas. Una tortilla de maíz de 30 g son unas 50 kcal."
+      ],
+      "body": [
+        {
+          "h": "Por qué la porción importa tanto como el platillo",
+          "p": [
+            "Dos platos de arroz a la mexicana pueden ser el mismo platillo y tener el doble de calorías: todo depende de cuánto te sirves. En la base de datos de CalorIA Scan, una taza de <a href=\"/calorias/mexican-rice\">arroz a la mexicana</a> (180 g) son unas 280 kcal; media taza, unas 140.",
+            "Pesar todo en una báscula es lo más exacto, pero casi nadie lo hace todos los días, y menos en una fonda o en casa de la familia. Para eso hay una medida que siempre traes contigo: tu mano."
+          ]
+        },
+        {
+          "h": "La guía de la mano del IMSS",
+          "p": [
+            "El IMSS tiene una guía sencilla para estimar las porciones de las comidas principales con la mano:",
+            "<ul><li><strong>Fruta: un puño.</strong> Equivale a 1 taza (240 ml).</li><li><strong>Verdura: dos palmas juntas ahuecadas.</strong> 1 taza.</li><li><strong>Pasta, arroz, avena, frijol, haba o lenteja: una palma ahuecada.</strong> ½ taza.</li><li><strong>Carne cocida, pollo, pescado, atún o sardina: una palma con el grosor del dedo meñique.</strong> Unos 90 g.</li><li><strong>Leche: un puño.</strong> 1 vaso de 240 ml.</li><li><strong>Aceite, mantequilla, mayonesa, crema, azúcar, miel o piloncillo: un pulgar.</strong> 1 cucharadita.</li></ul>",
+            "Ojo: la guía te dice cuánto mide una porción, no cuántas porciones te tocan. Eso depende de tu edad, tu actividad y tus metas, y lo ideal es definirlo con un profesional."
+          ]
+        },
+        {
+          "h": "Así se ve con comida mexicana",
+          "p": [
+            "Para darte una idea, con los valores de la base de datos de CalorIA Scan:",
+            "<ul><li><strong>Una palma de <a href=\"/calorias/carne-asada\">carne asada</a> (90 g):</strong> unas 130 kcal.</li><li><strong>Una palma ahuecada de <a href=\"/calorias/refried-beans\">frijoles refritos</a> (½ taza):</strong> unas 100 kcal.</li><li><strong>Una palma ahuecada de <a href=\"/calorias/mexican-rice\">arroz a la mexicana</a> (½ taza):</strong> unas 140 kcal.</li><li><strong>Dos palmas de <a href=\"/calorias/pico-de-gallo\">pico de gallo</a> (1 taza):</strong> unas 30 kcal.</li><li><strong>Un puño de fruta:</strong> por ejemplo, un <a href=\"/calorias/banana\">plátano</a> mediano, unas 105 kcal.</li></ul>",
+            "Las tortillas son más fáciles: cuéntalas. Una <a href=\"/calorias/corn-tortilla\">tortilla de maíz</a> de 30 g son unas 50 kcal; tres tortillas, unas 150."
+          ]
+        },
+        {
+          "h": "Qué tan precisa es la mano",
+          "p": [
+            "Es una aproximación, no una báscula. Las manos cambian de tamaño de persona a persona, y no es lo mismo medir algo con forma definida, como un filete o una pieza de pan, que un guisado o un montón de arroz.",
+            "La ciencia la respalda con matices. En un estudio de la Universidad de Sydney publicado en el <em>Journal of Nutritional Science</em> (2016), 67 personas estimaron 42 alimentos y bebidas ya pesados. El método más preciso fue usar el ancho de los dedos como regla: con él, el 80 % de las estimaciones de alimentos con forma geométrica quedó a menos de 25 % del peso real, contra 29 % con tazas y cucharas. Los autores concluyen que es útil, pero que todavía falta afinarlo.",
+            "La lección práctica: la mano te acerca mucho más que adivinar y basta para el día a día. Si necesitas precisión, por ejemplo por indicación médica, usa báscula o tazas medidoras."
+          ]
+        },
+        {
+          "h": "Los errores que más se escapan",
+          "p": [
+            "<ul><li><strong>La grasa que no se ve:</strong> el aceite del guisado, la manteca de los frijoles o la tortilla dorada. La grasa aporta 9 kcal por gramo: un pulgar de aceite (1 cucharadita) son unas 40 kcal y una cucharada, unas 120.</li><li><strong>Servirte dos veces:</strong> la segunda porción cuenta igual que la primera.</li><li><strong>Las salsas cremosas y los aderezos:</strong> se miden con el pulgar, no con el cucharón.</li><li><strong>Las bebidas:</strong> también tienen porción. Lo vimos en <a href=\"/blog/calorias-que-se-beben-bebidas\">las calorías que se beben</a>.</li><li><strong>Picar mientras cocinas:</strong> las probaditas también suman.</li></ul>"
+          ]
+        },
+        {
+          "h": "Qué puede hacer CalorIA Scan por ti",
+          "app": true,
+          "p": [
+            "<ul><li><strong>Escanear tu plato:</strong> toma una foto y la app estima calorías y macros, pensando en la comida mexicana real.</li><li><strong>Ajustar la porción con tu mano como guía:</strong> si te serviste dos palmas de arroz y no una, corrige la porción (de ½ a 5) y todo se recalcula al instante.</li><li><strong>Ajustar ingredientes:</strong> quita la crema o cambia la tortilla y la cuenta se actualiza.</li><li><strong>Ver tu día completo:</strong> en Inicio comparas tus calorías con tu meta y ves cuántas te quedan.</li><li><strong>Seguir tu proteína:</strong> el Protein tracker te muestra de dónde viene.</li></ul>",
+            "Los valores son estimaciones hechas con IA. La mano y la app se complementan: la foto estima, y tú decides si la porción se parece a lo que de verdad comiste."
+          ]
+        },
+        {
+          "h": "La conclusión práctica",
+          "p": [
+            "No necesitas una báscula para dejar de adivinar. Un puño, una palma y un pulgar te dan una idea clara de cuánto te sirves, sobre todo con el aceite, que es lo que más se escapa. Úsalos junto con CalorIA Scan y ajusta cuando haga falta."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "IMSS — Porciones de alimentos: utiliza tus manos para medir el tamaño de la porción (infografía)",
+          "url": "https://www.imss.gob.mx/sites/all/statics/salud/infografias/manos-mejor-medida.pdf"
+        },
+        {
+          "name": "Gibson AA, et al. Accuracy of hands v. household measures as portion size estimation aids. Journal of Nutritional Science, 2016 (en inglés)",
+          "url": "https://doi.org/10.1017/jns.2016.22"
+        },
+        {
+          "name": "ScienceDaily — Universidad de Sydney: el ancho de los dedos para medir porciones, julio de 2016 (en inglés)",
+          "url": "https://www.sciencedaily.com/releases/2016/07/160712110246.htm"
+        },
+        {
+          "name": "MedlinePlus — Dietary fats explained: 9 calorías por gramo de grasa (en inglés)",
+          "url": "https://medlineplus.gov/ency/patientinstructions/000104.htm"
+        }
+      ]
+    },
+    "en": {
+      "title": "Portions without a scale: how to measure food with your hand",
+      "dek": "Your hand is the measuring tool you always carry. Here's how Mexico's IMSS uses it to size portions, how accurate it is, and how to apply it to Mexican food.",
+      "excerpt": "A palm of meat, a fist of fruit, a thumb of oil: IMSS's hand guide to portions, how accurate it is, and how to use it with Mexican food.",
+      "tldr": [
+        "IMSS suggests measuring with your hand: a fist of fruit (1 cup), a cupped palm of rice or beans (½ cup), a palm as thick as your little finger of meat (90 g) and a thumb of oil, cream or sugar (1 teaspoon).",
+        "It's an estimate, not a scale: in a study with clearly shaped foods, the best hand method put 8 in 10 estimates within 25% of the true weight; cups and spoons managed only 3 in 10.",
+        "Fat is what slips through most: a thumb of oil is about 40 kcal and a tablespoon about 120.",
+        "Tortillas don't need your hand: count them. A 30 g corn tortilla is about 50 kcal."
+      ],
+      "body": [
+        {
+          "h": "Why the portion matters as much as the dish",
+          "p": [
+            "Two plates of Mexican rice can be the same dish and have double the calories: it all depends on how much you serve. In the CalorIA Scan database, a cup of <a href=\"/en/calories/mexican-rice\">Mexican rice</a> (180 g) is about 280 kcal; half a cup, about 140.",
+            "Weighing everything is the most accurate option, but almost nobody does it every day, let alone at a fonda or at a family dinner. That's why there's a measuring tool you always carry: your hand."
+          ]
+        },
+        {
+          "h": "The IMSS hand guide",
+          "p": [
+            "IMSS, Mexico's social security health system, has a simple guide for estimating portions at main meals with your hand:",
+            "<ul><li><strong>Fruit: a fist.</strong> About 1 cup (240 ml).</li><li><strong>Vegetables: two cupped palms together.</strong> 1 cup.</li><li><strong>Pasta, rice, oats, beans, fava beans or lentils: one cupped palm.</strong> ½ cup.</li><li><strong>Cooked meat, chicken, fish, tuna or sardines: a palm as thick as your little finger.</strong> About 90 g.</li><li><strong>Milk: a fist.</strong> A 240 ml glass.</li><li><strong>Oil, butter, mayonnaise, cream, sugar, honey or piloncillo: a thumb.</strong> 1 teaspoon.</li></ul>",
+            "Keep in mind: the guide tells you how big a portion is, not how many portions you should eat. That depends on your age, activity and goals, and it's best worked out with a professional."
+          ]
+        },
+        {
+          "h": "What it looks like with Mexican food",
+          "p": [
+            "To give you an idea, using values from the CalorIA Scan database:",
+            "<ul><li><strong>A palm of <a href=\"/en/calories/carne-asada\">carne asada</a> (90 g):</strong> about 130 kcal.</li><li><strong>A cupped palm of <a href=\"/en/calories/refried-beans\">refried beans</a> (½ cup):</strong> about 100 kcal.</li><li><strong>A cupped palm of <a href=\"/en/calories/mexican-rice\">Mexican rice</a> (½ cup):</strong> about 140 kcal.</li><li><strong>Two palms of <a href=\"/en/calories/pico-de-gallo\">pico de gallo</a> (1 cup):</strong> about 30 kcal.</li><li><strong>A fist of fruit:</strong> for example, a medium <a href=\"/en/calories/banana\">banana</a>, about 105 kcal.</li></ul>",
+            "Tortillas are easier: count them. A 30 g <a href=\"/en/calories/corn-tortilla\">corn tortilla</a> is about 50 kcal; three tortillas, about 150."
+          ]
+        },
+        {
+          "h": "How accurate is your hand?",
+          "p": [
+            "It's an estimate, not a scale. Hands differ in size from person to person, and measuring something with a clear shape, like a steak or a piece of bread, is not the same as measuring a stew or a mound of rice.",
+            "The science backs it, with nuance. In a University of Sydney study published in the <em>Journal of Nutritional Science</em> (2016), 67 people estimated 42 pre-weighed foods and drinks. The most accurate method was using finger width as a ruler: with it, 80% of estimates for geometrically shaped foods landed within 25% of the true weight, versus 29% with cups and spoons. The authors conclude it's useful but still needs fine-tuning.",
+            "The practical lesson: your hand gets you much closer than guessing, and it's enough for everyday life. If you need precision, for example on medical advice, use a scale or measuring cups."
+          ]
+        },
+        {
+          "h": "The mistakes that slip through most",
+          "p": [
+            "<ul><li><strong>The fat you don't see:</strong> oil in the stew, lard in the beans, a crispy fried tortilla. Fat has 9 kcal per gram: a thumb of oil (1 teaspoon) is about 40 kcal and a tablespoon about 120.</li><li><strong>Second helpings:</strong> the second portion counts just like the first.</li><li><strong>Creamy sauces and dressings:</strong> measure them with your thumb, not the ladle.</li><li><strong>Drinks:</strong> they have portions too. We covered that in <a href=\"/en/blog/calorias-que-se-beben-bebidas\">the calories you drink</a>.</li><li><strong>Snacking while you cook:</strong> the little tastes add up too.</li></ul>"
+          ]
+        },
+        {
+          "h": "What CalorIA Scan does for you",
+          "app": true,
+          "p": [
+            "<ul><li><strong>Scan your plate:</strong> take a photo and the app estimates calories and macros, built for real Mexican food.</li><li><strong>Adjust the portion, with your hand as a guide:</strong> if you served yourself two palms of rice instead of one, fix the portion (from ½ to 5) and everything recalculates instantly.</li><li><strong>Adjust ingredients:</strong> remove the cream or swap the tortilla and the count updates.</li><li><strong>See your whole day:</strong> on Home you compare your calories with your goal and see how many you have left.</li><li><strong>Follow your protein:</strong> the Protein tracker shows where it comes from.</li></ul>",
+            "Values are AI estimates. Your hand and the app work together: the photo estimates, and you decide whether the portion looks like what you actually ate."
+          ]
+        },
+        {
+          "h": "The practical takeaway",
+          "p": [
+            "You don't need a scale to stop guessing. A fist, a palm and a thumb give you a clear idea of how much you serve, especially with oil, which is what slips through most. Use them alongside CalorIA Scan and adjust when you need to."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "IMSS — Food portions: use your hands to measure portion size (infographic), in Spanish",
+          "url": "https://www.imss.gob.mx/sites/all/statics/salud/infografias/manos-mejor-medida.pdf"
+        },
+        {
+          "name": "Gibson AA, et al. Accuracy of hands v. household measures as portion size estimation aids. Journal of Nutritional Science, 2016",
+          "url": "https://doi.org/10.1017/jns.2016.22"
+        },
+        {
+          "name": "ScienceDaily — University of Sydney: finger width to estimate portions, July 2016",
+          "url": "https://www.sciencedaily.com/releases/2016/07/160712110246.htm"
+        },
+        {
+          "name": "MedlinePlus — Dietary fats explained: 9 calories per gram of fat",
+          "url": "https://medlineplus.gov/ency/patientinstructions/000104.htm"
+        }
+      ]
+    }
+  },
+  {
     "slug": "calorias-posadas-tamales-ponche-bunuelos",
     "date": "2026-11-08",
     "category_es": "Salud",
