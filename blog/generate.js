@@ -112,8 +112,10 @@ function post(p, all, L){
   const c = p[L];
   const url = `${DOMAIN}${isEN?'/en/blog/':'/blog/'}${p.slug}`;
   const ogImg = `${DOMAIN}/blog/og/${p.slug}-${L}.jpg`;
-  const hasHero = fs.existsSync(path.join(__dirname, 'img', `${p.slug}.jpg`));
-  const heroUrl = `/blog/img/${p.slug}.jpg`;
+  // "hero_img" (a file in blog/img/) gives the article page its own crop; hub cards and share images keep <slug>.jpg
+  const heroFile = p.hero_img || `${p.slug}.jpg`;
+  const hasHero = fs.existsSync(path.join(__dirname, 'img', heroFile));
+  const heroUrl = `/blog/img/${heroFile}`;
   const altEN = `${DOMAIN}/en/blog/${p.slug}`;
   const altES = `${DOMAIN}/blog/${p.slug}`;
   const title = `${c.title} | CalorIA Scan`;

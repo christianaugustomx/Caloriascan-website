@@ -55,7 +55,7 @@ const pages = [`blog/${slug}.html`, `en/blog/${slug}.html`, 'blog/index.html', '
 for (const f of pages) fs.copyFileSync(path.join(tmp, f), path.join(ROOT, f));
 fs.rmSync(tmp, { recursive: true, force: true });
 
-const images = [`blog/img/${slug}.jpg`, ...['og', 'ig'].flatMap(d => ['es', 'en'].map(L => `blog/${d}/${slug}-${L}.jpg`))]
+const images = [`blog/img/${slug}.jpg`, ...(post.hero_img ? [`blog/img/${post.hero_img}`] : []), ...['og', 'ig'].flatMap(d => ['es', 'en'].map(L => `blog/${d}/${slug}-${L}.jpg`))]
   .filter(f => fs.existsSync(path.join(ROOT, f)));
 const git = (args, input) => execFileSync('git', args, { cwd: ROOT, input, encoding: 'utf8' }).trim();
 git(['add', '--', ...pages, ...images]);
