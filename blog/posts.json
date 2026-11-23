@@ -220,6 +220,190 @@
     }
   },
   {
+    "slug": "cenar-tarde-engorda-mito",
+    "date": "2026-11-23",
+    "category_es": "Mitos",
+    "category_en": "Myths",
+    "emoji": "🌙",
+    "cluster": "mitos",
+    "ig_tags": {
+      "es": [
+        "CalorIAScan",
+        "MitosDeComida",
+        "CenarTarde",
+        "ContarCalorias",
+        "AlimentacionConsciente"
+      ],
+      "en": [
+        "CalorIAScan",
+        "FoodMyths",
+        "LateEating",
+        "CalorieTracking",
+        "MindfulEating"
+      ]
+    },
+    "es": {
+      "title": "¿Cenar tarde engorda? Lo que dice la ciencia sobre comer de noche",
+      "dek": "\"Cena como mendigo\" es de los consejos más repetidos. La comida no se convierte en grasa por ser de noche, pero la hora a la que comes sí cambia algunas cosas.",
+      "excerpt": "¿Comer de noche engorda? Con las mismas calorías, el peso cambia poco, pero cenar tarde puede darte más hambre. Lo que dicen los estudios.",
+      "tldr": [
+        "La comida no se vuelve más \"engordadora\" de noche: en un estudio de la Universidad de Aberdeen, con las mismas calorías, comer fuerte en la mañana o en la noche llevó a bajar el mismo peso.",
+        "Pero la hora no es del todo neutral: en un experimento del Brigham and Women's Hospital, comer lo mismo unas cuatro horas más tarde dio más hambre y un gasto de energía más lento.",
+        "En la vida real, lo que suele pesar de la noche es el picoteo extra: lo que se come después de cenar, frente a la tele o directo del refri.",
+        "Lo práctico: que tu comida más grande no sea la última, cena con proteína y registra lo que picas. Y si tienes reflujo, deja unas 3 horas entre la cena y la cama."
+      ],
+      "body": [
+        {
+          "h": "De dónde viene el mito",
+          "p": [
+            "\"Desayuna como rey, come como príncipe y cena como mendigo.\" Detrás del refrán hay una idea muy extendida: como de noche ya no te mueves, lo que comes se queda como grasa. Por eso hay quien se prohíbe comer después de las 8.",
+            "El cuerpo, sin embargo, gasta energía las 24 horas, también mientras duermes. Tu peso depende del balance de varios días entre lo que comes y lo que gastas, como explicamos en <a href=\"/blog/deficit-calorico-que-es-por-que-importa\">qué es el déficit calórico</a>. La pregunta es si la hora cambia ese balance."
+          ]
+        },
+        {
+          "h": "Las calorías mandan…",
+          "p": [
+            "En un ensayo de la Universidad de Aberdeen, publicado en <em>Cell Metabolism</em> en 2022, 30 adultos con sobrepeso u obesidad siguieron dos dietas de 4 semanas con las mismas calorías: en una, la comida más grande era el desayuno (45 % del día); en la otra, la cena. Bajaron de peso lo mismo con las dos, en promedio poco más de 3 kg en cada periodo, y su gasto de energía no cambió.",
+            "Hubo una diferencia, y es importante: con el desayuno fuerte, la gente tuvo bastante menos hambre durante el día. Los autores creen que, fuera del laboratorio, eso podría ayudar a comer menos sin proponérselo."
+          ]
+        },
+        {
+          "h": "…pero la hora no es del todo neutral",
+          "p": [
+            "En un experimento del Brigham and Women's Hospital, también publicado en <em>Cell Metabolism</em> en 2022, 16 adultos con sobrepeso u obesidad comieron exactamente lo mismo en dos horarios: uno normal y otro unas cuatro horas más tarde. Con el horario tardío tuvieron más hambre, niveles más bajos de leptina (la hormona que da saciedad) y un gasto de energía más lento mientras estaban despiertos; además, su tejido graso mostró cambios que favorecen guardar grasa.",
+            "Es un estudio pequeño y muy controlado: explica mecanismos, no prueba que cenar tarde haga subir de peso a largo plazo. Y los autores reconocen que en la vida real la hora de comer también cambia el sueño, la actividad y lo que comes.",
+            "Hay otra pista que nos toca de cerca. En España, donde la comida fuerte del día suele ser a media tarde, como en muchas casas de México, un estudio con 420 personas en un programa de 20 semanas para bajar de peso encontró que quienes comían después de las 3 de la tarde bajaron menos que quienes comían antes, con calorías parecidas. Es un estudio observacional: muestra una relación, no una causa."
+          ]
+        },
+        {
+          "h": "En la vida real, el problema suele ser el picoteo",
+          "p": [
+            "Para mucha gente, lo que pesa de la noche no es la cena, sino lo que viene después: las galletas frente a la tele, las sobras directo del refri, la merienda de pan dulce con café. Una <a href=\"/calorias/concha-pan-dulce\">concha</a> mediana (80 g) son unas 300 kcal en la base de datos de CalorIA Scan: si es \"nada más una\" todas las noches, cuenta.",
+            "Y si tienes reflujo, la hora sí importa por otra razón: el NIDDK, de los Institutos Nacionales de Salud de Estados Unidos, señala que comer al menos 3 horas antes de acostarte puede mejorar los síntomas."
+          ]
+        },
+        {
+          "h": "Cómo cenar sin culpa (y sin hambre)",
+          "p": [
+            "<ul><li><strong>Que tu comida más grande no sea la última:</strong> si cenas fuerte y tarde, prueba a mover más comida al desayuno o a la comida. En el estudio de Aberdeen, el desayuno fuerte dio menos hambre.</li><li><strong>Cena con proteína y verdura:</strong> la proteína ayuda a sentirte satisfecho. Lo explicamos en <a href=\"/blog/proteina-por-que-registrarla\">por qué conviene registrar tu proteína</a>.</li><li><strong>Si se te antoja algo después, sírvelo en un plato:</strong> comer del paquete hace muy difícil medir. Una porción a la vez, como en la <a href=\"/blog/porciones-sin-bascula-medir-con-la-mano\">guía de porciones con la mano</a>.</li><li><strong>Los tacos de noche no están prohibidos:</strong> cuenta cuántos te comes y qué los acompaña.</li><li><strong>Si tienes reflujo, deja unas 3 horas</strong> entre la cena y la cama.</li><li><strong>Mira el día completo, no la hora:</strong> lo que define tu balance es el total del día y de la semana.</li></ul>"
+          ]
+        },
+        {
+          "h": "Qué puede hacer CalorIA Scan por ti",
+          "app": true,
+          "p": [
+            "<ul><li><strong>Registrar también la cena y lo que picas:</strong> toma una foto y la app estima calorías y macros, pensando en la comida mexicana real.</li><li><strong>Ver cuánto te queda antes de cenar:</strong> en Inicio comparas tus calorías del día con tu meta, así decides con datos si tu cena va ligera o completa.</li><li><strong>Ajustar porciones e ingredientes:</strong> corrige la porción (de ½ a 5) o quita y cambia ingredientes; todo se recalcula al instante.</li><li><strong>Seguir tu proteína:</strong> el Protein tracker te muestra de dónde viene.</li><li><strong>Ver tu semana:</strong> el historial te ayuda a ver si las noches se te están juntando.</li></ul>",
+            "Los valores son estimaciones hechas con IA: si tu cena es casera, ajusta los ingredientes para acercarte a tu receta."
+          ]
+        },
+        {
+          "h": "La conclusión práctica",
+          "p": [
+            "Cenar tarde no convierte la comida en grasa por arte de magia: lo que más pesa es el total del día. Pero comer tarde puede darte más hambre y, para muchas personas, viene acompañado de picoteo. Si te funciona, mueve más comida al desayuno y a la comida, cena ligero y registra lo que comes después."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "Ruddick-Collins LC, et al. Timing of daily calorie loading affects appetite and hunger responses without changes in energy metabolism in healthy subjects with obesity. Cell Metab, 2022 (en inglés)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9605877/"
+        },
+        {
+          "name": "Vujović N, et al. Late isocaloric eating increases hunger, decreases energy expenditure, and modifies metabolic pathways in adults with overweight and obesity. Cell Metab, 2022 (en inglés)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36198293/"
+        },
+        {
+          "name": "Garaulet M, et al. Timing of food intake predicts weight loss effectiveness. Int J Obes, 2013 (en inglés)",
+          "url": "https://doi.org/10.1038/ijo.2012.229"
+        },
+        {
+          "name": "NIDDK (NIH) — Eating, Diet, & Nutrition for GER & GERD (en inglés)",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/eating-diet-nutrition"
+        }
+      ]
+    },
+    "en": {
+      "title": "Does eating late at night make you gain weight? What science says",
+      "dek": "\"Eat dinner like a pauper\" is one of the most repeated pieces of advice. Food doesn't turn into fat because it's nighttime, but the time you eat does change a few things.",
+      "excerpt": "Does eating at night make you gain weight? With the same calories, weight barely changes, but eating late can make you hungrier. What studies say.",
+      "tldr": [
+        "Food doesn't get more \"fattening\" at night: in a University of Aberdeen study, with the same calories, eating big in the morning or at night led to the same weight loss.",
+        "But timing isn't entirely neutral: in a Brigham and Women's Hospital experiment, eating the same food about four hours later led to more hunger and slower calorie burning.",
+        "In real life, what usually weighs on the night is extra snacking: what gets eaten after dinner, in front of the TV or straight from the fridge.",
+        "In practice: don't make your biggest meal the last one, include protein at dinner and log what you snack on. And if you have reflux, leave about 3 hours between dinner and bed."
+      ],
+      "body": [
+        {
+          "h": "Where the myth comes from",
+          "p": [
+            "\"Eat breakfast like a king, lunch like a prince and dinner like a pauper.\" Behind the saying is a widespread idea: since you don't move at night, what you eat stays as fat. That's why some people ban themselves from eating after 8 p.m.",
+            "Your body, though, burns energy 24 hours a day, including while you sleep. Your weight depends on the balance over several days between what you eat and what you burn, as we explain in <a href=\"/en/blog/deficit-calorico-que-es-por-que-importa\">what a calorie deficit is</a>. The question is whether the clock changes that balance."
+          ]
+        },
+        {
+          "h": "Calories rule…",
+          "p": [
+            "In a University of Aberdeen trial published in <em>Cell Metabolism</em> in 2022, 30 adults with overweight or obesity followed two 4-week diets with the same calories: in one, the biggest meal was breakfast (45% of the day); in the other, dinner. They lost the same weight on both, just over 3 kg on average in each period, and their energy expenditure didn't change.",
+            "There was one difference, and it matters: with the big breakfast, people felt much less hungry during the day. The authors think that, outside the lab, this could help people eat less without trying."
+          ]
+        },
+        {
+          "h": "…but timing isn't entirely neutral",
+          "p": [
+            "In a Brigham and Women's Hospital experiment, also published in <em>Cell Metabolism</em> in 2022, 16 adults with overweight or obesity ate exactly the same food on two schedules: a normal one and one about four hours later. On the late schedule they were hungrier, had lower levels of leptin (the hormone that signals fullness) and burned calories more slowly while awake; their fat tissue also showed changes that favor storing fat.",
+            "It's a small, tightly controlled study: it explains mechanisms, but it doesn't prove that eating late makes you gain weight over time. The authors also note that in real life, meal timing changes sleep, activity and what you eat.",
+            "Another clue hits close to home. In Spain, where the main meal of the day is usually in mid-afternoon, as in many Mexican homes, a study of 420 people in a 20-week weight-loss program found that those who ate their main meal after 3 p.m. lost less weight than those who ate it earlier, with similar calories. It's an observational study: it shows a link, not a cause."
+          ]
+        },
+        {
+          "h": "In real life, the problem is usually snacking",
+          "p": [
+            "For many people, what weighs on the night isn't dinner but what comes after: cookies in front of the TV, leftovers straight from the fridge, the evening pan dulce with coffee. A medium <a href=\"/en/calories/concha-pan-dulce\">concha</a> (80 g) is about 300 kcal in the CalorIA Scan database: if it's \"just one\" every night, it counts.",
+            "And if you have reflux, timing matters for another reason: the NIDDK, part of the U.S. National Institutes of Health, notes that eating meals at least 3 hours before you lie down may improve symptoms."
+          ]
+        },
+        {
+          "h": "How to eat dinner without guilt (or hunger)",
+          "p": [
+            "<ul><li><strong>Don't make your biggest meal the last one:</strong> if you eat a big, late dinner, try moving more food to breakfast or lunch. In the Aberdeen study, a big breakfast meant less hunger.</li><li><strong>Include protein and vegetables at dinner:</strong> protein helps you feel full. We explain it in <a href=\"/en/blog/proteina-por-que-registrarla\">why it's worth tracking your protein</a>.</li><li><strong>If you want something later, put it on a plate:</strong> eating from the package makes it very hard to measure. One portion at a time, as in our <a href=\"/en/blog/porciones-sin-bascula-medir-con-la-mano\">guide to measuring portions with your hand</a>.</li><li><strong>Late-night tacos aren't banned:</strong> count how many you have and what comes with them.</li><li><strong>If you have reflux, leave about 3 hours</strong> between dinner and bed.</li><li><strong>Look at the whole day, not the clock:</strong> what sets your balance is the total for the day and the week.</li></ul>"
+          ]
+        },
+        {
+          "h": "What CalorIA Scan does for you",
+          "app": true,
+          "p": [
+            "<ul><li><strong>Log dinner and snacks too:</strong> take a photo and the app estimates calories and macros, built for real Mexican food.</li><li><strong>See what's left before dinner:</strong> on Home you compare your calories for the day with your goal, so you can decide with real numbers whether dinner should be light or full.</li><li><strong>Adjust portions and ingredients:</strong> fix the portion (from ½ to 5) or remove and swap ingredients; everything recalculates instantly.</li><li><strong>Follow your protein:</strong> the Protein tracker shows where it comes from.</li><li><strong>See your week:</strong> your history helps you spot when late nights are adding up.</li></ul>",
+            "Values are AI estimates: if your dinner is homemade, adjust the ingredients to get closer to your recipe."
+          ]
+        },
+        {
+          "h": "The practical takeaway",
+          "p": [
+            "Eating late doesn't magically turn food into fat: what matters most is the total for the day. But eating late can leave you hungrier and, for many people, it comes with snacking. If it works for you, move more food to breakfast and lunch, keep dinner light and log what you eat afterwards."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "name": "Ruddick-Collins LC, et al. Timing of daily calorie loading affects appetite and hunger responses without changes in energy metabolism in healthy subjects with obesity. Cell Metab, 2022",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9605877/"
+        },
+        {
+          "name": "Vujović N, et al. Late isocaloric eating increases hunger, decreases energy expenditure, and modifies metabolic pathways in adults with overweight and obesity. Cell Metab, 2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36198293/"
+        },
+        {
+          "name": "Garaulet M, et al. Timing of food intake predicts weight loss effectiveness. Int J Obes, 2013",
+          "url": "https://doi.org/10.1038/ijo.2012.229"
+        },
+        {
+          "name": "NIDDK (NIH) — Eating, Diet, & Nutrition for GER & GERD",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/eating-diet-nutrition"
+        }
+      ]
+    }
+  },
+  {
     "slug": "maraton-guadalupe-reyes-cuanto-peso-se-sube",
     "date": "2026-11-10",
     "category_es": "Salud",
